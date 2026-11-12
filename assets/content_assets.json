@@ -1,0 +1,116 @@
+{
+  "sprites": {
+    "skill.orbit": {
+      "frames": [
+        {
+          "file": "sprites/content/skill/orbit/0.png",
+          "duration_ms": 100,
+          "origin": [
+            20.5,
+            6.5
+          ],
+          "source_origin": [
+            25,
+            7
+          ],
+          "source": "Character.nx/Weapon/01302000.img/stand1/0/weapon",
+          "size": [
+            41,
+            13
+          ]
+        }
+      ],
+      "forward_angle_degrees": 165,
+      "direction_note": "Original sword tip points left and slightly down in image coordinates; approximate visual centerline angle is 165 degrees (0 right, 90 down)."
+    },
+    "item.heal": {
+      "frames": [
+        {
+          "file": "sprites/content/item/heal/0.png",
+          "duration_ms": 100,
+          "origin": [
+            13.5,
+            15.0
+          ],
+          "source_origin": [
+            -3,
+            30
+          ],
+          "source": "Item.nx/Consume/0200.img/02000000/info/icon",
+          "size": [
+            27,
+            30
+          ]
+        }
+      ]
+    },
+    "item.magnet": {
+      "frames": [
+        {
+          "file": "sprites/content/item/magnet/0.png",
+          "duration_ms": 100,
+          "origin": [
+            15.0,
+            14.5
+          ],
+          "source_origin": [
+            -1,
+            29
+          ],
+          "source": "Character.nx/PetEquip/01812000.img/info/icon",
+          "size": [
+            30,
+            29
+          ]
+        }
+      ]
+    },
+    "item.fury": {
+      "frames": [
+        {
+          "file": "sprites/content/item/fury/0.png",
+          "duration_ms": 100,
+          "origin": [
+            13.0,
+            14.0
+          ],
+          "source_origin": [
+            -4,
+            29
+          ],
+          "source": "Item.nx/Consume/0200.img/02002004/info/icon",
+          "size": [
+            26,
+            28
+          ]
+        }
+      ]
+    },
+    "event.chest": {
+      "frames": [
+        {
+          "file": "sprites/content/event/chest/0.png",
+          "duration_ms": 100,
+          "origin": [
+            16.5,
+            14.5
+          ],
+          "source_origin": [
+            0,
+            28
+          ],
+          "source": "Item.nx/Etc/0428.img/04280000/info/icon",
+          "size": [
+            33,
+            29
+          ]
+        }
+      ]
+    }
+  },
+  "notes": [
+    "Original MapleStory images from local NX archives, read-only extraction.",
+    "Render origin normalized to image center for free-standing pickups/rotating sword. Original origin retained as source_origin.",
+    "Magnet icon is original pet magnet equipment 1812000, stored in Character.nx."
+  ]
+}

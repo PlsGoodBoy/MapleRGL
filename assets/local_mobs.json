@@ -1,0 +1,874 @@
+{
+  "sprites": {
+    "slime.move": {
+      "frames": [
+        {
+          "file": "sprites/slime/move/0.png",
+          "duration_ms": 2787,
+          "origin": [
+            29,
+            51
+          ]
+        },
+        {
+          "file": "sprites/slime/move/1.png",
+          "duration_ms": 2249,
+          "origin": [
+            31,
+            53
+          ]
+        },
+        {
+          "file": "sprites/slime/move/2.png",
+          "duration_ms": 2786,
+          "origin": [
+            27,
+            71
+          ]
+        },
+        {
+          "file": "sprites/slime/move/3.png",
+          "duration_ms": 2786,
+          "origin": [
+            27,
+            71
+          ]
+        },
+        {
+          "file": "sprites/slime/move/4.png",
+          "duration_ms": 2301,
+          "origin": [
+            27,
+            94
+          ]
+        },
+        {
+          "file": "sprites/slime/move/5.png",
+          "duration_ms": 2301,
+          "origin": [
+            28,
+            71
+          ]
+        },
+        {
+          "file": "sprites/slime/move/6.png",
+          "duration_ms": 2788,
+          "origin": [
+            27,
+            46
+          ]
+        }
+      ],
+      "source": "local Mob.nx/0210100.img/move"
+    },
+    "slime.stand": {
+      "frames": [
+        {
+          "file": "sprites/slime/stand/0.png",
+          "duration_ms": 2787,
+          "origin": [
+            27,
+            49
+          ]
+        },
+        {
+          "file": "sprites/slime/stand/1.png",
+          "duration_ms": 2788,
+          "origin": [
+            28,
+            49
+          ]
+        },
+        {
+          "file": "sprites/slime/stand/2.png",
+          "duration_ms": 2789,
+          "origin": [
+            26,
+            50
+          ]
+        }
+      ],
+      "source": "local Mob.nx/0210100.img/stand"
+    },
+    "slime.hit": {
+      "frames": [
+        {
+          "file": "sprites/slime/hit/0.png",
+          "duration_ms": 600,
+          "origin": [
+            23,
+            66
+          ]
+        }
+      ],
+      "source": "local Mob.nx/0210100.img/hit1"
+    },
+    "slime.die": {
+      "frames": [
+        {
+          "file": "sprites/slime/die/0.png",
+          "duration_ms": 180,
+          "origin": [
+            26,
+            60
+          ]
+        },
+        {
+          "file": "sprites/slime/die/1.png",
+          "duration_ms": 180,
+          "origin": [
+            30,
+            59
+          ]
+        },
+        {
+          "file": "sprites/slime/die/2.png",
+          "duration_ms": 180,
+          "origin": [
+            26,
+            54
+          ]
+        },
+        {
+          "file": "sprites/slime/die/3.png",
+          "duration_ms": 300,
+          "origin": [
+            14,
+            40
+          ]
+        }
+      ],
+      "source": "local Mob.nx/0210100.img/die1"
+    },
+    "mushroom.move": {
+      "frames": [
+        {
+          "file": "sprites/mushroom/move/0.png",
+          "duration_ms": 180,
+          "origin": [
+            18,
+            36
+          ]
+        },
+        {
+          "file": "sprites/mushroom/move/1.png",
+          "duration_ms": 180,
+          "origin": [
+            20,
+            37
+          ]
+        },
+        {
+          "file": "sprites/mushroom/move/2.png",
+          "duration_ms": 180,
+          "origin": [
+            21,
+            36
+          ]
+        },
+        {
+          "file": "sprites/mushroom/move/3.png",
+          "duration_ms": 180,
+          "origin": [
+            23,
+            36
+          ]
+        }
+      ],
+      "source": "local Mob.nx/0120100.img/move"
+    },
+    "mushroom.stand": {
+      "frames": [
+        {
+          "file": "sprites/mushroom/stand/0.png",
+          "duration_ms": 180,
+          "origin": [
+            18,
+            36
+          ]
+        },
+        {
+          "file": "sprites/mushroom/stand/1.png",
+          "duration_ms": 100,
+          "origin": [
+            18,
+            36
+          ]
+        },
+        {
+          "file": "sprites/mushroom/stand/2.png",
+          "duration_ms": 180,
+          "origin": [
+            18,
+            36
+          ]
+        }
+      ],
+      "source": "local Mob.nx/0120100.img/stand"
+    },
+    "mushroom.hit": {
+      "frames": [
+        {
+          "file": "sprites/mushroom/hit/0.png",
+          "duration_ms": 600,
+          "origin": [
+            18,
+            36
+          ]
+        }
+      ],
+      "source": "local Mob.nx/0120100.img/hit1"
+    },
+    "mushroom.die": {
+      "frames": [
+        {
+          "file": "sprites/mushroom/die/0.png",
+          "duration_ms": 120,
+          "origin": [
+            20,
+            32
+          ]
+        },
+        {
+          "file": "sprites/mushroom/die/1.png",
+          "duration_ms": 120,
+          "origin": [
+            11,
+            33
+          ]
+        },
+        {
+          "file": "sprites/mushroom/die/2.png",
+          "duration_ms": 120,
+          "origin": [
+            -2,
+            37
+          ]
+        },
+        {
+          "file": "sprites/mushroom/die/3.png",
+          "duration_ms": 300,
+          "origin": [
+            -8,
+            27
+          ]
+        }
+      ],
+      "source": "local Mob.nx/0120100.img/die1"
+    },
+    "blue_mushroom.move": {
+      "frames": [
+        {
+          "file": "sprites/blue_mushroom/move/0.png",
+          "duration_ms": 180,
+          "origin": [
+            32,
+            55
+          ]
+        },
+        {
+          "file": "sprites/blue_mushroom/move/1.png",
+          "duration_ms": 120,
+          "origin": [
+            31,
+            67
+          ]
+        },
+        {
+          "file": "sprites/blue_mushroom/move/2.png",
+          "duration_ms": 180,
+          "origin": [
+            31,
+            55
+          ]
+        }
+      ],
+      "source": "local Mob.nx/2220100.img/move"
+    },
+    "blue_mushroom.stand": {
+      "frames": [
+        {
+          "file": "sprites/blue_mushroom/stand/0.png",
+          "duration_ms": 180,
+          "origin": [
+            27,
+            58
+          ]
+        },
+        {
+          "file": "sprites/blue_mushroom/stand/1.png",
+          "duration_ms": 180,
+          "origin": [
+            27,
+            55
+          ]
+        }
+      ],
+      "source": "local Mob.nx/2220100.img/stand"
+    },
+    "blue_mushroom.hit": {
+      "frames": [
+        {
+          "file": "sprites/blue_mushroom/hit/0.png",
+          "duration_ms": 600,
+          "origin": [
+            28,
+            65
+          ]
+        }
+      ],
+      "source": "local Mob.nx/2220100.img/hit1"
+    },
+    "blue_mushroom.die": {
+      "frames": [
+        {
+          "file": "sprites/blue_mushroom/die/0.png",
+          "duration_ms": 180,
+          "origin": [
+            30,
+            59
+          ]
+        },
+        {
+          "file": "sprites/blue_mushroom/die/1.png",
+          "duration_ms": 180,
+          "origin": [
+            32,
+            52
+          ]
+        },
+        {
+          "file": "sprites/blue_mushroom/die/2.png",
+          "duration_ms": 300,
+          "origin": [
+            34,
+            44
+          ]
+        }
+      ],
+      "source": "local Mob.nx/2220100.img/die1"
+    },
+    "pig.move": {
+      "frames": [
+        {
+          "file": "sprites/pig/move/0.png",
+          "duration_ms": 100,
+          "origin": [
+            33,
+            46
+          ]
+        },
+        {
+          "file": "sprites/pig/move/1.png",
+          "duration_ms": 100,
+          "origin": [
+            33,
+            45
+          ]
+        },
+        {
+          "file": "sprites/pig/move/2.png",
+          "duration_ms": 300,
+          "origin": [
+            33,
+            50
+          ]
+        }
+      ],
+      "source": "local Mob.nx/1210100.img/move"
+    },
+    "pig.stand": {
+      "frames": [
+        {
+          "file": "sprites/pig/stand/0.png",
+          "duration_ms": 180,
+          "origin": [
+            34,
+            40
+          ]
+        },
+        {
+          "file": "sprites/pig/stand/1.png",
+          "duration_ms": 150,
+          "origin": [
+            34,
+            40
+          ]
+        },
+        {
+          "file": "sprites/pig/stand/2.png",
+          "duration_ms": 180,
+          "origin": [
+            34,
+            38
+          ]
+        }
+      ],
+      "source": "local Mob.nx/1210100.img/stand"
+    },
+    "pig.hit": {
+      "frames": [
+        {
+          "file": "sprites/pig/hit/0.png",
+          "duration_ms": 600,
+          "origin": [
+            30,
+            54
+          ]
+        }
+      ],
+      "source": "local Mob.nx/1210100.img/hit1"
+    },
+    "pig.die": {
+      "frames": [
+        {
+          "file": "sprites/pig/die/0.png",
+          "duration_ms": 180,
+          "origin": [
+            34,
+            56
+          ]
+        },
+        {
+          "file": "sprites/pig/die/1.png",
+          "duration_ms": 180,
+          "origin": [
+            42,
+            53
+          ]
+        },
+        {
+          "file": "sprites/pig/die/2.png",
+          "duration_ms": 300,
+          "origin": [
+            43,
+            49
+          ]
+        }
+      ],
+      "source": "local Mob.nx/1210100.img/die1"
+    },
+    "elite.move": {
+      "frames": [
+        {
+          "file": "sprites/elite/move/0.png",
+          "duration_ms": 100,
+          "origin": [
+            35,
+            48
+          ]
+        },
+        {
+          "file": "sprites/elite/move/1.png",
+          "duration_ms": 100,
+          "origin": [
+            35,
+            52
+          ]
+        },
+        {
+          "file": "sprites/elite/move/2.png",
+          "duration_ms": 200,
+          "origin": [
+            35,
+            57
+          ]
+        }
+      ],
+      "source": "local Mob.nx/2230102.img/move"
+    },
+    "elite.stand": {
+      "frames": [
+        {
+          "file": "sprites/elite/stand/0.png",
+          "duration_ms": 100,
+          "origin": [
+            35,
+            47
+          ]
+        },
+        {
+          "file": "sprites/elite/stand/1.png",
+          "duration_ms": 100,
+          "origin": [
+            34,
+            49
+          ]
+        },
+        {
+          "file": "sprites/elite/stand/2.png",
+          "duration_ms": 100,
+          "origin": [
+            33,
+            52
+          ]
+        },
+        {
+          "file": "sprites/elite/stand/3.png",
+          "duration_ms": 100,
+          "origin": [
+            45,
+            49
+          ]
+        },
+        {
+          "file": "sprites/elite/stand/4.png",
+          "duration_ms": 100,
+          "origin": [
+            47,
+            47
+          ]
+        },
+        {
+          "file": "sprites/elite/stand/5.png",
+          "duration_ms": 200,
+          "origin": [
+            51,
+            47
+          ]
+        }
+      ],
+      "source": "local Mob.nx/2230102.img/stand"
+    },
+    "elite.hit": {
+      "frames": [
+        {
+          "file": "sprites/elite/hit/0.png",
+          "duration_ms": 600,
+          "origin": [
+            35,
+            50
+          ]
+        }
+      ],
+      "source": "local Mob.nx/2230102.img/hit1"
+    },
+    "elite.die": {
+      "frames": [
+        {
+          "file": "sprites/elite/die/0.png",
+          "duration_ms": 180,
+          "origin": [
+            36,
+            43
+          ]
+        },
+        {
+          "file": "sprites/elite/die/1.png",
+          "duration_ms": 300,
+          "origin": [
+            36,
+            40
+          ]
+        }
+      ],
+      "source": "local Mob.nx/2230102.img/die1"
+    },
+    "boss.move": {
+      "frames": [
+        {
+          "file": "sprites/boss/move/0.png",
+          "duration_ms": 500,
+          "origin": [
+            59,
+            110
+          ]
+        },
+        {
+          "file": "sprites/boss/move/1.png",
+          "duration_ms": 100,
+          "origin": [
+            60,
+            105
+          ]
+        },
+        {
+          "file": "sprites/boss/move/2.png",
+          "duration_ms": 100,
+          "origin": [
+            59,
+            102
+          ]
+        },
+        {
+          "file": "sprites/boss/move/3.png",
+          "duration_ms": 300,
+          "origin": [
+            59,
+            180
+          ]
+        },
+        {
+          "file": "sprites/boss/move/4.png",
+          "duration_ms": 100,
+          "origin": [
+            59,
+            160
+          ]
+        },
+        {
+          "file": "sprites/boss/move/5.png",
+          "duration_ms": 100,
+          "origin": [
+            60,
+            105
+          ]
+        }
+      ],
+      "source": "local Mob.nx/6130101.img/move"
+    },
+    "boss.stand": {
+      "frames": [
+        {
+          "file": "sprites/boss/stand/0.png",
+          "duration_ms": 100,
+          "origin": [
+            59,
+            110
+          ]
+        }
+      ],
+      "source": "local Mob.nx/6130101.img/stand"
+    },
+    "boss.hit": {
+      "frames": [
+        {
+          "file": "sprites/boss/hit/0.png",
+          "duration_ms": 600,
+          "origin": [
+            59,
+            140
+          ]
+        }
+      ],
+      "source": "local Mob.nx/6130101.img/hit1"
+    },
+    "boss.die": {
+      "frames": [
+        {
+          "file": "sprites/boss/die/0.png",
+          "duration_ms": 200,
+          "origin": [
+            60,
+            140
+          ]
+        },
+        {
+          "file": "sprites/boss/die/1.png",
+          "duration_ms": 150,
+          "origin": [
+            82,
+            61
+          ]
+        },
+        {
+          "file": "sprites/boss/die/2.png",
+          "duration_ms": 150,
+          "origin": [
+            90,
+            61
+          ]
+        },
+        {
+          "file": "sprites/boss/die/3.png",
+          "duration_ms": 150,
+          "origin": [
+            90,
+            61
+          ]
+        },
+        {
+          "file": "sprites/boss/die/4.png",
+          "duration_ms": 150,
+          "origin": [
+            104,
+            61
+          ]
+        },
+        {
+          "file": "sprites/boss/die/5.png",
+          "duration_ms": 300,
+          "origin": [
+            96,
+            61
+          ]
+        }
+      ],
+      "source": "local Mob.nx/6130101.img/die1"
+    },
+    "slime.idle": {
+      "frames": [
+        {
+          "file": "sprites/slime/stand/0.png",
+          "duration_ms": 2787,
+          "origin": [
+            27,
+            49
+          ]
+        },
+        {
+          "file": "sprites/slime/stand/1.png",
+          "duration_ms": 2788,
+          "origin": [
+            28,
+            49
+          ]
+        },
+        {
+          "file": "sprites/slime/stand/2.png",
+          "duration_ms": 2789,
+          "origin": [
+            26,
+            50
+          ]
+        }
+      ],
+      "source": "local Mob.nx/0210100.img/stand"
+    },
+    "mushroom.idle": {
+      "frames": [
+        {
+          "file": "sprites/mushroom/stand/0.png",
+          "duration_ms": 180,
+          "origin": [
+            18,
+            36
+          ]
+        },
+        {
+          "file": "sprites/mushroom/stand/1.png",
+          "duration_ms": 100,
+          "origin": [
+            18,
+            36
+          ]
+        },
+        {
+          "file": "sprites/mushroom/stand/2.png",
+          "duration_ms": 180,
+          "origin": [
+            18,
+            36
+          ]
+        }
+      ],
+      "source": "local Mob.nx/0120100.img/stand"
+    },
+    "blue_mushroom.idle": {
+      "frames": [
+        {
+          "file": "sprites/blue_mushroom/stand/0.png",
+          "duration_ms": 180,
+          "origin": [
+            27,
+            58
+          ]
+        },
+        {
+          "file": "sprites/blue_mushroom/stand/1.png",
+          "duration_ms": 180,
+          "origin": [
+            27,
+            55
+          ]
+        }
+      ],
+      "source": "local Mob.nx/2220100.img/stand"
+    },
+    "pig.idle": {
+      "frames": [
+        {
+          "file": "sprites/pig/stand/0.png",
+          "duration_ms": 180,
+          "origin": [
+            34,
+            40
+          ]
+        },
+        {
+          "file": "sprites/pig/stand/1.png",
+          "duration_ms": 150,
+          "origin": [
+            34,
+            40
+          ]
+        },
+        {
+          "file": "sprites/pig/stand/2.png",
+          "duration_ms": 180,
+          "origin": [
+            34,
+            38
+          ]
+        }
+      ],
+      "source": "local Mob.nx/1210100.img/stand"
+    },
+    "elite.idle": {
+      "frames": [
+        {
+          "file": "sprites/elite/stand/0.png",
+          "duration_ms": 100,
+          "origin": [
+            35,
+            47
+          ]
+        },
+        {
+          "file": "sprites/elite/stand/1.png",
+          "duration_ms": 100,
+          "origin": [
+            34,
+            49
+          ]
+        },
+        {
+          "file": "sprites/elite/stand/2.png",
+          "duration_ms": 100,
+          "origin": [
+            33,
+            52
+          ]
+        },
+        {
+          "file": "sprites/elite/stand/3.png",
+          "duration_ms": 100,
+          "origin": [
+            45,
+            49
+          ]
+        },
+        {
+          "file": "sprites/elite/stand/4.png",
+          "duration_ms": 100,
+          "origin": [
+            47,
+            47
+          ]
+        },
+        {
+          "file": "sprites/elite/stand/5.png",
+          "duration_ms": 200,
+          "origin": [
+            51,
+            47
+          ]
+        }
+      ],
+      "source": "local Mob.nx/2230102.img/stand"
+    },
+    "boss.idle": {
+      "frames": [
+        {
+          "file": "sprites/boss/stand/0.png",
+          "duration_ms": 100,
+          "origin": [
+            59,
+            110
+          ]
+        }
+      ],
+      "source": "local Mob.nx/6130101.img/stand"
+    }
+  }
+}

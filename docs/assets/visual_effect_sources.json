@@ -1,0 +1,122 @@
+[
+  {
+    "key": "vfx.skills.shadow.cast",
+    "source": "Skill.nx/412.img/skill/4121007/effect",
+    "frames": 6,
+    "duration_ms": 1000
+  },
+  {
+    "key": "vfx.skills.shadow.hit",
+    "source": "Skill.nx/412.img/skill/4121007/hit/0",
+    "frames": 3,
+    "duration_ms": 360
+  },
+  {
+    "key": "vfx.skills.blade.cast",
+    "source": "Skill.nx/422.img/skill/4221007/effect",
+    "frames": 15,
+    "duration_ms": 900
+  },
+  {
+    "key": "vfx.skills.blade.hit",
+    "source": "Skill.nx/420.img/skill/4201005/hit/0",
+    "frames": 1,
+    "duration_ms": 80
+  },
+  {
+    "key": "vfx.skills.clone.cast",
+    "source": "Skill.nx/411.img/skill/4111002/effect0",
+    "frames": 11,
+    "duration_ms": 935
+  },
+  {
+    "key": "vfx.skills.assassin.cast",
+    "source": "Skill.nx/422.img/skill/4221001/effect",
+    "frames": 25,
+    "duration_ms": 1960
+  },
+  {
+    "key": "vfx.skills.bat.cast",
+    "source": "Skill.nx/1410.img/skill/14101006/effect",
+    "frames": 15,
+    "duration_ms": 1350
+  },
+  {
+    "key": "vfx.skills.gun.cast",
+    "source": "Skill.nx/521.img/skill/5211004/effect",
+    "frames": 14,
+    "duration_ms": 1410
+  },
+  {
+    "key": "vfx.skills.gun.hit",
+    "source": "Skill.nx/520.img/skill/5201001/hit/0",
+    "frames": 7,
+    "duration_ms": 420
+  },
+  {
+    "key": "vfx.skills.grenade.travel",
+    "source": "Skill.nx/520.img/skill/5201002/ball",
+    "frames": 8,
+    "duration_ms": 240
+  },
+  {
+    "key": "vfx.skills.explosion.hit",
+    "source": "Skill.nx/520.img/skill/5201002/hit/0",
+    "frames": 7,
+    "duration_ms": 840
+  },
+  {
+    "key": "vfx.skills.energy.cast",
+    "source": "Skill.nx/511.img/skill/5111002/effect",
+    "frames": 8,
+    "duration_ms": 570
+  },
+  {
+    "key": "vfx.skills.fist.cast",
+    "source": "Skill.nx/510.img/skill/5101002/effect",
+    "frames": 9,
+    "duration_ms": 1080
+  },
+  {
+    "key": "vfx.skills.fist.hit",
+    "source": "Skill.nx/510.img/skill/5101002/hit/0",
+    "frames": 5,
+    "duration_ms": 500
+  },
+  {
+    "key": "vfx.skills.turret.idle",
+    "source": "Skill.nx/521.img/skill/5211001/summon/stand",
+    "frames": 8,
+    "duration_ms": 960
+  },
+  {
+    "key": "vfx.skills.turret.attack",
+    "source": "Skill.nx/521.img/skill/5211001/summon/attack1",
+    "frames": 8,
+    "duration_ms": 960
+  },
+  {
+    "key": "vfx.skills.turret.cast",
+    "source": "Skill.nx/521.img/skill/5211001/summon/summoned",
+    "frames": 12,
+    "duration_ms": 1950
+  },
+  {
+    "key": "vfx.skills.turret.end",
+    "source": "Skill.nx/521.img/skill/5211001/summon/die",
+    "frames": 12,
+    "duration_ms": 1440
+  },
+  {
+    "key": "vfx.skills.ice.cast",
+    "source": "Skill.nx/2112.img/skill/21120005/effect",
+    "frames": 11,
+    "duration_ms": 990
+  },
+  {
+    "key": "vfx.skills.ice.hit",
+    "source": "Skill.nx/2112.img/skill/21120005/hit/0",
+    "frames": 6,
+    "duration_ms": 720
+  }
+]

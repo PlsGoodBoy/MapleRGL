@@ -1,0 +1,25 @@
+# Generated builds, portable packages and diagnostics.
+/build*/
+/bin*/
+/release/
+/dist/
+/artifacts/
+/.vs/
+*.user
+*.pdb
+*.obj
+*.ilk
+*.exe
+*.zip
+__pycache__/
+
+# Private development notes and local instructions.
+/.local-archive/
+/AGENTS.md
+/README(1).md
+
+# Local saves and diagnostic snapshots.
+/profile.json
+/profile.json.bak
+/playtest-state.json
+/profile-results.json

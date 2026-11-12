@@ -1,0 +1,1322 @@
+{
+  "schema_version": 1,
+  "visuals": {
+    "boss_snowman": {
+      "name": "驮狼雪人王",
+      "source_mob_id": 8220001,
+      "source_name": "驮狼雪人",
+      "source": "Mob.nx/8220001.img",
+      "source_name_source": "String.nx/Mob.img/8220001/name",
+      "source_tagged_boss": true,
+      "proposed_visual_id": 6,
+      "suggested_render_scale": 0.95,
+      "source_origin_to_ground_px": [
+        0,
+        0
+      ],
+      "suggested_footprint_radius": 44,
+      "suggested_region": "snow",
+      "prototype_behavior_cue": "snowball_and_slam",
+      "actions": {
+        "idle": "stand",
+        "move": "move",
+        "hit": "hit1",
+        "die": "die1",
+        "attack1": "attack1",
+        "attack2": "skill1"
+      },
+      "idle_source_origin": [
+        98,
+        175
+      ],
+      "idle_source_size": [
+        209,
+        175
+      ],
+      "resource_status": "exported_only",
+      "ground_note": "Original frame origin is the ground anchor; mirror it for facing. Do not center individual animation frames or derive collision from transparent canvas bounds.",
+      "mechanics_note": "Resource availability alone does not enable a formal boss/encounter. Combat AI, warning shapes, phases, rewards and chapter pools are authored separately."
+    },
+    "boss_pirate": {
+      "name": "海盗船长",
+      "source_mob_id": 9300119,
+      "source_name": "老海盗",
+      "source": "Mob.nx/9300119.img",
+      "source_name_source": "String.nx/Mob.img/9300119/name",
+      "source_tagged_boss": true,
+      "proposed_visual_id": 7,
+      "suggested_render_scale": 1.0,
+      "source_origin_to_ground_px": [
+        0,
+        0
+      ],
+      "suggested_footprint_radius": 42,
+      "suggested_region": "pirate",
+      "prototype_behavior_cue": "cannon_and_fan_fire",
+      "actions": {
+        "idle": "stand",
+        "move": "move",
+        "hit": "hit1",
+        "die": "die1",
+        "attack1": "attack1",
+        "attack2": "skill1"
+      },
+      "idle_source_origin": [
+        122,
+        141
+      ],
+      "idle_source_size": [
+        219,
+        145
+      ],
+      "resource_status": "exported_only",
+      "ground_note": "Original frame origin is the ground anchor; mirror it for facing. Do not center individual animation frames or derive collision from transparent canvas bounds. Decorative pixels extend 4 source pixels below the origin; retain the original anchor.",
+      "mechanics_note": "Resource availability alone does not enable a formal boss/encounter. Combat AI, warning shapes, phases, rewards and chapter pools are authored separately."
+    },
+    "boss_clockwork": {
+      "name": "玩具机械统领",
+      "source_mob_id": 8500001,
+      "source_name": "帕普拉图斯的座钟",
+      "source": "Mob.nx/8500001.img",
+      "source_name_source": "String.nx/Mob.img/8500001/name",
+      "source_tagged_boss": true,
+      "proposed_visual_id": 8,
+      "suggested_render_scale": 0.65,
+      "source_origin_to_ground_px": [
+        0,
+        0
+      ],
+      "suggested_footprint_radius": 42,
+      "suggested_region": "clockwork",
+      "prototype_behavior_cue": "directional_beam_and_zones",
+      "actions": {
+        "idle": "stand",
+        "move": "move",
+        "hit": "hit1",
+        "die": "die1",
+        "attack1": "attack1",
+        "attack2": "attack2"
+      },
+      "idle_source_origin": [
+        104,
+        285
+      ],
+      "idle_source_size": [
+        234,
+        275
+      ],
+      "resource_status": "exported_only",
+      "ground_note": "Original frame origin is the ground anchor; mirror it for facing. Do not center individual animation frames or derive collision from transparent canvas bounds. First stand frame intentionally floats 10 source pixels above this anchor.",
+      "mechanics_note": "Resource availability alone does not enable a formal boss/encounter. Combat AI, warning shapes, phases, rewards and chapter pools are authored separately."
+    },
+    "boss_leviathan": {
+      "name": "苍海龙王",
+      "source_mob_id": 8220003,
+      "source_name": "大海兽 ",
+      "source": "Mob.nx/8220003.img",
+      "source_name_source": "String.nx/Mob.img/8220003/name",
+      "source_tagged_boss": true,
+      "proposed_visual_id": 9,
+      "suggested_render_scale": 0.75,
+      "source_origin_to_ground_px": [
+        0,
+        0
+      ],
+      "suggested_footprint_radius": 40,
+      "suggested_region": "dragon",
+      "prototype_behavior_cue": "breath_and_sweep",
+      "actions": {
+        "idle": "stand",
+        "move": "move",
+        "hit": "hit1",
+        "die": "die1",
+        "attack1": "attack1",
+        "attack2": "attack2"
+      },
+      "idle_source_origin": [
+        91,
+        243
+      ],
+      "idle_source_size": [
+        205,
+        232
+      ],
+      "resource_status": "exported_only",
+      "ground_note": "Original frame origin is the ground anchor; mirror it for facing. Do not center individual animation frames or derive collision from transparent canvas bounds. First stand frame intentionally floats 11 source pixels above this anchor.",
+      "mechanics_note": "Resource availability alone does not enable a formal boss/encounter. Combat AI, warning shapes, phases, rewards and chapter pools are authored separately."
+    },
+    "boss_cactus": {
+      "name": "沙漠仙人掌王",
+      "source_mob_id": 3220001,
+      "source_name": "大宇",
+      "source": "Mob.nx/3220001.img",
+      "source_name_source": "String.nx/Mob.img/3220001/name",
+      "source_tagged_boss": true,
+      "proposed_visual_id": 10,
+      "suggested_render_scale": 1.15,
+      "source_origin_to_ground_px": [
+        0,
+        0
+      ],
+      "suggested_footprint_radius": 39,
+      "suggested_region": "desert",
+      "prototype_behavior_cue": "spines_and_sand_zones",
+      "actions": {
+        "idle": "stand",
+        "move": "move",
+        "hit": "hit1",
+        "die": "die1",
+        "attack1": "attack1",
+        "attack2": "skill1"
+      },
+      "idle_source_origin": [
+        56,
+        127
+      ],
+      "idle_source_size": [
+        105,
+        127
+      ],
+      "resource_status": "exported_only",
+      "ground_note": "Original frame origin is the ground anchor; mirror it for facing. Do not center individual animation frames or derive collision from transparent canvas bounds.",
+      "mechanics_note": "Resource availability alone does not enable a formal boss/encounter. Combat AI, warning shapes, phases, rewards and chapter pools are authored separately."
+    },
+    "boss_faust": {
+      "name": "浮士德",
+      "source_mob_id": 5220002,
+      "source_name": "浮士德",
+      "source": "Mob.nx/5220002.img",
+      "source_name_source": "String.nx/Mob.img/5220002/name",
+      "source_tagged_boss": true,
+      "proposed_visual_id": 11,
+      "suggested_render_scale": 0.7,
+      "source_origin_to_ground_px": [
+        0,
+        0
+      ],
+      "suggested_footprint_radius": 32,
+      "suggested_region": "forest",
+      "prototype_behavior_cue": "hex_and_summon",
+      "actions": {
+        "idle": "stand",
+        "move": "move",
+        "hit": "hit1",
+        "die": "die1",
+        "attack1": "attack1",
+        "attack2": "skill1"
+      },
+      "idle_source_origin": [
+        91,
+        242
+      ],
+      "idle_source_size": [
+        156,
+        242
+      ],
+      "resource_status": "exported_only",
+      "ground_note": "Original frame origin is the ground anchor; mirror it for facing. Do not center individual animation frames or derive collision from transparent canvas bounds.",
+      "mechanics_note": "Resource availability alone does not enable a formal boss/encounter. Combat AI, warning shapes, phases, rewards and chapter pools are authored separately."
+    },
+    "enemy.crocodile": {
+      "name": "鳄鱼",
+      "source_mob_id": 3110100,
+      "source_name": "鳄鱼",
+      "source": "Mob.nx/3110100.img",
+      "source_name_source": "String.nx/Mob.img/3110100/name",
+      "source_tagged_boss": false,
+      "proposed_visual_id": 16,
+      "suggested_render_scale": 1.0,
+      "source_origin_to_ground_px": [
+        0,
+        0
+      ],
+      "suggested_footprint_radius": 22,
+      "suggested_region": "forest",
+      "prototype_behavior_cue": "rush",
+      "actions": {
+        "idle": "stand",
+        "move": "move",
+        "hit": "hit1",
+        "die": "die1"
+      },
+      "idle_source_origin": [
+        43,
+        29
+      ],
+      "idle_source_size": [
+        86,
+        29
+      ],
+      "resource_status": "exported_only",
+      "ground_note": "Original frame origin is the ground anchor; mirror it for facing. Do not center individual animation frames or derive collision from transparent canvas bounds.",
+      "mechanics_note": "Resource availability alone does not enable a formal boss/encounter. Combat AI, warning shapes, phases, rewards and chapter pools are authored separately."
+    },
+    "enemy.toy_mouse": {
+      "name": "玩具黑鼠",
+      "source_mob_id": 3210205,
+      "source_name": "玩具黑鼠",
+      "source": "Mob.nx/3210205.img",
+      "source_name_source": "String.nx/Mob.img/3210205/name",
+      "source_tagged_boss": false,
+      "proposed_visual_id": 17,
+      "suggested_render_scale": 1.1,
+      "source_origin_to_ground_px": [
+        0,
+        0
+      ],
+      "suggested_footprint_radius": 18,
+      "suggested_region": "clockwork",
+      "prototype_behavior_cue": "rush",
+      "actions": {
+        "idle": "stand",
+        "move": "move",
+        "hit": "hit1",
+        "die": "die1"
+      },
+      "idle_source_origin": [
+        27,
+        47
+      ],
+      "idle_source_size": [
+        64,
+        47
+      ],
+      "resource_status": "exported_only",
+      "ground_note": "Original frame origin is the ground anchor; mirror it for facing. Do not center individual animation frames or derive collision from transparent canvas bounds.",
+      "mechanics_note": "Resource availability alone does not enable a formal boss/encounter. Combat AI, warning shapes, phases, rewards and chapter pools are authored separately."
+    },
+    "enemy.robot": {
+      "name": "洛伊德",
+      "source_mob_id": 5110301,
+      "source_name": "洛伊德",
+      "source": "Mob.nx/5110301.img",
+      "source_name_source": "String.nx/Mob.img/5110301/name",
+      "source_tagged_boss": false,
+      "proposed_visual_id": 18,
+      "suggested_render_scale": 1.1,
+      "source_origin_to_ground_px": [
+        0,
+        0
+      ],
+      "suggested_footprint_radius": 17,
+      "suggested_region": "clockwork",
+      "prototype_behavior_cue": "armored",
+      "actions": {
+        "idle": "stand",
+        "move": "move",
+        "hit": "hit1",
+        "die": "die1"
+      },
+      "idle_source_origin": [
+        19,
+        60
+      ],
+      "idle_source_size": [
+        37,
+        61
+      ],
+      "resource_status": "exported_only",
+      "ground_note": "Original frame origin is the ground anchor; mirror it for facing. Do not center individual animation frames or derive collision from transparent canvas bounds.",
+      "mechanics_note": "Resource availability alone does not enable a formal boss/encounter. Combat AI, warning shapes, phases, rewards and chapter pools are authored separately."
+    },
+    "enemy.yeti": {
+      "name": "小白雪人",
+      "source_mob_id": 5100000,
+      "source_name": "小白雪人",
+      "source": "Mob.nx/5100000.img",
+      "source_name_source": "String.nx/Mob.img/5100000/name",
+      "source_tagged_boss": false,
+      "proposed_visual_id": 19,
+      "suggested_render_scale": 1.2,
+      "source_origin_to_ground_px": [
+        0,
+        0
+      ],
+      "suggested_footprint_radius": 18,
+      "suggested_region": "snow",
+      "prototype_behavior_cue": "pursuit",
+      "actions": {
+        "idle": "stand",
+        "move": "move",
+        "hit": "hit1",
+        "die": "die1"
+      },
+      "idle_source_origin": [
+        22,
+        40
+      ],
+      "idle_source_size": [
+        44,
+        41
+      ],
+      "resource_status": "exported_only",
+      "ground_note": "Original frame origin is the ground anchor; mirror it for facing. Do not center individual animation frames or derive collision from transparent canvas bounds.",
+      "mechanics_note": "Resource availability alone does not enable a formal boss/encounter. Combat AI, warning shapes, phases, rewards and chapter pools are authored separately."
+    },
+    "enemy.moon_pixie": {
+      "name": "月光精灵",
+      "source_mob_id": 4230106,
+      "source_name": "月光精灵",
+      "source": "Mob.nx/4230106.img",
+      "source_name_source": "String.nx/Mob.img/4230106/name",
+      "source_tagged_boss": false,
+      "proposed_visual_id": 20,
+      "suggested_render_scale": 1.0,
+      "source_origin_to_ground_px": [
+        0,
+        0
+      ],
+      "suggested_footprint_radius": 16,
+      "suggested_region": "forest/snow",
+      "prototype_behavior_cue": "support_ranged",
+      "actions": {
+        "idle": "stand",
+        "move": "move",
+        "hit": "hit1",
+        "die": "die1",
+        "attack1": "attack1",
+        "attack2": "skill1"
+      },
+      "idle_source_origin": [
+        27,
+        66
+      ],
+      "idle_source_size": [
+        55,
+        52
+      ],
+      "resource_status": "exported_only",
+      "ground_note": "Original frame origin is the ground anchor; mirror it for facing. Do not center individual animation frames or derive collision from transparent canvas bounds. First stand frame intentionally floats 14 source pixels above this anchor.",
+      "mechanics_note": "Resource availability alone does not enable a formal boss/encounter. Combat AI, warning shapes, phases, rewards and chapter pools are authored separately."
+    },
+    "enemy.drake": {
+      "name": "青龙",
+      "source_mob_id": 5130100,
+      "source_name": "青龙",
+      "source": "Mob.nx/5130100.img",
+      "source_name_source": "String.nx/Mob.img/5130100/name",
+      "source_tagged_boss": false,
+      "proposed_visual_id": 21,
+      "suggested_render_scale": 0.85,
+      "source_origin_to_ground_px": [
+        0,
+        0
+      ],
+      "suggested_footprint_radius": 27,
+      "suggested_region": "wasteland",
+      "prototype_behavior_cue": "charge",
+      "actions": {
+        "idle": "stand",
+        "move": "move",
+        "hit": "hit1",
+        "die": "die1"
+      },
+      "idle_source_origin": [
+        64,
+        82
+      ],
+      "idle_source_size": [
+        129,
+        83
+      ],
+      "resource_status": "exported_only",
+      "ground_note": "Original frame origin is the ground anchor; mirror it for facing. Do not center individual animation frames or derive collision from transparent canvas bounds.",
+      "mechanics_note": "Resource availability alone does not enable a formal boss/encounter. Combat AI, warning shapes, phases, rewards and chapter pools are authored separately."
+    },
+    "enemy.zombie": {
+      "name": "僵尸",
+      "source_mob_id": 5130107,
+      "source_name": "僵尸",
+      "source": "Mob.nx/5130107.img",
+      "source_name_source": "String.nx/Mob.img/5130107/name",
+      "source_tagged_boss": false,
+      "proposed_visual_id": 22,
+      "suggested_render_scale": 0.9,
+      "source_origin_to_ground_px": [
+        0,
+        0
+      ],
+      "suggested_footprint_radius": 20,
+      "suggested_region": "wasteland",
+      "prototype_behavior_cue": "ground_control",
+      "actions": {
+        "idle": "stand",
+        "move": "move",
+        "hit": "hit1",
+        "die": "die1",
+        "attack1": "attack1",
+        "attack2": "attack2"
+      },
+      "idle_source_origin": [
+        33,
+        90
+      ],
+      "idle_source_size": [
+        61,
+        90
+      ],
+      "resource_status": "exported_only",
+      "ground_note": "Original frame origin is the ground anchor; mirror it for facing. Do not center individual animation frames or derive collision from transparent canvas bounds.",
+      "mechanics_note": "Resource availability alone does not enable a formal boss/encounter. Combat AI, warning shapes, phases, rewards and chapter pools are authored separately."
+    },
+    "enemy.panda": {
+      "name": "柔道猫熊",
+      "source_mob_id": 6130203,
+      "source_name": "柔道猫熊",
+      "source": "Mob.nx/6130203.img",
+      "source_name_source": "String.nx/Mob.img/6130203/name",
+      "source_tagged_boss": false,
+      "proposed_visual_id": 23,
+      "suggested_render_scale": 1.0,
+      "source_origin_to_ground_px": [
+        0,
+        0
+      ],
+      "suggested_footprint_radius": 24,
+      "suggested_region": "forest",
+      "prototype_behavior_cue": "telegraphed_charge",
+      "actions": {
+        "idle": "stand",
+        "move": "move",
+        "hit": "hit1",
+        "die": "die1",
+        "attack1": "attack1"
+      },
+      "idle_source_origin": [
+        42,
+        85
+      ],
+      "idle_source_size": [
+        78,
+        85
+      ],
+      "resource_status": "exported_only",
+      "ground_note": "Original frame origin is the ground anchor; mirror it for facing. Do not center individual animation frames or derive collision from transparent canvas bounds.",
+      "mechanics_note": "Resource availability alone does not enable a formal boss/encounter. Combat AI, warning shapes, phases, rewards and chapter pools are authored separately."
+    },
+    "enemy.sand_giant": {
+      "name": "沙漠巨人",
+      "source_mob_id": 4230600,
+      "source_name": "沙漠巨人",
+      "source": "Mob.nx/4230600.img",
+      "source_name_source": "String.nx/Mob.img/4230600/name",
+      "source_tagged_boss": false,
+      "proposed_visual_id": 24,
+      "suggested_render_scale": 0.85,
+      "source_origin_to_ground_px": [
+        0,
+        0
+      ],
+      "suggested_footprint_radius": 27,
+      "suggested_region": "desert",
+      "prototype_behavior_cue": "armored",
+      "actions": {
+        "idle": "stand",
+        "move": "move",
+        "hit": "hit1",
+        "die": "die1"
+      },
+      "idle_source_origin": [
+        55,
+        111
+      ],
+      "idle_source_size": [
+        108,
+        111
+      ],
+      "resource_status": "exported_only",
+      "ground_note": "Original frame origin is the ground anchor; mirror it for facing. Do not center individual animation frames or derive collision from transparent canvas bounds.",
+      "mechanics_note": "Resource availability alone does not enable a formal boss/encounter. Combat AI, warning shapes, phases, rewards and chapter pools are authored separately."
+    },
+    "enemy.stone_bug": {
+      "name": "石头虫",
+      "source_mob_id": 5250001,
+      "source_name": "石头虫",
+      "source": "Mob.nx/5250001.img",
+      "source_name_source": "String.nx/Mob.img/5250001/name",
+      "source_tagged_boss": false,
+      "proposed_visual_id": 25,
+      "suggested_render_scale": 0.8,
+      "source_origin_to_ground_px": [
+        0,
+        0
+      ],
+      "suggested_footprint_radius": 26,
+      "suggested_region": "forest/wasteland",
+      "prototype_behavior_cue": "splitter",
+      "actions": {
+        "idle": "stand",
+        "move": "move",
+        "hit": "hit1",
+        "die": "die1"
+      },
+      "idle_source_origin": [
+        48,
+        74
+      ],
+      "idle_source_size": [
+        110,
+        74
+      ],
+      "resource_status": "exported_only",
+      "ground_note": "Original frame origin is the ground anchor; mirror it for facing. Do not center individual animation frames or derive collision from transparent canvas bounds.",
+      "mechanics_note": "Resource availability alone does not enable a formal boss/encounter. Combat AI, warning shapes, phases, rewards and chapter pools are authored separately."
+    },
+    "enemy.skeleton_dog": {
+      "name": "骷髅犬",
+      "source_mob_id": 4230125,
+      "source_name": "骷髅犬",
+      "source": "Mob.nx/4230125.img",
+      "source_name_source": "String.nx/Mob.img/4230125/name",
+      "source_tagged_boss": false,
+      "proposed_visual_id": 26,
+      "suggested_render_scale": 1.0,
+      "source_origin_to_ground_px": [
+        0,
+        0
+      ],
+      "suggested_footprint_radius": 18,
+      "suggested_region": "wasteland",
+      "prototype_behavior_cue": "rush",
+      "actions": {
+        "idle": "stand",
+        "move": "move",
+        "hit": "hit1",
+        "die": "die1"
+      },
+      "idle_source_origin": [
+        33,
+        57
+      ],
+      "idle_source_size": [
+        65,
+        57
+      ],
+      "resource_status": "exported_only",
+      "ground_note": "Original frame origin is the ground anchor; mirror it for facing. Do not center individual animation frames or derive collision from transparent canvas bounds.",
+      "mechanics_note": "Resource availability alone does not enable a formal boss/encounter. Combat AI, warning shapes, phases, rewards and chapter pools are authored separately."
+    },
+    "enemy.hedgehog": {
+      "name": "豪猪",
+      "source_mob_id": 4230501,
+      "source_name": "豪猪",
+      "source": "Mob.nx/4230501.img",
+      "source_name_source": "String.nx/Mob.img/4230501/name",
+      "source_tagged_boss": false,
+      "proposed_visual_id": 27,
+      "suggested_render_scale": 1.1,
+      "source_origin_to_ground_px": [
+        0,
+        0
+      ],
+      "suggested_footprint_radius": 20,
+      "suggested_region": "forest",
+      "prototype_behavior_cue": "ground_control",
+      "actions": {
+        "idle": "stand",
+        "move": "move",
+        "hit": "hit1",
+        "die": "die1"
+      },
+      "idle_source_origin": [
+        31,
+        63
+      ],
+      "idle_source_size": [
+        60,
+        63
+      ],
+      "resource_status": "exported_only",
+      "ground_note": "Original frame origin is the ground anchor; mirror it for facing. Do not center individual animation frames or derive collision from transparent canvas bounds.",
+      "mechanics_note": "Resource availability alone does not enable a formal boss/encounter. Combat AI, warning shapes, phases, rewards and chapter pools are authored separately."
+    },
+    "enemy.bubble_fish": {
+      "name": "吹泡泡双鱼",
+      "source_mob_id": 3230302,
+      "source_name": "吹泡泡双鱼",
+      "source": "Mob.nx/3230302.img",
+      "source_name_source": "String.nx/Mob.img/3230302/name",
+      "source_tagged_boss": false,
+      "proposed_visual_id": 28,
+      "suggested_render_scale": 1.15,
+      "source_origin_to_ground_px": [
+        0,
+        0
+      ],
+      "suggested_footprint_radius": 18,
+      "suggested_region": "clockwork",
+      "prototype_behavior_cue": "ranged",
+      "actions": {
+        "idle": "stand",
+        "move": "move",
+        "hit": "hit1",
+        "die": "die1"
+      },
+      "idle_source_origin": [
+        23,
+        51
+      ],
+      "idle_source_size": [
+        47,
+        51
+      ],
+      "resource_status": "exported_only",
+      "ground_note": "Original frame origin is the ground anchor; mirror it for facing. Do not center individual animation frames or derive collision from transparent canvas bounds.",
+      "mechanics_note": "Resource availability alone does not enable a formal boss/encounter. Combat AI, warning shapes, phases, rewards and chapter pools are authored separately."
+    },
+    "enemy.pirate_crew": {
+      "name": "海盗克鲁",
+      "source_mob_id": 9300121,
+      "source_name": "老海盗可恶的手下克鲁",
+      "source": "Mob.nx/9300121.img",
+      "source_name_source": "String.nx/Mob.img/9300121/name",
+      "source_tagged_boss": false,
+      "proposed_visual_id": 29,
+      "suggested_render_scale": 0.8,
+      "source_origin_to_ground_px": [
+        0,
+        0
+      ],
+      "suggested_footprint_radius": 25,
+      "suggested_region": "pirate",
+      "prototype_behavior_cue": "ranged",
+      "actions": {
+        "idle": "stand",
+        "move": "move",
+        "hit": "hit1",
+        "die": "die1",
+        "attack1": "attack1"
+      },
+      "idle_source_origin": [
+        71,
+        80
+      ],
+      "idle_source_size": [
+        113,
+        84
+      ],
+      "resource_status": "exported_only",
+      "ground_note": "Original frame origin is the ground anchor; mirror it for facing. Do not center individual animation frames or derive collision from transparent canvas bounds. Decorative pixels extend 4 source pixels below the origin; retain the original anchor.",
+      "mechanics_note": "Resource availability alone does not enable a formal boss/encounter. Combat AI, warning shapes, phases, rewards and chapter pools are authored separately."
+    }
+  },
+  "source_archives": {
+    "Mob.nx": {
+      "size_bytes": 2443369060,
+      "mtime_ns": 1791431989205805900
+    },
+    "String.nx": {
+      "size_bytes": 370411333,
+      "mtime_ns": 1791433086967351100
+    }
+  },
+  "validation": {
+    "sprite_keys": 98,
+    "pngs": 819,
+    "png_bytes": 7089468,
+    "rgba_bytes": 88378984,
+    "all_pngs_pixel_equal": true,
+    "original_archives_size_mtime_unchanged": true,
+    "boss_appearances": 6,
+    "enemy_appearances": 14
+  },
+  "notes": [
+    "Original NX archives were opened read-only; original PNG pixels, sizes, origins, delays and alpha endpoints are retained.",
+    "Only the named candidates are inspected and exported. No full archive bitmap scan.",
+    "Contact sheets are inspection artifacts, not runtime UI assets.",
+    "MapleStory source artwork belongs to its rights holders; this personal prototype does not establish redistribution rights.",
+    "Resource export is not a claim that combat behavior, official pools or visual gameplay acceptance are complete.",
+    "Targeted spider candidate Mob.nx/9400545.img is an ordinary mechanical spider without a source attack animation, so it is not presented as a completed giant-spider boss.",
+    "The accepted six extra bosses use snow, pirate, mechanical, dragon, desert-cactus and forest-demon themes instead of substituting mushroom variants."
+  ],
+  "sequences": [
+    {
+      "key": "boss_snowman.idle",
+      "source": "Mob.nx/8220001.img/stand",
+      "frames": 6,
+      "duration_ms": 720
+    },
+    {
+      "key": "boss_snowman.move",
+      "source": "Mob.nx/8220001.img/move",
+      "frames": 8,
+      "duration_ms": 960
+    },
+    {
+      "key": "boss_snowman.hit",
+      "source": "Mob.nx/8220001.img/hit1",
+      "frames": 1,
+      "duration_ms": 700
+    },
+    {
+      "key": "boss_snowman.die",
+      "source": "Mob.nx/8220001.img/die1",
+      "frames": 12,
+      "duration_ms": 2100
+    },
+    {
+      "key": "boss_snowman.attack1",
+      "source": "Mob.nx/8220001.img/attack1",
+      "frames": 29,
+      "duration_ms": 3480
+    },
+    {
+      "key": "boss_snowman.attack2",
+      "source": "Mob.nx/8220001.img/skill1",
+      "frames": 15,
+      "duration_ms": 1800
+    },
+    {
+      "key": "boss_pirate.idle",
+      "source": "Mob.nx/9300119.img/stand",
+      "frames": 6,
+      "duration_ms": 660
+    },
+    {
+      "key": "boss_pirate.move",
+      "source": "Mob.nx/9300119.img/move",
+      "frames": 6,
+      "duration_ms": 660
+    },
+    {
+      "key": "boss_pirate.hit",
+      "source": "Mob.nx/9300119.img/hit1",
+      "frames": 1,
+      "duration_ms": 600
+    },
+    {
+      "key": "boss_pirate.die",
+      "source": "Mob.nx/9300119.img/die1",
+      "frames": 12,
+      "duration_ms": 1920
+    },
+    {
+      "key": "boss_pirate.attack1",
+      "source": "Mob.nx/9300119.img/attack1",
+      "frames": 26,
+      "duration_ms": 2860
+    },
+    {
+      "key": "boss_pirate.attack2",
+      "source": "Mob.nx/9300119.img/skill1",
+      "frames": 12,
+      "duration_ms": 1320
+    },
+    {
+      "key": "boss_clockwork.idle",
+      "source": "Mob.nx/8500001.img/stand",
+      "frames": 6,
+      "duration_ms": 600
+    },
+    {
+      "key": "boss_clockwork.move",
+      "source": "Mob.nx/8500001.img/move",
+      "frames": 6,
+      "duration_ms": 600
+    },
+    {
+      "key": "boss_clockwork.hit",
+      "source": "Mob.nx/8500001.img/hit1",
+      "frames": 1,
+      "duration_ms": 600
+    },
+    {
+      "key": "boss_clockwork.die",
+      "source": "Mob.nx/8500001.img/die1",
+      "frames": 8,
+      "duration_ms": 1130
+    },
+    {
+      "key": "boss_clockwork.attack1",
+      "source": "Mob.nx/8500001.img/attack1",
+      "frames": 62,
+      "duration_ms": 9210
+    },
+    {
+      "key": "boss_clockwork.attack2",
+      "source": "Mob.nx/8500001.img/attack2",
+      "frames": 21,
+      "duration_ms": 1950
+    },
+    {
+      "key": "boss_leviathan.idle",
+      "source": "Mob.nx/8220003.img/stand",
+      "frames": 8,
+      "duration_ms": 1200
+    },
+    {
+      "key": "boss_leviathan.move",
+      "source": "Mob.nx/8220003.img/move",
+      "frames": 6,
+      "duration_ms": 900
+    },
+    {
+      "key": "boss_leviathan.hit",
+      "source": "Mob.nx/8220003.img/hit1",
+      "frames": 1,
+      "duration_ms": 600
+    },
+    {
+      "key": "boss_leviathan.die",
+      "source": "Mob.nx/8220003.img/die1",
+      "frames": 9,
+      "duration_ms": 1620
+    },
+    {
+      "key": "boss_leviathan.attack1",
+      "source": "Mob.nx/8220003.img/attack1",
+      "frames": 28,
+      "duration_ms": 3600
+    },
+    {
+      "key": "boss_leviathan.attack2",
+      "source": "Mob.nx/8220003.img/attack2",
+      "frames": 31,
+      "duration_ms": 3960
+    },
+    {
+      "key": "boss_cactus.idle",
+      "source": "Mob.nx/3220001.img/stand",
+      "frames": 6,
+      "duration_ms": 1080
+    },
+    {
+      "key": "boss_cactus.move",
+      "source": "Mob.nx/3220001.img/move",
+      "frames": 4,
+      "duration_ms": 720
+    },
+    {
+      "key": "boss_cactus.hit",
+      "source": "Mob.nx/3220001.img/hit1",
+      "frames": 1,
+      "duration_ms": 600
+    },
+    {
+      "key": "boss_cactus.die",
+      "source": "Mob.nx/3220001.img/die1",
+      "frames": 7,
+      "duration_ms": 1200
+    },
+    {
+      "key": "boss_cactus.attack1",
+      "source": "Mob.nx/3220001.img/attack1",
+      "frames": 20,
+      "duration_ms": 2760
+    },
+    {
+      "key": "boss_cactus.attack2",
+      "source": "Mob.nx/3220001.img/skill1",
+      "frames": 12,
+      "duration_ms": 1800
+    },
+    {
+      "key": "boss_faust.idle",
+      "source": "Mob.nx/5220002.img/stand",
+      "frames": 12,
+      "duration_ms": 1800
+    },
+    {
+      "key": "boss_faust.move",
+      "source": "Mob.nx/5220002.img/move",
+      "frames": 6,
+      "duration_ms": 900
+    },
+    {
+      "key": "boss_faust.hit",
+      "source": "Mob.nx/5220002.img/hit1",
+      "frames": 1,
+      "duration_ms": 600
+    },
+    {
+      "key": "boss_faust.die",
+      "source": "Mob.nx/5220002.img/die1",
+      "frames": 11,
+      "duration_ms": 1950
+    },
+    {
+      "key": "boss_faust.attack1",
+      "source": "Mob.nx/5220002.img/attack1",
+      "frames": 12,
+      "duration_ms": 1800
+    },
+    {
+      "key": "boss_faust.attack2",
+      "source": "Mob.nx/5220002.img/skill1",
+      "frames": 13,
+      "duration_ms": 1950
+    },
+    {
+      "key": "enemy.crocodile.idle",
+      "source": "Mob.nx/3110100.img/stand",
+      "frames": 3,
+      "duration_ms": 750
+    },
+    {
+      "key": "enemy.crocodile.move",
+      "source": "Mob.nx/3110100.img/move",
+      "frames": 4,
+      "duration_ms": 760
+    },
+    {
+      "key": "enemy.crocodile.hit",
+      "source": "Mob.nx/3110100.img/hit1",
+      "frames": 1,
+      "duration_ms": 600
+    },
+    {
+      "key": "enemy.crocodile.die",
+      "source": "Mob.nx/3110100.img/die1",
+      "frames": 2,
+      "duration_ms": 480
+    },
+    {
+      "key": "enemy.toy_mouse.idle",
+      "source": "Mob.nx/3210205.img/stand",
+      "frames": 12,
+      "duration_ms": 1200
+    },
+    {
+      "key": "enemy.toy_mouse.move",
+      "source": "Mob.nx/3210205.img/move",
+      "frames": 6,
+      "duration_ms": 600
+    },
+    {
+      "key": "enemy.toy_mouse.hit",
+      "source": "Mob.nx/3210205.img/hit1",
+      "frames": 1,
+      "duration_ms": 600
+    },
+    {
+      "key": "enemy.toy_mouse.die",
+      "source": "Mob.nx/3210205.img/die1",
+      "frames": 6,
+      "duration_ms": 900
+    },
+    {
+      "key": "enemy.robot.idle",
+      "source": "Mob.nx/5110301.img/stand",
+      "frames": 11,
+      "duration_ms": 1540
+    },
+    {
+      "key": "enemy.robot.move",
+      "source": "Mob.nx/5110301.img/move",
+      "frames": 6,
+      "duration_ms": 720
+    },
+    {
+      "key": "enemy.robot.hit",
+      "source": "Mob.nx/5110301.img/hit1",
+      "frames": 1,
+      "duration_ms": 600
+    },
+    {
+      "key": "enemy.robot.die",
+      "source": "Mob.nx/5110301.img/die1",
+      "frames": 10,
+      "duration_ms": 1520
+    },
+    {
+      "key": "enemy.yeti.idle",
+      "source": "Mob.nx/5100000.img/stand",
+      "frames": 11,
+      "duration_ms": 1960
+    },
+    {
+      "key": "enemy.yeti.move",
+      "source": "Mob.nx/5100000.img/move",
+      "frames": 3,
+      "duration_ms": 360
+    },
+    {
+      "key": "enemy.yeti.hit",
+      "source": "Mob.nx/5100000.img/hit1",
+      "frames": 1,
+      "duration_ms": 600
+    },
+    {
+      "key": "enemy.yeti.die",
+      "source": "Mob.nx/5100000.img/die1",
+      "frames": 5,
+      "duration_ms": 810
+    },
+    {
+      "key": "enemy.moon_pixie.idle",
+      "source": "Mob.nx/4230106.img/stand",
+      "frames": 6,
+      "duration_ms": 780
+    },
+    {
+      "key": "enemy.moon_pixie.move",
+      "source": "Mob.nx/4230106.img/move",
+      "frames": 6,
+      "duration_ms": 720
+    },
+    {
+      "key": "enemy.moon_pixie.hit",
+      "source": "Mob.nx/4230106.img/hit1",
+      "frames": 1,
+      "duration_ms": 600
+    },
+    {
+      "key": "enemy.moon_pixie.die",
+      "source": "Mob.nx/4230106.img/die1",
+      "frames": 5,
+      "duration_ms": 820
+    },
+    {
+      "key": "enemy.moon_pixie.attack1",
+      "source": "Mob.nx/4230106.img/attack1",
+      "frames": 16,
+      "duration_ms": 2200
+    },
+    {
+      "key": "enemy.moon_pixie.attack2",
+      "source": "Mob.nx/4230106.img/skill1",
+      "frames": 10,
+      "duration_ms": 900
+    },
+    {
+      "key": "enemy.drake.idle",
+      "source": "Mob.nx/5130100.img/stand",
+      "frames": 1,
+      "duration_ms": 100
+    },
+    {
+      "key": "enemy.drake.move",
+      "source": "Mob.nx/5130100.img/move",
+      "frames": 4,
+      "duration_ms": 600
+    },
+    {
+      "key": "enemy.drake.hit",
+      "source": "Mob.nx/5130100.img/hit1",
+      "frames": 1,
+      "duration_ms": 600
+    },
+    {
+      "key": "enemy.drake.die",
+      "source": "Mob.nx/5130100.img/die1",
+      "frames": 8,
+      "duration_ms": 1350
+    },
+    {
+      "key": "enemy.zombie.idle",
+      "source": "Mob.nx/5130107.img/stand",
+      "frames": 3,
+      "duration_ms": 600
+    },
+    {
+      "key": "enemy.zombie.move",
+      "source": "Mob.nx/5130107.img/move",
+      "frames": 3,
+      "duration_ms": 800
+    },
+    {
+      "key": "enemy.zombie.hit",
+      "source": "Mob.nx/5130107.img/hit1",
+      "frames": 1,
+      "duration_ms": 600
+    },
+    {
+      "key": "enemy.zombie.die",
+      "source": "Mob.nx/5130107.img/die1",
+      "frames": 11,
+      "duration_ms": 1300
+    },
+    {
+      "key": "enemy.zombie.attack1",
+      "source": "Mob.nx/5130107.img/attack1",
+      "frames": 10,
+      "duration_ms": 1500
+    },
+    {
+      "key": "enemy.zombie.attack2",
+      "source": "Mob.nx/5130107.img/attack2",
+      "frames": 13,
+      "duration_ms": 1620
+    },
+    {
+      "key": "enemy.panda.idle",
+      "source": "Mob.nx/6130203.img/stand",
+      "frames": 12,
+      "duration_ms": 1320
+    },
+    {
+      "key": "enemy.panda.move",
+      "source": "Mob.nx/6130203.img/move",
+      "frames": 8,
+      "duration_ms": 1600
+    },
+    {
+      "key": "enemy.panda.hit",
+      "source": "Mob.nx/6130203.img/hit1",
+      "frames": 1,
+      "duration_ms": 600
+    },
+    {
+      "key": "enemy.panda.die",
+      "source": "Mob.nx/6130203.img/die1",
+      "frames": 8,
+      "duration_ms": 1420
+    },
+    {
+      "key": "enemy.panda.attack1",
+      "source": "Mob.nx/6130203.img/attack1",
+      "frames": 18,
+      "duration_ms": 1740
+    },
+    {
+      "key": "enemy.sand_giant.idle",
+      "source": "Mob.nx/4230600.img/stand",
+      "frames": 6,
+      "duration_ms": 900
+    },
+    {
+      "key": "enemy.sand_giant.move",
+      "source": "Mob.nx/4230600.img/move",
+      "frames": 6,
+      "duration_ms": 900
+    },
+    {
+      "key": "enemy.sand_giant.hit",
+      "source": "Mob.nx/4230600.img/hit1",
+      "frames": 1,
+      "duration_ms": 600
+    },
+    {
+      "key": "enemy.sand_giant.die",
+      "source": "Mob.nx/4230600.img/die1",
+      "frames": 10,
+      "duration_ms": 1650
+    },
+    {
+      "key": "enemy.stone_bug.idle",
+      "source": "Mob.nx/5250001.img/stand",
+      "frames": 7,
+      "duration_ms": 840
+    },
+    {
+      "key": "enemy.stone_bug.move",
+      "source": "Mob.nx/5250001.img/move",
+      "frames": 10,
+      "duration_ms": 900
+    },
+    {
+      "key": "enemy.stone_bug.hit",
+      "source": "Mob.nx/5250001.img/hit1",
+      "frames": 1,
+      "duration_ms": 600
+    },
+    {
+      "key": "enemy.stone_bug.die",
+      "source": "Mob.nx/5250001.img/die1",
+      "frames": 10,
+      "duration_ms": 1800
+    },
+    {
+      "key": "enemy.skeleton_dog.idle",
+      "source": "Mob.nx/4230125.img/stand",
+      "frames": 3,
+      "duration_ms": 540
+    },
+    {
+      "key": "enemy.skeleton_dog.move",
+      "source": "Mob.nx/4230125.img/move",
+      "frames": 5,
+      "duration_ms": 700
+    },
+    {
+      "key": "enemy.skeleton_dog.hit",
+      "source": "Mob.nx/4230125.img/hit1",
+      "frames": 1,
+      "duration_ms": 600
+    },
+    {
+      "key": "enemy.skeleton_dog.die",
+      "source": "Mob.nx/4230125.img/die1",
+      "frames": 6,
+      "duration_ms": 1200
+    },
+    {
+      "key": "enemy.hedgehog.idle",
+      "source": "Mob.nx/4230501.img/stand",
+      "frames": 12,
+      "duration_ms": 1320
+    },
+    {
+      "key": "enemy.hedgehog.move",
+      "source": "Mob.nx/4230501.img/move",
+      "frames": 6,
+      "duration_ms": 660
+    },
+    {
+      "key": "enemy.hedgehog.hit",
+      "source": "Mob.nx/4230501.img/hit1",
+      "frames": 1,
+      "duration_ms": 600
+    },
+    {
+      "key": "enemy.hedgehog.die",
+      "source": "Mob.nx/4230501.img/die1",
+      "frames": 5,
+      "duration_ms": 780
+    },
+    {
+      "key": "enemy.bubble_fish.idle",
+      "source": "Mob.nx/3230302.img/stand",
+      "frames": 16,
+      "duration_ms": 1760
+    },
+    {
+      "key": "enemy.bubble_fish.move",
+      "source": "Mob.nx/3230302.img/move",
+      "frames": 6,
+      "duration_ms": 660
+    },
+    {
+      "key": "enemy.bubble_fish.hit",
+      "source": "Mob.nx/3230302.img/hit1",
+      "frames": 1,
+      "duration_ms": 600
+    },
+    {
+      "key": "enemy.bubble_fish.die",
+      "source": "Mob.nx/3230302.img/die1",
+      "frames": 6,
+      "duration_ms": 950
+    },
+    {
+      "key": "enemy.pirate_crew.idle",
+      "source": "Mob.nx/9300121.img/stand",
+      "frames": 12,
+      "duration_ms": 1560
+    },
+    {
+      "key": "enemy.pirate_crew.move",
+      "source": "Mob.nx/9300121.img/move",
+      "frames": 4,
+      "duration_ms": 600
+    },
+    {
+      "key": "enemy.pirate_crew.hit",
+      "source": "Mob.nx/9300121.img/hit1",
+      "frames": 1,
+      "duration_ms": 600
+    },
+    {
+      "key": "enemy.pirate_crew.die",
+      "source": "Mob.nx/9300121.img/die1",
+      "frames": 9,
+      "duration_ms": 1340
+    },
+    {
+      "key": "enemy.pirate_crew.attack1",
+      "source": "Mob.nx/9300121.img/attack1",
+      "frames": 19,
+      "duration_ms": 2210
+    }
+  ]
+}

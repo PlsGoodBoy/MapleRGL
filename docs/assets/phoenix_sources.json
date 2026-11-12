@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "resource_status": "exported_only",
+  "visuals": [
+    {
+      "key": "skill.phoenix.attack",
+      "name": "凤凰原生攻击",
+      "resource_status": "exported_only",
+      "render_note": "Play only after the combat core launches the phoenix projectile; return to the existing skill.summon fly sequence afterward."
+    }
+  ],
+  "source_archives": {
+    "Skill.nx": {
+      "size_bytes": 203563946,
+      "mtime_ns": 1791432019851882000
+    }
+  },
+  "validation": {
+    "sprite_keys": 1,
+    "pngs": 11,
+    "png_bytes": 15158,
+    "rgba_bytes": 179196,
+    "all_pngs_pixel_equal": true,
+    "original_archives_size_mtime_unchanged": true,
+    "skill_icons": 0,
+    "effect_sequences": 1
+  },
+  "notes": [
+    "Original NX archives were opened read-only; original PNG pixels, sizes, origins, delays and alpha endpoints are retained.",
+    "Only the named candidates are inspected and exported. No full archive bitmap scan.",
+    "Contact sheets are inspection artifacts, not runtime UI assets.",
+    "MapleStory source artwork belongs to its rights holders; this personal prototype does not establish redistribution rights.",
+    "Resource export is not a claim that combat behavior, official pools or visual gameplay acceptance are complete."
+  ],
+  "sequences": [
+    {
+      "key": "skill.phoenix.attack",
+      "source": "Skill.nx/312.img/skill/3121006/summon/attack1",
+      "frames": 11,
+      "duration_ms": 2130
+    }
+  ]
+}

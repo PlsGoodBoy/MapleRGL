@@ -1,0 +1,417 @@
+{
+  "schema_version": 1,
+  "resource_status": "exported_only",
+  "visuals": {},
+  "source_archives": {
+    "Skill.nx": {
+      "size_bytes": 203563946,
+      "mtime_ns": 1791432019851882000
+    },
+    "String.nx": {
+      "size_bytes": 370411333,
+      "mtime_ns": 1791433086967351100
+    },
+    "Character.nx": {
+      "size_bytes": 2250879079,
+      "mtime_ns": 1791432965827394900
+    }
+  },
+  "validation": {
+    "sprite_keys": 63,
+    "pngs": 373,
+    "png_bytes": 2590083,
+    "rgba_bytes": 28386516,
+    "all_pngs_pixel_equal": true,
+    "original_archives_size_mtime_unchanged": true,
+    "skill_icons": 18,
+    "effect_sequences": 45,
+    "reused_phase_aliases": 2
+  },
+  "notes": [
+    "Original NX archives were opened read-only; original PNG pixels, sizes, origins, delays and alpha endpoints are retained.",
+    "Only the named candidates are inspected and exported. No full archive bitmap scan.",
+    "Contact sheets are inspection artifacts, not runtime UI assets.",
+    "MapleStory source artwork belongs to its rights holders; this personal prototype does not establish redistribution rights.",
+    "Resource export is not a claim that combat behavior, official pools or visual gameplay acceptance are complete."
+  ],
+  "sequences": [
+    {
+      "key": "skill.icon.battle_focus",
+      "source": "Skill.nx/111.img/skill/1111002/icon",
+      "frames": 1,
+      "duration_ms": 100
+    },
+    {
+      "key": "skill.icon.spear_combo",
+      "source": "Skill.nx/131.img/skill/1311001/icon",
+      "frames": 1,
+      "duration_ms": 100
+    },
+    {
+      "key": "skill.icon.holy_shield",
+      "source": "Skill.nx/122.img/skill/1220006/icon",
+      "frames": 1,
+      "duration_ms": 100
+    },
+    {
+      "key": "skill.icon.judgement",
+      "source": "Skill.nx/122.img/skill/1221011/icon",
+      "frames": 1,
+      "duration_ms": 100
+    },
+    {
+      "key": "skill.icon.dragon_thrust",
+      "source": "Skill.nx/512.img/skill/5121001/icon",
+      "frames": 1,
+      "duration_ms": 100
+    },
+    {
+      "key": "skill.icon.earth_shatter",
+      "source": "Skill.nx/511.img/skill/5111006/icon",
+      "frames": 1,
+      "duration_ms": 100
+    },
+    {
+      "key": "skill.icon.poison_mist",
+      "source": "Skill.nx/211.img/skill/2111003/icon",
+      "frames": 1,
+      "duration_ms": 100
+    },
+    {
+      "key": "skill.icon.ice_lance",
+      "source": "Skill.nx/220.img/skill/2201004/icon",
+      "frames": 1,
+      "duration_ms": 100
+    },
+    {
+      "key": "skill.icon.holy_light",
+      "source": "Skill.nx/231.img/skill/2311004/icon",
+      "frames": 1,
+      "duration_ms": 100
+    },
+    {
+      "key": "skill.icon.holy_dragon",
+      "source": "Skill.nx/232.img/skill/2321003/icon",
+      "frames": 1,
+      "duration_ms": 100
+    },
+    {
+      "key": "skill.icon.fire_beast",
+      "source": "Skill.nx/222.img/skill/2221005/icon",
+      "frames": 1,
+      "duration_ms": 100
+    },
+    {
+      "key": "skill.icon.magic_vortex",
+      "source": "Skill.nx/212.img/skill/2121001/icon",
+      "frames": 1,
+      "duration_ms": 100
+    },
+    {
+      "key": "skill.icon.storm_shot",
+      "source": "Skill.nx/1310.img/skill/13101005/icon",
+      "frames": 1,
+      "duration_ms": 100
+    },
+    {
+      "key": "skill.icon.sniper",
+      "source": "Skill.nx/300.img/skill/3000000/icon",
+      "frames": 1,
+      "duration_ms": 100
+    },
+    {
+      "key": "skill.icon.ice_arrow",
+      "source": "Skill.nx/321.img/skill/3211003/icon",
+      "frames": 1,
+      "duration_ms": 100
+    },
+    {
+      "key": "skill.icon.blast_arrow",
+      "source": "Skill.nx/520.img/skill/5201002/icon",
+      "frames": 1,
+      "duration_ms": 100
+    },
+    {
+      "key": "skill.icon.silver_eagle",
+      "source": "Skill.nx/311.img/skill/3111005/icon",
+      "frames": 1,
+      "duration_ms": 100
+    },
+    {
+      "key": "skill.icon.decoy",
+      "source": "Skill.nx/311.img/skill/3111002/icon",
+      "frames": 1,
+      "duration_ms": 100
+    },
+    {
+      "key": "skill.battle_focus.state",
+      "source": "Skill.nx/111.img/skill/1111002/state",
+      "frames": 6,
+      "duration_ms": 1600
+    },
+    {
+      "key": "skill.spear_combo.cast",
+      "source": "Skill.nx/131.img/skill/1311001/effect0",
+      "frames": 3,
+      "duration_ms": 700
+    },
+    {
+      "key": "skill.spear_combo.hit",
+      "source": "Skill.nx/131.img/skill/1311001/hit/0",
+      "frames": 4,
+      "duration_ms": 400
+    },
+    {
+      "key": "skill.holy_shield.cast",
+      "source": "Skill.nx/122.img/skill/1220006/special",
+      "frames": 12,
+      "duration_ms": 720
+    },
+    {
+      "key": "skill.judgement.cast",
+      "source": "Skill.nx/122.img/skill/1221011/effect",
+      "frames": 22,
+      "duration_ms": 2640
+    },
+    {
+      "key": "skill.judgement.hit",
+      "source": "Skill.nx/122.img/skill/1221011/hit/0",
+      "frames": 15,
+      "duration_ms": 1020
+    },
+    {
+      "key": "skill.dragon_thrust.cast",
+      "source": "Skill.nx/512.img/skill/5121001/effect",
+      "frames": 16,
+      "duration_ms": 1920
+    },
+    {
+      "key": "skill.dragon_thrust.hit",
+      "source": "Skill.nx/512.img/skill/5121001/hit/0",
+      "frames": 13,
+      "duration_ms": 1560
+    },
+    {
+      "key": "skill.earth_shatter.cast",
+      "source": "Skill.nx/511.img/skill/5111006/effect",
+      "frames": 8,
+      "duration_ms": 2430
+    },
+    {
+      "key": "skill.earth_shatter.hit",
+      "source": "Skill.nx/511.img/skill/5111006/hit/0",
+      "frames": 5,
+      "duration_ms": 600
+    },
+    {
+      "key": "skill.poison_mist.zone",
+      "source": "Skill.nx/211.img/skill/2111003/tile/0",
+      "frames": 2,
+      "duration_ms": 1800
+    },
+    {
+      "key": "skill.ice_lance.hit",
+      "source": "Skill.nx/220.img/skill/2201004/hit/0",
+      "frames": 6,
+      "duration_ms": 570
+    },
+    {
+      "key": "skill.holy_light.cast",
+      "source": "Skill.nx/231.img/skill/2311004/effect",
+      "frames": 11,
+      "duration_ms": 1045
+    },
+    {
+      "key": "skill.magic_vortex.cast",
+      "source": "Skill.nx/212.img/skill/2121001/effect",
+      "frames": 10,
+      "duration_ms": 600
+    },
+    {
+      "key": "skill.storm_shot.cast",
+      "source": "Skill.nx/1310.img/skill/13101005/effect",
+      "frames": 8,
+      "duration_ms": 720
+    },
+    {
+      "key": "skill.sniper.projectile",
+      "source": "Skill.nx/322.img/skill/3221007/ball",
+      "frames": 9,
+      "duration_ms": 540
+    },
+    {
+      "key": "skill.sniper.hit",
+      "source": "Skill.nx/322.img/skill/3221007/hit/0",
+      "frames": 5,
+      "duration_ms": 500
+    },
+    {
+      "key": "skill.ice_arrow.cast",
+      "source": "Skill.nx/321.img/skill/3211003/effect",
+      "frames": 9,
+      "duration_ms": 990
+    },
+    {
+      "key": "skill.ice_arrow.hit",
+      "source": "Skill.nx/321.img/skill/3211003/hit/0",
+      "frames": 6,
+      "duration_ms": 1300
+    },
+    {
+      "key": "skill.blast_arrow.hit",
+      "source": "Skill.nx/520.img/skill/5201002/hit/0",
+      "frames": 7,
+      "duration_ms": 840
+    },
+    {
+      "key": "skill.holy_dragon.idle",
+      "source": "Skill.nx/232.img/skill/2321003/summon/stand",
+      "frames": 12,
+      "duration_ms": 1800
+    },
+    {
+      "key": "skill.holy_dragon.move",
+      "source": "Skill.nx/232.img/skill/2321003/summon/fly",
+      "frames": 6,
+      "duration_ms": 900
+    },
+    {
+      "key": "skill.holy_dragon.attack",
+      "source": "Skill.nx/232.img/skill/2321003/summon/attack1",
+      "frames": 18,
+      "duration_ms": 1620
+    },
+    {
+      "key": "skill.holy_dragon.die",
+      "source": "Skill.nx/232.img/skill/2321003/summon/die",
+      "frames": 6,
+      "duration_ms": 890
+    },
+    {
+      "key": "skill.holy_dragon.spawn",
+      "source": "Skill.nx/232.img/skill/2321003/summon/summoned",
+      "frames": 6,
+      "duration_ms": 720
+    },
+    {
+      "key": "skill.holy_dragon.hit",
+      "source": "Skill.nx/232.img/skill/2321003/hit/0",
+      "frames": 7,
+      "duration_ms": 840
+    },
+    {
+      "key": "skill.fire_beast.idle",
+      "source": "Skill.nx/222.img/skill/2221005/summon/stand",
+      "frames": 6,
+      "duration_ms": 1080
+    },
+    {
+      "key": "skill.fire_beast.move",
+      "source": "Skill.nx/222.img/skill/2221005/summon/move",
+      "frames": 6,
+      "duration_ms": 1080
+    },
+    {
+      "key": "skill.fire_beast.attack",
+      "source": "Skill.nx/222.img/skill/2221005/summon/attack1",
+      "frames": 19,
+      "duration_ms": 2280
+    },
+    {
+      "key": "skill.fire_beast.die",
+      "source": "Skill.nx/222.img/skill/2221005/summon/die",
+      "frames": 12,
+      "duration_ms": 1440
+    },
+    {
+      "key": "skill.fire_beast.spawn",
+      "source": "Skill.nx/222.img/skill/2221005/summon/summoned",
+      "frames": 15,
+      "duration_ms": 1800
+    },
+    {
+      "key": "skill.fire_beast.hit",
+      "source": "Skill.nx/222.img/skill/2221005/hit/0",
+      "frames": 8,
+      "duration_ms": 1200
+    },
+    {
+      "key": "skill.silver_eagle.idle",
+      "source": "Skill.nx/311.img/skill/3111005/summon/stand",
+      "frames": 5,
+      "duration_ms": 450
+    },
+    {
+      "key": "skill.silver_eagle.move",
+      "source": "Skill.nx/311.img/skill/3111005/summon/fly",
+      "frames": 5,
+      "duration_ms": 450
+    },
+    {
+      "key": "skill.silver_eagle.attack",
+      "source": "Skill.nx/311.img/skill/3111005/summon/attack1",
+      "frames": 2,
+      "duration_ms": 700
+    },
+    {
+      "key": "skill.silver_eagle.die",
+      "source": "Skill.nx/311.img/skill/3111005/summon/die",
+      "frames": 6,
+      "duration_ms": 890
+    },
+    {
+      "key": "skill.silver_eagle.spawn",
+      "source": "Skill.nx/311.img/skill/3111005/summon/summoned",
+      "frames": 5,
+      "duration_ms": 500
+    },
+    {
+      "key": "skill.silver_eagle.hit",
+      "source": "Skill.nx/311.img/skill/3111005/hit/0",
+      "frames": 6,
+      "duration_ms": 540
+    },
+    {
+      "key": "skill.decoy.idle",
+      "source": "Skill.nx/311.img/skill/3111002/summon/stand",
+      "frames": 9,
+      "duration_ms": 2700
+    },
+    {
+      "key": "skill.decoy.hit",
+      "source": "Skill.nx/311.img/skill/3111002/summon/hit",
+      "frames": 4,
+      "duration_ms": 600
+    },
+    {
+      "key": "skill.decoy.die",
+      "source": "Skill.nx/311.img/skill/3111002/summon/die",
+      "frames": 1,
+      "duration_ms": 500
+    },
+    {
+      "key": "skill.decoy.spawn",
+      "source": "Skill.nx/311.img/skill/3111002/summon/summoned",
+      "frames": 12,
+      "duration_ms": 1080
+    },
+    {
+      "key": "skill.spear_combo.thrust",
+      "source": "Character.nx/Afterimage/spear.img/0/stabT1/2",
+      "frames": 2,
+      "duration_ms": 230
+    },
+    {
+      "key": "skill.spear_combo.release",
+      "source": "Skill.nx/131.img/skill/1311001/effect0",
+      "frames": 2,
+      "duration_ms": 400
+    },
+    {
+      "key": "skill.earth_shatter.impact",
+      "source": "Skill.nx/511.img/skill/5111006/effect",
+      "frames": 7,
+      "duration_ms": 1050
+    }
+  ]
+}

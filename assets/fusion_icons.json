@@ -1,0 +1,130 @@
+{
+  "version": 1,
+  "sprites": {
+    "skill.icon.star_return": {
+      "frames": [
+        {
+          "file": "sprites/skill_icons/skill/icon/star_return/0.png",
+          "duration_ms": 100,
+          "origin": [
+            16.0,
+            16.0
+          ],
+          "source_origin": [
+            0,
+            32
+          ],
+          "size": [
+            32,
+            32
+          ],
+          "source": "Skill.nx/322.img/skill/3221006/icon",
+          "alpha_start": 255,
+          "alpha_end": 255,
+          "rgba_sha256": "8f8f59f085b8fb901c10c70427bf8f3c7589829e14e287a005b85961ed18cf99",
+          "duration_note": "Static source icon has no delay; 100 ms is the existing renderer fallback.",
+          "alpha_note": "No source alpha interpolation; full-opacity endpoints preserve original per-pixel RGBA alpha."
+        }
+      ],
+      "source": "Skill.nx/322.img/skill/3221006/icon",
+      "name": "回旋贯星",
+      "loop": false,
+      "total_duration_ms": 100,
+      "icon_kind": "original_skill_icon",
+      "source_skill_id": 3221006,
+      "source_name": "刺眼箭",
+      "source_name_source": "String.nx/Skill.img/3221006/name"
+    },
+    "skill.icon.frost_storm": {
+      "frames": [
+        {
+          "file": "sprites/skill_icons/skill/icon/frost_storm/0.png",
+          "duration_ms": 100,
+          "origin": [
+            16.0,
+            16.0
+          ],
+          "source_origin": [
+            0,
+            32
+          ],
+          "size": [
+            32,
+            32
+          ],
+          "source": "Skill.nx/222.img/skill/2221007/icon",
+          "alpha_start": 255,
+          "alpha_end": 255,
+          "rgba_sha256": "613271f98652fc1940ae98ba467b4a6b22b33013dc4afd504509fdc20b2514e4",
+          "duration_note": "Static source icon has no delay; 100 ms is the existing renderer fallback.",
+          "alpha_note": "No source alpha interpolation; full-opacity endpoints preserve original per-pixel RGBA alpha."
+        }
+      ],
+      "source": "Skill.nx/222.img/skill/2221007/icon",
+      "name": "霜雷领域",
+      "loop": false,
+      "total_duration_ms": 100,
+      "icon_kind": "original_skill_icon",
+      "source_skill_id": 2221007,
+      "source_name": "落霜冰破",
+      "source_name_source": "String.nx/Skill.img/2221007/name"
+    },
+    "skill.icon.dragon_armor": {
+      "frames": [
+        {
+          "file": "sprites/skill_icons/skill/icon/dragon_armor/0.png",
+          "duration_ms": 100,
+          "origin": [
+            16.0,
+            16.0
+          ],
+          "source_origin": [
+            0,
+            32
+          ],
+          "size": [
+            32,
+            32
+          ],
+          "source": "Skill.nx/132.img/skill/1320006/icon",
+          "alpha_start": 255,
+          "alpha_end": 255,
+          "rgba_sha256": "afe6547cecb706b4c79aa8a95a7629cb8f01d63d555949835c2d5bff598f64dd",
+          "duration_note": "Static source icon has no delay; 100 ms is the existing renderer fallback.",
+          "alpha_note": "No source alpha interpolation; full-opacity endpoints preserve original per-pixel RGBA alpha."
+        }
+      ],
+      "source": "Skill.nx/132.img/skill/1320006/icon",
+      "name": "龙魂战甲",
+      "loop": false,
+      "total_duration_ms": 100,
+      "icon_kind": "original_skill_icon",
+      "source_skill_id": 1320006,
+      "source_name": "恶龙附身",
+      "source_name_source": "String.nx/Skill.img/1320006/name"
+    }
+  },
+  "source_archives": {
+    "Skill.nx": {
+      "size_bytes": 203563946,
+      "mtime_ns": 1791432019851882000
+    },
+    "String.nx": {
+      "size_bytes": 370411333,
+      "mtime_ns": 1791433086967351100
+    }
+  },
+  "validation": {
+    "original_archives_unchanged": true,
+    "all_pngs_pixel_equal": true,
+    "unique_pngs": 3,
+    "sprite_keys": 3
+  },
+  "notes": [
+    "Genuine skill/inventory icon canvases; no effect-frame thumbnails or cropped character artwork.",
+    "RGBA and original dimensions retained. HUD display origin is centered; original origin is in source_origin.",
+    "Source names identify original art only; MapleRGL names and mechanics are custom.",
+    "Fusion-result icons use their own original skill icon; no material icon is overwritten or reused.",
+    "Contact sheet is an inspection artifact only and is not loaded by the game."
+  ]
+}

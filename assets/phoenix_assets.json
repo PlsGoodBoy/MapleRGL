@@ -1,0 +1,224 @@
+{
+  "sprites": {
+    "skill.summon": {
+      "frames": [
+        {
+          "file": "sprites/skill/phoenix/0.png",
+          "duration_ms": 100,
+          "origin": [
+            46,
+            126
+          ],
+          "source": "Skill.nx/312.img/skill/3121006/summon/fly/0"
+        },
+        {
+          "file": "sprites/skill/phoenix/1.png",
+          "duration_ms": 100,
+          "origin": [
+            47,
+            127
+          ],
+          "source": "Skill.nx/312.img/skill/3121006/summon/fly/1"
+        },
+        {
+          "file": "sprites/skill/phoenix/2.png",
+          "duration_ms": 100,
+          "origin": [
+            44,
+            135
+          ],
+          "source": "Skill.nx/312.img/skill/3121006/summon/fly/2"
+        },
+        {
+          "file": "sprites/skill/phoenix/3.png",
+          "duration_ms": 100,
+          "origin": [
+            36,
+            174
+          ],
+          "source": "Skill.nx/312.img/skill/3121006/summon/fly/3"
+        },
+        {
+          "file": "sprites/skill/phoenix/4.png",
+          "duration_ms": 100,
+          "origin": [
+            45,
+            131
+          ],
+          "source": "Skill.nx/312.img/skill/3121006/summon/fly/4"
+        }
+      ],
+      "source_skill_id": 3121006,
+      "name": "火凤凰",
+      "default_facing": "left"
+    },
+    "skill.nova": {
+      "frames": [
+        {
+          "file": "sprites/skill/dragon_roar/0.png",
+          "duration_ms": 80,
+          "origin": [
+            89,
+            136
+          ],
+          "source": "Skill.nx/131.img/skill/1311006/effect/0"
+        },
+        {
+          "file": "sprites/skill/dragon_roar/1.png",
+          "duration_ms": 80,
+          "origin": [
+            83,
+            130
+          ],
+          "source": "Skill.nx/131.img/skill/1311006/effect/1"
+        },
+        {
+          "file": "sprites/skill/dragon_roar/2.png",
+          "duration_ms": 80,
+          "origin": [
+            109,
+            154
+          ],
+          "source": "Skill.nx/131.img/skill/1311006/effect/2"
+        },
+        {
+          "file": "sprites/skill/dragon_roar/3.png",
+          "duration_ms": 80,
+          "origin": [
+            105,
+            152
+          ],
+          "source": "Skill.nx/131.img/skill/1311006/effect/3"
+        },
+        {
+          "file": "sprites/skill/dragon_roar/4.png",
+          "duration_ms": 80,
+          "origin": [
+            99,
+            151
+          ],
+          "source": "Skill.nx/131.img/skill/1311006/effect/4"
+        },
+        {
+          "file": "sprites/skill/dragon_roar/5.png",
+          "duration_ms": 80,
+          "origin": [
+            100,
+            147
+          ],
+          "source": "Skill.nx/131.img/skill/1311006/effect/5"
+        },
+        {
+          "file": "sprites/skill/dragon_roar/6.png",
+          "duration_ms": 80,
+          "origin": [
+            101,
+            131
+          ],
+          "source": "Skill.nx/131.img/skill/1311006/effect/6"
+        },
+        {
+          "file": "sprites/skill/dragon_roar/7.png",
+          "duration_ms": 80,
+          "origin": [
+            105,
+            131
+          ],
+          "source": "Skill.nx/131.img/skill/1311006/effect/7"
+        },
+        {
+          "file": "sprites/skill/dragon_roar/8.png",
+          "duration_ms": 80,
+          "origin": [
+            108,
+            131
+          ],
+          "source": "Skill.nx/131.img/skill/1311006/effect/8"
+        },
+        {
+          "file": "sprites/skill/dragon_roar/9.png",
+          "duration_ms": 80,
+          "origin": [
+            109,
+            143
+          ],
+          "source": "Skill.nx/131.img/skill/1311006/effect/9"
+        },
+        {
+          "file": "sprites/skill/dragon_roar/10.png",
+          "duration_ms": 80,
+          "origin": [
+            107,
+            131
+          ],
+          "source": "Skill.nx/131.img/skill/1311006/effect/10"
+        },
+        {
+          "file": "sprites/skill/dragon_roar/11.png",
+          "duration_ms": 80,
+          "origin": [
+            107,
+            138
+          ],
+          "source": "Skill.nx/131.img/skill/1311006/effect/11"
+        },
+        {
+          "file": "sprites/skill/dragon_roar/12.png",
+          "duration_ms": 80,
+          "origin": [
+            107,
+            151
+          ],
+          "source": "Skill.nx/131.img/skill/1311006/effect/12"
+        },
+        {
+          "file": "sprites/skill/dragon_roar/13.png",
+          "duration_ms": 80,
+          "origin": [
+            110,
+            156
+          ],
+          "source": "Skill.nx/131.img/skill/1311006/effect/13"
+        },
+        {
+          "file": "sprites/skill/dragon_roar/14.png",
+          "duration_ms": 80,
+          "origin": [
+            120,
+            172
+          ],
+          "source": "Skill.nx/131.img/skill/1311006/effect/14"
+        },
+        {
+          "file": "sprites/skill/dragon_roar/15.png",
+          "duration_ms": 80,
+          "origin": [
+            104,
+            140
+          ],
+          "source": "Skill.nx/131.img/skill/1311006/effect/15"
+        },
+        {
+          "file": "sprites/skill/dragon_roar/16.png",
+          "duration_ms": 80,
+          "origin": [
+            100,
+            147
+          ],
+          "source": "Skill.nx/131.img/skill/1311006/effect/16"
+        },
+        {
+          "file": "sprites/skill/dragon_roar/17.png",
+          "duration_ms": 80,
+          "origin": [
+            108,
+            155
+          ],
+          "source": "Skill.nx/131.img/skill/1311006/effect/17"
+        }
+      ],
+      "source_skill_id": 1311006,
+      "name": "龙咆哮"
+    }
+  }
+}

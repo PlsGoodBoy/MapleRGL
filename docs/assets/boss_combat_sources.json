@@ -1,0 +1,515 @@
+[
+  {
+    "actor": "boss",
+    "source": "Mob.nx/6130101.img",
+    "action_by_move": [
+      1,
+      1,
+      1
+    ],
+    "source_release_seconds": [
+      1.05,
+      1.05,
+      1.05
+    ],
+    "original_info": {
+      "1": 1.05
+    },
+    "projectile": "battle.shot.arcane",
+    "impact": "battle.hostile.boss.hit",
+    "correspondence": "thematic substitute",
+    "timing": "Original release pose is aligned with the authored warning; released attacks use combat time."
+  },
+  {
+    "actor": "boss_stumpy",
+    "source": "Mob.nx/3220000.img",
+    "action_by_move": [
+      1,
+      2,
+      1
+    ],
+    "source_release_seconds": [
+      1.5,
+      1.32,
+      1.5
+    ],
+    "original_info": {
+      "1": 1.5,
+      "2": 1.32
+    },
+    "projectile": "battle.hostile.boss_stumpy.ball",
+    "impact": "battle.hostile.boss_stumpy.hit",
+    "correspondence": "exact",
+    "timing": "Original release pose is aligned with the authored warning; released attacks use combat time."
+  },
+  {
+    "actor": "boss_king_slime",
+    "source": "Mob.nx/9300003.img",
+    "action_by_move": [
+      1,
+      2,
+      1
+    ],
+    "source_release_seconds": [
+      0.9,
+      0,
+      0.9
+    ],
+    "original_info": {
+      "1": 0.9
+    },
+    "projectile": "battle.shot.bubble",
+    "impact": "battle.hostile.boss_king_slime.hit",
+    "correspondence": "thematic substitute",
+    "timing": "Original release pose is aligned with the authored warning; released attacks use combat time."
+  },
+  {
+    "actor": "boss_snail_king",
+    "source": "Mob.nx/2220000.img",
+    "action_by_move": [
+      1,
+      1,
+      1
+    ],
+    "source_release_seconds": [
+      0,
+      0,
+      0
+    ],
+    "original_info": {},
+    "projectile": "battle.shot.seed",
+    "impact": "battle.shot.seed.hit",
+    "correspondence": "thematic substitute",
+    "timing": "Original release pose is aligned with the authored warning; released attacks use combat time."
+  },
+  {
+    "actor": "boss_golem",
+    "source": "Mob.nx/8210005.img",
+    "action_by_move": [
+      1,
+      1,
+      1
+    ],
+    "source_release_seconds": [
+      1.62,
+      1.62,
+      1.62
+    ],
+    "original_info": {
+      "1": 1.62
+    },
+    "projectile": "battle.shot.arcane",
+    "impact": "battle.hostile.boss_golem.hit",
+    "correspondence": "thematic substitute",
+    "timing": "Original release pose is aligned with the authored warning; released attacks use combat time."
+  },
+  {
+    "actor": "boss_balrog",
+    "source": "Mob.nx/8150000.img",
+    "action_by_move": [
+      1,
+      2,
+      1
+    ],
+    "source_release_seconds": [
+      0.4,
+      0.72,
+      0.4
+    ],
+    "original_info": {
+      "1": 0.4,
+      "2": 0.72
+    },
+    "projectile": "battle.hostile.boss_balrog.ball",
+    "impact": "battle.hostile.boss_balrog.hit",
+    "correspondence": "exact",
+    "timing": "Original release pose is aligned with the authored warning; released attacks use combat time."
+  },
+  {
+    "actor": "boss_snowman",
+    "source": "Mob.nx/8220001.img",
+    "action_by_move": [
+      1,
+      2,
+      1
+    ],
+    "source_release_seconds": [
+      1.2,
+      0,
+      1.2
+    ],
+    "original_info": {
+      "1": 1.2
+    },
+    "projectile": "battle.hostile.boss_snowman.ball",
+    "impact": "battle.hostile.boss_snowman.hit",
+    "correspondence": "exact",
+    "timing": "Original release pose is aligned with the authored warning; released attacks use combat time."
+  },
+  {
+    "actor": "boss_pirate",
+    "source": "Mob.nx/9300119.img",
+    "action_by_move": [
+      1,
+      2,
+      1
+    ],
+    "source_release_seconds": [
+      0.99,
+      0,
+      0.99
+    ],
+    "original_info": {
+      "1": 0.99
+    },
+    "projectile": "battle.shot.rocket",
+    "impact": "battle.hostile.boss_pirate.hit",
+    "correspondence": "thematic substitute",
+    "timing": "Original release pose is aligned with the authored warning; released attacks use combat time."
+  },
+  {
+    "actor": "boss_clockwork",
+    "source": "Mob.nx/8500001.img",
+    "action_by_move": [
+      1,
+      2,
+      3
+    ],
+    "source_release_seconds": [
+      1.26,
+      0.81,
+      0.0
+    ],
+    "original_info": {
+      "1": 1.26,
+      "2": 0.81,
+      "3": 0.0
+    },
+    "projectile": "battle.shot.rocket",
+    "impact": "battle.hostile.boss_clockwork.hit",
+    "correspondence": "thematic substitute",
+    "timing": "Original release pose is aligned with the authored warning; released attacks use combat time."
+  },
+  {
+    "actor": "boss_leviathan",
+    "source": "Mob.nx/8220003.img",
+    "action_by_move": [
+      1,
+      2,
+      1
+    ],
+    "source_release_seconds": [
+      1.8,
+      1.44,
+      1.8
+    ],
+    "original_info": {
+      "1": 1.8,
+      "2": 1.44
+    },
+    "projectile": "battle.shot.arcane",
+    "impact": "battle.hostile.boss_leviathan.hit",
+    "correspondence": "thematic substitute",
+    "timing": "Original release pose is aligned with the authored warning; released attacks use combat time."
+  },
+  {
+    "actor": "boss_cactus",
+    "source": "Mob.nx/3220001.img",
+    "action_by_move": [
+      1,
+      2,
+      1
+    ],
+    "source_release_seconds": [
+      1.08,
+      0,
+      1.08
+    ],
+    "original_info": {
+      "1": 1.08
+    },
+    "projectile": "battle.shot.seed",
+    "impact": "battle.hostile.boss_cactus.hit",
+    "correspondence": "thematic substitute",
+    "timing": "Original release pose is aligned with the authored warning; released attacks use combat time."
+  },
+  {
+    "actor": "boss_faust",
+    "source": "Mob.nx/5220002.img",
+    "action_by_move": [
+      1,
+      2,
+      1
+    ],
+    "source_release_seconds": [
+      1.5,
+      0,
+      1.5
+    ],
+    "original_info": {
+      "1": 1.5
+    },
+    "projectile": "battle.hostile.boss_faust.ball",
+    "impact": "battle.hostile.boss_faust.hit",
+    "correspondence": "exact",
+    "timing": "Original release pose is aligned with the authored warning; released attacks use combat time."
+  },
+  {
+    "actor": "boss_giant_crab",
+    "source": "Mob.nx/5220000.img",
+    "action_by_move": [
+      1,
+      1,
+      1
+    ],
+    "source_release_seconds": [
+      1.2,
+      1.2,
+      1.2
+    ],
+    "original_info": {
+      "1": 1.2
+    },
+    "projectile": "battle.shot.bubble",
+    "impact": "battle.hostile.boss_giant_crab.hit",
+    "correspondence": "thematic substitute",
+    "timing": "Original release pose is aligned with the authored warning; released attacks use combat time."
+  },
+  {
+    "actor": "boss_doll_robot",
+    "source": "Mob.nx/6220000.img",
+    "action_by_move": [
+      0,
+      0,
+      0
+    ],
+    "source_release_seconds": [
+      0,
+      0,
+      0
+    ],
+    "original_info": {},
+    "projectile": "battle.shot.rocket",
+    "impact": "battle.shot.rocket.hit",
+    "correspondence": "thematic substitute",
+    "timing": "Original release pose is aligned with the authored warning; released attacks use combat time."
+  },
+  {
+    "actor": "boss_zeno",
+    "source": "Mob.nx/6220001.img",
+    "action_by_move": [
+      1,
+      1,
+      1
+    ],
+    "source_release_seconds": [
+      1.08,
+      1.08,
+      1.08
+    ],
+    "original_info": {
+      "1": 1.08
+    },
+    "projectile": "battle.shot.rocket",
+    "impact": "battle.hostile.boss_zeno.hit",
+    "correspondence": "thematic substitute",
+    "timing": "Original release pose is aligned with the authored warning; released attacks use combat time."
+  },
+  {
+    "actor": "boss_tae_roon",
+    "source": "Mob.nx/7220000.img",
+    "action_by_move": [
+      1,
+      2,
+      1
+    ],
+    "source_release_seconds": [
+      1.2,
+      1.68,
+      1.2
+    ],
+    "original_info": {
+      "1": 1.2,
+      "2": 1.68
+    },
+    "projectile": "battle.hostile.boss_tae_roon.ball",
+    "impact": "battle.hostile.boss_tae_roon.hit",
+    "correspondence": "exact",
+    "timing": "Original release pose is aligned with the authored warning; released attacks use combat time."
+  },
+  {
+    "actor": "boss_nine_tail",
+    "source": "Mob.nx/7220001.img",
+    "action_by_move": [
+      1,
+      1,
+      1
+    ],
+    "source_release_seconds": [
+      1.44,
+      1.44,
+      1.44
+    ],
+    "original_info": {
+      "1": 1.44
+    },
+    "projectile": "battle.shot.arcane",
+    "impact": "battle.hostile.boss_nine_tail.hit",
+    "correspondence": "thematic substitute",
+    "timing": "Original release pose is aligned with the authored warning; released attacks use combat time."
+  },
+  {
+    "actor": "boss_eliza",
+    "source": "Mob.nx/8220000.img",
+    "action_by_move": [
+      1,
+      1,
+      1
+    ],
+    "source_release_seconds": [
+      1.2,
+      1.2,
+      1.2
+    ],
+    "original_info": {
+      "1": 1.2
+    },
+    "projectile": "battle.shot.seed",
+    "impact": "battle.hostile.boss_eliza.hit",
+    "correspondence": "thematic substitute",
+    "timing": "Original release pose is aligned with the authored warning; released attacks use combat time."
+  },
+  {
+    "actor": "boss_chimera",
+    "source": "Mob.nx/8220002.img",
+    "action_by_move": [
+      1,
+      1,
+      1
+    ],
+    "source_release_seconds": [
+      1.2,
+      1.2,
+      1.2
+    ],
+    "original_info": {
+      "1": 1.2
+    },
+    "projectile": "battle.hostile.boss_chimera.ball",
+    "impact": "battle.hostile.boss_chimera.hit",
+    "correspondence": "exact",
+    "timing": "Original release pose is aligned with the authored warning; released attacks use combat time."
+  },
+  {
+    "actor": "boss_dodo",
+    "source": "Mob.nx/8220004.img",
+    "action_by_move": [
+      1,
+      2,
+      1
+    ],
+    "source_release_seconds": [
+      1.05,
+      0.96,
+      1.05
+    ],
+    "original_info": {
+      "1": 1.05,
+      "2": 0.96
+    },
+    "projectile": "battle.hostile.boss_dodo.ball",
+    "impact": "battle.hostile.boss_dodo.hit",
+    "correspondence": "exact",
+    "timing": "Original release pose is aligned with the authored warning; released attacks use combat time."
+  },
+  {
+    "actor": "boss_lilynouch",
+    "source": "Mob.nx/8220005.img",
+    "action_by_move": [
+      1,
+      2,
+      1
+    ],
+    "source_release_seconds": [
+      1.25,
+      1.71,
+      1.25
+    ],
+    "original_info": {
+      "1": 1.25,
+      "2": 1.71
+    },
+    "projectile": "battle.shot.snow",
+    "impact": "battle.hostile.boss_lilynouch.hit",
+    "correspondence": "thematic substitute",
+    "timing": "Original release pose is aligned with the authored warning; released attacks use combat time."
+  },
+  {
+    "actor": "boss_lyka",
+    "source": "Mob.nx/8220006.img",
+    "action_by_move": [
+      1,
+      2,
+      1
+    ],
+    "source_release_seconds": [
+      1.26,
+      0.96,
+      1.26
+    ],
+    "original_info": {
+      "1": 1.26,
+      "2": 0.96
+    },
+    "projectile": "battle.shot.arcane",
+    "impact": "battle.hostile.boss_lyka.hit",
+    "correspondence": "thematic substitute",
+    "timing": "Original release pose is aligned with the authored warning; released attacks use combat time."
+  },
+  {
+    "actor": "boss_manon",
+    "source": "Mob.nx/8180000.img",
+    "action_by_move": [
+      1,
+      2,
+      3
+    ],
+    "source_release_seconds": [
+      1.75,
+      1.04,
+      0.65
+    ],
+    "original_info": {
+      "1": 1.75,
+      "2": 1.04,
+      "3": 0.65
+    },
+    "projectile": "battle.shot.fire",
+    "impact": "battle.hostile.boss_manon.hit",
+    "correspondence": "thematic substitute",
+    "timing": "Original release pose is aligned with the authored warning; released attacks use combat time."
+  },
+  {
+    "actor": "boss_griffey",
+    "source": "Mob.nx/8180001.img",
+    "action_by_move": [
+      1,
+      2,
+      3
+    ],
+    "source_release_seconds": [
+      0.7,
+      0.4,
+      0.4
+    ],
+    "original_info": {
+      "1": 0.7,
+      "2": 0.4,
+      "3": 0.4
+    },
+    "projectile": "battle.shot.arcane",
+    "impact": "battle.hostile.boss_griffey.hit",
+    "correspondence": "thematic substitute",
+    "timing": "Original release pose is aligned with the authored warning; released attacks use combat time."
+  }
+]

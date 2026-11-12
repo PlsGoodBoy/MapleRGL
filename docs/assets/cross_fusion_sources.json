@@ -1,0 +1,187 @@
+{
+  "schema_version": 1,
+  "resource_status": "exported_only",
+  "visuals": {},
+  "source_archives": {
+    "Skill.nx": {
+      "size_bytes": 203563946,
+      "mtime_ns": 1791432019851882000
+    },
+    "String.nx": {
+      "size_bytes": 370411333,
+      "mtime_ns": 1791433086967351100
+    }
+  },
+  "validation": {
+    "sprite_keys": 15,
+    "pngs": 15,
+    "png_bytes": 13009,
+    "rgba_bytes": 61440,
+    "all_pngs_pixel_equal": true,
+    "original_archives_size_mtime_unchanged": true,
+    "skill_icons": 15,
+    "effect_sequences": 0
+  },
+  "notes": [
+    "Original NX archives were opened read-only; original PNG pixels, sizes, origins, delays and alpha endpoints are retained.",
+    "Only the named candidates are inspected and exported. No full archive bitmap scan.",
+    "Contact sheets are inspection artifacts, not runtime UI assets.",
+    "MapleStory source artwork belongs to its rights holders; this personal prototype does not establish redistribution rights.",
+    "Resource export is not a claim that combat behavior, official pools or visual gameplay acceptance are complete.",
+    "Effect reuse is a resource suggestion only; original skill mechanisms, fusion timing and new behavior are not imported or implemented by these references."
+  ],
+  "suggested_effect_reuse": {
+    "thunder_prison": [
+      "skill.blade_wave",
+      "skill.lightning"
+    ],
+    "frost_armor": [
+      "skill.holy_shield.cast",
+      "skill.frost_hit"
+    ],
+    "miasma_dragon": [
+      "skill.dragon_thrust.cast",
+      "skill.poison_mist.zone"
+    ],
+    "divine_verdict": [
+      "skill.judgement.cast",
+      "skill.holy_light.cast"
+    ],
+    "frozen_dragon_spear": [
+      "skill.spear_combo.thrust",
+      "skill.ice_lance.hit"
+    ],
+    "phoenix_assault": [
+      "skill.charge",
+      "skill.summon"
+    ],
+    "mirror_shield": [
+      "skill.holy_shield.cast",
+      "skill.arrow"
+    ],
+    "dragon_breaker": [
+      "skill.nova",
+      "skill.sniper.projectile"
+    ],
+    "fissure_arrows": [
+      "skill.earth_shatter.impact",
+      "skill.rain"
+    ],
+    "spear_bolt": [
+      "skill.spear_combo.thrust",
+      "skill.pierce"
+    ],
+    "storm_arrow_stream": [
+      "skill.storm_shot.cast",
+      "skill.lightning"
+    ],
+    "poison_hunting_ground": [
+      "skill.decoy.idle",
+      "skill.poison_mist.zone"
+    ],
+    "dragon_phoenix": [
+      "skill.holy_dragon.move",
+      "skill.summon"
+    ],
+    "glacial_sniper": [
+      "skill.sniper.projectile",
+      "skill.ice_arrow.hit"
+    ],
+    "flowing_fire": [
+      "skill.flame_dance.cast",
+      "skill.blast_arrow.hit"
+    ]
+  },
+  "sequences": [
+    {
+      "key": "skill.icon.thunder_prison",
+      "source": "Skill.nx/121.img/skill/1211007/icon",
+      "frames": 1,
+      "duration_ms": 100
+    },
+    {
+      "key": "skill.icon.frost_armor",
+      "source": "Skill.nx/200.img/skill/2001002/icon",
+      "frames": 1,
+      "duration_ms": 100
+    },
+    {
+      "key": "skill.icon.miasma_dragon",
+      "source": "Skill.nx/131.img/skill/1311008/icon",
+      "frames": 1,
+      "duration_ms": 100
+    },
+    {
+      "key": "skill.icon.divine_verdict",
+      "source": "Skill.nx/232.img/skill/2321008/icon",
+      "frames": 1,
+      "duration_ms": 100
+    },
+    {
+      "key": "skill.icon.frozen_dragon_spear",
+      "source": "Skill.nx/121.img/skill/1211005/icon",
+      "frames": 1,
+      "duration_ms": 100
+    },
+    {
+      "key": "skill.icon.phoenix_assault",
+      "source": "Skill.nx/521.img/skill/5211002/icon",
+      "frames": 1,
+      "duration_ms": 100
+    },
+    {
+      "key": "skill.icon.mirror_shield",
+      "source": "Skill.nx/100.img/skill/1001003/icon",
+      "frames": 1,
+      "duration_ms": 100
+    },
+    {
+      "key": "skill.icon.dragon_breaker",
+      "source": "Skill.nx/111.img/skill/1111008/icon",
+      "frames": 1,
+      "duration_ms": 100
+    },
+    {
+      "key": "skill.icon.fissure_arrows",
+      "source": "Skill.nx/321.img/skill/3211004/icon",
+      "frames": 1,
+      "duration_ms": 100
+    },
+    {
+      "key": "skill.icon.spear_bolt",
+      "source": "Skill.nx/130.img/skill/1300000/icon",
+      "frames": 1,
+      "duration_ms": 100
+    },
+    {
+      "key": "skill.icon.storm_arrow_stream",
+      "source": "Skill.nx/222.img/skill/2221004/icon",
+      "frames": 1,
+      "duration_ms": 100
+    },
+    {
+      "key": "skill.icon.poison_hunting_ground",
+      "source": "Skill.nx/422.img/skill/4221006/icon",
+      "frames": 1,
+      "duration_ms": 100
+    },
+    {
+      "key": "skill.icon.dragon_phoenix",
+      "source": "Skill.nx/1200.img/skill/12001004/icon",
+      "frames": 1,
+      "duration_ms": 100
+    },
+    {
+      "key": "skill.icon.glacial_sniper",
+      "source": "Skill.nx/221.img/skill/2211006/icon",
+      "frames": 1,
+      "duration_ms": 100
+    },
+    {
+      "key": "skill.icon.flowing_fire",
+      "source": "Skill.nx/1211.img/skill/12111003/icon",
+      "frames": 1,
+      "duration_ms": 100
+    }
+  ]
+}

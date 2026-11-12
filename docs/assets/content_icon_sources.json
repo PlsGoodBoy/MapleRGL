@@ -1,0 +1,160 @@
+{
+  "version": 1,
+  "source_archives": {
+    "Skill.nx": {
+      "size_bytes": 203563946,
+      "mtime_ns": 1791432019851882000
+    },
+    "String.nx": {
+      "size_bytes": 370411333,
+      "mtime_ns": 1791433086967351100
+    }
+  },
+  "validation": {
+    "original_archives_unchanged": true,
+    "all_pngs_pixel_equal": true,
+    "unique_pngs": 12,
+    "sprite_keys": 12
+  },
+  "notes": [
+    "Genuine skill/inventory icon canvases; no effect-frame thumbnails or cropped character artwork.",
+    "RGBA and original dimensions retained. HUD display origin is centered; original origin is in source_origin.",
+    "Source names identify original art only; MapleRGL names and mechanics are custom.",
+    "The content pack contains six base-skill and six fusion-result icons. All twelve source icons are distinct from each other and from the previous twenty-one skill icons.",
+    "Contact sheet is an inspection artifact only and is not loaded by the game."
+  ],
+  "icons": [
+    {
+      "key": "skill.icon.hunter_mark",
+      "game_name": "猎手标记",
+      "source": "Skill.nx/322.img/skill/3221007/icon",
+      "file": "sprites/skill_icons/skill/icon/hunter_mark/0.png",
+      "size": [
+        32,
+        32
+      ],
+      "rgba_sha256": "c98c59e545a6d5109afb9e5fd02b3e4eff84c171970cd62b188666a3a54f79e6"
+    },
+    {
+      "key": "skill.icon.arrow_trap",
+      "game_name": "箭矢陷阱",
+      "source": "Skill.nx/320.img/skill/3201005/icon",
+      "file": "sprites/skill_icons/skill/icon/arrow_trap/0.png",
+      "size": [
+        32,
+        32
+      ],
+      "rgba_sha256": "b068ab1732a6c37365ef4df19b56efe70258e01a4e195e9d2dd321f5e9ed1783"
+    },
+    {
+      "key": "skill.icon.orbital_orb",
+      "game_name": "环绕法球",
+      "source": "Skill.nx/231.img/skill/2311005/icon",
+      "file": "sprites/skill_icons/skill/icon/orbital_orb/0.png",
+      "size": [
+        32,
+        32
+      ],
+      "rgba_sha256": "d3113adbee60a0e0aaa029b0d9f38b5135853421189aae35f43ac59891f10461"
+    },
+    {
+      "key": "skill.icon.gravity_well",
+      "game_name": "牵引魔法",
+      "source": "Skill.nx/132.img/skill/1321001/icon",
+      "file": "sprites/skill_icons/skill/icon/gravity_well/0.png",
+      "size": [
+        32,
+        32
+      ],
+      "rgba_sha256": "4948ab2176f93b76f8ca722147023a4451e53ae27eb5f8057fddbaadd12ef3ce"
+    },
+    {
+      "key": "skill.icon.heavy_strike",
+      "game_name": "蓄势重斩",
+      "source": "Skill.nx/111.img/skill/1111003/icon",
+      "file": "sprites/skill_icons/skill/icon/heavy_strike/0.png",
+      "size": [
+        32,
+        32
+      ],
+      "rgba_sha256": "2f0f5441d1a6cfec408a79e0b6c67e7c323e0285f3676e7c3f002e3142677feb"
+    },
+    {
+      "key": "skill.icon.bulwark",
+      "game_name": "蓄盾战意",
+      "source": "Skill.nx/112.img/skill/1120005/icon",
+      "file": "sprites/skill_icons/skill/icon/bulwark/0.png",
+      "size": [
+        32,
+        32
+      ],
+      "rgba_sha256": "ce623113093f00584f908d84ef71bd80c66e82c6921bb68c6584d07e8156c37a"
+    },
+    {
+      "key": "skill.icon.phoenix_rain",
+      "game_name": "焚天箭雨",
+      "source": "Skill.nx/311.img/skill/3111003/icon",
+      "file": "sprites/skill_icons/skill/icon/phoenix_rain/0.png",
+      "size": [
+        32,
+        32
+      ],
+      "rgba_sha256": "d6f405441dd4815098cddd53a3e00fd8350101da598185984e3f2443415da077"
+    },
+    {
+      "key": "skill.icon.hunter_volley",
+      "game_name": "追猎箭阵",
+      "source": "Skill.nx/312.img/skill/3121004/icon",
+      "file": "sprites/skill_icons/skill/icon/hunter_volley/0.png",
+      "size": [
+        32,
+        32
+      ],
+      "rgba_sha256": "a0e7c1d6797a3e2c00c06660f6160269b34ac766eaf452d0422dc5dd7f52f022"
+    },
+    {
+      "key": "skill.icon.molten_star",
+      "game_name": "熔星灾变",
+      "source": "Skill.nx/1211.img/skill/12111006/icon",
+      "file": "sprites/skill_icons/skill/icon/molten_star/0.png",
+      "size": [
+        32,
+        32
+      ],
+      "rgba_sha256": "ab1ea791fa7bfb6486745e3f2940a7f9964fbaa5bc5ce2feb40ad227bf6de93a"
+    },
+    {
+      "key": "skill.icon.arcane_ring",
+      "game_name": "奥术星环",
+      "source": "Skill.nx/1211.img/skill/12111005/icon",
+      "file": "sprites/skill_icons/skill/icon/arcane_ring/0.png",
+      "size": [
+        32,
+        32
+      ],
+      "rgba_sha256": "c3df3d431cd2e6d4caa1a1aa118c558e17a5fa4da4d994a6067747db7dc20b71"
+    },
+    {
+      "key": "skill.icon.sword_cyclone",
+      "game_name": "万剑回旋",
+      "source": "Skill.nx/112.img/skill/1121008/icon",
+      "file": "sprites/skill_icons/skill/icon/sword_cyclone/0.png",
+      "size": [
+        32,
+        32
+      ],
+      "rgba_sha256": "c46ec234c16cd353afcad82b7249fa8fffee9b5350203c0948dd520ddb879705"
+    },
+    {
+      "key": "skill.icon.dash_breaker",
+      "game_name": "破阵连斩",
+      "source": "Skill.nx/1111.img/skill/11111006/icon",
+      "file": "sprites/skill_icons/skill/icon/dash_breaker/0.png",
+      "size": [
+        32,
+        32
+      ],
+      "rgba_sha256": "07de348b8dfeba7bc5270dcacba44056f3bb92447cafe01b279d13a38d5c6dc3"
+    }
+  ]
+}

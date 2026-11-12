@@ -1,0 +1,2698 @@
+{
+  "schema_version": 1,
+  "sprites": {
+    "prop_crate.idle": {
+      "name": "Wooden crate",
+      "source": "Reactor.nx/0002000.img/0",
+      "frames": [
+        {
+          "file": "sprites/scene_props/prop_crate/idle/0.png",
+          "duration_ms": 100,
+          "origin": [
+            24,
+            17
+          ],
+          "size": [
+            48,
+            34
+          ],
+          "source": "Reactor.nx/0002000.img/0/0",
+          "source_node_id": 2576,
+          "source_bitmap_id": 0,
+          "source_properties": {
+            "origin": [
+              24,
+              17
+            ],
+            "z": 0
+          },
+          "alpha_range": [
+            0,
+            255
+          ],
+          "alpha_nonzero_bounds": [
+            0,
+            0,
+            48,
+            34
+          ],
+          "alpha_coverage": {
+            "transparent_pixels": 76,
+            "partial_pixels": 134,
+            "opaque_pixels": 1422
+          },
+          "rgba_sha256": "33560db38a40d88cae14f7b0828e0e06fa2f41dbf99c6e6dce5a7c8aa658313c",
+          "png_sha256": "74b00ac9870b8907e8fb3681aa29f3101be5f5d2312d19f3990675ab841c223e",
+          "duration_note": "No source delay; 100 ms is a manifest compatibility value, not evidence of animation."
+        }
+      ],
+      "loop": false,
+      "total_duration_ms": 100,
+      "source_sequence_properties": {},
+      "source_origin_to_ground_px": [
+        0,
+        17
+      ],
+      "suggested_render_scale": 1.15,
+      "mechanics_note": "Source hit/final-hit artwork shows a wooden crate breaking. Prototype HP, blocking, drops and rewards are custom."
+    },
+    "prop_crate.hit": {
+      "name": "Wooden crate hit",
+      "source": "Reactor.nx/0002000.img/0/hit",
+      "frames": [
+        {
+          "file": "sprites/scene_props/prop_crate/hit/0.png",
+          "duration_ms": 150,
+          "origin": [
+            24,
+            17
+          ],
+          "size": [
+            48,
+            34
+          ],
+          "source": "Reactor.nx/0002000.img/0/hit/0",
+          "source_node_id": 7677,
+          "source_bitmap_id": 1705,
+          "source_properties": {
+            "delay": 150,
+            "origin": [
+              24,
+              17
+            ],
+            "z": 0
+          },
+          "alpha_range": [
+            0,
+            255
+          ],
+          "alpha_nonzero_bounds": [
+            0,
+            0,
+            48,
+            34
+          ],
+          "alpha_coverage": {
+            "transparent_pixels": 76,
+            "partial_pixels": 134,
+            "opaque_pixels": 1422
+          },
+          "rgba_sha256": "33560db38a40d88cae14f7b0828e0e06fa2f41dbf99c6e6dce5a7c8aa658313c",
+          "png_sha256": "74b00ac9870b8907e8fb3681aa29f3101be5f5d2312d19f3990675ab841c223e"
+        },
+        {
+          "file": "sprites/scene_props/prop_crate/hit/1.png",
+          "duration_ms": 150,
+          "origin": [
+            32,
+            31
+          ],
+          "size": [
+            65,
+            48
+          ],
+          "source": "Reactor.nx/0002000.img/0/hit/1",
+          "source_node_id": 7678,
+          "source_bitmap_id": 1706,
+          "source_properties": {
+            "delay": 150,
+            "origin": [
+              32,
+              31
+            ],
+            "z": 0
+          },
+          "alpha_range": [
+            0,
+            255
+          ],
+          "alpha_nonzero_bounds": [
+            0,
+            0,
+            65,
+            48
+          ],
+          "alpha_coverage": {
+            "transparent_pixels": 1309,
+            "partial_pixels": 193,
+            "opaque_pixels": 1618
+          },
+          "rgba_sha256": "0183bf8ba55b21c9ec4e708896b543c30c538db708e065ed258b9d19b494779b",
+          "png_sha256": "26ff9c01549dec49d88d8ea829b0472d295fe8436380ca55e32d823a55915578"
+        }
+      ],
+      "loop": false,
+      "total_duration_ms": 300,
+      "source_sequence_properties": {},
+      "source_origin_to_ground_px": [
+        0,
+        17
+      ],
+      "suggested_render_scale": 1.15,
+      "mechanics_note": "Source hit/final-hit artwork shows a wooden crate breaking. Prototype HP, blocking, drops and rewards are custom."
+    },
+    "prop_crate.break": {
+      "name": "Wooden crate final hit and break",
+      "source": "Reactor.nx/0002000.img/3/hit",
+      "frames": [
+        {
+          "file": "sprites/scene_props/prop_crate/break/0.png",
+          "duration_ms": 150,
+          "origin": [
+            24,
+            17
+          ],
+          "size": [
+            48,
+            34
+          ],
+          "source": "Reactor.nx/0002000.img/3/hit/0",
+          "source_node_id": 7682,
+          "source_bitmap_id": 1705,
+          "source_properties": {
+            "delay": 150,
+            "origin": [
+              24,
+              17
+            ],
+            "z": 0
+          },
+          "alpha_range": [
+            0,
+            255
+          ],
+          "alpha_nonzero_bounds": [
+            0,
+            0,
+            48,
+            34
+          ],
+          "alpha_coverage": {
+            "transparent_pixels": 76,
+            "partial_pixels": 134,
+            "opaque_pixels": 1422
+          },
+          "rgba_sha256": "33560db38a40d88cae14f7b0828e0e06fa2f41dbf99c6e6dce5a7c8aa658313c",
+          "png_sha256": "74b00ac9870b8907e8fb3681aa29f3101be5f5d2312d19f3990675ab841c223e"
+        },
+        {
+          "file": "sprites/scene_props/prop_crate/break/1.png",
+          "duration_ms": 150,
+          "origin": [
+            32,
+            31
+          ],
+          "size": [
+            65,
+            48
+          ],
+          "source": "Reactor.nx/0002000.img/3/hit/1",
+          "source_node_id": 7683,
+          "source_bitmap_id": 1706,
+          "source_properties": {
+            "delay": 150,
+            "origin": [
+              32,
+              31
+            ],
+            "z": 0
+          },
+          "alpha_range": [
+            0,
+            255
+          ],
+          "alpha_nonzero_bounds": [
+            0,
+            0,
+            65,
+            48
+          ],
+          "alpha_coverage": {
+            "transparent_pixels": 1309,
+            "partial_pixels": 193,
+            "opaque_pixels": 1618
+          },
+          "rgba_sha256": "0183bf8ba55b21c9ec4e708896b543c30c538db708e065ed258b9d19b494779b",
+          "png_sha256": "26ff9c01549dec49d88d8ea829b0472d295fe8436380ca55e32d823a55915578"
+        },
+        {
+          "file": "sprites/scene_props/prop_crate/break/2.png",
+          "duration_ms": 150,
+          "origin": [
+            31,
+            31
+          ],
+          "size": [
+            66,
+            48
+          ],
+          "source": "Reactor.nx/0002000.img/3/hit/2",
+          "source_node_id": 7684,
+          "source_bitmap_id": 1707,
+          "source_properties": {
+            "delay": 150,
+            "origin": [
+              31,
+              31
+            ],
+            "z": 0
+          },
+          "alpha_range": [
+            0,
+            238
+          ],
+          "alpha_nonzero_bounds": [
+            0,
+            0,
+            66,
+            48
+          ],
+          "alpha_coverage": {
+            "transparent_pixels": 1033,
+            "partial_pixels": 2135,
+            "opaque_pixels": 0
+          },
+          "rgba_sha256": "cad49ef9cc563f81a4d5d747b0f6a3c0f24598d9f7aa074e897f7ae9575010b5",
+          "png_sha256": "c4e237fdd940d387797e8e43321fcb0a8995f977768733ba9038a3ae2bb1c3b0"
+        },
+        {
+          "file": "sprites/scene_props/prop_crate/break/3.png",
+          "duration_ms": 150,
+          "origin": [
+            34,
+            41
+          ],
+          "size": [
+            70,
+            58
+          ],
+          "source": "Reactor.nx/0002000.img/3/hit/3",
+          "source_node_id": 7685,
+          "source_bitmap_id": 1708,
+          "source_properties": {
+            "delay": 150,
+            "origin": [
+              34,
+              41
+            ],
+            "z": 0
+          },
+          "alpha_range": [
+            0,
+            170
+          ],
+          "alpha_nonzero_bounds": [
+            0,
+            0,
+            70,
+            58
+          ],
+          "alpha_coverage": {
+            "transparent_pixels": 1803,
+            "partial_pixels": 2257,
+            "opaque_pixels": 0
+          },
+          "rgba_sha256": "d8ea71a7500149ebc63b67f856e02601f3eb0bfd0379ac728d7bb5c766d60e9a",
+          "png_sha256": "6ca8b8ea43ad5fb3a62b2a6b5ea85d063d5f3a8a0ada0cacd70dc57df4c0733f"
+        },
+        {
+          "file": "sprites/scene_props/prop_crate/break/4.png",
+          "duration_ms": 150,
+          "origin": [
+            35,
+            44
+          ],
+          "size": [
+            71,
+            61
+          ],
+          "source": "Reactor.nx/0002000.img/3/hit/4",
+          "source_node_id": 7686,
+          "source_bitmap_id": 1709,
+          "source_properties": {
+            "delay": 150,
+            "origin": [
+              35,
+              44
+            ],
+            "z": 0
+          },
+          "alpha_range": [
+            0,
+            68
+          ],
+          "alpha_nonzero_bounds": [
+            0,
+            0,
+            71,
+            61
+          ],
+          "alpha_coverage": {
+            "transparent_pixels": 2017,
+            "partial_pixels": 2314,
+            "opaque_pixels": 0
+          },
+          "rgba_sha256": "3a9ac9353dfde03d565687847498d99620f32387bb13dc1a85ff2563cf18d21c",
+          "png_sha256": "5072de481373ec6bf908f9d5bbff18599f1bb082fc6bb51f561f2633a4eeb77a"
+        }
+      ],
+      "loop": false,
+      "total_duration_ms": 750,
+      "source_sequence_properties": {},
+      "source_origin_to_ground_px": [
+        0,
+        17
+      ],
+      "suggested_render_scale": 1.15,
+      "mechanics_note": "Source hit/final-hit artwork shows a wooden crate breaking. Prototype HP, blocking, drops and rewards are custom."
+    },
+    "prop_barrel.idle": {
+      "name": "Purple witch plant",
+      "source": "Reactor.nx/1072000.img/0",
+      "frames": [
+        {
+          "file": "sprites/scene_props/prop_barrel/idle/0.png",
+          "duration_ms": 100,
+          "origin": [
+            30,
+            34
+          ],
+          "size": [
+            61,
+            68
+          ],
+          "source": "Reactor.nx/1072000.img/0/0",
+          "source_node_id": 3278,
+          "source_bitmap_id": 307,
+          "source_properties": {
+            "origin": [
+              30,
+              34
+            ],
+            "z": 0
+          },
+          "alpha_range": [
+            0,
+            255
+          ],
+          "alpha_nonzero_bounds": [
+            0,
+            0,
+            61,
+            68
+          ],
+          "alpha_coverage": {
+            "transparent_pixels": 2260,
+            "partial_pixels": 612,
+            "opaque_pixels": 1276
+          },
+          "rgba_sha256": "e3340bf753daacec5608f7bf35d3e4dc6381b7cc87ffdf16a1d7bc652e50199e",
+          "png_sha256": "3dc9343ad6a026d713e17de339607b695d1a252872ddf60f5c675ab24f7fbfa1",
+          "duration_note": "No source delay; 100 ms is a manifest compatibility value, not evidence of animation."
+        }
+      ],
+      "loop": false,
+      "total_duration_ms": 100,
+      "source_sequence_properties": {},
+      "source_origin_to_ground_px": [
+        0,
+        34
+      ],
+      "suggested_render_scale": 0.9,
+      "mechanics_note": "The stable barrel key is an internal compatibility name. Artwork is a purple plant, not a barrel. Warning, explosion, damage and radius are custom mechanics; no original explosive behavior is claimed. Final source sequence is a hit and fade, not a source explosion."
+    },
+    "prop_barrel.hit": {
+      "name": "Purple plant hit",
+      "source": "Reactor.nx/1072000.img/0/hit",
+      "frames": [
+        {
+          "file": "sprites/scene_props/prop_barrel/hit/0.png",
+          "duration_ms": 120,
+          "origin": [
+            30,
+            34
+          ],
+          "size": [
+            61,
+            68
+          ],
+          "source": "Reactor.nx/1072000.img/0/hit/0",
+          "source_node_id": 8846,
+          "source_bitmap_id": 1981,
+          "source_properties": {
+            "delay": 120,
+            "origin": [
+              30,
+              34
+            ],
+            "z": 0
+          },
+          "alpha_range": [
+            0,
+            255
+          ],
+          "alpha_nonzero_bounds": [
+            0,
+            0,
+            61,
+            68
+          ],
+          "alpha_coverage": {
+            "transparent_pixels": 2260,
+            "partial_pixels": 612,
+            "opaque_pixels": 1276
+          },
+          "rgba_sha256": "e3340bf753daacec5608f7bf35d3e4dc6381b7cc87ffdf16a1d7bc652e50199e",
+          "png_sha256": "3dc9343ad6a026d713e17de339607b695d1a252872ddf60f5c675ab24f7fbfa1"
+        },
+        {
+          "file": "sprites/scene_props/prop_barrel/hit/1.png",
+          "duration_ms": 120,
+          "origin": [
+            44,
+            38
+          ],
+          "size": [
+            73,
+            72
+          ],
+          "source": "Reactor.nx/1072000.img/0/hit/1",
+          "source_node_id": 8847,
+          "source_bitmap_id": 1982,
+          "source_properties": {
+            "delay": 120,
+            "origin": [
+              44,
+              38
+            ],
+            "z": 0
+          },
+          "alpha_range": [
+            0,
+            255
+          ],
+          "alpha_nonzero_bounds": [
+            0,
+            0,
+            73,
+            72
+          ],
+          "alpha_coverage": {
+            "transparent_pixels": 3079,
+            "partial_pixels": 1065,
+            "opaque_pixels": 1112
+          },
+          "rgba_sha256": "75fa58a5ebfea2aa45a7da000db3043e7c87f80bf2ac20fc40b72d7e9235a654",
+          "png_sha256": "7ef31ff73c46a0a11cb1d33c8773730137200bf83dabfeaa362ce0e507fcdf1b"
+        },
+        {
+          "file": "sprites/scene_props/prop_barrel/hit/2.png",
+          "duration_ms": 120,
+          "origin": [
+            29,
+            34
+          ],
+          "size": [
+            62,
+            68
+          ],
+          "source": "Reactor.nx/1072000.img/0/hit/2",
+          "source_node_id": 8848,
+          "source_bitmap_id": 1983,
+          "source_properties": {
+            "delay": 120,
+            "origin": [
+              29,
+              34
+            ],
+            "z": 0
+          },
+          "alpha_range": [
+            0,
+            255
+          ],
+          "alpha_nonzero_bounds": [
+            0,
+            0,
+            62,
+            68
+          ],
+          "alpha_coverage": {
+            "transparent_pixels": 2263,
+            "partial_pixels": 804,
+            "opaque_pixels": 1149
+          },
+          "rgba_sha256": "79c48f1187294f0a1d507fc4a704f27fa31fb719c591897696aae0ec1dabd2a3",
+          "png_sha256": "e3e3b5f14179be183f300569d2e37a728abbb767f9330b7bb8bd498849c0a1ff"
+        },
+        {
+          "file": "sprites/scene_props/prop_barrel/hit/3.png",
+          "duration_ms": 120,
+          "origin": [
+            31,
+            34
+          ],
+          "size": [
+            60,
+            68
+          ],
+          "source": "Reactor.nx/1072000.img/0/hit/3",
+          "source_node_id": 8849,
+          "source_bitmap_id": 1984,
+          "source_properties": {
+            "delay": 120,
+            "origin": [
+              31,
+              34
+            ],
+            "z": 0
+          },
+          "alpha_range": [
+            0,
+            255
+          ],
+          "alpha_nonzero_bounds": [
+            0,
+            0,
+            60,
+            68
+          ],
+          "alpha_coverage": {
+            "transparent_pixels": 2016,
+            "partial_pixels": 927,
+            "opaque_pixels": 1137
+          },
+          "rgba_sha256": "06fac20399fe30e4814219245a623b6578e13ee627602dba9464ffc2565db02c",
+          "png_sha256": "0839b0b3ae6481e0ac5f4356bc97f655c40405377961feac1f357604dab64bf8"
+        },
+        {
+          "file": "sprites/scene_props/prop_barrel/hit/4.png",
+          "duration_ms": 120,
+          "origin": [
+            30,
+            34
+          ],
+          "size": [
+            61,
+            68
+          ],
+          "source": "Reactor.nx/1072000.img/0/hit/4",
+          "source_node_id": 8850,
+          "source_bitmap_id": 1985,
+          "source_properties": {
+            "delay": 120,
+            "origin": [
+              30,
+              34
+            ],
+            "z": 0
+          },
+          "alpha_range": [
+            0,
+            255
+          ],
+          "alpha_nonzero_bounds": [
+            0,
+            0,
+            61,
+            68
+          ],
+          "alpha_coverage": {
+            "transparent_pixels": 2259,
+            "partial_pixels": 618,
+            "opaque_pixels": 1271
+          },
+          "rgba_sha256": "ed9553bdb1ec5f9dd685cadb51c81e77b21d36714dfb830a1b41c1330d9170f0",
+          "png_sha256": "cda3c1877f29c02f73cc92b565d6e6f4869bddfe12434727c50d6a68a2812a5a"
+        }
+      ],
+      "loop": false,
+      "total_duration_ms": 600,
+      "source_sequence_properties": {},
+      "source_origin_to_ground_px": [
+        0,
+        34
+      ],
+      "suggested_render_scale": 0.9,
+      "mechanics_note": "The stable barrel key is an internal compatibility name. Artwork is a purple plant, not a barrel. Warning, explosion, damage and radius are custom mechanics; no original explosive behavior is claimed. Final source sequence is a hit and fade, not a source explosion."
+    },
+    "prop_barrel.break": {
+      "name": "Purple plant final hit and fade",
+      "source": "Reactor.nx/1072000.img/2/hit",
+      "frames": [
+        {
+          "file": "sprites/scene_props/prop_barrel/break/0.png",
+          "duration_ms": 120,
+          "origin": [
+            30,
+            34
+          ],
+          "size": [
+            61,
+            68
+          ],
+          "source": "Reactor.nx/1072000.img/2/hit/0",
+          "source_node_id": 8853,
+          "source_bitmap_id": 1981,
+          "source_properties": {
+            "delay": 120,
+            "origin": [
+              30,
+              34
+            ],
+            "z": 0
+          },
+          "alpha_range": [
+            0,
+            255
+          ],
+          "alpha_nonzero_bounds": [
+            0,
+            0,
+            61,
+            68
+          ],
+          "alpha_coverage": {
+            "transparent_pixels": 2260,
+            "partial_pixels": 612,
+            "opaque_pixels": 1276
+          },
+          "rgba_sha256": "e3340bf753daacec5608f7bf35d3e4dc6381b7cc87ffdf16a1d7bc652e50199e",
+          "png_sha256": "3dc9343ad6a026d713e17de339607b695d1a252872ddf60f5c675ab24f7fbfa1"
+        },
+        {
+          "file": "sprites/scene_props/prop_barrel/break/1.png",
+          "duration_ms": 120,
+          "origin": [
+            44,
+            38
+          ],
+          "size": [
+            73,
+            72
+          ],
+          "source": "Reactor.nx/1072000.img/2/hit/1",
+          "source_node_id": 8854,
+          "source_bitmap_id": 1982,
+          "source_properties": {
+            "delay": 120,
+            "origin": [
+              44,
+              38
+            ],
+            "z": 0
+          },
+          "alpha_range": [
+            0,
+            255
+          ],
+          "alpha_nonzero_bounds": [
+            0,
+            0,
+            73,
+            72
+          ],
+          "alpha_coverage": {
+            "transparent_pixels": 3079,
+            "partial_pixels": 1065,
+            "opaque_pixels": 1112
+          },
+          "rgba_sha256": "75fa58a5ebfea2aa45a7da000db3043e7c87f80bf2ac20fc40b72d7e9235a654",
+          "png_sha256": "7ef31ff73c46a0a11cb1d33c8773730137200bf83dabfeaa362ce0e507fcdf1b"
+        },
+        {
+          "file": "sprites/scene_props/prop_barrel/break/2.png",
+          "duration_ms": 120,
+          "origin": [
+            29,
+            34
+          ],
+          "size": [
+            62,
+            68
+          ],
+          "source": "Reactor.nx/1072000.img/2/hit/2",
+          "source_node_id": 8855,
+          "source_bitmap_id": 1983,
+          "source_properties": {
+            "delay": 120,
+            "origin": [
+              29,
+              34
+            ],
+            "z": 0
+          },
+          "alpha_range": [
+            0,
+            255
+          ],
+          "alpha_nonzero_bounds": [
+            0,
+            0,
+            62,
+            68
+          ],
+          "alpha_coverage": {
+            "transparent_pixels": 2263,
+            "partial_pixels": 804,
+            "opaque_pixels": 1149
+          },
+          "rgba_sha256": "79c48f1187294f0a1d507fc4a704f27fa31fb719c591897696aae0ec1dabd2a3",
+          "png_sha256": "e3e3b5f14179be183f300569d2e37a728abbb767f9330b7bb8bd498849c0a1ff"
+        },
+        {
+          "file": "sprites/scene_props/prop_barrel/break/3.png",
+          "duration_ms": 120,
+          "origin": [
+            31,
+            34
+          ],
+          "size": [
+            60,
+            68
+          ],
+          "source": "Reactor.nx/1072000.img/2/hit/3",
+          "source_node_id": 8856,
+          "source_bitmap_id": 1984,
+          "source_properties": {
+            "delay": 120,
+            "origin": [
+              31,
+              34
+            ],
+            "z": 0
+          },
+          "alpha_range": [
+            0,
+            255
+          ],
+          "alpha_nonzero_bounds": [
+            0,
+            0,
+            60,
+            68
+          ],
+          "alpha_coverage": {
+            "transparent_pixels": 2016,
+            "partial_pixels": 927,
+            "opaque_pixels": 1137
+          },
+          "rgba_sha256": "06fac20399fe30e4814219245a623b6578e13ee627602dba9464ffc2565db02c",
+          "png_sha256": "0839b0b3ae6481e0ac5f4356bc97f655c40405377961feac1f357604dab64bf8"
+        },
+        {
+          "file": "sprites/scene_props/prop_barrel/break/4.png",
+          "duration_ms": 120,
+          "origin": [
+            30,
+            34
+          ],
+          "size": [
+            61,
+            68
+          ],
+          "source": "Reactor.nx/1072000.img/2/hit/4",
+          "source_node_id": 8857,
+          "source_bitmap_id": 1985,
+          "source_properties": {
+            "delay": 120,
+            "origin": [
+              30,
+              34
+            ],
+            "z": 0
+          },
+          "alpha_range": [
+            0,
+            255
+          ],
+          "alpha_nonzero_bounds": [
+            0,
+            0,
+            61,
+            68
+          ],
+          "alpha_coverage": {
+            "transparent_pixels": 2259,
+            "partial_pixels": 618,
+            "opaque_pixels": 1271
+          },
+          "rgba_sha256": "ed9553bdb1ec5f9dd685cadb51c81e77b21d36714dfb830a1b41c1330d9170f0",
+          "png_sha256": "cda3c1877f29c02f73cc92b565d6e6f4869bddfe12434727c50d6a68a2812a5a"
+        },
+        {
+          "file": "sprites/scene_props/prop_barrel/break/5.png",
+          "duration_ms": 1000,
+          "origin": [
+            30,
+            34
+          ],
+          "size": [
+            61,
+            68
+          ],
+          "source": "Reactor.nx/1072000.img/2/hit/5",
+          "source_node_id": 8858,
+          "source_bitmap_id": 1986,
+          "source_properties": {
+            "a0": 255,
+            "a1": 0,
+            "delay": 1000,
+            "origin": [
+              30,
+              34
+            ],
+            "z": 0
+          },
+          "alpha_range": [
+            0,
+            255
+          ],
+          "alpha_nonzero_bounds": [
+            0,
+            0,
+            61,
+            68
+          ],
+          "alpha_coverage": {
+            "transparent_pixels": 2259,
+            "partial_pixels": 618,
+            "opaque_pixels": 1271
+          },
+          "rgba_sha256": "ed9553bdb1ec5f9dd685cadb51c81e77b21d36714dfb830a1b41c1330d9170f0",
+          "png_sha256": "cda3c1877f29c02f73cc92b565d6e6f4869bddfe12434727c50d6a68a2812a5a",
+          "alpha_start": 255,
+          "alpha_end": 0
+        }
+      ],
+      "loop": false,
+      "total_duration_ms": 1600,
+      "source_sequence_properties": {},
+      "source_origin_to_ground_px": [
+        0,
+        34
+      ],
+      "suggested_render_scale": 0.9,
+      "mechanics_note": "The stable barrel key is an internal compatibility name. Artwork is a purple plant, not a barrel. Warning, explosion, damage and radius are custom mechanics; no original explosive behavior is claimed. Final source sequence is a hit and fade, not a source explosion."
+    },
+    "prop_heal.idle": {
+      "name": "Glowing stone lantern",
+      "source": "Reactor.nx/2221001.img/0",
+      "frames": [
+        {
+          "file": "sprites/scene_props/prop_heal/idle/0.png",
+          "duration_ms": 100,
+          "origin": [
+            52,
+            139
+          ],
+          "size": [
+            104,
+            140
+          ],
+          "source": "Reactor.nx/2221001.img/0/0",
+          "source_node_id": 4378,
+          "source_bitmap_id": 562,
+          "source_properties": {
+            "origin": [
+              52,
+              139
+            ],
+            "z": 0
+          },
+          "alpha_range": [
+            0,
+            255
+          ],
+          "alpha_nonzero_bounds": [
+            0,
+            0,
+            104,
+            140
+          ],
+          "alpha_coverage": {
+            "transparent_pixels": 7222,
+            "partial_pixels": 2662,
+            "opaque_pixels": 4676
+          },
+          "rgba_sha256": "b2967ac9a9ea64221f9338f5cf2636ed833fde5db9fdc949a92de91bfea0231e",
+          "png_sha256": "40fff34bdea084b8cd9a1f6dc7718c8178cec2c5993df6250748cf2f93030f2a",
+          "duration_note": "No source delay; 100 ms is a manifest compatibility value, not evidence of animation."
+        }
+      ],
+      "loop": false,
+      "total_duration_ms": 100,
+      "source_sequence_properties": {},
+      "source_origin_to_ground_px": [
+        0,
+        1
+      ],
+      "suggested_render_scale": 0.5,
+      "mechanics_note": "Original lantern info describes a summoning reactor, not a healing device. Prototype healing, charges and green indicator are custom. Static source art has no hit/break animation in this pack."
+    },
+    "prop_mud.idle": {
+      "name": "Low swamp roots",
+      "source": "Map.nx/Obj/acc2.img/darkSwamp/foot/0",
+      "frames": [
+        {
+          "file": "sprites/scene_props/prop_mud/idle/0.png",
+          "duration_ms": 100,
+          "origin": [
+            473,
+            105
+          ],
+          "size": [
+            800,
+            210
+          ],
+          "source": "Map.nx/Obj/acc2.img/darkSwamp/foot/0/0",
+          "source_node_id": 2307423,
+          "source_bitmap_id": 20152,
+          "source_properties": {
+            "origin": [
+              473,
+              105
+            ],
+            "z": 0
+          },
+          "alpha_range": [
+            0,
+            255
+          ],
+          "alpha_nonzero_bounds": [
+            0,
+            0,
+            800,
+            210
+          ],
+          "alpha_coverage": {
+            "transparent_pixels": 119427,
+            "partial_pixels": 10392,
+            "opaque_pixels": 38181
+          },
+          "rgba_sha256": "84d7d06a66b738df0ef55fd265d225842d4a3dde90a567508e797726e76f1bf6",
+          "png_sha256": "cc24b7c28c8f68a0ec1001a92b4b6a09daa8544323cffe99e61a6c0ad6df78cb",
+          "duration_note": "No source delay; 100 ms is a manifest compatibility value, not evidence of animation."
+        }
+      ],
+      "loop": false,
+      "total_duration_ms": 100,
+      "source_sequence_properties": {},
+      "source_origin_to_ground_px": [
+        -73,
+        105
+      ],
+      "suggested_render_scale": 0.185,
+      "mechanics_note": "Original side-view low swamp-root art is a marker for a custom circular mud zone. It is not a top-down mud texture. Draw the gameplay circle separately; custom slowdown is not source behavior. No source map placement is claimed."
+    },
+    "boss_stumpy.move": {
+      "name": "Stumpy move",
+      "source": "Mob.nx/3220000.img/move",
+      "frames": [
+        {
+          "file": "sprites/scene_props/boss_stumpy/move/0.png",
+          "duration_ms": 120,
+          "origin": [
+            91,
+            176
+          ],
+          "size": [
+            181,
+            177
+          ],
+          "source": "Mob.nx/3220000.img/move/0",
+          "source_node_id": 17521,
+          "source_bitmap_id": 2425,
+          "source_properties": {
+            "delay": 120,
+            "head": [
+              -6,
+              -123
+            ],
+            "lt": [
+              -59,
+              -123
+            ],
+            "origin": [
+              91,
+              176
+            ],
+            "rb": [
+              60,
+              0
+            ]
+          },
+          "alpha_range": [
+            0,
+            255
+          ],
+          "alpha_nonzero_bounds": [
+            0,
+            0,
+            181,
+            177
+          ],
+          "alpha_coverage": {
+            "transparent_pixels": 22343,
+            "partial_pixels": 0,
+            "opaque_pixels": 9694
+          },
+          "rgba_sha256": "f53474eb16fdc520bf4d1634cbaaff30b4794b603e4bee2cb836058429c72b3c",
+          "png_sha256": "1beb15c2e8b2d1d30e2c491589dfd66ee992fa62cb15b769fcfc12594096bcb1"
+        },
+        {
+          "file": "sprites/scene_props/boss_stumpy/move/1.png",
+          "duration_ms": 120,
+          "origin": [
+            91,
+            177
+          ],
+          "size": [
+            180,
+            177
+          ],
+          "source": "Mob.nx/3220000.img/move/1",
+          "source_node_id": 17522,
+          "source_bitmap_id": 2426,
+          "source_properties": {
+            "delay": 120,
+            "head": [
+              -6,
+              -124
+            ],
+            "lt": [
+              -59,
+              -122
+            ],
+            "origin": [
+              91,
+              177
+            ],
+            "rb": [
+              57,
+              5
+            ]
+          },
+          "alpha_range": [
+            0,
+            255
+          ],
+          "alpha_nonzero_bounds": [
+            0,
+            0,
+            180,
+            177
+          ],
+          "alpha_coverage": {
+            "transparent_pixels": 22196,
+            "partial_pixels": 0,
+            "opaque_pixels": 9664
+          },
+          "rgba_sha256": "9e2baa27f418c859f584f0ea90d8fb95e5d57314a335bbfe27b299b89758d06b",
+          "png_sha256": "1afab3ee2b292933ca3d3d246ecde195fd4256429a6e3ef6b72bc50fef88b94f"
+        },
+        {
+          "file": "sprites/scene_props/boss_stumpy/move/2.png",
+          "duration_ms": 120,
+          "origin": [
+            91,
+            178
+          ],
+          "size": [
+            176,
+            178
+          ],
+          "source": "Mob.nx/3220000.img/move/2",
+          "source_node_id": 17523,
+          "source_bitmap_id": 2427,
+          "source_properties": {
+            "delay": 120,
+            "head": [
+              -6,
+              -122
+            ],
+            "lt": [
+              -59,
+              -118
+            ],
+            "origin": [
+              91,
+              178
+            ],
+            "rb": [
+              57,
+              0
+            ]
+          },
+          "alpha_range": [
+            0,
+            255
+          ],
+          "alpha_nonzero_bounds": [
+            0,
+            0,
+            176,
+            178
+          ],
+          "alpha_coverage": {
+            "transparent_pixels": 21746,
+            "partial_pixels": 0,
+            "opaque_pixels": 9582
+          },
+          "rgba_sha256": "27b87d70c3874767eced1f6b2b3f88d4762bb9f535c9f714d43bbb7dba40f70e",
+          "png_sha256": "c3303c154875f5741c87ccd118f8a164274d46c1f579fac4f1bd911bdb0335a1"
+        },
+        {
+          "file": "sprites/scene_props/boss_stumpy/move/3.png",
+          "duration_ms": 120,
+          "origin": [
+            91,
+            177
+          ],
+          "size": [
+            175,
+            177
+          ],
+          "source": "Mob.nx/3220000.img/move/3",
+          "source_node_id": 17524,
+          "source_bitmap_id": 2428,
+          "source_properties": {
+            "delay": 120,
+            "head": [
+              -1,
+              -122
+            ],
+            "lt": [
+              -56,
+              -120
+            ],
+            "origin": [
+              91,
+              177
+            ],
+            "rb": [
+              59,
+              -1
+            ]
+          },
+          "alpha_range": [
+            0,
+            255
+          ],
+          "alpha_nonzero_bounds": [
+            0,
+            0,
+            175,
+            177
+          ],
+          "alpha_coverage": {
+            "transparent_pixels": 21455,
+            "partial_pixels": 0,
+            "opaque_pixels": 9520
+          },
+          "rgba_sha256": "39c93b10b371e85b8aca5cfe13a3f8cae3892ed878cbf6dd181191696851f9f2",
+          "png_sha256": "bfe9ed6098917e5ddb977b957771c19e161b71f1a254ae97a225ecdd6e02abea"
+        },
+        {
+          "file": "sprites/scene_props/boss_stumpy/move/4.png",
+          "duration_ms": 120,
+          "origin": [
+            91,
+            176
+          ],
+          "size": [
+            176,
+            176
+          ],
+          "source": "Mob.nx/3220000.img/move/4",
+          "source_node_id": 17525,
+          "source_bitmap_id": 2429,
+          "source_properties": {
+            "delay": 120,
+            "head": [
+              -1,
+              -124
+            ],
+            "lt": [
+              -58,
+              -130
+            ],
+            "origin": [
+              91,
+              176
+            ],
+            "rb": [
+              59,
+              -1
+            ]
+          },
+          "alpha_range": [
+            0,
+            255
+          ],
+          "alpha_nonzero_bounds": [
+            0,
+            0,
+            176,
+            176
+          ],
+          "alpha_coverage": {
+            "transparent_pixels": 21387,
+            "partial_pixels": 0,
+            "opaque_pixels": 9589
+          },
+          "rgba_sha256": "586f5ae515113c55b8570da3888be490ae119e7c8908956449830b872011d9c7",
+          "png_sha256": "20e989a4d3821dbbd94b3d45c06e38670414cc55c13bc141c43362a49ad08518"
+        },
+        {
+          "file": "sprites/scene_props/boss_stumpy/move/5.png",
+          "duration_ms": 120,
+          "origin": [
+            91,
+            175
+          ],
+          "size": [
+            178,
+            175
+          ],
+          "source": "Mob.nx/3220000.img/move/5",
+          "source_node_id": 17526,
+          "source_bitmap_id": 2430,
+          "source_properties": {
+            "delay": 120,
+            "head": [
+              -1,
+              -125
+            ],
+            "lt": [
+              -57,
+              -128
+            ],
+            "origin": [
+              91,
+              175
+            ],
+            "rb": [
+              61,
+              -1
+            ]
+          },
+          "alpha_range": [
+            0,
+            255
+          ],
+          "alpha_nonzero_bounds": [
+            0,
+            0,
+            178,
+            175
+          ],
+          "alpha_coverage": {
+            "transparent_pixels": 21605,
+            "partial_pixels": 0,
+            "opaque_pixels": 9545
+          },
+          "rgba_sha256": "5d42a6bf007ec795dbc8b1eab6b63e3f309c33218b07d968b9e6fc0f86002f87",
+          "png_sha256": "85d77d70330ae08f20b53e244f48a400a9b5f3dc71c0483b6c53647dda87ca1d"
+        }
+      ],
+      "loop": true,
+      "total_duration_ms": 720,
+      "source_sequence_properties": {},
+      "default_facing": "left",
+      "render_note": "Original side-view Mob artwork. Use source origins exactly and mirror only to change facing. Prototype boss attacks and phases are custom, not imported source AI."
+    },
+    "boss_stumpy.idle": {
+      "name": "Stumpy stand",
+      "source": "Mob.nx/3220000.img/stand",
+      "frames": [
+        {
+          "file": "sprites/scene_props/boss_stumpy/idle/0.png",
+          "duration_ms": 120,
+          "origin": [
+            91,
+            172
+          ],
+          "size": [
+            181,
+            172
+          ],
+          "source": "Mob.nx/3220000.img/stand/0",
+          "source_node_id": 17546,
+          "source_bitmap_id": 2380,
+          "source_properties": {
+            "delay": 120,
+            "head": [
+              -1,
+              -119
+            ],
+            "lt": [
+              -55,
+              -126
+            ],
+            "origin": [
+              91,
+              172
+            ],
+            "rb": [
+              57,
+              -1
+            ]
+          },
+          "alpha_range": [
+            0,
+            255
+          ],
+          "alpha_nonzero_bounds": [
+            0,
+            0,
+            181,
+            172
+          ],
+          "alpha_coverage": {
+            "transparent_pixels": 21558,
+            "partial_pixels": 0,
+            "opaque_pixels": 9574
+          },
+          "rgba_sha256": "d83ba5ce23da4ef73b92066a7916a3f6b3e43aee6bb97f2b0d26c7227e7e92cc",
+          "png_sha256": "ab58cd0faba1bd2cb4e6fca136de1fad43ccb25ef6330a7e6d4e5c041b082ea7"
+        },
+        {
+          "file": "sprites/scene_props/boss_stumpy/idle/1.png",
+          "duration_ms": 120,
+          "origin": [
+            91,
+            173
+          ],
+          "size": [
+            180,
+            173
+          ],
+          "source": "Mob.nx/3220000.img/stand/1",
+          "source_node_id": 17547,
+          "source_bitmap_id": 2381,
+          "source_properties": {
+            "delay": 120,
+            "head": [
+              0,
+              -118
+            ],
+            "lt": [
+              -53,
+              -117
+            ],
+            "origin": [
+              91,
+              173
+            ],
+            "rb": [
+              63,
+              -1
+            ]
+          },
+          "alpha_range": [
+            0,
+            255
+          ],
+          "alpha_nonzero_bounds": [
+            0,
+            0,
+            180,
+            173
+          ],
+          "alpha_coverage": {
+            "transparent_pixels": 21518,
+            "partial_pixels": 0,
+            "opaque_pixels": 9622
+          },
+          "rgba_sha256": "66ea6d8c62a89147deb6332407fc0657e108d114a83736760fc5d853bc493ba4",
+          "png_sha256": "a071d8541b7971203def0eaa6369ca93820ac6dcf1ab63a22c811319d2eb113c"
+        },
+        {
+          "file": "sprites/scene_props/boss_stumpy/idle/2.png",
+          "duration_ms": 120,
+          "origin": [
+            91,
+            174
+          ],
+          "size": [
+            176,
+            174
+          ],
+          "source": "Mob.nx/3220000.img/stand/2",
+          "source_node_id": 17548,
+          "source_bitmap_id": 2383,
+          "source_properties": {
+            "delay": 120,
+            "head": [
+              0,
+              -120
+            ],
+            "lt": [
+              -50,
+              -127
+            ],
+            "origin": [
+              91,
+              174
+            ],
+            "rb": [
+              66,
+              0
+            ]
+          },
+          "alpha_range": [
+            0,
+            255
+          ],
+          "alpha_nonzero_bounds": [
+            0,
+            0,
+            176,
+            174
+          ],
+          "alpha_coverage": {
+            "transparent_pixels": 21007,
+            "partial_pixels": 0,
+            "opaque_pixels": 9617
+          },
+          "rgba_sha256": "9c9e80f1861ca292fe22f129c7f2d3f6af109d3846af12e9fbdcfeb742b74fe8",
+          "png_sha256": "ef50715993da62dcd8984c0da1585f40fd9e011c14ea831d3f8eabb07b4c2bda"
+        },
+        {
+          "file": "sprites/scene_props/boss_stumpy/idle/3.png",
+          "duration_ms": 120,
+          "origin": [
+            91,
+            175
+          ],
+          "size": [
+            175,
+            175
+          ],
+          "source": "Mob.nx/3220000.img/stand/3",
+          "source_node_id": 17549,
+          "source_bitmap_id": 2384,
+          "source_properties": {
+            "delay": 120,
+            "head": [
+              0,
+              -121
+            ],
+            "lt": [
+              -55,
+              -122
+            ],
+            "origin": [
+              91,
+              175
+            ],
+            "rb": [
+              60,
+              2
+            ]
+          },
+          "alpha_range": [
+            0,
+            255
+          ],
+          "alpha_nonzero_bounds": [
+            0,
+            0,
+            175,
+            175
+          ],
+          "alpha_coverage": {
+            "transparent_pixels": 21045,
+            "partial_pixels": 0,
+            "opaque_pixels": 9580
+          },
+          "rgba_sha256": "d1c571ab39db02dab11d19c8f0d6ff13ebdb8e735b6fa965e8f38f557d3a91d1",
+          "png_sha256": "1a02588bf68e05d86272be2d5e1e2cec5fce071618c1ff970223a01b21067c97"
+        },
+        {
+          "file": "sprites/scene_props/boss_stumpy/idle/4.png",
+          "duration_ms": 120,
+          "origin": [
+            91,
+            174
+          ],
+          "size": [
+            176,
+            174
+          ],
+          "source": "Mob.nx/3220000.img/stand/4",
+          "source_node_id": 17550,
+          "source_bitmap_id": 2385,
+          "source_properties": {
+            "delay": 120,
+            "head": [
+              0,
+              -120
+            ],
+            "lt": [
+              -58,
+              -117
+            ],
+            "origin": [
+              91,
+              174
+            ],
+            "rb": [
+              51,
+              -1
+            ]
+          },
+          "alpha_range": [
+            0,
+            255
+          ],
+          "alpha_nonzero_bounds": [
+            0,
+            0,
+            176,
+            174
+          ],
+          "alpha_coverage": {
+            "transparent_pixels": 21037,
+            "partial_pixels": 0,
+            "opaque_pixels": 9587
+          },
+          "rgba_sha256": "2c3828aa0e6af890fd6608a4d8c363e8808bc8b4c86f17d860170d3ffa8b2e44",
+          "png_sha256": "b2dfa62b1c0f661998512aea6b1b6f16ca3d579140f261d3d5e194f293296473"
+        },
+        {
+          "file": "sprites/scene_props/boss_stumpy/idle/5.png",
+          "duration_ms": 120,
+          "origin": [
+            91,
+            173
+          ],
+          "size": [
+            178,
+            173
+          ],
+          "source": "Mob.nx/3220000.img/stand/5",
+          "source_node_id": 17551,
+          "source_bitmap_id": 2386,
+          "source_properties": {
+            "delay": 120,
+            "head": [
+              0,
+              -119
+            ],
+            "lt": [
+              -52,
+              -120
+            ],
+            "origin": [
+              91,
+              173
+            ],
+            "rb": [
+              56,
+              0
+            ]
+          },
+          "alpha_range": [
+            0,
+            255
+          ],
+          "alpha_nonzero_bounds": [
+            0,
+            0,
+            178,
+            173
+          ],
+          "alpha_coverage": {
+            "transparent_pixels": 21229,
+            "partial_pixels": 0,
+            "opaque_pixels": 9565
+          },
+          "rgba_sha256": "ab2a2b4dc1445261c4d0ad66b874d17cea9b79642c4e5b05a59ec503515f4d4f",
+          "png_sha256": "3944d6893bcce2faf34f12b1f927acda8c2679d80581c9c282228d5bf1d78773"
+        }
+      ],
+      "loop": true,
+      "total_duration_ms": 720,
+      "source_sequence_properties": {},
+      "default_facing": "left",
+      "render_note": "Original side-view Mob artwork. Use source origins exactly and mirror only to change facing. Prototype boss attacks and phases are custom, not imported source AI."
+    },
+    "boss_stumpy.hit": {
+      "name": "Stumpy hit",
+      "source": "Mob.nx/3220000.img/hit1",
+      "frames": [
+        {
+          "file": "sprites/scene_props/boss_stumpy/hit/0.png",
+          "duration_ms": 600,
+          "origin": [
+            89,
+            183
+          ],
+          "size": [
+            178,
+            184
+          ],
+          "source": "Mob.nx/3220000.img/hit1/0",
+          "source_node_id": 17492,
+          "source_bitmap_id": 2424,
+          "source_properties": {
+            "delay": 600,
+            "head": [
+              2,
+              -130
+            ],
+            "lt": [
+              -63,
+              -130
+            ],
+            "origin": [
+              89,
+              183
+            ],
+            "rb": [
+              65,
+              0
+            ]
+          },
+          "alpha_range": [
+            0,
+            255
+          ],
+          "alpha_nonzero_bounds": [
+            0,
+            0,
+            178,
+            184
+          ],
+          "alpha_coverage": {
+            "transparent_pixels": 22497,
+            "partial_pixels": 0,
+            "opaque_pixels": 10255
+          },
+          "rgba_sha256": "a15efffe21083fd3177b407375361d1cdc2d9b63df8ed3c1d17fa1511cf3d45a",
+          "png_sha256": "dc53fd2d5bc495893056efe8186577b7f0e0b1df3431c493b4d75d517ef8e0d7"
+        }
+      ],
+      "loop": false,
+      "total_duration_ms": 600,
+      "source_sequence_properties": {},
+      "default_facing": "left",
+      "render_note": "Original side-view Mob artwork. Use source origins exactly and mirror only to change facing. Prototype boss attacks and phases are custom, not imported source AI."
+    },
+    "boss_stumpy.die": {
+      "name": "Stumpy death",
+      "source": "Mob.nx/3220000.img/die1",
+      "frames": [
+        {
+          "file": "sprites/scene_props/boss_stumpy/die/0.png",
+          "duration_ms": 150,
+          "origin": [
+            91,
+            184
+          ],
+          "size": [
+            178,
+            184
+          ],
+          "source": "Mob.nx/3220000.img/die1/0",
+          "source_node_id": 17479,
+          "source_bitmap_id": 2412,
+          "source_properties": {
+            "delay": 150,
+            "head": [
+              0,
+              -131
+            ],
+            "origin": [
+              91,
+              184
+            ]
+          },
+          "alpha_range": [
+            0,
+            255
+          ],
+          "alpha_nonzero_bounds": [
+            0,
+            0,
+            178,
+            184
+          ],
+          "alpha_coverage": {
+            "transparent_pixels": 22497,
+            "partial_pixels": 0,
+            "opaque_pixels": 10255
+          },
+          "rgba_sha256": "a15efffe21083fd3177b407375361d1cdc2d9b63df8ed3c1d17fa1511cf3d45a",
+          "png_sha256": "dc53fd2d5bc495893056efe8186577b7f0e0b1df3431c493b4d75d517ef8e0d7"
+        },
+        {
+          "file": "sprites/scene_props/boss_stumpy/die/1.png",
+          "duration_ms": 150,
+          "origin": [
+            91,
+            183
+          ],
+          "size": [
+            174,
+            184
+          ],
+          "source": "Mob.nx/3220000.img/die1/1",
+          "source_node_id": 17480,
+          "source_bitmap_id": 2413,
+          "source_properties": {
+            "delay": 150,
+            "head": [
+              0,
+              -131
+            ],
+            "origin": [
+              91,
+              183
+            ]
+          },
+          "alpha_range": [
+            0,
+            255
+          ],
+          "alpha_nonzero_bounds": [
+            0,
+            0,
+            174,
+            184
+          ],
+          "alpha_coverage": {
+            "transparent_pixels": 21835,
+            "partial_pixels": 4,
+            "opaque_pixels": 10177
+          },
+          "rgba_sha256": "79f799ca3325e57121df4d120d6b88cf2825f81c7c504e39f3714c3afdd0413b",
+          "png_sha256": "3043d1a345c81cb5413c1cfc869586dc193b95aec3376e184b96ba14b327e420"
+        },
+        {
+          "file": "sprites/scene_props/boss_stumpy/die/2.png",
+          "duration_ms": 150,
+          "origin": [
+            91,
+            182
+          ],
+          "size": [
+            173,
+            184
+          ],
+          "source": "Mob.nx/3220000.img/die1/2",
+          "source_node_id": 17483,
+          "source_bitmap_id": 2416,
+          "source_properties": {
+            "delay": 150,
+            "head": [
+              -1,
+              -129
+            ],
+            "origin": [
+              91,
+              182
+            ]
+          },
+          "alpha_range": [
+            0,
+            255
+          ],
+          "alpha_nonzero_bounds": [
+            0,
+            0,
+            173,
+            184
+          ],
+          "alpha_coverage": {
+            "transparent_pixels": 21714,
+            "partial_pixels": 3,
+            "opaque_pixels": 10115
+          },
+          "rgba_sha256": "df05149597bd7812f8cd3c8d514cb356270bea30c413ff1048068141ae96c3b7",
+          "png_sha256": "fc20f1a6b455d9a223c99182e718d171a5b12cab22ebbd1f955f72fde14a0856"
+        },
+        {
+          "file": "sprites/scene_props/boss_stumpy/die/3.png",
+          "duration_ms": 150,
+          "origin": [
+            91,
+            181
+          ],
+          "size": [
+            174,
+            184
+          ],
+          "source": "Mob.nx/3220000.img/die1/3",
+          "source_node_id": 17484,
+          "source_bitmap_id": 2417,
+          "source_properties": {
+            "delay": 150,
+            "head": [
+              -1,
+              -128
+            ],
+            "origin": [
+              91,
+              181
+            ]
+          },
+          "alpha_range": [
+            0,
+            255
+          ],
+          "alpha_nonzero_bounds": [
+            0,
+            0,
+            174,
+            184
+          ],
+          "alpha_coverage": {
+            "transparent_pixels": 21938,
+            "partial_pixels": 0,
+            "opaque_pixels": 10078
+          },
+          "rgba_sha256": "1c2a8f5d182b01b4255a8d735b11afd9a227453ebed20fcf7e9a1662a0cac248",
+          "png_sha256": "e89e96eeee1cd03f7a9de7a6a3a8636512ce48f1358713344e32fb359372f694"
+        },
+        {
+          "file": "sprites/scene_props/boss_stumpy/die/4.png",
+          "duration_ms": 150,
+          "origin": [
+            91,
+            161
+          ],
+          "size": [
+            176,
+            164
+          ],
+          "source": "Mob.nx/3220000.img/die1/4",
+          "source_node_id": 17485,
+          "source_bitmap_id": 2418,
+          "source_properties": {
+            "delay": 150,
+            "head": [
+              0,
+              -106
+            ],
+            "origin": [
+              91,
+              161
+            ]
+          },
+          "alpha_range": [
+            0,
+            255
+          ],
+          "alpha_nonzero_bounds": [
+            0,
+            0,
+            176,
+            164
+          ],
+          "alpha_coverage": {
+            "transparent_pixels": 17593,
+            "partial_pixels": 8208,
+            "opaque_pixels": 3063
+          },
+          "rgba_sha256": "421cdea813c8f1349310f5d69c6b508d6e72589ec50f0860818bd43fe2c05a40",
+          "png_sha256": "7f072631c7b763e5e5441de9708d7cf543a9ec40bf6b1b77ddd755df54be9c85"
+        },
+        {
+          "file": "sprites/scene_props/boss_stumpy/die/5.png",
+          "duration_ms": 150,
+          "origin": [
+            91,
+            160
+          ],
+          "size": [
+            179,
+            163
+          ],
+          "source": "Mob.nx/3220000.img/die1/5",
+          "source_node_id": 17486,
+          "source_bitmap_id": 2419,
+          "source_properties": {
+            "delay": 150,
+            "head": [
+              0,
+              -106
+            ],
+            "origin": [
+              91,
+              160
+            ]
+          },
+          "alpha_range": [
+            0,
+            255
+          ],
+          "alpha_nonzero_bounds": [
+            0,
+            0,
+            179,
+            163
+          ],
+          "alpha_coverage": {
+            "transparent_pixels": 17893,
+            "partial_pixels": 8118,
+            "opaque_pixels": 3166
+          },
+          "rgba_sha256": "d1e12ecccbc8f32f3956e8850a51779aa72107fa151d79f5698a8e622a497ed1",
+          "png_sha256": "56de826e16c1eebaa1e7899833b78971c6e34fe81133607ca118a74b6ade33b1"
+        },
+        {
+          "file": "sprites/scene_props/boss_stumpy/die/6.png",
+          "duration_ms": 150,
+          "origin": [
+            91,
+            160
+          ],
+          "size": [
+            178,
+            164
+          ],
+          "source": "Mob.nx/3220000.img/die1/6",
+          "source_node_id": 17487,
+          "source_bitmap_id": 2420,
+          "source_properties": {
+            "delay": 150,
+            "head": [
+              0,
+              -104
+            ],
+            "origin": [
+              91,
+              160
+            ]
+          },
+          "alpha_range": [
+            0,
+            255
+          ],
+          "alpha_nonzero_bounds": [
+            0,
+            0,
+            178,
+            164
+          ],
+          "alpha_coverage": {
+            "transparent_pixels": 17754,
+            "partial_pixels": 9078,
+            "opaque_pixels": 2360
+          },
+          "rgba_sha256": "253156f5b0ebeb9817d0498870e09a1a16f8235373fab79745724e2664d79ec9",
+          "png_sha256": "315d60eaba5396e86a20b20e5dad4ead2f744eb8c66b00ca24883e6e12a8cb74"
+        },
+        {
+          "file": "sprites/scene_props/boss_stumpy/die/7.png",
+          "duration_ms": 150,
+          "origin": [
+            91,
+            160
+          ],
+          "size": [
+            174,
+            164
+          ],
+          "source": "Mob.nx/3220000.img/die1/7",
+          "source_node_id": 17488,
+          "source_bitmap_id": 2421,
+          "source_properties": {
+            "delay": 150,
+            "head": [
+              2,
+              -103
+            ],
+            "origin": [
+              91,
+              160
+            ]
+          },
+          "alpha_range": [
+            0,
+            255
+          ],
+          "alpha_nonzero_bounds": [
+            0,
+            0,
+            174,
+            164
+          ],
+          "alpha_coverage": {
+            "transparent_pixels": 17471,
+            "partial_pixels": 9678,
+            "opaque_pixels": 1387
+          },
+          "rgba_sha256": "70a4016aa7b4f7039e028ed4817bbd72faec7985cc036c4eee65224d13431703",
+          "png_sha256": "576986511183312b2aff9dc2ad07c7c94726b09e5a23fd0b43659022c2138818"
+        },
+        {
+          "file": "sprites/scene_props/boss_stumpy/die/8.png",
+          "duration_ms": 150,
+          "origin": [
+            91,
+            159
+          ],
+          "size": [
+            174,
+            160
+          ],
+          "source": "Mob.nx/3220000.img/die1/8",
+          "source_node_id": 17489,
+          "source_bitmap_id": 2422,
+          "source_properties": {
+            "delay": 150,
+            "head": [
+              4,
+              -100
+            ],
+            "origin": [
+              91,
+              159
+            ]
+          },
+          "alpha_range": [
+            0,
+            255
+          ],
+          "alpha_nonzero_bounds": [
+            0,
+            0,
+            174,
+            160
+          ],
+          "alpha_coverage": {
+            "transparent_pixels": 17971,
+            "partial_pixels": 9564,
+            "opaque_pixels": 305
+          },
+          "rgba_sha256": "0a5e90bfad9434ff0ec7dd9c0e0c776bf88ccb266bb8eb9b22ebbd842cbe9353",
+          "png_sha256": "edea26432bf4213bd3d6c1efe049d0e12f5b3e84c333074f8adc8f5d9b4c63ff"
+        },
+        {
+          "file": "sprites/scene_props/boss_stumpy/die/9.png",
+          "duration_ms": 150,
+          "origin": [
+            91,
+            156
+          ],
+          "size": [
+            174,
+            150
+          ],
+          "source": "Mob.nx/3220000.img/die1/9",
+          "source_node_id": 17490,
+          "source_bitmap_id": 2423,
+          "source_properties": {
+            "delay": 150,
+            "head": [
+              0,
+              -124
+            ],
+            "origin": [
+              91,
+              156
+            ]
+          },
+          "alpha_range": [
+            0,
+            255
+          ],
+          "alpha_nonzero_bounds": [
+            0,
+            0,
+            174,
+            150
+          ],
+          "alpha_coverage": {
+            "transparent_pixels": 16963,
+            "partial_pixels": 9104,
+            "opaque_pixels": 33
+          },
+          "rgba_sha256": "51d40e06bf052b289e97ef3217f989c370e08ef4987447a3fe2e4181894d706d",
+          "png_sha256": "ad530b1c82ac9c793d00efac04a2e23a5525564d25797fcbe66e6f18833d1092"
+        },
+        {
+          "file": "sprites/scene_props/boss_stumpy/die/10.png",
+          "duration_ms": 150,
+          "origin": [
+            59,
+            154
+          ],
+          "size": [
+            144,
+            54
+          ],
+          "source": "Mob.nx/3220000.img/die1/10",
+          "source_node_id": 17481,
+          "source_bitmap_id": 2414,
+          "source_properties": {
+            "delay": 150,
+            "head": [
+              9,
+              -154
+            ],
+            "origin": [
+              59,
+              154
+            ]
+          },
+          "alpha_range": [
+            0,
+            17
+          ],
+          "alpha_nonzero_bounds": [
+            0,
+            0,
+            144,
+            54
+          ],
+          "alpha_coverage": {
+            "transparent_pixels": 7249,
+            "partial_pixels": 527,
+            "opaque_pixels": 0
+          },
+          "rgba_sha256": "c94218dcf1328c53dc5409d43054f33f5f110884f6ce25e98aef0b2b0000867d",
+          "png_sha256": "97e3e2416504d4e981e69a2fa83b4c8bd562eda84b4372d38f62c198f2e16c67"
+        },
+        {
+          "file": "sprites/scene_props/boss_stumpy/die/11.png",
+          "duration_ms": 150,
+          "origin": [
+            57,
+            155
+          ],
+          "size": [
+            145,
+            55
+          ],
+          "source": "Mob.nx/3220000.img/die1/11",
+          "source_node_id": 17482,
+          "source_bitmap_id": 2415,
+          "source_properties": {
+            "a0": 255,
+            "a1": 0,
+            "delay": 150,
+            "head": [
+              15,
+              -155
+            ],
+            "origin": [
+              57,
+              155
+            ]
+          },
+          "alpha_range": [
+            0,
+            17
+          ],
+          "alpha_nonzero_bounds": [
+            0,
+            0,
+            145,
+            55
+          ],
+          "alpha_coverage": {
+            "transparent_pixels": 7426,
+            "partial_pixels": 549,
+            "opaque_pixels": 0
+          },
+          "rgba_sha256": "3ccf8191a08806775470b98b4cb5ed01a2527b7908a856792db57b8071602954",
+          "png_sha256": "dc01c39cbad016659b229e8a32d93546e5293420568309d333b79c614ba42480",
+          "alpha_start": 255,
+          "alpha_end": 0
+        }
+      ],
+      "loop": false,
+      "total_duration_ms": 1800,
+      "source_sequence_properties": {},
+      "default_facing": "left",
+      "render_note": "Original side-view Mob artwork. Use source origins exactly and mirror only to change facing. Prototype boss attacks and phases are custom, not imported source AI."
+    },
+    "boss_stumpy.stand": {
+      "name": "Stumpy stand",
+      "source": "Mob.nx/3220000.img/stand",
+      "frames": [
+        {
+          "file": "sprites/scene_props/boss_stumpy/idle/0.png",
+          "duration_ms": 120,
+          "origin": [
+            91,
+            172
+          ],
+          "size": [
+            181,
+            172
+          ],
+          "source": "Mob.nx/3220000.img/stand/0",
+          "source_node_id": 17546,
+          "source_bitmap_id": 2380,
+          "source_properties": {
+            "delay": 120,
+            "head": [
+              -1,
+              -119
+            ],
+            "lt": [
+              -55,
+              -126
+            ],
+            "origin": [
+              91,
+              172
+            ],
+            "rb": [
+              57,
+              -1
+            ]
+          },
+          "alpha_range": [
+            0,
+            255
+          ],
+          "alpha_nonzero_bounds": [
+            0,
+            0,
+            181,
+            172
+          ],
+          "alpha_coverage": {
+            "transparent_pixels": 21558,
+            "partial_pixels": 0,
+            "opaque_pixels": 9574
+          },
+          "rgba_sha256": "d83ba5ce23da4ef73b92066a7916a3f6b3e43aee6bb97f2b0d26c7227e7e92cc",
+          "png_sha256": "ab58cd0faba1bd2cb4e6fca136de1fad43ccb25ef6330a7e6d4e5c041b082ea7"
+        },
+        {
+          "file": "sprites/scene_props/boss_stumpy/idle/1.png",
+          "duration_ms": 120,
+          "origin": [
+            91,
+            173
+          ],
+          "size": [
+            180,
+            173
+          ],
+          "source": "Mob.nx/3220000.img/stand/1",
+          "source_node_id": 17547,
+          "source_bitmap_id": 2381,
+          "source_properties": {
+            "delay": 120,
+            "head": [
+              0,
+              -118
+            ],
+            "lt": [
+              -53,
+              -117
+            ],
+            "origin": [
+              91,
+              173
+            ],
+            "rb": [
+              63,
+              -1
+            ]
+          },
+          "alpha_range": [
+            0,
+            255
+          ],
+          "alpha_nonzero_bounds": [
+            0,
+            0,
+            180,
+            173
+          ],
+          "alpha_coverage": {
+            "transparent_pixels": 21518,
+            "partial_pixels": 0,
+            "opaque_pixels": 9622
+          },
+          "rgba_sha256": "66ea6d8c62a89147deb6332407fc0657e108d114a83736760fc5d853bc493ba4",
+          "png_sha256": "a071d8541b7971203def0eaa6369ca93820ac6dcf1ab63a22c811319d2eb113c"
+        },
+        {
+          "file": "sprites/scene_props/boss_stumpy/idle/2.png",
+          "duration_ms": 120,
+          "origin": [
+            91,
+            174
+          ],
+          "size": [
+            176,
+            174
+          ],
+          "source": "Mob.nx/3220000.img/stand/2",
+          "source_node_id": 17548,
+          "source_bitmap_id": 2383,
+          "source_properties": {
+            "delay": 120,
+            "head": [
+              0,
+              -120
+            ],
+            "lt": [
+              -50,
+              -127
+            ],
+            "origin": [
+              91,
+              174
+            ],
+            "rb": [
+              66,
+              0
+            ]
+          },
+          "alpha_range": [
+            0,
+            255
+          ],
+          "alpha_nonzero_bounds": [
+            0,
+            0,
+            176,
+            174
+          ],
+          "alpha_coverage": {
+            "transparent_pixels": 21007,
+            "partial_pixels": 0,
+            "opaque_pixels": 9617
+          },
+          "rgba_sha256": "9c9e80f1861ca292fe22f129c7f2d3f6af109d3846af12e9fbdcfeb742b74fe8",
+          "png_sha256": "ef50715993da62dcd8984c0da1585f40fd9e011c14ea831d3f8eabb07b4c2bda"
+        },
+        {
+          "file": "sprites/scene_props/boss_stumpy/idle/3.png",
+          "duration_ms": 120,
+          "origin": [
+            91,
+            175
+          ],
+          "size": [
+            175,
+            175
+          ],
+          "source": "Mob.nx/3220000.img/stand/3",
+          "source_node_id": 17549,
+          "source_bitmap_id": 2384,
+          "source_properties": {
+            "delay": 120,
+            "head": [
+              0,
+              -121
+            ],
+            "lt": [
+              -55,
+              -122
+            ],
+            "origin": [
+              91,
+              175
+            ],
+            "rb": [
+              60,
+              2
+            ]
+          },
+          "alpha_range": [
+            0,
+            255
+          ],
+          "alpha_nonzero_bounds": [
+            0,
+            0,
+            175,
+            175
+          ],
+          "alpha_coverage": {
+            "transparent_pixels": 21045,
+            "partial_pixels": 0,
+            "opaque_pixels": 9580
+          },
+          "rgba_sha256": "d1c571ab39db02dab11d19c8f0d6ff13ebdb8e735b6fa965e8f38f557d3a91d1",
+          "png_sha256": "1a02588bf68e05d86272be2d5e1e2cec5fce071618c1ff970223a01b21067c97"
+        },
+        {
+          "file": "sprites/scene_props/boss_stumpy/idle/4.png",
+          "duration_ms": 120,
+          "origin": [
+            91,
+            174
+          ],
+          "size": [
+            176,
+            174
+          ],
+          "source": "Mob.nx/3220000.img/stand/4",
+          "source_node_id": 17550,
+          "source_bitmap_id": 2385,
+          "source_properties": {
+            "delay": 120,
+            "head": [
+              0,
+              -120
+            ],
+            "lt": [
+              -58,
+              -117
+            ],
+            "origin": [
+              91,
+              174
+            ],
+            "rb": [
+              51,
+              -1
+            ]
+          },
+          "alpha_range": [
+            0,
+            255
+          ],
+          "alpha_nonzero_bounds": [
+            0,
+            0,
+            176,
+            174
+          ],
+          "alpha_coverage": {
+            "transparent_pixels": 21037,
+            "partial_pixels": 0,
+            "opaque_pixels": 9587
+          },
+          "rgba_sha256": "2c3828aa0e6af890fd6608a4d8c363e8808bc8b4c86f17d860170d3ffa8b2e44",
+          "png_sha256": "b2dfa62b1c0f661998512aea6b1b6f16ca3d579140f261d3d5e194f293296473"
+        },
+        {
+          "file": "sprites/scene_props/boss_stumpy/idle/5.png",
+          "duration_ms": 120,
+          "origin": [
+            91,
+            173
+          ],
+          "size": [
+            178,
+            173
+          ],
+          "source": "Mob.nx/3220000.img/stand/5",
+          "source_node_id": 17551,
+          "source_bitmap_id": 2386,
+          "source_properties": {
+            "delay": 120,
+            "head": [
+              0,
+              -119
+            ],
+            "lt": [
+              -52,
+              -120
+            ],
+            "origin": [
+              91,
+              173
+            ],
+            "rb": [
+              56,
+              0
+            ]
+          },
+          "alpha_range": [
+            0,
+            255
+          ],
+          "alpha_nonzero_bounds": [
+            0,
+            0,
+            178,
+            173
+          ],
+          "alpha_coverage": {
+            "transparent_pixels": 21229,
+            "partial_pixels": 0,
+            "opaque_pixels": 9565
+          },
+          "rgba_sha256": "ab2a2b4dc1445261c4d0ad66b874d17cea9b79642c4e5b05a59ec503515f4d4f",
+          "png_sha256": "3944d6893bcce2faf34f12b1f927acda8c2679d80581c9c282228d5bf1d78773"
+        }
+      ],
+      "loop": true,
+      "total_duration_ms": 720,
+      "source_sequence_properties": {},
+      "default_facing": "left",
+      "render_note": "Original side-view Mob artwork. Use source origins exactly and mirror only to change facing. Prototype boss attacks and phases are custom, not imported source AI.",
+      "alias_of": "boss_stumpy.idle"
+    }
+  },
+  "prop_visuals": {
+    "prop_crate": {
+      "prototype_label": "Breakable crate",
+      "source_label": "Maple Island common wooden-crate reactor",
+      "source": "Reactor.nx/0002000.img",
+      "states": [
+        "idle",
+        "hit",
+        "break"
+      ],
+      "source_origin_to_ground_px": [
+        0,
+        17
+      ],
+      "suggested_render_scale": 1.15,
+      "draw_layer": "depth_sorted_actor",
+      "mechanics_note": "Source hit/final-hit artwork shows a wooden crate breaking. Prototype HP, blocking, drops and rewards are custom."
+    },
+    "prop_barrel": {
+      "prototype_label": "Burst flower",
+      "source_label": "Purple witch plant reactor",
+      "source": "Reactor.nx/1072000.img",
+      "states": [
+        "idle",
+        "hit",
+        "break"
+      ],
+      "source_origin_to_ground_px": [
+        0,
+        34
+      ],
+      "suggested_render_scale": 0.9,
+      "draw_layer": "depth_sorted_actor",
+      "mechanics_note": "The stable barrel key is an internal compatibility name. Artwork is a purple plant, not a barrel. Warning, explosion, damage and radius are custom mechanics; no original explosive behavior is claimed. Final source sequence is a hit and fade, not a source explosion."
+    },
+    "prop_mud": {
+      "prototype_label": "Muddy ground",
+      "source_label": "Dark-swamp low roots",
+      "source": "Map.nx/Obj/acc2.img/darkSwamp/foot/0",
+      "states": [
+        "idle"
+      ],
+      "source_origin_to_ground_px": [
+        -73,
+        105
+      ],
+      "suggested_render_scale": 0.185,
+      "draw_layer": "behind_all_actors",
+      "mechanics_note": "Original side-view low swamp-root art is a marker for a custom circular mud zone. It is not a top-down mud texture. Draw the gameplay circle separately; custom slowdown is not source behavior. No source map placement is claimed."
+    },
+    "prop_heal": {
+      "prototype_label": "Healing lantern",
+      "source_label": "Stone lantern reactor",
+      "source": "Reactor.nx/2221001.img",
+      "states": [
+        "idle"
+      ],
+      "source_origin_to_ground_px": [
+        0,
+        1
+      ],
+      "suggested_render_scale": 0.5,
+      "draw_layer": "depth_sorted_actor",
+      "mechanics_note": "Original lantern info describes a summoning reactor, not a healing device. Prototype healing, charges and green indicator are custom. Static source art has no hit/break animation in this pack."
+    }
+  },
+  "source_archives": {
+    "Reactor.nx": {
+      "size_bytes": 119435330,
+      "mtime_ns_at_export": 1791432008329656600,
+      "opened_read_only": true,
+      "unchanged_after_export": true
+    },
+    "Map.nx": {
+      "size_bytes": 1806466019,
+      "mtime_ns_at_export": 1791433056615526700,
+      "opened_read_only": true,
+      "unchanged_after_export": true
+    },
+    "Mob.nx": {
+      "size_bytes": 2443369060,
+      "mtime_ns_at_export": 1791431989205805900,
+      "opened_read_only": true,
+      "unchanged_after_export": true
+    }
+  },
+  "source_info_reference_only": {
+    "prop_crate": {
+      "info": "메이플아일랜드 범용리엑터"
+    },
+    "prop_barrel": {
+      "info": "마녀의 풀..오른쪽에서 때려야한다."
+    },
+    "prop_heal": {
+      "info": "석등:곡차를 떨어뜨려서 파란왕도깨비를 소환한다."
+    },
+    "boss_stumpy": {
+      "HPgaugeHide": 1,
+      "MADamage": 0,
+      "MDDamage": 70,
+      "PADamage": 125,
+      "PDDamage": 50,
+      "acc": 80,
+      "bodyAttack": 1,
+      "boss": 1,
+      "eva": 12,
+      "exp": 405,
+      "firstAttack": 1,
+      "fs": 10.0,
+      "hpRecovery": 35,
+      "hpTagBgcolor": 5,
+      "hpTagColor": 1,
+      "level": 35,
+      "maxHP": 7000,
+      "maxMP": 120,
+      "mobType": 4,
+      "mpRecovery": 1,
+      "pushed": 1,
+      "rareItemDropLevel": 2,
+      "speed": -60,
+      "summonType": 1,
+      "undead": 0
+    }
+  },
+  "notes": [
+    "Original MapleStory artwork belongs to its rights holders. This unofficial personal prototype implies no distribution license.",
+    "All runtime PNG pixel bytes, alpha, size and source origins are unchanged. No crop, scale, tint, repaint, atlas or archive repacking was performed.",
+    "The crate and plant preserve source hit and final-hit art. The plant final animation fades; any explosion effect must be generated by prototype rendering.",
+    "Barrel is a compatibility key, not a visual description. Show this prop as Burst flower in player-facing text.",
+    "Stone lantern recovery, swamp slowdown, plant explosion and all prop rewards are custom prototype mechanics. Original reactor event scripts and bounds are not imported.",
+    "Render source_origin_world = ground_world - source_origin_to_ground_px * render_scale, then draw frame at source_origin_world - frame.origin * render_scale. The fixed prop offset applies to every state frame; do not bottom-center each frame independently.",
+    "Mud root art is an unmodified side-view marker only. Its custom circular zone and clear boundary should be rendered separately behind actors.",
+    "Boss Stumpy is source-tagged boss at Mob.nx/3220000.img, with complete move/stand/hit1/die1 sequences. Its prototype phases and attacks are custom.",
+    "Static frames without source delay retain a documented 100 ms loader fallback. All explicit source frame delays and a0/a1 endpoints are exact.",
+    "Inspection sheets under _preview are not runtime game assets."
+  ],
+  "validation": {
+    "unique_gameplay_pngs": 47,
+    "rgba_bytes": 3909360,
+    "png_bytes": 306477,
+    "pixel_equality_checked": true,
+    "png_integrity_checked": true,
+    "source_archives_unchanged": true
+  }
+}

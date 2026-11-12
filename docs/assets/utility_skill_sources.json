@@ -1,0 +1,82 @@
+{
+  "schema_version": 1,
+  "visuals": {},
+  "source_archives": {
+    "Skill.nx": {
+      "size_bytes": 203563946,
+      "mtime_ns": 1791432019851882000
+    },
+    "String.nx": {
+      "size_bytes": 370411333,
+      "mtime_ns": 1791433086967351100
+    }
+  },
+  "validation": {
+    "sprite_keys": 8,
+    "pngs": 47,
+    "png_bytes": 216469,
+    "rgba_bytes": 1519048,
+    "all_pngs_pixel_equal": true,
+    "original_archives_size_mtime_unchanged": true,
+    "skill_icons": 3,
+    "distinct_new_skill_icons": 3,
+    "effect_sequences": 5
+  },
+  "notes": [
+    "Original NX archives were opened read-only; original PNG pixels, sizes, origins, delays and alpha endpoints are retained.",
+    "Only the named candidates are inspected and exported. No full archive bitmap scan.",
+    "Contact sheets are inspection artifacts, not runtime UI assets.",
+    "MapleStory source artwork belongs to its rights holders; this personal prototype does not establish redistribution rights.",
+    "Resource export is not a claim that combat behavior, official pools or visual gameplay acceptance are complete."
+  ],
+  "sequences": [
+    {
+      "key": "skill.icon.flame_dance",
+      "source": "Skill.nx/121.img/skill/1211003/icon",
+      "frames": 1,
+      "duration_ms": 100
+    },
+    {
+      "key": "skill.icon.feather_storm",
+      "source": "Skill.nx/411.img/skill/4111005/icon",
+      "frames": 1,
+      "duration_ms": 100
+    },
+    {
+      "key": "skill.icon.star_bow",
+      "source": "Skill.nx/1311.img/skill/13111006/icon",
+      "frames": 1,
+      "duration_ms": 100
+    },
+    {
+      "key": "skill.flame_dance.cast",
+      "source": "Skill.nx/121.img/skill/1211003/effect",
+      "frames": 15,
+      "duration_ms": 900
+    },
+    {
+      "key": "skill.feather_storm.cast",
+      "source": "Skill.nx/411.img/skill/4111005/effect",
+      "frames": 14,
+      "duration_ms": 840
+    },
+    {
+      "key": "skill.feather_storm.projectile",
+      "source": "Skill.nx/411.img/skill/4111005/ball",
+      "frames": 1,
+      "duration_ms": 100
+    },
+    {
+      "key": "skill.star_bow.projectile",
+      "source": "Skill.nx/1311.img/skill/13111006/ball",
+      "frames": 8,
+      "duration_ms": 480
+    },
+    {
+      "key": "skill.star_bow.hit",
+      "source": "Skill.nx/1311.img/skill/13111006/hit/0",
+      "frames": 6,
+      "duration_ms": 360
+    }
+  ]
+}

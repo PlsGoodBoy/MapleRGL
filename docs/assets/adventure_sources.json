@@ -1,0 +1,652 @@
+[
+  {
+    "key": "enemy.evil_eye",
+    "source": "Mob.nx/2230100.img",
+    "name": "火独眼兽",
+    "scale": 0.5876288659793815,
+    "frames": 11
+  },
+  {
+    "key": "enemy.zombie_mushroom",
+    "source": "Mob.nx/2230101.img",
+    "name": "僵尸蘑菇",
+    "scale": 0.9047619047619048,
+    "frames": 10
+  },
+  {
+    "key": "enemy.toy_imp",
+    "source": "Mob.nx/3230300.img",
+    "name": "幼魔精灵",
+    "scale": 1.0363636363636364,
+    "frames": 27
+  },
+  {
+    "key": "enemy.fire_lion",
+    "source": "Mob.nx/3210200.img",
+    "name": "幼红独角狮",
+    "scale": 1.3255813953488371,
+    "frames": 14
+  },
+  {
+    "key": "enemy.zombie_lupin",
+    "source": "Mob.nx/4230101.img",
+    "name": "僵尸猴",
+    "scale": 0.8769230769230769,
+    "frames": 20
+  },
+  {
+    "key": "enemy.wild_kargo",
+    "source": "Mob.nx/6230100.img",
+    "name": "怪猫",
+    "scale": 0.3584905660377358,
+    "frames": 12
+  },
+  {
+    "key": "enemy.dark_pepe",
+    "source": "Mob.nx/6230200.img",
+    "name": "黑企鹅王",
+    "scale": 0.9047619047619048,
+    "frames": 15
+  },
+  {
+    "key": "enemy.clown",
+    "source": "Mob.nx/6230300.img",
+    "name": "红小丑",
+    "scale": 0.6129032258064516,
+    "frames": 37
+  },
+  {
+    "key": "enemy.possessed_doll",
+    "source": "Mob.nx/6230400.img",
+    "name": "恶灵附身的娃娃",
+    "scale": 0.3958333333333333,
+    "frames": 31
+  },
+  {
+    "key": "enemy.adult_yeti",
+    "source": "Mob.nx/6300000.img",
+    "name": "白雪人",
+    "scale": 0.5327102803738317,
+    "frames": 35
+  },
+  {
+    "key": "enemy.gryphon",
+    "source": "Mob.nx/7130000.img",
+    "name": "黑色飞狮",
+    "scale": 0.7808219178082192,
+    "frames": 28
+  },
+  {
+    "key": "enemy.minotaur",
+    "source": "Mob.nx/7130100.img",
+    "name": "月牙牛魔王",
+    "scale": 0.35185185185185186,
+    "frames": 32
+  },
+  {
+    "key": "enemy.skeleton_commander",
+    "source": "Mob.nx/7130103.img",
+    "name": "骷髅指挥官",
+    "scale": 0.4253731343283582,
+    "frames": 32
+  },
+  {
+    "key": "enemy.grandfather_clock",
+    "source": "Mob.nx/8140200.img",
+    "name": "大立钟",
+    "scale": 0.43846153846153846,
+    "frames": 31
+  },
+  {
+    "key": "enemy.hellhound",
+    "source": "Mob.nx/8140500.img",
+    "name": "火焰猎犬",
+    "scale": 0.5480769230769231,
+    "frames": 34
+  },
+  {
+    "key": "enemy.bonefish",
+    "source": "Mob.nx/8140600.img",
+    "name": "骨骸鱼",
+    "scale": 0.5229357798165137,
+    "frames": 52
+  },
+  {
+    "key": "enemy.shark",
+    "source": "Mob.nx/8150100.img",
+    "name": "鲨鱼",
+    "scale": 0.47107438016528924,
+    "frames": 49
+  },
+  {
+    "key": "enemy.lizardman",
+    "source": "Mob.nx/8150200.img",
+    "name": "邪恶短刃蜥蜴",
+    "scale": 0.36538461538461536,
+    "frames": 41
+  },
+  {
+    "key": "enemy.gatekeeper",
+    "source": "Mob.nx/8160000.img",
+    "name": "时间门神",
+    "scale": 0.21428571428571427,
+    "frames": 81
+  },
+  {
+    "key": "enemy.armored_wraith",
+    "source": "Mob.nx/8170000.img",
+    "name": "黑甲凶灵",
+    "scale": 0.2579185520361991,
+    "frames": 49
+  },
+  {
+    "key": "enemy.time_eye",
+    "source": "Mob.nx/8200000.img",
+    "name": "时间之眼",
+    "scale": 1.0555555555555556,
+    "frames": 70
+  },
+  {
+    "key": "enemy.time_priest",
+    "source": "Mob.nx/8200001.img",
+    "name": "追忆的祭司",
+    "scale": 0.3064516129032258,
+    "frames": 45
+  },
+  {
+    "key": "enemy.time_sentinel",
+    "source": "Mob.nx/8200003.img",
+    "name": "追忆的守护兵",
+    "scale": 0.2893401015228426,
+    "frames": 95
+  },
+  {
+    "key": "enemy.bubble_king",
+    "source": "Mob.nx/3230103.img",
+    "name": "吹泡泡鱼皇",
+    "scale": 0.7702702702702703,
+    "frames": 39
+  },
+  {
+    "key": "enemy.pufferfish",
+    "source": "Mob.nx/3230104.img",
+    "name": "胖球鱼",
+    "scale": 0.75,
+    "frames": 19
+  },
+  {
+    "key": "enemy.drum_rabbit",
+    "source": "Mob.nx/3230400.img",
+    "name": "打鼓兔子",
+    "scale": 1.163265306122449,
+    "frames": 21
+  },
+  {
+    "key": "enemy.baby_seal",
+    "source": "Mob.nx/3230405.img",
+    "name": "小海豹",
+    "scale": 1.2954545454545454,
+    "frames": 19
+  },
+  {
+    "key": "enemy.crab",
+    "source": "Mob.nx/4230104.img",
+    "name": "青螃蟹",
+    "scale": 0.7916666666666666,
+    "frames": 11
+  },
+  {
+    "key": "enemy.carnivorous_plant",
+    "source": "Mob.nx/4230105.img",
+    "name": "食人花",
+    "scale": 0.95,
+    "frames": 21
+  },
+  {
+    "key": "enemy.alien",
+    "source": "Mob.nx/4230116.img",
+    "name": "白外星人卫兵",
+    "scale": 0.5089285714285714,
+    "frames": 40
+  },
+  {
+    "key": "boss_giant_crab",
+    "source": "Mob.nx/5220000.img",
+    "name": "巨居蟹",
+    "scale": 0.4329004329004329,
+    "frames": 72
+  },
+  {
+    "key": "boss_doll_robot",
+    "source": "Mob.nx/6220000.img",
+    "name": "多尔",
+    "scale": 0.5681818181818182,
+    "frames": 39
+  },
+  {
+    "key": "boss_zeno",
+    "source": "Mob.nx/6220001.img",
+    "name": "朱诺",
+    "scale": 0.7575757575757576,
+    "frames": 40
+  },
+  {
+    "key": "boss_tae_roon",
+    "source": "Mob.nx/7220000.img",
+    "name": "肯德熊",
+    "scale": 0.5847953216374269,
+    "frames": 103
+  },
+  {
+    "key": "boss_nine_tail",
+    "source": "Mob.nx/7220001.img",
+    "name": "九尾狐",
+    "scale": 0.5681818181818182,
+    "frames": 69
+  },
+  {
+    "key": "boss_eliza",
+    "source": "Mob.nx/8220000.img",
+    "name": "艾利杰",
+    "scale": 0.6211180124223602,
+    "frames": 73
+  },
+  {
+    "key": "boss_chimera",
+    "source": "Mob.nx/8220002.img",
+    "name": "吉米拉",
+    "scale": 0.8,
+    "frames": 69
+  },
+  {
+    "key": "boss_dodo",
+    "source": "Mob.nx/8220004.img",
+    "name": "多多",
+    "scale": 0.425531914893617,
+    "frames": 71
+  },
+  {
+    "key": "boss_lilynouch",
+    "source": "Mob.nx/8220005.img",
+    "name": "玄冰独角兽",
+    "scale": 0.4291845493562232,
+    "frames": 107
+  },
+  {
+    "key": "boss_lyka",
+    "source": "Mob.nx/8220006.img",
+    "name": "雷卡",
+    "scale": 0.411522633744856,
+    "frames": 81
+  },
+  {
+    "key": "boss_manon",
+    "source": "Mob.nx/8180000.img",
+    "name": "火焰龙",
+    "scale": 0.4098360655737705,
+    "frames": 81
+  },
+  {
+    "key": "boss_griffey",
+    "source": "Mob.nx/8180001.img",
+    "name": "天鹰",
+    "scale": 0.4807692307692308,
+    "frames": 70
+  },
+  {
+    "key": "skill.icon.triple_star",
+    "source": "Skill.nx/412.img/skill/4121007/icon"
+  },
+  {
+    "key": "skill.icon.shadow_boomerang",
+    "source": "Skill.nx/422.img/skill/4221007/icon"
+  },
+  {
+    "key": "skill.icon.shadow_clone",
+    "source": "Skill.nx/411.img/skill/4111002/icon"
+  },
+  {
+    "key": "skill.icon.assassinate",
+    "source": "Skill.nx/422.img/skill/4221001/icon"
+  },
+  {
+    "key": "skill.icon.six_blade",
+    "source": "Skill.nx/420.img/skill/4201005/icon"
+  },
+  {
+    "key": "skill.icon.coin_bomb",
+    "source": "Skill.nx/421.img/skill/4211006/icon"
+  },
+  {
+    "key": "skill.icon.poison_dart",
+    "source": "Skill.nx/412.img/skill/4120005/icon"
+  },
+  {
+    "key": "skill.icon.shadow_stitch",
+    "source": "Skill.nx/412.img/skill/4121004/icon"
+  },
+  {
+    "key": "skill.icon.smoke_assault",
+    "source": "Skill.nx/422.img/skill/4221006/icon"
+  },
+  {
+    "key": "skill.icon.shadow_bats",
+    "source": "Skill.nx/1410.img/skill/14101006/icon"
+  },
+  {
+    "key": "skill.icon.dual_guns",
+    "source": "Skill.nx/520.img/skill/5201001/icon"
+  },
+  {
+    "key": "skill.icon.shotgun",
+    "source": "Skill.nx/521.img/skill/5211004/icon"
+  },
+  {
+    "key": "skill.icon.penetrator",
+    "source": "Skill.nx/522.img/skill/5221004/icon"
+  },
+  {
+    "key": "skill.icon.grenade",
+    "source": "Skill.nx/520.img/skill/5201002/icon"
+  },
+  {
+    "key": "skill.icon.energy_blast",
+    "source": "Skill.nx/511.img/skill/5111002/icon"
+  },
+  {
+    "key": "skill.icon.uppercut",
+    "source": "Skill.nx/510.img/skill/5101002/icon"
+  },
+  {
+    "key": "skill.icon.shockwave",
+    "source": "Skill.nx/511.img/skill/5111006/icon"
+  },
+  {
+    "key": "skill.icon.sea_serpent",
+    "source": "Skill.nx/512.img/skill/5121001/icon"
+  },
+  {
+    "key": "skill.icon.cannon",
+    "source": "Skill.nx/522.img/skill/5221007/icon"
+  },
+  {
+    "key": "skill.icon.octopus_turret",
+    "source": "Skill.nx/521.img/skill/5211001/icon"
+  },
+  {
+    "key": "skill.icon.frost_combo",
+    "source": "Skill.nx/2111.img/skill/21110003/icon"
+  },
+  {
+    "key": "skill.icon.glacier_spear",
+    "source": "Skill.nx/2112.img/skill/21120005/icon"
+  },
+  {
+    "key": "skill.icon.dragon_breath",
+    "alias_of": "skill.icon.holy_dragon"
+  },
+  {
+    "key": "skill.icon.dragon_concert",
+    "source": "Skill.nx/2216.img/skill/22161002/icon"
+  },
+  {
+    "key": "skill.icon.missiles",
+    "alias_of": "skill.icon.homing"
+  },
+  {
+    "key": "skill.icon.engineer",
+    "alias_of": "skill.icon.rune"
+  },
+  {
+    "key": "skill.icon.phantom_cards",
+    "alias_of": "skill.icon.prism_shot"
+  },
+  {
+    "key": "skill.icon.rose_finale",
+    "alias_of": "skill.icon.judgement"
+  },
+  {
+    "key": "skill.icon.thousand_stars",
+    "alias_of": "skill.icon.feather_storm"
+  },
+  {
+    "key": "skill.icon.toxic_dance",
+    "alias_of": "skill.icon.venom_vortex"
+  },
+  {
+    "key": "skill.icon.night_chase",
+    "alias_of": "skill.icon.dash_breaker"
+  },
+  {
+    "key": "skill.icon.coin_prison",
+    "alias_of": "skill.icon.trick_decoy"
+  },
+  {
+    "key": "skill.icon.asura_blades",
+    "alias_of": "skill.icon.sword_cyclone"
+  },
+  {
+    "key": "skill.icon.twilight_hunt",
+    "alias_of": "skill.icon.heaven_dragon"
+  },
+  {
+    "key": "skill.icon.gun_feast",
+    "alias_of": "skill.icon.thousand_arrows"
+  },
+  {
+    "key": "skill.icon.ship_breaker",
+    "alias_of": "skill.icon.siege_bolt"
+  },
+  {
+    "key": "skill.icon.burning_sea",
+    "alias_of": "skill.icon.flowing_fire"
+  },
+  {
+    "key": "skill.icon.soul_uppercut",
+    "alias_of": "skill.icon.dragon_formation"
+  },
+  {
+    "key": "skill.icon.thunder_serpent",
+    "alias_of": "skill.icon.thunder_prison"
+  },
+  {
+    "key": "skill.icon.deep_fleet",
+    "alias_of": "skill.icon.siege_bolt"
+  },
+  {
+    "key": "skill.icon.thunder_stars",
+    "alias_of": "skill.icon.storm_arrow_stream"
+  },
+  {
+    "key": "skill.icon.poison_rain",
+    "alias_of": "skill.icon.poison_hunting_ground"
+  },
+  {
+    "key": "skill.icon.mirror_guns",
+    "alias_of": "skill.icon.hunter_volley"
+  },
+  {
+    "key": "skill.icon.star_prison",
+    "alias_of": "skill.icon.molten_star"
+  },
+  {
+    "key": "skill.icon.golden_flame",
+    "alias_of": "skill.icon.flowing_fire"
+  },
+  {
+    "key": "skill.icon.ghost_wings",
+    "alias_of": "skill.icon.twin_hunt"
+  },
+  {
+    "key": "skill.icon.flash_raid",
+    "alias_of": "skill.icon.mountain_breaker"
+  },
+  {
+    "key": "skill.icon.blade_fist",
+    "alias_of": "skill.icon.battle_blades"
+  },
+  {
+    "key": "skill.icon.ice_sea_spear",
+    "alias_of": "skill.icon.frozen_dragon_spear"
+  },
+  {
+    "key": "skill.icon.element_dragon",
+    "alias_of": "skill.icon.dragon_phoenix"
+  },
+  {
+    "key": "skill.icon.sky_swarm",
+    "alias_of": "skill.icon.arcane_ring"
+  },
+  {
+    "key": "skill.icon.phantom_finale",
+    "alias_of": "skill.icon.prism_shot"
+  },
+  {
+    "key": "skill.icon.marked_constellation",
+    "alias_of": "skill.icon.hunter_volley"
+  },
+  {
+    "key": "skill.icon.guided_salvo",
+    "alias_of": "skill.icon.eagle_execution"
+  },
+  {
+    "key": "skill.icon.breach_mines",
+    "alias_of": "skill.icon.arrow_trap"
+  },
+  {
+    "key": "skill.icon.snare_execution",
+    "alias_of": "skill.icon.trick_decoy"
+  },
+  {
+    "key": "skill.icon.card_orbit",
+    "alias_of": "skill.icon.orbital_orb"
+  },
+  {
+    "key": "skill.icon.element_orrery",
+    "alias_of": "skill.icon.arcane_ring"
+  },
+  {
+    "key": "skill.icon.gravity_breaker",
+    "alias_of": "skill.icon.purity_well"
+  },
+  {
+    "key": "skill.icon.gravity_foundry",
+    "alias_of": "skill.icon.gravity_well"
+  },
+  {
+    "key": "skill.icon.titan_combo",
+    "alias_of": "skill.icon.heavy_strike"
+  },
+  {
+    "key": "skill.icon.glacier_hammer",
+    "alias_of": "skill.icon.glacial_sniper"
+  },
+  {
+    "key": "skill.icon.energy_bastion",
+    "alias_of": "skill.icon.dragon_armor"
+  },
+  {
+    "key": "skill.icon.shadow_bastion",
+    "alias_of": "skill.icon.mirror_shield"
+  },
+  {
+    "key": "skill.icon.thunder_shadow",
+    "alias_of": "skill.icon.thunder_prison"
+  },
+  {
+    "key": "skill.icon.breach_fireweb",
+    "alias_of": "skill.icon.siege_bolt"
+  },
+  {
+    "key": "skill.icon.mechanical_siege",
+    "alias_of": "skill.icon.star_bow"
+  },
+  {
+    "key": "skill.icon.cold_prison",
+    "alias_of": "skill.icon.frost_storm"
+  },
+  {
+    "key": "skill.icon.dragon_oath",
+    "alias_of": "skill.icon.echo_shield"
+  },
+  {
+    "key": "skill.icon.frost_flame",
+    "alias_of": "skill.icon.frost_fire"
+  },
+  {
+    "key": "skill.icon.holy_phoenix",
+    "alias_of": "skill.icon.heaven_dragon"
+  },
+  {
+    "key": "skill.icon.night_banquet",
+    "alias_of": "skill.icon.spirit_judgement"
+  },
+  {
+    "key": "skill.icon.venom_lock",
+    "alias_of": "skill.icon.venom_vortex"
+  },
+  {
+    "key": "skill.icon.tidal_fist",
+    "alias_of": "skill.icon.earth_shatter"
+  },
+  {
+    "key": "skill.icon.polar_dragon",
+    "alias_of": "skill.icon.frozen_dragon_spear"
+  },
+  {
+    "key": "skill.icon.dragon_orrery",
+    "alias_of": "skill.icon.arcane_ring"
+  },
+  {
+    "key": "skill.icon.toxic_thunder",
+    "alias_of": "skill.icon.poison_flare"
+  },
+  {
+    "key": "skill.icon.pirate_assault",
+    "alias_of": "skill.icon.flowing_fire"
+  },
+  {
+    "key": "skill.icon.sea_fortress",
+    "alias_of": "skill.icon.siege_bolt"
+  },
+  {
+    "key": "skill.icon.starfall_prison",
+    "alias_of": "skill.icon.molten_star"
+  },
+  {
+    "key": "skill.icon.dragon_fist_armor",
+    "alias_of": "skill.icon.dragon_armor"
+  },
+  {
+    "key": "skill.icon.star_rain",
+    "alias_of": "skill.icon.phoenix_rain"
+  },
+  {
+    "key": "skill.icon.element_sanctum",
+    "alias_of": "skill.icon.heaven_dragon"
+  },
+  {
+    "key": "skill.icon.eternal_mask",
+    "alias_of": "skill.icon.prism_shot"
+  },
+  {
+    "key": "skill.icon.winter_march",
+    "alias_of": "skill.icon.spear_combo"
+  },
+  {
+    "key": "skill.icon.tide_breaker",
+    "alias_of": "skill.icon.azure_rift"
+  },
+  {
+    "key": "skill.icon.arcane_barrage",
+    "alias_of": "skill.icon.homing"
+  },
+  {
+    "key": "skill.icon.card_volley",
+    "alias_of": "skill.icon.hunter_volley"
+  },
+  {
+    "key": "skill.icon.rift_cannon",
+    "alias_of": "skill.icon.siege_bolt"
+  }
+]

@@ -1,0 +1,454 @@
+{
+  "version": 1,
+  "source_archives": {
+    "Skill.nx": {
+      "size_bytes": 203563946,
+      "mtime_ns": 1791432019851882000
+    },
+    "Item.nx": {
+      "size_bytes": 209527421,
+      "mtime_ns": 1791431796109458900
+    },
+    "Character.nx": {
+      "size_bytes": 2250879079,
+      "mtime_ns": 1791432965827394900
+    },
+    "String.nx": {
+      "size_bytes": 370411333,
+      "mtime_ns": 1791433086967351100
+    }
+  },
+  "validation": {
+    "original_archives_unchanged": true,
+    "all_pngs_pixel_equal": true,
+    "unique_pngs": 37,
+    "sprite_keys": 38
+  },
+  "notes": [
+    "Genuine skill/inventory icon canvases; no effect-frame thumbnails or cropped character artwork.",
+    "RGBA and original dimensions retained. HUD display origin is centered; original origin is in source_origin.",
+    "Source names identify original art only; MapleRGL names and mechanics are custom.",
+    "The magnet buff and magnet passive intentionally share the same magnetic pickup icon.",
+    "Contact sheet is an inspection artifact only and is not loaded by the game."
+  ],
+  "icons": [
+    {
+      "key": "skill.icon.homing",
+      "game_name": "追踪魔弹",
+      "source": "Skill.nx/200.img/skill/2001004/icon",
+      "file": "sprites/skill_icons/skill/icon/homing/0.png",
+      "size": [
+        32,
+        32
+      ],
+      "rgba_sha256": "425887d697b8d7c3ac312bfc9b8ff3ac87dfd0f5684708cf1bdca87ca65e8140"
+    },
+    {
+      "key": "skill.icon.arrow",
+      "game_name": "精准射击",
+      "source": "Skill.nx/300.img/skill/3001004/icon",
+      "file": "sprites/skill_icons/skill/icon/arrow/0.png",
+      "size": [
+        32,
+        32
+      ],
+      "rgba_sha256": "21630227dcd82c927fa2288e9332548a92b9d2e356ecd762fc99a1e5951236c5"
+    },
+    {
+      "key": "skill.icon.nova",
+      "game_name": "龙咆哮",
+      "source": "Skill.nx/131.img/skill/1311006/icon",
+      "file": "sprites/skill_icons/skill/icon/nova/0.png",
+      "size": [
+        32,
+        32
+      ],
+      "rgba_sha256": "85886a519a5cde37514d6b3e347d07ee8bed5cefab778e789938edeb0b243547"
+    },
+    {
+      "key": "skill.icon.pierce",
+      "game_name": "穿透箭",
+      "source": "Skill.nx/322.img/skill/3221001/icon",
+      "file": "sprites/skill_icons/skill/icon/pierce/0.png",
+      "size": [
+        32,
+        32
+      ],
+      "rgba_sha256": "9e2987d6aca5f4730a9505f2966ddf6483d19cbb6fefe6d8c50d279c14c7d364"
+    },
+    {
+      "key": "skill.icon.lightning",
+      "game_name": "连锁闪电",
+      "source": "Skill.nx/222.img/skill/2221006/icon",
+      "file": "sprites/skill_icons/skill/icon/lightning/0.png",
+      "size": [
+        32,
+        32
+      ],
+      "rgba_sha256": "929a948a2935fd2a55bfcce745537233d928cfbc9c8d919920396f0d57bd9c31"
+    },
+    {
+      "key": "skill.icon.zone",
+      "game_name": "火焰领域",
+      "source": "Skill.nx/212.img/skill/2121003/icon",
+      "file": "sprites/skill_icons/skill/icon/zone/0.png",
+      "size": [
+        32,
+        32
+      ],
+      "rgba_sha256": "71ed3af0c425180e5c197f2ec488441390c3490268f15eb5728b008841bbe1a4"
+    },
+    {
+      "key": "skill.icon.summon",
+      "game_name": "凤凰",
+      "source": "Skill.nx/312.img/skill/3121006/icon",
+      "file": "sprites/skill_icons/skill/icon/summon/0.png",
+      "size": [
+        32,
+        32
+      ],
+      "rgba_sha256": "43ff1c87f6c94e2781a77cc51cc5903265af280c273565645c022a880099565d"
+    },
+    {
+      "key": "skill.icon.cleave",
+      "game_name": "劈空斩",
+      "source": "Skill.nx/100.img/skill/1001005/icon",
+      "file": "sprites/skill_icons/skill/icon/cleave/0.png",
+      "size": [
+        32,
+        32
+      ],
+      "rgba_sha256": "4885ad6243c3bcd5cf568dea56c9d795a5a5246155474370fbb5dfa7bac073ec"
+    },
+    {
+      "key": "skill.icon.orbit",
+      "game_name": "旋风剑刃",
+      "source": "Skill.nx/112.img/skill/1120003/icon",
+      "file": "sprites/skill_icons/skill/icon/orbit/0.png",
+      "size": [
+        32,
+        32
+      ],
+      "rgba_sha256": "a78d0bf3cd6868d75ee3baf3f8c47af1d324c8a01a85abbcd4eb9aaff92f54c4"
+    },
+    {
+      "key": "skill.icon.spread",
+      "game_name": "多重箭",
+      "source": "Skill.nx/311.img/skill/3111006/icon",
+      "file": "sprites/skill_icons/skill/icon/spread/0.png",
+      "size": [
+        32,
+        32
+      ],
+      "rgba_sha256": "c28148e8a4608e0d24286fa360f4ad15d5a32b1e422c30ba8cc31839be368114"
+    },
+    {
+      "key": "skill.icon.rain",
+      "game_name": "箭雨",
+      "source": "Skill.nx/311.img/skill/3111004/icon",
+      "file": "sprites/skill_icons/skill/icon/rain/0.png",
+      "size": [
+        32,
+        32
+      ],
+      "rgba_sha256": "b1fa468445213b4e42dd1e4db901bb90ba52b3f39b64ef60e1000e700ef09139"
+    },
+    {
+      "key": "skill.icon.ricochet",
+      "game_name": "弹射箭",
+      "source": "Skill.nx/310.img/skill/3101005/icon",
+      "file": "sprites/skill_icons/skill/icon/ricochet/0.png",
+      "size": [
+        32,
+        32
+      ],
+      "rgba_sha256": "d5c755dad00d27db9f6de3f9b378d2dc8dfc07bfd950d70785c656a575d945d1"
+    },
+    {
+      "key": "skill.icon.frost",
+      "game_name": "冰咆哮",
+      "source": "Skill.nx/221.img/skill/2211002/icon",
+      "file": "sprites/skill_icons/skill/icon/frost/0.png",
+      "size": [
+        32,
+        32
+      ],
+      "rgba_sha256": "f07fa231cd0a6c6d1be3d88f273dfecac45663bede5cbc6b9d80f6d0eb4399c3"
+    },
+    {
+      "key": "skill.icon.meteor",
+      "game_name": "陨石",
+      "source": "Skill.nx/212.img/skill/2121007/icon",
+      "file": "sprites/skill_icons/skill/icon/meteor/0.png",
+      "size": [
+        32,
+        32
+      ],
+      "rgba_sha256": "08c85deee0a1d70229148cdbe0f7969b7bc200d7a21a033da9b57e56e866d359"
+    },
+    {
+      "key": "skill.icon.rune",
+      "game_name": "魔法阵",
+      "source": "Skill.nx/232.img/skill/2321001/icon",
+      "file": "sprites/skill_icons/skill/icon/rune/0.png",
+      "size": [
+        32,
+        32
+      ],
+      "rgba_sha256": "3a48f96334128d8da82995b2c54adf481c9389c84f32ae7f438232bb42387006"
+    },
+    {
+      "key": "skill.icon.charge",
+      "game_name": "冲锋斩",
+      "source": "Skill.nx/112.img/skill/1121006/icon",
+      "file": "sprites/skill_icons/skill/icon/charge/0.png",
+      "size": [
+        32,
+        32
+      ],
+      "rgba_sha256": "cebd41210fdf1178fd49046311af79ba748c3d1fd61dd9834b24191c333ded86"
+    },
+    {
+      "key": "skill.icon.blade_wave",
+      "game_name": "剑气",
+      "source": "Skill.nx/1110.img/skill/11101004/icon",
+      "file": "sprites/skill_icons/skill/icon/blade_wave/0.png",
+      "size": [
+        32,
+        32
+      ],
+      "rgba_sha256": "699f82b29799fbe0dfc623a214d382fc9f04b52b27aadfab146bc842dbdad9b2"
+    },
+    {
+      "key": "skill.icon.retaliate",
+      "game_name": "防御反击",
+      "source": "Skill.nx/110.img/skill/1101007/icon",
+      "file": "sprites/skill_icons/skill/icon/retaliate/0.png",
+      "size": [
+        32,
+        32
+      ],
+      "rgba_sha256": "37492cef8c3b8212e4ce271168a07bbd1bd83c859ee07cb7dd4fb9e42dbe5983"
+    },
+    {
+      "key": "passive.icon.1",
+      "game_name": "伤害",
+      "source": "Skill.nx/100.img/skill/1001004/icon",
+      "file": "sprites/skill_icons/passive/icon/1/0.png",
+      "size": [
+        32,
+        32
+      ],
+      "rgba_sha256": "cb853d418489d30045cefb97710d8ce0b67988f92052975d7931eb740d9ad9e1"
+    },
+    {
+      "key": "passive.icon.2",
+      "game_name": "攻速",
+      "source": "Skill.nx/310.img/skill/3101002/icon",
+      "file": "sprites/skill_icons/passive/icon/2/0.png",
+      "size": [
+        32,
+        32
+      ],
+      "rgba_sha256": "72b985f0c8c536c99435605c4d1eca1662c4b7bacd7adf4af0ce6b2ec3c1a175"
+    },
+    {
+      "key": "passive.icon.3",
+      "game_name": "范围",
+      "source": "Skill.nx/230.img/skill/2301004/icon",
+      "file": "sprites/skill_icons/passive/icon/3/0.png",
+      "size": [
+        32,
+        32
+      ],
+      "rgba_sha256": "e8c546e7e6c29ac55f35228c1e1894c47107d6af89e3eea6f1436b0032e76456"
+    },
+    {
+      "key": "passive.icon.4",
+      "game_name": "投射物",
+      "source": "Skill.nx/300.img/skill/3001005/icon",
+      "file": "sprites/skill_icons/passive/icon/4/0.png",
+      "size": [
+        32,
+        32
+      ],
+      "rgba_sha256": "2b0567f4ff1dfee9eb6a6fd4ef046f2e9e4fc2abd0614f9fabd29fedee581b3b"
+    },
+    {
+      "key": "passive.icon.5",
+      "game_name": "移动速度",
+      "source": "Skill.nx/410.img/skill/4101004/icon",
+      "file": "sprites/skill_icons/passive/icon/5/0.png",
+      "size": [
+        32,
+        32
+      ],
+      "rgba_sha256": "0cf7dce77571dee2dc757815f2ccd7ba51b5d35ea78b029c39c6dc32783eb7ce"
+    },
+    {
+      "key": "passive.icon.6",
+      "game_name": "生命",
+      "source": "Skill.nx/130.img/skill/1301007/icon",
+      "file": "sprites/skill_icons/passive/icon/6/0.png",
+      "size": [
+        32,
+        32
+      ],
+      "rgba_sha256": "d6612a81787059a189eb9f2a062ddda08507d4eb656319f69475cfc585013f17"
+    },
+    {
+      "key": "passive.icon.7",
+      "game_name": "拾取范围",
+      "source": "Character.nx/PetEquip/01812000.img/info/icon",
+      "file": "sprites/skill_icons/passive/icon/7/0.png",
+      "size": [
+        30,
+        29
+      ],
+      "rgba_sha256": "61721849f7964ac76a3b47e140b6535f94861b31da00cc7a0a10d924555705da"
+    },
+    {
+      "key": "passive.icon.8",
+      "game_name": "冷却",
+      "source": "Item.nx/Cash/0550.img/05500001/info/icon",
+      "file": "sprites/skill_icons/passive/icon/8/0.png",
+      "size": [
+        32,
+        32
+      ],
+      "rgba_sha256": "83554e8676e49c589d5f8493949fb26646fdeddf42581762ebcb4d564eb356c9"
+    },
+    {
+      "key": "passive.icon.9",
+      "game_name": "持续时间",
+      "source": "Skill.nx/212.img/skill/2121004/icon",
+      "file": "sprites/skill_icons/passive/icon/9/0.png",
+      "size": [
+        32,
+        32
+      ],
+      "rgba_sha256": "4e435becb4dc5e45c035b3a3d27ff1e21e2fec017efb9f28d1d4ed06feb08623"
+    },
+    {
+      "key": "passive.icon.10",
+      "game_name": "暴击概率",
+      "source": "Skill.nx/312.img/skill/3121002/icon",
+      "file": "sprites/skill_icons/passive/icon/10/0.png",
+      "size": [
+        32,
+        32
+      ],
+      "rgba_sha256": "f42200cd6a85a7508ced93533bd042fd2e1a9becfb0614d5e4f92cd6890af23f"
+    },
+    {
+      "key": "passive.icon.11",
+      "game_name": "暴击伤害",
+      "source": "Skill.nx/410.img/skill/4100001/icon",
+      "file": "sprites/skill_icons/passive/icon/11/0.png",
+      "size": [
+        32,
+        32
+      ],
+      "rgba_sha256": "ba06f11df2e31e8caa73818dfcb8af32e047c8c925000eeec614c08f02c5197f"
+    },
+    {
+      "key": "passive.icon.12",
+      "game_name": "恢复生命",
+      "source": "Item.nx/Consume/0200.img/02000000/info/icon",
+      "file": "sprites/skill_icons/passive/icon/12/0.png",
+      "size": [
+        27,
+        30
+      ],
+      "rgba_sha256": "6e83b756fdc29adaaadcde051354f37613e807659cd69b2659ae96a9cfe70103"
+    },
+    {
+      "key": "buff.icon.fury",
+      "game_name": "狂热",
+      "source": "Skill.nx/111.img/skill/1111002/icon",
+      "file": "sprites/skill_icons/buff/icon/fury/0.png",
+      "size": [
+        32,
+        32
+      ],
+      "rgba_sha256": "251782384ea15e2210992371145c6f4be5dccdaec34d002462e84e3072a6d234"
+    },
+    {
+      "key": "buff.icon.magnet",
+      "game_name": "磁铁",
+      "source": "Character.nx/PetEquip/01812000.img/info/icon",
+      "file": "sprites/skill_icons/passive/icon/7/0.png",
+      "size": [
+        30,
+        29
+      ],
+      "rgba_sha256": "61721849f7964ac76a3b47e140b6535f94861b31da00cc7a0a10d924555705da"
+    },
+    {
+      "key": "buff.icon.shield",
+      "game_name": "护盾",
+      "source": "Item.nx/Consume/0202.img/02022269/info/icon",
+      "file": "sprites/skill_icons/buff/icon/shield/0.png",
+      "size": [
+        28,
+        30
+      ],
+      "rgba_sha256": "2a7252065a52f57d9c12bea9785d13d4760cf739c3551da76f6f36f081773d8d"
+    },
+    {
+      "key": "buff.icon.double_xp",
+      "game_name": "双倍经验",
+      "source": "Item.nx/Cash/0521.img/05211000/info/icon",
+      "file": "sprites/skill_icons/buff/icon/double_xp/0.png",
+      "size": [
+        32,
+        32
+      ],
+      "rgba_sha256": "dc9eacbf6fe56601cd17ba70d895795317b290afd5d5d7f4962e3be46da2271c"
+    },
+    {
+      "key": "buff.icon.power",
+      "game_name": "强化",
+      "source": "Item.nx/Consume/0202.img/02022259/info/icon",
+      "file": "sprites/skill_icons/buff/icon/power/0.png",
+      "size": [
+        32,
+        35
+      ],
+      "rgba_sha256": "a5fad1843066bee562833d419bee92d343080029da664c70b1698c82290ca677"
+    },
+    {
+      "key": "buff.icon.rift",
+      "game_name": "裂隙",
+      "source": "Skill.nx/220.img/skill/2201002/icon",
+      "file": "sprites/skill_icons/buff/icon/rift/0.png",
+      "size": [
+        32,
+        32
+      ],
+      "rgba_sha256": "fc3f72b031cf949bd8a77a71b7bcb5af04f8393e43f167080fb56cf553194bcc"
+    },
+    {
+      "key": "buff.icon.curse",
+      "game_name": "诅咒",
+      "source": "Skill.nx/120.img/skill/1201006/icon",
+      "file": "sprites/skill_icons/buff/icon/curse/0.png",
+      "size": [
+        32,
+        32
+      ],
+      "rgba_sha256": "1ec41f6b1931ea315c3d5ebda21244ca147d48971d439ea196cf9f0ee2334953"
+    },
+    {
+      "key": "buff.icon.mud",
+      "game_name": "泥地减速",
+      "source": "Skill.nx/210.img/skill/2101003/icon",
+      "file": "sprites/skill_icons/buff/icon/mud/0.png",
+      "size": [
+        32,
+        32
+      ],
+      "rgba_sha256": "14b68fc0855525192d6df3e789831d8e0079e0c1edb22d01844604932e176765"
+    }
+  ]
+}

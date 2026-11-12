@@ -1,0 +1,1308 @@
+{
+  "version": 1,
+  "sprites": {
+    "skill.icon.homing": {
+      "frames": [
+        {
+          "file": "sprites/skill_icons/skill/icon/homing/0.png",
+          "duration_ms": 100,
+          "origin": [
+            16.0,
+            16.0
+          ],
+          "source_origin": [
+            0,
+            32
+          ],
+          "size": [
+            32,
+            32
+          ],
+          "source": "Skill.nx/200.img/skill/2001004/icon",
+          "alpha_start": 255,
+          "alpha_end": 255,
+          "rgba_sha256": "425887d697b8d7c3ac312bfc9b8ff3ac87dfd0f5684708cf1bdca87ca65e8140",
+          "duration_note": "Static source icon has no delay; 100 ms is the existing renderer fallback.",
+          "alpha_note": "No source alpha interpolation; full-opacity endpoints preserve original per-pixel RGBA alpha."
+        }
+      ],
+      "source": "Skill.nx/200.img/skill/2001004/icon",
+      "name": "追踪魔弹",
+      "loop": false,
+      "total_duration_ms": 100,
+      "icon_kind": "original_skill_icon",
+      "source_skill_id": 2001004,
+      "source_name": "魔法弹",
+      "source_name_source": "String.nx/Skill.img/2001004/name"
+    },
+    "skill.icon.arrow": {
+      "frames": [
+        {
+          "file": "sprites/skill_icons/skill/icon/arrow/0.png",
+          "duration_ms": 100,
+          "origin": [
+            16.0,
+            16.0
+          ],
+          "source_origin": [
+            0,
+            32
+          ],
+          "size": [
+            32,
+            32
+          ],
+          "source": "Skill.nx/300.img/skill/3001004/icon",
+          "alpha_start": 255,
+          "alpha_end": 255,
+          "rgba_sha256": "21630227dcd82c927fa2288e9332548a92b9d2e356ecd762fc99a1e5951236c5",
+          "duration_note": "Static source icon has no delay; 100 ms is the existing renderer fallback.",
+          "alpha_note": "No source alpha interpolation; full-opacity endpoints preserve original per-pixel RGBA alpha."
+        }
+      ],
+      "source": "Skill.nx/300.img/skill/3001004/icon",
+      "name": "精准射击",
+      "loop": false,
+      "total_duration_ms": 100,
+      "icon_kind": "original_skill_icon",
+      "source_skill_id": 3001004,
+      "source_name": "断魂箭",
+      "source_name_source": "String.nx/Skill.img/3001004/name"
+    },
+    "skill.icon.nova": {
+      "frames": [
+        {
+          "file": "sprites/skill_icons/skill/icon/nova/0.png",
+          "duration_ms": 100,
+          "origin": [
+            16.0,
+            16.0
+          ],
+          "source_origin": [
+            0,
+            32
+          ],
+          "size": [
+            32,
+            32
+          ],
+          "source": "Skill.nx/131.img/skill/1311006/icon",
+          "alpha_start": 255,
+          "alpha_end": 255,
+          "rgba_sha256": "85886a519a5cde37514d6b3e347d07ee8bed5cefab778e789938edeb0b243547",
+          "duration_note": "Static source icon has no delay; 100 ms is the existing renderer fallback.",
+          "alpha_note": "No source alpha interpolation; full-opacity endpoints preserve original per-pixel RGBA alpha."
+        }
+      ],
+      "source": "Skill.nx/131.img/skill/1311006/icon",
+      "name": "龙咆哮",
+      "loop": false,
+      "total_duration_ms": 100,
+      "icon_kind": "original_skill_icon",
+      "source_skill_id": 1311006,
+      "source_name": "龙咆哮",
+      "source_name_source": "String.nx/Skill.img/1311006/name"
+    },
+    "skill.icon.pierce": {
+      "frames": [
+        {
+          "file": "sprites/skill_icons/skill/icon/pierce/0.png",
+          "duration_ms": 100,
+          "origin": [
+            16.0,
+            16.0
+          ],
+          "source_origin": [
+            0,
+            32
+          ],
+          "size": [
+            32,
+            32
+          ],
+          "source": "Skill.nx/322.img/skill/3221001/icon",
+          "alpha_start": 255,
+          "alpha_end": 255,
+          "rgba_sha256": "9e2987d6aca5f4730a9505f2966ddf6483d19cbb6fefe6d8c50d279c14c7d364",
+          "duration_note": "Static source icon has no delay; 100 ms is the existing renderer fallback.",
+          "alpha_note": "No source alpha interpolation; full-opacity endpoints preserve original per-pixel RGBA alpha."
+        }
+      ],
+      "source": "Skill.nx/322.img/skill/3221001/icon",
+      "name": "穿透箭",
+      "loop": false,
+      "total_duration_ms": 100,
+      "icon_kind": "original_skill_icon",
+      "source_skill_id": 3221001,
+      "source_name": "穿透箭",
+      "source_name_source": "String.nx/Skill.img/3221001/name"
+    },
+    "skill.icon.lightning": {
+      "frames": [
+        {
+          "file": "sprites/skill_icons/skill/icon/lightning/0.png",
+          "duration_ms": 100,
+          "origin": [
+            16.0,
+            16.0
+          ],
+          "source_origin": [
+            0,
+            32
+          ],
+          "size": [
+            32,
+            32
+          ],
+          "source": "Skill.nx/222.img/skill/2221006/icon",
+          "alpha_start": 255,
+          "alpha_end": 255,
+          "rgba_sha256": "929a948a2935fd2a55bfcce745537233d928cfbc9c8d919920396f0d57bd9c31",
+          "duration_note": "Static source icon has no delay; 100 ms is the existing renderer fallback.",
+          "alpha_note": "No source alpha interpolation; full-opacity endpoints preserve original per-pixel RGBA alpha."
+        }
+      ],
+      "source": "Skill.nx/222.img/skill/2221006/icon",
+      "name": "连锁闪电",
+      "loop": false,
+      "total_duration_ms": 100,
+      "icon_kind": "original_skill_icon",
+      "source_skill_id": 2221006,
+      "source_name": "链环闪电",
+      "source_name_source": "String.nx/Skill.img/2221006/name"
+    },
+    "skill.icon.zone": {
+      "frames": [
+        {
+          "file": "sprites/skill_icons/skill/icon/zone/0.png",
+          "duration_ms": 100,
+          "origin": [
+            16.0,
+            16.0
+          ],
+          "source_origin": [
+            0,
+            32
+          ],
+          "size": [
+            32,
+            32
+          ],
+          "source": "Skill.nx/212.img/skill/2121003/icon",
+          "alpha_start": 255,
+          "alpha_end": 255,
+          "rgba_sha256": "71ed3af0c425180e5c197f2ec488441390c3490268f15eb5728b008841bbe1a4",
+          "duration_note": "Static source icon has no delay; 100 ms is the existing renderer fallback.",
+          "alpha_note": "No source alpha interpolation; full-opacity endpoints preserve original per-pixel RGBA alpha."
+        }
+      ],
+      "source": "Skill.nx/212.img/skill/2121003/icon",
+      "name": "火焰领域",
+      "loop": false,
+      "total_duration_ms": 100,
+      "icon_kind": "original_skill_icon",
+      "source_skill_id": 2121003,
+      "source_name": "火凤球",
+      "source_name_source": "String.nx/Skill.img/2121003/name"
+    },
+    "skill.icon.summon": {
+      "frames": [
+        {
+          "file": "sprites/skill_icons/skill/icon/summon/0.png",
+          "duration_ms": 100,
+          "origin": [
+            16.0,
+            16.0
+          ],
+          "source_origin": [
+            0,
+            32
+          ],
+          "size": [
+            32,
+            32
+          ],
+          "source": "Skill.nx/312.img/skill/3121006/icon",
+          "alpha_start": 255,
+          "alpha_end": 255,
+          "rgba_sha256": "43ff1c87f6c94e2781a77cc51cc5903265af280c273565645c022a880099565d",
+          "duration_note": "Static source icon has no delay; 100 ms is the existing renderer fallback.",
+          "alpha_note": "No source alpha interpolation; full-opacity endpoints preserve original per-pixel RGBA alpha."
+        }
+      ],
+      "source": "Skill.nx/312.img/skill/3121006/icon",
+      "name": "凤凰",
+      "loop": false,
+      "total_duration_ms": 100,
+      "icon_kind": "original_skill_icon",
+      "source_skill_id": 3121006,
+      "source_name": "火凤凰",
+      "source_name_source": "String.nx/Skill.img/3121006/name"
+    },
+    "skill.icon.cleave": {
+      "frames": [
+        {
+          "file": "sprites/skill_icons/skill/icon/cleave/0.png",
+          "duration_ms": 100,
+          "origin": [
+            16.0,
+            16.0
+          ],
+          "source_origin": [
+            0,
+            32
+          ],
+          "size": [
+            32,
+            32
+          ],
+          "source": "Skill.nx/100.img/skill/1001005/icon",
+          "alpha_start": 255,
+          "alpha_end": 255,
+          "rgba_sha256": "4885ad6243c3bcd5cf568dea56c9d795a5a5246155474370fbb5dfa7bac073ec",
+          "duration_note": "Static source icon has no delay; 100 ms is the existing renderer fallback.",
+          "alpha_note": "No source alpha interpolation; full-opacity endpoints preserve original per-pixel RGBA alpha."
+        }
+      ],
+      "source": "Skill.nx/100.img/skill/1001005/icon",
+      "name": "劈空斩",
+      "loop": false,
+      "total_duration_ms": 100,
+      "icon_kind": "original_skill_icon",
+      "source_skill_id": 1001005,
+      "source_name": "群体攻击",
+      "source_name_source": "String.nx/Skill.img/1001005/name"
+    },
+    "skill.icon.orbit": {
+      "frames": [
+        {
+          "file": "sprites/skill_icons/skill/icon/orbit/0.png",
+          "duration_ms": 100,
+          "origin": [
+            16.0,
+            16.0
+          ],
+          "source_origin": [
+            0,
+            32
+          ],
+          "size": [
+            32,
+            32
+          ],
+          "source": "Skill.nx/112.img/skill/1120003/icon",
+          "alpha_start": 255,
+          "alpha_end": 255,
+          "rgba_sha256": "a78d0bf3cd6868d75ee3baf3f8c47af1d324c8a01a85abbcd4eb9aaff92f54c4",
+          "duration_note": "Static source icon has no delay; 100 ms is the existing renderer fallback.",
+          "alpha_note": "No source alpha interpolation; full-opacity endpoints preserve original per-pixel RGBA alpha."
+        }
+      ],
+      "source": "Skill.nx/112.img/skill/1120003/icon",
+      "name": "旋风剑刃",
+      "loop": false,
+      "total_duration_ms": 100,
+      "icon_kind": "original_skill_icon",
+      "source_skill_id": 1120003,
+      "source_name": "进阶斗气",
+      "source_name_source": "String.nx/Skill.img/1120003/name"
+    },
+    "skill.icon.spread": {
+      "frames": [
+        {
+          "file": "sprites/skill_icons/skill/icon/spread/0.png",
+          "duration_ms": 100,
+          "origin": [
+            16.0,
+            16.0
+          ],
+          "source_origin": [
+            0,
+            32
+          ],
+          "size": [
+            32,
+            32
+          ],
+          "source": "Skill.nx/311.img/skill/3111006/icon",
+          "alpha_start": 255,
+          "alpha_end": 255,
+          "rgba_sha256": "c28148e8a4608e0d24286fa360f4ad15d5a32b1e422c30ba8cc31839be368114",
+          "duration_note": "Static source icon has no delay; 100 ms is the existing renderer fallback.",
+          "alpha_note": "No source alpha interpolation; full-opacity endpoints preserve original per-pixel RGBA alpha."
+        }
+      ],
+      "source": "Skill.nx/311.img/skill/3111006/icon",
+      "name": "多重箭",
+      "loop": false,
+      "total_duration_ms": 100,
+      "icon_kind": "original_skill_icon",
+      "source_skill_id": 3111006,
+      "source_name": "箭扫射",
+      "source_name_source": "String.nx/Skill.img/3111006/name"
+    },
+    "skill.icon.rain": {
+      "frames": [
+        {
+          "file": "sprites/skill_icons/skill/icon/rain/0.png",
+          "duration_ms": 100,
+          "origin": [
+            16.0,
+            16.0
+          ],
+          "source_origin": [
+            0,
+            32
+          ],
+          "size": [
+            32,
+            32
+          ],
+          "source": "Skill.nx/311.img/skill/3111004/icon",
+          "alpha_start": 255,
+          "alpha_end": 255,
+          "rgba_sha256": "b1fa468445213b4e42dd1e4db901bb90ba52b3f39b64ef60e1000e700ef09139",
+          "duration_note": "Static source icon has no delay; 100 ms is the existing renderer fallback.",
+          "alpha_note": "No source alpha interpolation; full-opacity endpoints preserve original per-pixel RGBA alpha."
+        }
+      ],
+      "source": "Skill.nx/311.img/skill/3111004/icon",
+      "name": "箭雨",
+      "loop": false,
+      "total_duration_ms": 100,
+      "icon_kind": "original_skill_icon",
+      "source_skill_id": 3111004,
+      "source_name": "箭雨",
+      "source_name_source": "String.nx/Skill.img/3111004/name"
+    },
+    "skill.icon.ricochet": {
+      "frames": [
+        {
+          "file": "sprites/skill_icons/skill/icon/ricochet/0.png",
+          "duration_ms": 100,
+          "origin": [
+            16.0,
+            16.0
+          ],
+          "source_origin": [
+            0,
+            32
+          ],
+          "size": [
+            32,
+            32
+          ],
+          "source": "Skill.nx/310.img/skill/3101005/icon",
+          "alpha_start": 255,
+          "alpha_end": 255,
+          "rgba_sha256": "d5c755dad00d27db9f6de3f9b378d2dc8dfc07bfd950d70785c656a575d945d1",
+          "duration_note": "Static source icon has no delay; 100 ms is the existing renderer fallback.",
+          "alpha_note": "No source alpha interpolation; full-opacity endpoints preserve original per-pixel RGBA alpha."
+        }
+      ],
+      "source": "Skill.nx/310.img/skill/3101005/icon",
+      "name": "弹射箭",
+      "loop": false,
+      "total_duration_ms": 100,
+      "icon_kind": "original_skill_icon",
+      "source_skill_id": 3101005,
+      "source_name": "爆炸箭",
+      "source_name_source": "String.nx/Skill.img/3101005/name"
+    },
+    "skill.icon.frost": {
+      "frames": [
+        {
+          "file": "sprites/skill_icons/skill/icon/frost/0.png",
+          "duration_ms": 100,
+          "origin": [
+            16.0,
+            16.0
+          ],
+          "source_origin": [
+            0,
+            32
+          ],
+          "size": [
+            32,
+            32
+          ],
+          "source": "Skill.nx/221.img/skill/2211002/icon",
+          "alpha_start": 255,
+          "alpha_end": 255,
+          "rgba_sha256": "f07fa231cd0a6c6d1be3d88f273dfecac45663bede5cbc6b9d80f6d0eb4399c3",
+          "duration_note": "Static source icon has no delay; 100 ms is the existing renderer fallback.",
+          "alpha_note": "No source alpha interpolation; full-opacity endpoints preserve original per-pixel RGBA alpha."
+        }
+      ],
+      "source": "Skill.nx/221.img/skill/2211002/icon",
+      "name": "冰咆哮",
+      "loop": false,
+      "total_duration_ms": 100,
+      "icon_kind": "original_skill_icon",
+      "source_skill_id": 2211002,
+      "source_name": "冰咆哮",
+      "source_name_source": "String.nx/Skill.img/2211002/name"
+    },
+    "skill.icon.meteor": {
+      "frames": [
+        {
+          "file": "sprites/skill_icons/skill/icon/meteor/0.png",
+          "duration_ms": 100,
+          "origin": [
+            16.0,
+            16.0
+          ],
+          "source_origin": [
+            0,
+            32
+          ],
+          "size": [
+            32,
+            32
+          ],
+          "source": "Skill.nx/212.img/skill/2121007/icon",
+          "alpha_start": 255,
+          "alpha_end": 255,
+          "rgba_sha256": "08c85deee0a1d70229148cdbe0f7969b7bc200d7a21a033da9b57e56e866d359",
+          "duration_note": "Static source icon has no delay; 100 ms is the existing renderer fallback.",
+          "alpha_note": "No source alpha interpolation; full-opacity endpoints preserve original per-pixel RGBA alpha."
+        }
+      ],
+      "source": "Skill.nx/212.img/skill/2121007/icon",
+      "name": "陨石",
+      "loop": false,
+      "total_duration_ms": 100,
+      "icon_kind": "original_skill_icon",
+      "source_skill_id": 2121007,
+      "source_name": "天降落星",
+      "source_name_source": "String.nx/Skill.img/2121007/name"
+    },
+    "skill.icon.rune": {
+      "frames": [
+        {
+          "file": "sprites/skill_icons/skill/icon/rune/0.png",
+          "duration_ms": 100,
+          "origin": [
+            16.0,
+            16.0
+          ],
+          "source_origin": [
+            0,
+            32
+          ],
+          "size": [
+            32,
+            32
+          ],
+          "source": "Skill.nx/232.img/skill/2321001/icon",
+          "alpha_start": 255,
+          "alpha_end": 255,
+          "rgba_sha256": "3a48f96334128d8da82995b2c54adf481c9389c84f32ae7f438232bb42387006",
+          "duration_note": "Static source icon has no delay; 100 ms is the existing renderer fallback.",
+          "alpha_note": "No source alpha interpolation; full-opacity endpoints preserve original per-pixel RGBA alpha."
+        }
+      ],
+      "source": "Skill.nx/232.img/skill/2321001/icon",
+      "name": "魔法阵",
+      "loop": false,
+      "total_duration_ms": 100,
+      "icon_kind": "original_skill_icon",
+      "source_skill_id": 2321001,
+      "source_name": "创世之破",
+      "source_name_source": "String.nx/Skill.img/2321001/name"
+    },
+    "skill.icon.charge": {
+      "frames": [
+        {
+          "file": "sprites/skill_icons/skill/icon/charge/0.png",
+          "duration_ms": 100,
+          "origin": [
+            16.0,
+            16.0
+          ],
+          "source_origin": [
+            0,
+            32
+          ],
+          "size": [
+            32,
+            32
+          ],
+          "source": "Skill.nx/112.img/skill/1121006/icon",
+          "alpha_start": 255,
+          "alpha_end": 255,
+          "rgba_sha256": "cebd41210fdf1178fd49046311af79ba748c3d1fd61dd9834b24191c333ded86",
+          "duration_note": "Static source icon has no delay; 100 ms is the existing renderer fallback.",
+          "alpha_note": "No source alpha interpolation; full-opacity endpoints preserve original per-pixel RGBA alpha."
+        }
+      ],
+      "source": "Skill.nx/112.img/skill/1121006/icon",
+      "name": "冲锋斩",
+      "loop": false,
+      "total_duration_ms": 100,
+      "icon_kind": "original_skill_icon",
+      "source_skill_id": 1121006,
+      "source_name": "突进",
+      "source_name_source": "String.nx/Skill.img/1121006/name"
+    },
+    "skill.icon.blade_wave": {
+      "frames": [
+        {
+          "file": "sprites/skill_icons/skill/icon/blade_wave/0.png",
+          "duration_ms": 100,
+          "origin": [
+            16.0,
+            16.0
+          ],
+          "source_origin": [
+            0,
+            32
+          ],
+          "size": [
+            32,
+            32
+          ],
+          "source": "Skill.nx/1110.img/skill/11101004/icon",
+          "alpha_start": 255,
+          "alpha_end": 255,
+          "rgba_sha256": "699f82b29799fbe0dfc623a214d382fc9f04b52b27aadfab146bc842dbdad9b2",
+          "duration_note": "Static source icon has no delay; 100 ms is the existing renderer fallback.",
+          "alpha_note": "No source alpha interpolation; full-opacity endpoints preserve original per-pixel RGBA alpha."
+        }
+      ],
+      "source": "Skill.nx/1110.img/skill/11101004/icon",
+      "name": "剑气",
+      "loop": false,
+      "total_duration_ms": 100,
+      "icon_kind": "original_skill_icon",
+      "source_skill_id": 11101004,
+      "source_name": "灵魂之刃",
+      "source_name_source": "String.nx/Skill.img/11101004/name"
+    },
+    "skill.icon.retaliate": {
+      "frames": [
+        {
+          "file": "sprites/skill_icons/skill/icon/retaliate/0.png",
+          "duration_ms": 100,
+          "origin": [
+            16.0,
+            16.0
+          ],
+          "source_origin": [
+            0,
+            32
+          ],
+          "size": [
+            32,
+            32
+          ],
+          "source": "Skill.nx/110.img/skill/1101007/icon",
+          "alpha_start": 255,
+          "alpha_end": 255,
+          "rgba_sha256": "37492cef8c3b8212e4ce271168a07bbd1bd83c859ee07cb7dd4fb9e42dbe5983",
+          "duration_note": "Static source icon has no delay; 100 ms is the existing renderer fallback.",
+          "alpha_note": "No source alpha interpolation; full-opacity endpoints preserve original per-pixel RGBA alpha."
+        }
+      ],
+      "source": "Skill.nx/110.img/skill/1101007/icon",
+      "name": "防御反击",
+      "loop": false,
+      "total_duration_ms": 100,
+      "icon_kind": "original_skill_icon",
+      "source_skill_id": 1101007,
+      "source_name": "伤害反击",
+      "source_name_source": "String.nx/Skill.img/1101007/name"
+    },
+    "passive.icon.1": {
+      "frames": [
+        {
+          "file": "sprites/skill_icons/passive/icon/1/0.png",
+          "duration_ms": 100,
+          "origin": [
+            16.0,
+            16.0
+          ],
+          "source_origin": [
+            0,
+            32
+          ],
+          "size": [
+            32,
+            32
+          ],
+          "source": "Skill.nx/100.img/skill/1001004/icon",
+          "alpha_start": 255,
+          "alpha_end": 255,
+          "rgba_sha256": "cb853d418489d30045cefb97710d8ce0b67988f92052975d7931eb740d9ad9e1",
+          "duration_note": "Static source icon has no delay; 100 ms is the existing renderer fallback.",
+          "alpha_note": "No source alpha interpolation; full-opacity endpoints preserve original per-pixel RGBA alpha."
+        }
+      ],
+      "source": "Skill.nx/100.img/skill/1001004/icon",
+      "name": "伤害",
+      "loop": false,
+      "total_duration_ms": 100,
+      "icon_kind": "original_skill_icon",
+      "source_skill_id": 1001004,
+      "source_name": "强力攻击",
+      "source_name_source": "String.nx/Skill.img/1001004/name"
+    },
+    "passive.icon.2": {
+      "frames": [
+        {
+          "file": "sprites/skill_icons/passive/icon/2/0.png",
+          "duration_ms": 100,
+          "origin": [
+            16.0,
+            16.0
+          ],
+          "source_origin": [
+            0,
+            32
+          ],
+          "size": [
+            32,
+            32
+          ],
+          "source": "Skill.nx/310.img/skill/3101002/icon",
+          "alpha_start": 255,
+          "alpha_end": 255,
+          "rgba_sha256": "72b985f0c8c536c99435605c4d1eca1662c4b7bacd7adf4af0ce6b2ec3c1a175",
+          "duration_note": "Static source icon has no delay; 100 ms is the existing renderer fallback.",
+          "alpha_note": "No source alpha interpolation; full-opacity endpoints preserve original per-pixel RGBA alpha."
+        }
+      ],
+      "source": "Skill.nx/310.img/skill/3101002/icon",
+      "name": "攻速",
+      "loop": false,
+      "total_duration_ms": 100,
+      "icon_kind": "original_skill_icon",
+      "source_skill_id": 3101002,
+      "source_name": "快速箭",
+      "source_name_source": "String.nx/Skill.img/3101002/name"
+    },
+    "passive.icon.3": {
+      "frames": [
+        {
+          "file": "sprites/skill_icons/passive/icon/3/0.png",
+          "duration_ms": 100,
+          "origin": [
+            16.0,
+            16.0
+          ],
+          "source_origin": [
+            0,
+            32
+          ],
+          "size": [
+            32,
+            32
+          ],
+          "source": "Skill.nx/230.img/skill/2301004/icon",
+          "alpha_start": 255,
+          "alpha_end": 255,
+          "rgba_sha256": "e8c546e7e6c29ac55f35228c1e1894c47107d6af89e3eea6f1436b0032e76456",
+          "duration_note": "Static source icon has no delay; 100 ms is the existing renderer fallback.",
+          "alpha_note": "No source alpha interpolation; full-opacity endpoints preserve original per-pixel RGBA alpha."
+        }
+      ],
+      "source": "Skill.nx/230.img/skill/2301004/icon",
+      "name": "范围",
+      "loop": false,
+      "total_duration_ms": 100,
+      "icon_kind": "original_skill_icon",
+      "source_skill_id": 2301004,
+      "source_name": "祝福",
+      "source_name_source": "String.nx/Skill.img/2301004/name"
+    },
+    "passive.icon.4": {
+      "frames": [
+        {
+          "file": "sprites/skill_icons/passive/icon/4/0.png",
+          "duration_ms": 100,
+          "origin": [
+            16.0,
+            16.0
+          ],
+          "source_origin": [
+            0,
+            32
+          ],
+          "size": [
+            32,
+            32
+          ],
+          "source": "Skill.nx/300.img/skill/3001005/icon",
+          "alpha_start": 255,
+          "alpha_end": 255,
+          "rgba_sha256": "2b0567f4ff1dfee9eb6a6fd4ef046f2e9e4fc2abd0614f9fabd29fedee581b3b",
+          "duration_note": "Static source icon has no delay; 100 ms is the existing renderer fallback.",
+          "alpha_note": "No source alpha interpolation; full-opacity endpoints preserve original per-pixel RGBA alpha."
+        }
+      ],
+      "source": "Skill.nx/300.img/skill/3001005/icon",
+      "name": "投射物",
+      "loop": false,
+      "total_duration_ms": 100,
+      "icon_kind": "original_skill_icon",
+      "source_skill_id": 3001005,
+      "source_name": "二连射",
+      "source_name_source": "String.nx/Skill.img/3001005/name"
+    },
+    "passive.icon.5": {
+      "frames": [
+        {
+          "file": "sprites/skill_icons/passive/icon/5/0.png",
+          "duration_ms": 100,
+          "origin": [
+            16.0,
+            16.0
+          ],
+          "source_origin": [
+            0,
+            32
+          ],
+          "size": [
+            32,
+            32
+          ],
+          "source": "Skill.nx/410.img/skill/4101004/icon",
+          "alpha_start": 255,
+          "alpha_end": 255,
+          "rgba_sha256": "0cf7dce77571dee2dc757815f2ccd7ba51b5d35ea78b029c39c6dc32783eb7ce",
+          "duration_note": "Static source icon has no delay; 100 ms is the existing renderer fallback.",
+          "alpha_note": "No source alpha interpolation; full-opacity endpoints preserve original per-pixel RGBA alpha."
+        }
+      ],
+      "source": "Skill.nx/410.img/skill/4101004/icon",
+      "name": "移动速度",
+      "loop": false,
+      "total_duration_ms": 100,
+      "icon_kind": "original_skill_icon",
+      "source_skill_id": 4101004,
+      "source_name": "轻功",
+      "source_name_source": "String.nx/Skill.img/4101004/name"
+    },
+    "passive.icon.6": {
+      "frames": [
+        {
+          "file": "sprites/skill_icons/passive/icon/6/0.png",
+          "duration_ms": 100,
+          "origin": [
+            16.0,
+            16.0
+          ],
+          "source_origin": [
+            0,
+            32
+          ],
+          "size": [
+            32,
+            32
+          ],
+          "source": "Skill.nx/130.img/skill/1301007/icon",
+          "alpha_start": 255,
+          "alpha_end": 255,
+          "rgba_sha256": "d6612a81787059a189eb9f2a062ddda08507d4eb656319f69475cfc585013f17",
+          "duration_note": "Static source icon has no delay; 100 ms is the existing renderer fallback.",
+          "alpha_note": "No source alpha interpolation; full-opacity endpoints preserve original per-pixel RGBA alpha."
+        }
+      ],
+      "source": "Skill.nx/130.img/skill/1301007/icon",
+      "name": "生命",
+      "loop": false,
+      "total_duration_ms": 100,
+      "icon_kind": "original_skill_icon",
+      "source_skill_id": 1301007,
+      "source_name": "神圣之火",
+      "source_name_source": "String.nx/Skill.img/1301007/name"
+    },
+    "passive.icon.7": {
+      "frames": [
+        {
+          "file": "sprites/skill_icons/passive/icon/7/0.png",
+          "duration_ms": 100,
+          "origin": [
+            15.0,
+            14.5
+          ],
+          "source_origin": [
+            -1,
+            29
+          ],
+          "size": [
+            30,
+            29
+          ],
+          "source": "Character.nx/PetEquip/01812000.img/info/icon",
+          "alpha_start": 255,
+          "alpha_end": 255,
+          "rgba_sha256": "61721849f7964ac76a3b47e140b6535f94861b31da00cc7a0a10d924555705da",
+          "duration_note": "Static source icon has no delay; 100 ms is the existing renderer fallback.",
+          "alpha_note": "No source alpha interpolation; full-opacity endpoints preserve original per-pixel RGBA alpha."
+        }
+      ],
+      "source": "Character.nx/PetEquip/01812000.img/info/icon",
+      "name": "拾取范围",
+      "loop": false,
+      "total_duration_ms": 100,
+      "icon_kind": "original_inventory_icon"
+    },
+    "passive.icon.8": {
+      "frames": [
+        {
+          "file": "sprites/skill_icons/passive/icon/8/0.png",
+          "duration_ms": 100,
+          "origin": [
+            16.0,
+            16.0
+          ],
+          "source_origin": [
+            0,
+            32
+          ],
+          "size": [
+            32,
+            32
+          ],
+          "source": "Item.nx/Cash/0550.img/05500001/info/icon",
+          "alpha_start": 255,
+          "alpha_end": 255,
+          "rgba_sha256": "83554e8676e49c589d5f8493949fb26646fdeddf42581762ebcb4d564eb356c9",
+          "duration_note": "Static source icon has no delay; 100 ms is the existing renderer fallback.",
+          "alpha_note": "No source alpha interpolation; full-opacity endpoints preserve original per-pixel RGBA alpha."
+        }
+      ],
+      "source": "Item.nx/Cash/0550.img/05500001/info/icon",
+      "name": "冷却",
+      "loop": false,
+      "total_duration_ms": 100,
+      "icon_kind": "original_inventory_icon"
+    },
+    "passive.icon.9": {
+      "frames": [
+        {
+          "file": "sprites/skill_icons/passive/icon/9/0.png",
+          "duration_ms": 100,
+          "origin": [
+            16.0,
+            16.0
+          ],
+          "source_origin": [
+            0,
+            32
+          ],
+          "size": [
+            32,
+            32
+          ],
+          "source": "Skill.nx/212.img/skill/2121004/icon",
+          "alpha_start": 255,
+          "alpha_end": 255,
+          "rgba_sha256": "4e435becb4dc5e45c035b3a3d27ff1e21e2fec017efb9f28d1d4ed06feb08623",
+          "duration_note": "Static source icon has no delay; 100 ms is the existing renderer fallback.",
+          "alpha_note": "No source alpha interpolation; full-opacity endpoints preserve original per-pixel RGBA alpha."
+        }
+      ],
+      "source": "Skill.nx/212.img/skill/2121004/icon",
+      "name": "持续时间",
+      "loop": false,
+      "total_duration_ms": 100,
+      "icon_kind": "original_skill_icon",
+      "source_skill_id": 2121004,
+      "source_name": "终极无限",
+      "source_name_source": "String.nx/Skill.img/2121004/name"
+    },
+    "passive.icon.10": {
+      "frames": [
+        {
+          "file": "sprites/skill_icons/passive/icon/10/0.png",
+          "duration_ms": 100,
+          "origin": [
+            16.0,
+            16.0
+          ],
+          "source_origin": [
+            0,
+            32
+          ],
+          "size": [
+            32,
+            32
+          ],
+          "source": "Skill.nx/312.img/skill/3121002/icon",
+          "alpha_start": 255,
+          "alpha_end": 255,
+          "rgba_sha256": "f42200cd6a85a7508ced93533bd042fd2e1a9becfb0614d5e4f92cd6890af23f",
+          "duration_note": "Static source icon has no delay; 100 ms is the existing renderer fallback.",
+          "alpha_note": "No source alpha interpolation; full-opacity endpoints preserve original per-pixel RGBA alpha."
+        }
+      ],
+      "source": "Skill.nx/312.img/skill/3121002/icon",
+      "name": "暴击概率",
+      "loop": false,
+      "total_duration_ms": 100,
+      "icon_kind": "original_skill_icon",
+      "source_skill_id": 3121002,
+      "source_name": "火眼晶晶",
+      "source_name_source": "String.nx/Skill.img/3121002/name"
+    },
+    "passive.icon.11": {
+      "frames": [
+        {
+          "file": "sprites/skill_icons/passive/icon/11/0.png",
+          "duration_ms": 100,
+          "origin": [
+            16.0,
+            16.0
+          ],
+          "source_origin": [
+            0,
+            32
+          ],
+          "size": [
+            32,
+            32
+          ],
+          "source": "Skill.nx/410.img/skill/4100001/icon",
+          "alpha_start": 255,
+          "alpha_end": 255,
+          "rgba_sha256": "ba06f11df2e31e8caa73818dfcb8af32e047c8c925000eeec614c08f02c5197f",
+          "duration_note": "Static source icon has no delay; 100 ms is the existing renderer fallback.",
+          "alpha_note": "No source alpha interpolation; full-opacity endpoints preserve original per-pixel RGBA alpha."
+        }
+      ],
+      "source": "Skill.nx/410.img/skill/4100001/icon",
+      "name": "暴击伤害",
+      "loop": false,
+      "total_duration_ms": 100,
+      "icon_kind": "original_skill_icon",
+      "source_skill_id": 4100001,
+      "source_name": "强力投掷",
+      "source_name_source": "String.nx/Skill.img/4100001/name"
+    },
+    "passive.icon.12": {
+      "frames": [
+        {
+          "file": "sprites/skill_icons/passive/icon/12/0.png",
+          "duration_ms": 100,
+          "origin": [
+            13.5,
+            15.0
+          ],
+          "source_origin": [
+            -3,
+            30
+          ],
+          "size": [
+            27,
+            30
+          ],
+          "source": "Item.nx/Consume/0200.img/02000000/info/icon",
+          "alpha_start": 255,
+          "alpha_end": 255,
+          "rgba_sha256": "6e83b756fdc29adaaadcde051354f37613e807659cd69b2659ae96a9cfe70103",
+          "duration_note": "Static source icon has no delay; 100 ms is the existing renderer fallback.",
+          "alpha_note": "No source alpha interpolation; full-opacity endpoints preserve original per-pixel RGBA alpha."
+        }
+      ],
+      "source": "Item.nx/Consume/0200.img/02000000/info/icon",
+      "name": "恢复生命",
+      "loop": false,
+      "total_duration_ms": 100,
+      "icon_kind": "original_inventory_icon"
+    },
+    "buff.icon.fury": {
+      "frames": [
+        {
+          "file": "sprites/skill_icons/buff/icon/fury/0.png",
+          "duration_ms": 100,
+          "origin": [
+            16.0,
+            16.0
+          ],
+          "source_origin": [
+            0,
+            32
+          ],
+          "size": [
+            32,
+            32
+          ],
+          "source": "Skill.nx/111.img/skill/1111002/icon",
+          "alpha_start": 255,
+          "alpha_end": 255,
+          "rgba_sha256": "251782384ea15e2210992371145c6f4be5dccdaec34d002462e84e3072a6d234",
+          "duration_note": "Static source icon has no delay; 100 ms is the existing renderer fallback.",
+          "alpha_note": "No source alpha interpolation; full-opacity endpoints preserve original per-pixel RGBA alpha."
+        }
+      ],
+      "source": "Skill.nx/111.img/skill/1111002/icon",
+      "name": "狂热",
+      "loop": false,
+      "total_duration_ms": 100,
+      "icon_kind": "original_skill_icon",
+      "source_skill_id": 1111002,
+      "source_name": "斗气集中",
+      "source_name_source": "String.nx/Skill.img/1111002/name"
+    },
+    "buff.icon.magnet": {
+      "frames": [
+        {
+          "file": "sprites/skill_icons/passive/icon/7/0.png",
+          "duration_ms": 100,
+          "origin": [
+            15.0,
+            14.5
+          ],
+          "source_origin": [
+            -1,
+            29
+          ],
+          "size": [
+            30,
+            29
+          ],
+          "source": "Character.nx/PetEquip/01812000.img/info/icon",
+          "alpha_start": 255,
+          "alpha_end": 255,
+          "rgba_sha256": "61721849f7964ac76a3b47e140b6535f94861b31da00cc7a0a10d924555705da",
+          "duration_note": "Static source icon has no delay; 100 ms is the existing renderer fallback.",
+          "alpha_note": "No source alpha interpolation; full-opacity endpoints preserve original per-pixel RGBA alpha."
+        }
+      ],
+      "source": "Character.nx/PetEquip/01812000.img/info/icon",
+      "name": "磁铁",
+      "loop": false,
+      "total_duration_ms": 100,
+      "icon_kind": "original_inventory_icon",
+      "alias_of": "passive.icon.7"
+    },
+    "buff.icon.shield": {
+      "frames": [
+        {
+          "file": "sprites/skill_icons/buff/icon/shield/0.png",
+          "duration_ms": 100,
+          "origin": [
+            14.0,
+            15.0
+          ],
+          "source_origin": [
+            -2,
+            30
+          ],
+          "size": [
+            28,
+            30
+          ],
+          "source": "Item.nx/Consume/0202.img/02022269/info/icon",
+          "alpha_start": 255,
+          "alpha_end": 255,
+          "rgba_sha256": "2a7252065a52f57d9c12bea9785d13d4760cf739c3551da76f6f36f081773d8d",
+          "duration_note": "Static source icon has no delay; 100 ms is the existing renderer fallback.",
+          "alpha_note": "No source alpha interpolation; full-opacity endpoints preserve original per-pixel RGBA alpha."
+        }
+      ],
+      "source": "Item.nx/Consume/0202.img/02022269/info/icon",
+      "name": "护盾",
+      "loop": false,
+      "total_duration_ms": 100,
+      "icon_kind": "original_inventory_icon"
+    },
+    "buff.icon.double_xp": {
+      "frames": [
+        {
+          "file": "sprites/skill_icons/buff/icon/double_xp/0.png",
+          "duration_ms": 100,
+          "origin": [
+            16.0,
+            16.0
+          ],
+          "source_origin": [
+            0,
+            32
+          ],
+          "size": [
+            32,
+            32
+          ],
+          "source": "Item.nx/Cash/0521.img/05211000/info/icon",
+          "alpha_start": 255,
+          "alpha_end": 255,
+          "rgba_sha256": "dc9eacbf6fe56601cd17ba70d895795317b290afd5d5d7f4962e3be46da2271c",
+          "duration_note": "Static source icon has no delay; 100 ms is the existing renderer fallback.",
+          "alpha_note": "No source alpha interpolation; full-opacity endpoints preserve original per-pixel RGBA alpha."
+        }
+      ],
+      "source": "Item.nx/Cash/0521.img/05211000/info/icon",
+      "name": "双倍经验",
+      "loop": false,
+      "total_duration_ms": 100,
+      "icon_kind": "original_inventory_icon"
+    },
+    "buff.icon.power": {
+      "frames": [
+        {
+          "file": "sprites/skill_icons/buff/icon/power/0.png",
+          "duration_ms": 100,
+          "origin": [
+            16.0,
+            17.5
+          ],
+          "source_origin": [
+            0,
+            32
+          ],
+          "size": [
+            32,
+            35
+          ],
+          "source": "Item.nx/Consume/0202.img/02022259/info/icon",
+          "alpha_start": 255,
+          "alpha_end": 255,
+          "rgba_sha256": "a5fad1843066bee562833d419bee92d343080029da664c70b1698c82290ca677",
+          "duration_note": "Static source icon has no delay; 100 ms is the existing renderer fallback.",
+          "alpha_note": "No source alpha interpolation; full-opacity endpoints preserve original per-pixel RGBA alpha."
+        }
+      ],
+      "source": "Item.nx/Consume/0202.img/02022259/info/icon",
+      "name": "强化",
+      "loop": false,
+      "total_duration_ms": 100,
+      "icon_kind": "original_inventory_icon"
+    },
+    "buff.icon.rift": {
+      "frames": [
+        {
+          "file": "sprites/skill_icons/buff/icon/rift/0.png",
+          "duration_ms": 100,
+          "origin": [
+            16.0,
+            16.0
+          ],
+          "source_origin": [
+            0,
+            32
+          ],
+          "size": [
+            32,
+            32
+          ],
+          "source": "Skill.nx/220.img/skill/2201002/icon",
+          "alpha_start": 255,
+          "alpha_end": 255,
+          "rgba_sha256": "fc3f72b031cf949bd8a77a71b7bcb5af04f8393e43f167080fb56cf553194bcc",
+          "duration_note": "Static source icon has no delay; 100 ms is the existing renderer fallback.",
+          "alpha_note": "No source alpha interpolation; full-opacity endpoints preserve original per-pixel RGBA alpha."
+        }
+      ],
+      "source": "Skill.nx/220.img/skill/2201002/icon",
+      "name": "裂隙",
+      "loop": false,
+      "total_duration_ms": 100,
+      "icon_kind": "original_skill_icon",
+      "source_skill_id": 2201002,
+      "source_name": "快速移动",
+      "source_name_source": "String.nx/Skill.img/2201002/name"
+    },
+    "buff.icon.curse": {
+      "frames": [
+        {
+          "file": "sprites/skill_icons/buff/icon/curse/0.png",
+          "duration_ms": 100,
+          "origin": [
+            16.0,
+            16.0
+          ],
+          "source_origin": [
+            0,
+            32
+          ],
+          "size": [
+            32,
+            32
+          ],
+          "source": "Skill.nx/120.img/skill/1201006/icon",
+          "alpha_start": 255,
+          "alpha_end": 255,
+          "rgba_sha256": "1ec41f6b1931ea315c3d5ebda21244ca147d48971d439ea196cf9f0ee2334953",
+          "duration_note": "Static source icon has no delay; 100 ms is the existing renderer fallback.",
+          "alpha_note": "No source alpha interpolation; full-opacity endpoints preserve original per-pixel RGBA alpha."
+        }
+      ],
+      "source": "Skill.nx/120.img/skill/1201006/icon",
+      "name": "诅咒",
+      "loop": false,
+      "total_duration_ms": 100,
+      "icon_kind": "original_skill_icon",
+      "source_skill_id": 1201006,
+      "source_name": "压制术",
+      "source_name_source": "String.nx/Skill.img/1201006/name"
+    },
+    "buff.icon.mud": {
+      "frames": [
+        {
+          "file": "sprites/skill_icons/buff/icon/mud/0.png",
+          "duration_ms": 100,
+          "origin": [
+            16.0,
+            16.0
+          ],
+          "source_origin": [
+            0,
+            32
+          ],
+          "size": [
+            32,
+            32
+          ],
+          "source": "Skill.nx/210.img/skill/2101003/icon",
+          "alpha_start": 255,
+          "alpha_end": 255,
+          "rgba_sha256": "14b68fc0855525192d6df3e789831d8e0079e0c1edb22d01844604932e176765",
+          "duration_note": "Static source icon has no delay; 100 ms is the existing renderer fallback.",
+          "alpha_note": "No source alpha interpolation; full-opacity endpoints preserve original per-pixel RGBA alpha."
+        }
+      ],
+      "source": "Skill.nx/210.img/skill/2101003/icon",
+      "name": "泥地减速",
+      "loop": false,
+      "total_duration_ms": 100,
+      "icon_kind": "original_skill_icon",
+      "source_skill_id": 2101003,
+      "source_name": "缓速术",
+      "source_name_source": "String.nx/Skill.img/2101003/name"
+    }
+  },
+  "source_archives": {
+    "Skill.nx": {
+      "size_bytes": 203563946,
+      "mtime_ns": 1791432019851882000
+    },
+    "Item.nx": {
+      "size_bytes": 209527421,
+      "mtime_ns": 1791431796109458900
+    },
+    "Character.nx": {
+      "size_bytes": 2250879079,
+      "mtime_ns": 1791432965827394900
+    },
+    "String.nx": {
+      "size_bytes": 370411333,
+      "mtime_ns": 1791433086967351100
+    }
+  },
+  "validation": {
+    "original_archives_unchanged": true,
+    "all_pngs_pixel_equal": true,
+    "unique_pngs": 37,
+    "sprite_keys": 38
+  },
+  "notes": [
+    "Genuine skill/inventory icon canvases; no effect-frame thumbnails or cropped character artwork.",
+    "RGBA and original dimensions retained. HUD display origin is centered; original origin is in source_origin.",
+    "Source names identify original art only; MapleRGL names and mechanics are custom.",
+    "The magnet buff and magnet passive intentionally share the same magnetic pickup icon.",
+    "Contact sheet is an inspection artifact only and is not loaded by the game."
+  ]
+}

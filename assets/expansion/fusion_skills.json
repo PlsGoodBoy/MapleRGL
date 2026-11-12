@@ -1,0 +1,835 @@
+{
+  "schema_version": 1,
+  "resource_status": "exported_only",
+  "sprites": {
+    "skill.icon.battle_blades": {
+      "source": "Skill.nx/111.img/skill/1111004/icon",
+      "frames": [
+        {
+          "file": "expansion/icons/battle_blades/0.png",
+          "duration_ms": 100,
+          "origin": [
+            16.0,
+            16.0
+          ],
+          "source_origin": [
+            0,
+            32
+          ],
+          "size": [
+            32,
+            32
+          ],
+          "source": "Skill.nx/111.img/skill/1111004/icon",
+          "alpha_start": 255,
+          "alpha_end": 255,
+          "rgba_sha256": "e918ef8b675aa3ac79abfa07d34968e19b9a3a54f783b5922d9c29a2a9f21b3b",
+          "duration_note": "Static source icon has no delay; 100 ms is the existing renderer fallback.",
+          "alpha_note": "No source alpha interpolation; full-opacity endpoints preserve original per-pixel RGBA alpha."
+        }
+      ],
+      "name": "斗气狂刃",
+      "source_skill_id": 1111004,
+      "source_name": "狂乱之斧",
+      "source_name_source": "String.nx/Skill.img/1111004/name",
+      "icon_kind": "original_skill_icon",
+      "loop": false,
+      "total_duration_ms": 100
+    },
+    "skill.icon.dragon_formation": {
+      "source": "Skill.nx/131.img/skill/1311005/icon",
+      "frames": [
+        {
+          "file": "expansion/icons/dragon_formation/0.png",
+          "duration_ms": 100,
+          "origin": [
+            16.0,
+            16.0
+          ],
+          "source_origin": [
+            0,
+            32
+          ],
+          "size": [
+            32,
+            32
+          ],
+          "source": "Skill.nx/131.img/skill/1311005/icon",
+          "alpha_start": 255,
+          "alpha_end": 255,
+          "rgba_sha256": "8db8a155483b726987b67a9ecd654836b3af424fd4411dc7a0aa6e31f6bf4721",
+          "duration_note": "Static source icon has no delay; 100 ms is the existing renderer fallback.",
+          "alpha_note": "No source alpha interpolation; full-opacity endpoints preserve original per-pixel RGBA alpha."
+        }
+      ],
+      "name": "龙魂贯阵",
+      "source_skill_id": 1311005,
+      "source_name": "龙之献祭",
+      "source_name_source": "String.nx/Skill.img/1311005/name",
+      "icon_kind": "original_skill_icon",
+      "loop": false,
+      "total_duration_ms": 100
+    },
+    "skill.icon.echo_shield": {
+      "source": "Skill.nx/232.img/skill/2321005/icon",
+      "frames": [
+        {
+          "file": "expansion/icons/echo_shield/0.png",
+          "duration_ms": 100,
+          "origin": [
+            16.0,
+            16.0
+          ],
+          "source_origin": [
+            0,
+            32
+          ],
+          "size": [
+            32,
+            32
+          ],
+          "source": "Skill.nx/232.img/skill/2321005/icon",
+          "alpha_start": 255,
+          "alpha_end": 255,
+          "rgba_sha256": "93f13abf60b21e5c3200021ea18ee84fc010c1598bdba9d28a62f8888d90b25d",
+          "duration_note": "Static source icon has no delay; 100 ms is the existing renderer fallback.",
+          "alpha_note": "No source alpha interpolation; full-opacity endpoints preserve original per-pixel RGBA alpha."
+        }
+      ],
+      "name": "回响圣盾",
+      "source_skill_id": 2321005,
+      "source_name": "圣灵之盾",
+      "source_name_source": "String.nx/Skill.img/2321005/name",
+      "icon_kind": "original_skill_icon",
+      "loop": false,
+      "total_duration_ms": 100
+    },
+    "skill.icon.mountain_breaker": {
+      "source": "Skill.nx/510.img/skill/5101004/icon",
+      "frames": [
+        {
+          "file": "expansion/icons/mountain_breaker/0.png",
+          "duration_ms": 100,
+          "origin": [
+            16.0,
+            16.0
+          ],
+          "source_origin": [
+            0,
+            32
+          ],
+          "size": [
+            32,
+            32
+          ],
+          "source": "Skill.nx/510.img/skill/5101004/icon",
+          "alpha_start": 255,
+          "alpha_end": 255,
+          "rgba_sha256": "2e21430b9fed4c4f8ffa4270599070dbfe45b16cd963e655982c070e499d0545",
+          "duration_note": "Static source icon has no delay; 100 ms is the existing renderer fallback.",
+          "alpha_note": "No source alpha interpolation; full-opacity endpoints preserve original per-pixel RGBA alpha."
+        }
+      ],
+      "name": "破阵山河",
+      "source_skill_id": 5101004,
+      "source_name": "贯骨击",
+      "source_name_source": "String.nx/Skill.img/5101004/name",
+      "icon_kind": "original_skill_icon",
+      "loop": false,
+      "total_duration_ms": 100
+    },
+    "skill.icon.spirit_judgement": {
+      "source": "Skill.nx/122.img/skill/1221003/icon",
+      "frames": [
+        {
+          "file": "expansion/icons/spirit_judgement/0.png",
+          "duration_ms": 100,
+          "origin": [
+            16.0,
+            16.0
+          ],
+          "source_origin": [
+            0,
+            32
+          ],
+          "size": [
+            32,
+            32
+          ],
+          "source": "Skill.nx/122.img/skill/1221003/icon",
+          "alpha_start": 255,
+          "alpha_end": 255,
+          "rgba_sha256": "8fc86285c7a3270fa2c697bd0b057a975f5aaee18b6fb76babbb8e7ed6c057ef",
+          "duration_note": "Static source icon has no delay; 100 ms is the existing renderer fallback.",
+          "alpha_note": "No source alpha interpolation; full-opacity endpoints preserve original per-pixel RGBA alpha."
+        }
+      ],
+      "name": "斗气圣裁",
+      "source_skill_id": 1221003,
+      "source_name": "圣灵之剑",
+      "source_name_source": "String.nx/Skill.img/1221003/name",
+      "icon_kind": "original_skill_icon",
+      "loop": false,
+      "total_duration_ms": 100
+    },
+    "skill.icon.azure_rift": {
+      "source": "Skill.nx/322.img/skill/3221003/icon",
+      "frames": [
+        {
+          "file": "expansion/icons/azure_rift/0.png",
+          "duration_ms": 100,
+          "origin": [
+            16.0,
+            16.0
+          ],
+          "source_origin": [
+            0,
+            32
+          ],
+          "size": [
+            32,
+            32
+          ],
+          "source": "Skill.nx/322.img/skill/3221003/icon",
+          "alpha_start": 255,
+          "alpha_end": 255,
+          "rgba_sha256": "59efc9044b41eb6d4a5a8a37c666e8ef2adfdfbbeca6faa254a2dce04c2f5255",
+          "duration_note": "Static source icon has no delay; 100 ms is the existing renderer fallback.",
+          "alpha_note": "No source alpha interpolation; full-opacity endpoints preserve original per-pixel RGBA alpha."
+        }
+      ],
+      "name": "苍龙裂空",
+      "source_skill_id": 3221003,
+      "source_name": "飞龙冲击波",
+      "source_name_source": "String.nx/Skill.img/3221003/name",
+      "icon_kind": "original_skill_icon",
+      "loop": false,
+      "total_duration_ms": 100
+    },
+    "skill.icon.sanctuary": {
+      "source": "Skill.nx/231.img/skill/2311003/icon",
+      "frames": [
+        {
+          "file": "expansion/icons/sanctuary/0.png",
+          "duration_ms": 100,
+          "origin": [
+            16.0,
+            16.0
+          ],
+          "source_origin": [
+            0,
+            32
+          ],
+          "size": [
+            32,
+            32
+          ],
+          "source": "Skill.nx/231.img/skill/2311003/icon",
+          "alpha_start": 255,
+          "alpha_end": 255,
+          "rgba_sha256": "432e75b9932712864ab24292b7fd3c2f9185604ce985a2f290ab85362bc4dc54",
+          "duration_note": "Static source icon has no delay; 100 ms is the existing renderer fallback.",
+          "alpha_note": "No source alpha interpolation; full-opacity endpoints preserve original per-pixel RGBA alpha."
+        }
+      ],
+      "name": "圣域裁决",
+      "source_skill_id": 2311003,
+      "source_name": "神圣祈祷",
+      "source_name_source": "String.nx/Skill.img/2311003/name",
+      "icon_kind": "original_skill_icon",
+      "loop": false,
+      "total_duration_ms": 100
+    },
+    "skill.icon.poison_flare": {
+      "source": "Skill.nx/211.img/skill/2111006/icon",
+      "frames": [
+        {
+          "file": "expansion/icons/poison_flare/0.png",
+          "duration_ms": 100,
+          "origin": [
+            16.0,
+            16.0
+          ],
+          "source_origin": [
+            0,
+            32
+          ],
+          "size": [
+            32,
+            32
+          ],
+          "source": "Skill.nx/211.img/skill/2111006/icon",
+          "alpha_start": 255,
+          "alpha_end": 255,
+          "rgba_sha256": "778d592f0c47c1437103b6c29c1f05edfca24b1821da8ad26d7d54b3765e18ff",
+          "duration_note": "Static source icon has no delay; 100 ms is the existing renderer fallback.",
+          "alpha_note": "No source alpha interpolation; full-opacity endpoints preserve original per-pixel RGBA alpha."
+        }
+      ],
+      "name": "瘴炎连爆",
+      "source_skill_id": 2111006,
+      "source_name": "火毒合击",
+      "source_name_source": "String.nx/Skill.img/2111006/name",
+      "icon_kind": "original_skill_icon",
+      "loop": false,
+      "total_duration_ms": 100
+    },
+    "skill.icon.thunder_lance": {
+      "source": "Skill.nx/221.img/skill/2211003/icon",
+      "frames": [
+        {
+          "file": "expansion/icons/thunder_lance/0.png",
+          "duration_ms": 100,
+          "origin": [
+            16.0,
+            16.0
+          ],
+          "source_origin": [
+            0,
+            32
+          ],
+          "size": [
+            32,
+            32
+          ],
+          "source": "Skill.nx/221.img/skill/2211003/icon",
+          "alpha_start": 255,
+          "alpha_end": 255,
+          "rgba_sha256": "22f9d08c76f99fb387a020ea3d9206e56d79ab389b9853ca8b6ef452b4df1422",
+          "duration_note": "Static source icon has no delay; 100 ms is the existing renderer fallback.",
+          "alpha_note": "No source alpha interpolation; full-opacity endpoints preserve original per-pixel RGBA alpha."
+        }
+      ],
+      "name": "雷霆冰枪",
+      "source_skill_id": 2211003,
+      "source_name": "落雷枪",
+      "source_name_source": "String.nx/Skill.img/2211003/name",
+      "icon_kind": "original_skill_icon",
+      "loop": false,
+      "total_duration_ms": 100
+    },
+    "skill.icon.heaven_dragon": {
+      "source": "Skill.nx/231.img/skill/2311006/icon",
+      "frames": [
+        {
+          "file": "expansion/icons/heaven_dragon/0.png",
+          "duration_ms": 100,
+          "origin": [
+            16.0,
+            16.0
+          ],
+          "source_origin": [
+            0,
+            32
+          ],
+          "size": [
+            32,
+            32
+          ],
+          "source": "Skill.nx/231.img/skill/2311006/icon",
+          "alpha_start": 255,
+          "alpha_end": 255,
+          "rgba_sha256": "265ff7d271c512693bd72100dcf494a4177a2f875f8337bd29772b15d45ea224",
+          "duration_note": "Static source icon has no delay; 100 ms is the existing renderer fallback.",
+          "alpha_note": "No source alpha interpolation; full-opacity endpoints preserve original per-pixel RGBA alpha."
+        }
+      ],
+      "name": "天国龙辉",
+      "source_skill_id": 2311006,
+      "source_name": "圣龙召唤",
+      "source_name_source": "String.nx/Skill.img/2311006/name",
+      "icon_kind": "original_skill_icon",
+      "loop": false,
+      "total_duration_ms": 100
+    },
+    "skill.icon.inferno_array": {
+      "source": "Skill.nx/211.img/skill/2111002/icon",
+      "frames": [
+        {
+          "file": "expansion/icons/inferno_array/0.png",
+          "duration_ms": 100,
+          "origin": [
+            16.0,
+            16.0
+          ],
+          "source_origin": [
+            0,
+            32
+          ],
+          "size": [
+            32,
+            32
+          ],
+          "source": "Skill.nx/211.img/skill/2111002/icon",
+          "alpha_start": 255,
+          "alpha_end": 255,
+          "rgba_sha256": "6ae609bb8ceaa50aedfde4a3fc036c84e9530e4d1b171736175280a11866176d",
+          "duration_note": "Static source icon has no delay; 100 ms is the existing renderer fallback.",
+          "alpha_note": "No source alpha interpolation; full-opacity endpoints preserve original per-pixel RGBA alpha."
+        }
+      ],
+      "name": "炎魔陨阵",
+      "source_skill_id": 2111002,
+      "source_name": "末日烈焰",
+      "source_name_source": "String.nx/Skill.img/2111002/name",
+      "icon_kind": "original_skill_icon",
+      "loop": false,
+      "total_duration_ms": 100
+    },
+    "skill.icon.venom_vortex": {
+      "source": "Skill.nx/211.img/skill/2111004/icon",
+      "frames": [
+        {
+          "file": "expansion/icons/venom_vortex/0.png",
+          "duration_ms": 100,
+          "origin": [
+            16.0,
+            16.0
+          ],
+          "source_origin": [
+            0,
+            32
+          ],
+          "size": [
+            32,
+            32
+          ],
+          "source": "Skill.nx/211.img/skill/2111004/icon",
+          "alpha_start": 255,
+          "alpha_end": 255,
+          "rgba_sha256": "5cf4e0da7967eafe5e71a885f9a180283cd1cf42dd34e482b5fed62bb36c8cdd",
+          "duration_note": "Static source icon has no delay; 100 ms is the existing renderer fallback.",
+          "alpha_note": "No source alpha interpolation; full-opacity endpoints preserve original per-pixel RGBA alpha."
+        }
+      ],
+      "name": "蚀骨旋涡",
+      "source_skill_id": 2111004,
+      "source_name": "封印术",
+      "source_name_source": "String.nx/Skill.img/2111004/name",
+      "icon_kind": "original_skill_icon",
+      "loop": false,
+      "total_duration_ms": 100
+    },
+    "skill.icon.frost_fire": {
+      "source": "Skill.nx/212.img/skill/2121005/icon",
+      "frames": [
+        {
+          "file": "expansion/icons/frost_fire/0.png",
+          "duration_ms": 100,
+          "origin": [
+            16.0,
+            16.0
+          ],
+          "source_origin": [
+            0,
+            32
+          ],
+          "size": [
+            32,
+            32
+          ],
+          "source": "Skill.nx/212.img/skill/2121005/icon",
+          "alpha_start": 255,
+          "alpha_end": 255,
+          "rgba_sha256": "d79aedd0bfacf487cae6153c9403f5326287917bf57927242873c8c9270dac38",
+          "duration_note": "Static source icon has no delay; 100 ms is the existing renderer fallback.",
+          "alpha_note": "No source alpha interpolation; full-opacity endpoints preserve original per-pixel RGBA alpha."
+        }
+      ],
+      "name": "霜火双界",
+      "source_skill_id": 2121005,
+      "source_name": "冰破魔兽",
+      "source_name_source": "String.nx/Skill.img/2121005/name",
+      "icon_kind": "original_skill_icon",
+      "loop": false,
+      "total_duration_ms": 100
+    },
+    "skill.icon.purity_well": {
+      "source": "Skill.nx/230.img/skill/2301002/icon",
+      "frames": [
+        {
+          "file": "expansion/icons/purity_well/0.png",
+          "duration_ms": 100,
+          "origin": [
+            16.0,
+            16.0
+          ],
+          "source_origin": [
+            0,
+            32
+          ],
+          "size": [
+            32,
+            32
+          ],
+          "source": "Skill.nx/230.img/skill/2301002/icon",
+          "alpha_start": 255,
+          "alpha_end": 255,
+          "rgba_sha256": "ee86048cb707c6a777c6439948975dec529c375ca0e4aa780cdb2330b9a11742",
+          "duration_note": "Static source icon has no delay; 100 ms is the existing renderer fallback.",
+          "alpha_note": "No source alpha interpolation; full-opacity endpoints preserve original per-pixel RGBA alpha."
+        }
+      ],
+      "name": "净化星井",
+      "source_skill_id": 2301002,
+      "source_name": "群体治愈",
+      "source_name_source": "String.nx/Skill.img/2301002/name",
+      "icon_kind": "original_skill_icon",
+      "loop": false,
+      "total_duration_ms": 100
+    },
+    "skill.icon.thousand_arrows": {
+      "source": "Skill.nx/312.img/skill/3120005/icon",
+      "frames": [
+        {
+          "file": "expansion/icons/thousand_arrows/0.png",
+          "duration_ms": 100,
+          "origin": [
+            16.0,
+            16.0
+          ],
+          "source_origin": [
+            0,
+            32
+          ],
+          "size": [
+            32,
+            32
+          ],
+          "source": "Skill.nx/312.img/skill/3120005/icon",
+          "alpha_start": 255,
+          "alpha_end": 255,
+          "rgba_sha256": "90c63790ba2c78128cdbd692725e9a7efdff87566dbc772524e66314ef19f250",
+          "duration_note": "Static source icon has no delay; 100 ms is the existing renderer fallback.",
+          "alpha_note": "No source alpha interpolation; full-opacity endpoints preserve original per-pixel RGBA alpha."
+        }
+      ],
+      "name": "千矢风暴",
+      "source_skill_id": 3120005,
+      "source_name": "神箭手",
+      "source_name_source": "String.nx/Skill.img/3120005/name",
+      "icon_kind": "original_skill_icon",
+      "loop": false,
+      "total_duration_ms": 100
+    },
+    "skill.icon.eagle_execution": {
+      "source": "Skill.nx/312.img/skill/3121002/icon",
+      "frames": [
+        {
+          "file": "expansion/icons/eagle_execution/0.png",
+          "duration_ms": 100,
+          "origin": [
+            16.0,
+            16.0
+          ],
+          "source_origin": [
+            0,
+            32
+          ],
+          "size": [
+            32,
+            32
+          ],
+          "source": "Skill.nx/312.img/skill/3121002/icon",
+          "alpha_start": 255,
+          "alpha_end": 255,
+          "rgba_sha256": "f42200cd6a85a7508ced93533bd042fd2e1a9becfb0614d5e4f92cd6890af23f",
+          "duration_note": "Static source icon has no delay; 100 ms is the existing renderer fallback.",
+          "alpha_note": "No source alpha interpolation; full-opacity endpoints preserve original per-pixel RGBA alpha."
+        }
+      ],
+      "name": "鹰眼绝杀",
+      "source_skill_id": 3121002,
+      "source_name": "火眼晶晶",
+      "source_name_source": "String.nx/Skill.img/3121002/name",
+      "icon_kind": "original_skill_icon",
+      "loop": false,
+      "total_duration_ms": 100
+    },
+    "skill.icon.frozen_barrage": {
+      "source": "Skill.nx/222.img/skill/2221003/icon",
+      "frames": [
+        {
+          "file": "expansion/icons/frozen_barrage/0.png",
+          "duration_ms": 100,
+          "origin": [
+            16.0,
+            16.0
+          ],
+          "source_origin": [
+            0,
+            32
+          ],
+          "size": [
+            32,
+            32
+          ],
+          "source": "Skill.nx/222.img/skill/2221003/icon",
+          "alpha_start": 255,
+          "alpha_end": 255,
+          "rgba_sha256": "7f2c2b36e1a5bbaa9a04a5508d5c52ea2b0fbd8135b2700e9e99be2c21ceb050",
+          "duration_note": "Static source icon has no delay; 100 ms is the existing renderer fallback.",
+          "alpha_note": "No source alpha interpolation; full-opacity endpoints preserve original per-pixel RGBA alpha."
+        }
+      ],
+      "name": "冰封箭幕",
+      "source_skill_id": 2221003,
+      "source_name": "冰凤球",
+      "source_name_source": "String.nx/Skill.img/2221003/name",
+      "icon_kind": "original_skill_icon",
+      "loop": false,
+      "total_duration_ms": 100
+    },
+    "skill.icon.siege_bolt": {
+      "source": "Skill.nx/521.img/skill/5211004/icon",
+      "frames": [
+        {
+          "file": "expansion/icons/siege_bolt/0.png",
+          "duration_ms": 100,
+          "origin": [
+            16.0,
+            16.0
+          ],
+          "source_origin": [
+            0,
+            32
+          ],
+          "size": [
+            32,
+            32
+          ],
+          "source": "Skill.nx/521.img/skill/5211004/icon",
+          "alpha_start": 255,
+          "alpha_end": 255,
+          "rgba_sha256": "68128532b8450ddf23ca819316cbb594fe7868713dc9ec8f55795a9a8387d51e",
+          "duration_note": "Static source icon has no delay; 100 ms is the existing renderer fallback.",
+          "alpha_note": "No source alpha interpolation; full-opacity endpoints preserve original per-pixel RGBA alpha."
+        }
+      ],
+      "name": "破城轰矢",
+      "source_skill_id": 5211004,
+      "source_name": "烈焰喷射",
+      "source_name_source": "String.nx/Skill.img/5211004/name",
+      "icon_kind": "original_skill_icon",
+      "loop": false,
+      "total_duration_ms": 100
+    },
+    "skill.icon.trick_decoy": {
+      "source": "Skill.nx/412.img/skill/4121004/icon",
+      "frames": [
+        {
+          "file": "expansion/icons/trick_decoy/0.png",
+          "duration_ms": 100,
+          "origin": [
+            16.0,
+            16.0
+          ],
+          "source_origin": [
+            0,
+            32
+          ],
+          "size": [
+            32,
+            32
+          ],
+          "source": "Skill.nx/412.img/skill/4121004/icon",
+          "alpha_start": 255,
+          "alpha_end": 255,
+          "rgba_sha256": "dfdbb179ebd7668788fe3f46c4fbcf230f5e250535f40e77a6ab58526867db70",
+          "duration_note": "Static source icon has no delay; 100 ms is the existing renderer fallback.",
+          "alpha_note": "No source alpha interpolation; full-opacity endpoints preserve original per-pixel RGBA alpha."
+        }
+      ],
+      "name": "诡雷草人",
+      "source_skill_id": 4121004,
+      "source_name": "忍者伏击",
+      "source_name_source": "String.nx/Skill.img/4121004/name",
+      "icon_kind": "original_skill_icon",
+      "loop": false,
+      "total_duration_ms": 100
+    },
+    "skill.icon.twin_hunt": {
+      "source": "Skill.nx/321.img/skill/3211005/icon",
+      "frames": [
+        {
+          "file": "expansion/icons/twin_hunt/0.png",
+          "duration_ms": 100,
+          "origin": [
+            16.0,
+            16.0
+          ],
+          "source_origin": [
+            0,
+            32
+          ],
+          "size": [
+            32,
+            32
+          ],
+          "source": "Skill.nx/321.img/skill/3211005/icon",
+          "alpha_start": 255,
+          "alpha_end": 255,
+          "rgba_sha256": "5d374b2f1169b515d592244c8e2611daf64c23db4a37609ec32ec21f6f37ff97",
+          "duration_note": "Static source icon has no delay; 100 ms is the existing renderer fallback.",
+          "alpha_note": "No source alpha interpolation; full-opacity endpoints preserve original per-pixel RGBA alpha."
+        }
+      ],
+      "name": "双翼巡猎",
+      "source_skill_id": 3211005,
+      "source_name": "金鹰召唤",
+      "source_name_source": "String.nx/Skill.img/3211005/name",
+      "icon_kind": "original_skill_icon",
+      "loop": false,
+      "total_duration_ms": 100
+    },
+    "skill.icon.prism_shot": {
+      "source": "Skill.nx/520.img/skill/5201001/icon",
+      "frames": [
+        {
+          "file": "expansion/icons/prism_shot/0.png",
+          "duration_ms": 100,
+          "origin": [
+            16.0,
+            16.0
+          ],
+          "source_origin": [
+            0,
+            32
+          ],
+          "size": [
+            32,
+            32
+          ],
+          "source": "Skill.nx/520.img/skill/5201001/icon",
+          "alpha_start": 255,
+          "alpha_end": 255,
+          "rgba_sha256": "5124dfdf5a4cf516b9aca7dcd838821b010e42e684a1772d1313f0dedfb54152",
+          "duration_note": "Static source icon has no delay; 100 ms is the existing renderer fallback.",
+          "alpha_note": "No source alpha interpolation; full-opacity endpoints preserve original per-pixel RGBA alpha."
+        }
+      ],
+      "name": "折光狙杀",
+      "source_skill_id": 5201001,
+      "source_name": "快枪手",
+      "source_name_source": "String.nx/Skill.img/5201001/name",
+      "icon_kind": "original_skill_icon",
+      "loop": false,
+      "total_duration_ms": 100
+    }
+  },
+  "visuals": {},
+  "source_archives": {
+    "Skill.nx": {
+      "size_bytes": 203563946,
+      "mtime_ns": 1791432019851882000
+    },
+    "String.nx": {
+      "size_bytes": 370411333,
+      "mtime_ns": 1791433086967351100
+    }
+  },
+  "validation": {
+    "sprite_keys": 21,
+    "pngs": 21,
+    "png_bytes": 18727,
+    "rgba_bytes": 86016,
+    "all_pngs_pixel_equal": true,
+    "original_archives_size_mtime_unchanged": true,
+    "skill_icons": 21,
+    "effect_sequences": 0
+  },
+  "notes": [
+    "Original NX archives were opened read-only; original PNG pixels, sizes, origins, delays and alpha endpoints are retained.",
+    "Only the named candidates are inspected and exported. No full archive bitmap scan.",
+    "Contact sheets are inspection artifacts, not runtime UI assets.",
+    "MapleStory source artwork belongs to its rights holders; this personal prototype does not establish redistribution rights.",
+    "Resource export is not a claim that combat behavior, official pools or visual gameplay acceptance are complete.",
+    "Effect reuse is a resource suggestion only; original skill mechanisms, fusion timing and new behavior are not imported or implemented by these references."
+  ],
+  "suggested_effect_reuse": {
+    "battle_blades": [
+      "skill.slash",
+      "skill.battle_focus.state"
+    ],
+    "dragon_formation": [
+      "skill.dragon_thrust.cast",
+      "skill.nova"
+    ],
+    "echo_shield": [
+      "skill.holy_shield.cast",
+      "skill.retaliate"
+    ],
+    "mountain_breaker": [
+      "skill.charge",
+      "skill.earth_shatter.impact"
+    ],
+    "spirit_judgement": [
+      "skill.battle_focus.state",
+      "skill.judgement.cast"
+    ],
+    "azure_rift": [
+      "skill.blade_wave",
+      "skill.dragon_thrust.cast"
+    ],
+    "sanctuary": [
+      "skill.holy_shield.cast",
+      "skill.judgement.cast"
+    ],
+    "poison_flare": [
+      "skill.poison_mist.zone",
+      "skill.blast_arrow.hit"
+    ],
+    "thunder_lance": [
+      "skill.ice_lance.hit",
+      "skill.lightning"
+    ],
+    "heaven_dragon": [
+      "skill.holy_dragon.attack",
+      "skill.holy_light.cast"
+    ],
+    "inferno_array": [
+      "skill.fire_beast.attack",
+      "skill.meteor"
+    ],
+    "venom_vortex": [
+      "skill.poison_mist.zone",
+      "skill.magic_vortex.cast"
+    ],
+    "frost_fire": [
+      "skill.frost",
+      "skill.fire_beast.attack"
+    ],
+    "purity_well": [
+      "skill.magic_vortex.cast",
+      "skill.holy_light.cast"
+    ],
+    "thousand_arrows": [
+      "skill.arrow",
+      "skill.storm_shot.cast"
+    ],
+    "eagle_execution": [
+      "skill.silver_eagle.attack",
+      "skill.sniper.projectile"
+    ],
+    "frozen_barrage": [
+      "skill.rain",
+      "skill.ice_arrow.hit"
+    ],
+    "siege_bolt": [
+      "skill.pierce",
+      "skill.blast_arrow.hit"
+    ],
+    "trick_decoy": [
+      "skill.decoy.idle",
+      "skill.blast_arrow.hit"
+    ],
+    "twin_hunt": [
+      "skill.summon",
+      "skill.silver_eagle.move"
+    ],
+    "prism_shot": [
+      "skill.sniper.projectile",
+      "skill.star_bow.hit"
+    ]
+  }
+}

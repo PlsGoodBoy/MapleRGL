@@ -1,0 +1,728 @@
+{
+  "version": 1,
+  "sprites": {
+    "relic.icon.0": {
+      "frames": [
+        {
+          "file": "sprites/equipment_icons/relic/icon/0/0.png",
+          "duration_ms": 100,
+          "origin": [
+            16.0,
+            16.0
+          ],
+          "source_origin": [
+            0,
+            32
+          ],
+          "size": [
+            32,
+            32
+          ],
+          "source": "Item.nx/Consume/0206.img/02060000/info/icon",
+          "alpha_start": 255,
+          "alpha_end": 255,
+          "rgba_sha256": "67b6d7e2f96f13c2f097ee57f1559f1826641581b13241ba5fedabf40cd9775e",
+          "duration_note": "Static source icon has no delay; 100 ms is the existing renderer fallback.",
+          "alpha_note": "No source alpha interpolation; full-opacity endpoints preserve original per-pixel RGBA alpha."
+        }
+      ],
+      "source": "Item.nx/Consume/0206.img/02060000/info/icon",
+      "source_item_id": 2060000,
+      "source_name": "弓矢",
+      "source_name_source": "String.nx/Consume.img/2060000/name",
+      "visual_cue": "arrow",
+      "loop": false,
+      "total_duration_ms": 100
+    },
+    "relic.icon.1": {
+      "frames": [
+        {
+          "file": "sprites/equipment_icons/relic/icon/1/0.png",
+          "duration_ms": 100,
+          "origin": [
+            15.0,
+            13.0
+          ],
+          "source_origin": [
+            0,
+            26
+          ],
+          "size": [
+            30,
+            26
+          ],
+          "source": "Item.nx/Etc/0400.img/04003002/info/icon",
+          "alpha_start": 255,
+          "alpha_end": 255,
+          "rgba_sha256": "d4d3a5d27c8e102a7dbcd7b5be722564f708223d074de6b1ae7a7033ffb7c44b",
+          "duration_note": "Static source icon has no delay; 100 ms is the existing renderer fallback.",
+          "alpha_note": "No source alpha interpolation; full-opacity endpoints preserve original per-pixel RGBA alpha."
+        }
+      ],
+      "source": "Item.nx/Etc/0400.img/04003002/info/icon",
+      "source_item_id": 4003002,
+      "source_name": "冰块",
+      "source_name_source": "String.nx/Etc.img/Etc/4003002/name",
+      "visual_cue": "ice",
+      "loop": false,
+      "total_duration_ms": 100
+    },
+    "relic.icon.2": {
+      "frames": [
+        {
+          "file": "sprites/equipment_icons/relic/icon/2/0.png",
+          "duration_ms": 100,
+          "origin": [
+            17.0,
+            16.0
+          ],
+          "source_origin": [
+            1,
+            31
+          ],
+          "size": [
+            34,
+            32
+          ],
+          "source": "Item.nx/Consume/0207.img/02070019/info/icon",
+          "alpha_start": 255,
+          "alpha_end": 255,
+          "rgba_sha256": "667e238182c2e4f8f09751a3fabd0a8a3fb1b796b35ad3b6288992f9f459e0c9",
+          "duration_note": "Static source icon has no delay; 100 ms is the existing renderer fallback.",
+          "alpha_note": "No source alpha interpolation; full-opacity endpoints preserve original per-pixel RGBA alpha."
+        }
+      ],
+      "source": "Item.nx/Consume/0207.img/02070019/info/icon",
+      "source_item_id": 2070019,
+      "source_name": "高科技电光镖",
+      "source_name_source": "String.nx/Consume.img/2070019/name",
+      "visual_cue": "lightning",
+      "loop": false,
+      "total_duration_ms": 100
+    },
+    "relic.icon.3": {
+      "frames": [
+        {
+          "file": "sprites/equipment_icons/relic/icon/3/0.png",
+          "duration_ms": 100,
+          "origin": [
+            13.0,
+            14.5
+          ],
+          "source_origin": [
+            -4,
+            29
+          ],
+          "size": [
+            26,
+            29
+          ],
+          "source": "Item.nx/Etc/0400.img/04000232/info/icon",
+          "alpha_start": 255,
+          "alpha_end": 255,
+          "rgba_sha256": "b197a5acda3d9ef55ee85bb6d0c96c652a102656daf44726ec2f8e1d539b6bf9",
+          "duration_note": "Static source icon has no delay; 100 ms is the existing renderer fallback.",
+          "alpha_note": "No source alpha interpolation; full-opacity endpoints preserve original per-pixel RGBA alpha."
+        }
+      ],
+      "source": "Item.nx/Etc/0400.img/04000232/info/icon",
+      "source_item_id": 4000232,
+      "source_name": "半人马的火花",
+      "source_name_source": "String.nx/Etc.img/Etc/4000232/name",
+      "visual_cue": "fire",
+      "loop": false,
+      "total_duration_ms": 100
+    },
+    "relic.icon.4": {
+      "frames": [
+        {
+          "file": "sprites/equipment_icons/relic/icon/4/0.png",
+          "duration_ms": 100,
+          "origin": [
+            13.0,
+            15.0
+          ],
+          "source_origin": [
+            -3,
+            30
+          ],
+          "size": [
+            26,
+            30
+          ],
+          "source": "Character.nx/Shield/01092000.img/info/icon",
+          "alpha_start": 255,
+          "alpha_end": 255,
+          "rgba_sha256": "59e735e85beea30efdc87bb51b57a5daf0f8d6b05f260a3b452b133156a39768",
+          "duration_note": "Static source icon has no delay; 100 ms is the existing renderer fallback.",
+          "alpha_note": "No source alpha interpolation; full-opacity endpoints preserve original per-pixel RGBA alpha."
+        }
+      ],
+      "source": "Character.nx/Shield/01092000.img/info/icon",
+      "source_item_id": 1092000,
+      "source_name": "钢盾",
+      "source_name_source": "String.nx/Eqp.img/Eqp/Shield/1092000/name",
+      "visual_cue": "shield",
+      "loop": false,
+      "total_duration_ms": 100
+    },
+    "relic.icon.5": {
+      "frames": [
+        {
+          "file": "sprites/equipment_icons/relic/icon/5/0.png",
+          "duration_ms": 100,
+          "origin": [
+            13.0,
+            15.0
+          ],
+          "source_origin": [
+            -2,
+            30
+          ],
+          "size": [
+            26,
+            30
+          ],
+          "source": "Character.nx/Shoes/01072001.img/info/icon",
+          "alpha_start": 255,
+          "alpha_end": 255,
+          "rgba_sha256": "e8c85965572451e5addeed5aa76fc2c3a14d88d1eb65866e75f0139aba236d1a",
+          "duration_note": "Static source icon has no delay; 100 ms is the existing renderer fallback.",
+          "alpha_note": "No source alpha interpolation; full-opacity endpoints preserve original per-pixel RGBA alpha."
+        }
+      ],
+      "source": "Character.nx/Shoes/01072001.img/info/icon",
+      "source_item_id": 1072001,
+      "source_name": "红橡胶长靴",
+      "source_name_source": "String.nx/Eqp.img/Eqp/Shoes/1072001/name",
+      "visual_cue": "dash_boots",
+      "loop": false,
+      "total_duration_ms": 100
+    },
+    "relic.icon.6": {
+      "frames": [
+        {
+          "file": "sprites/equipment_icons/relic/icon/6/0.png",
+          "duration_ms": 100,
+          "origin": [
+            15.5,
+            16.0
+          ],
+          "source_origin": [
+            -1,
+            32
+          ],
+          "size": [
+            31,
+            32
+          ],
+          "source": "Item.nx/Consume/0210.img/02100001/info/icon",
+          "alpha_start": 255,
+          "alpha_end": 255,
+          "rgba_sha256": "33b6d2860a490aaa67f8cd7081f79282da8db8ae2d44e5ff34e4519a2dfe5853",
+          "duration_note": "Static source icon has no delay; 100 ms is the existing renderer fallback.",
+          "alpha_note": "No source alpha interpolation; full-opacity endpoints preserve original per-pixel RGBA alpha."
+        }
+      ],
+      "source": "Item.nx/Consume/0210.img/02100001/info/icon",
+      "source_item_id": 2100001,
+      "source_name": "怪物召唤1",
+      "source_name_source": "String.nx/Consume.img/2100001/name",
+      "visual_cue": "summoning_bag",
+      "loop": false,
+      "total_duration_ms": 100
+    },
+    "relic.icon.7": {
+      "frames": [
+        {
+          "file": "sprites/equipment_icons/relic/icon/7/0.png",
+          "duration_ms": 100,
+          "origin": [
+            15.0,
+            14.5
+          ],
+          "source_origin": [
+            -1,
+            29
+          ],
+          "size": [
+            30,
+            29
+          ],
+          "source": "Character.nx/PetEquip/01812000.img/info/icon",
+          "alpha_start": 255,
+          "alpha_end": 255,
+          "rgba_sha256": "61721849f7964ac76a3b47e140b6535f94861b31da00cc7a0a10d924555705da",
+          "duration_note": "Static source icon has no delay; 100 ms is the existing renderer fallback.",
+          "alpha_note": "No source alpha interpolation; full-opacity endpoints preserve original per-pixel RGBA alpha."
+        }
+      ],
+      "source": "Character.nx/PetEquip/01812000.img/info/icon",
+      "source_item_id": 1812000,
+      "source_name": "宠物磁铁",
+      "source_name_source": "String.nx/Eqp.img/Eqp/PetEquip/1812000/name",
+      "visual_cue": "magnet",
+      "loop": false,
+      "total_duration_ms": 100
+    },
+    "relic.icon.8": {
+      "frames": [
+        {
+          "file": "sprites/equipment_icons/relic/icon/8/0.png",
+          "duration_ms": 100,
+          "origin": [
+            16.0,
+            14.5
+          ],
+          "source_origin": [
+            0,
+            29
+          ],
+          "size": [
+            32,
+            29
+          ],
+          "source": "Item.nx/Etc/0400.img/04000279/info/icon",
+          "alpha_start": 255,
+          "alpha_end": 255,
+          "rgba_sha256": "a237b7aa8f5beb402c76f5c79a4f7cc93b76f906dd8952efa50ab611fe9e89bc",
+          "duration_note": "Static source icon has no delay; 100 ms is the existing renderer fallback.",
+          "alpha_note": "No source alpha interpolation; full-opacity endpoints preserve original per-pixel RGBA alpha."
+        }
+      ],
+      "source": "Item.nx/Etc/0400.img/04000279/info/icon",
+      "source_item_id": 4000279,
+      "source_name": "红蛇花",
+      "source_name_source": "String.nx/Etc.img/Etc/4000279/name",
+      "visual_cue": "flower",
+      "loop": false,
+      "total_duration_ms": 100
+    },
+    "relic.icon.9": {
+      "frames": [
+        {
+          "file": "sprites/equipment_icons/relic/icon/9/0.png",
+          "duration_ms": 100,
+          "origin": [
+            13.5,
+            14.0
+          ],
+          "source_origin": [
+            -3,
+            28
+          ],
+          "size": [
+            27,
+            28
+          ],
+          "source": "Item.nx/Etc/0400.img/04000005/info/icon",
+          "alpha_start": 255,
+          "alpha_end": 255,
+          "rgba_sha256": "0d2af4413e36ad824523a909396769d3368ab713285acbe068c128dfb2765030",
+          "duration_note": "Static source icon has no delay; 100 ms is the existing renderer fallback.",
+          "alpha_note": "No source alpha interpolation; full-opacity endpoints preserve original per-pixel RGBA alpha."
+        }
+      ],
+      "source": "Item.nx/Etc/0400.img/04000005/info/icon",
+      "source_item_id": 4000005,
+      "source_name": "叶子",
+      "source_name_source": "String.nx/Etc.img/Etc/4000005/name",
+      "visual_cue": "leaf",
+      "loop": false,
+      "total_duration_ms": 100
+    },
+    "relic.icon.10": {
+      "frames": [
+        {
+          "file": "sprites/equipment_icons/relic/icon/10/0.png",
+          "duration_ms": 100,
+          "origin": [
+            15.5,
+            15.5
+          ],
+          "source_origin": [
+            -1,
+            31
+          ],
+          "size": [
+            31,
+            31
+          ],
+          "source": "Item.nx/Etc/0400.img/04005001/info/icon",
+          "alpha_start": 255,
+          "alpha_end": 255,
+          "rgba_sha256": "d7ca81d18d3f9c752fcbdffa6361ae1a1eeef328a06a7f686bc07f0b514c2ff1",
+          "duration_note": "Static source icon has no delay; 100 ms is the existing renderer fallback.",
+          "alpha_note": "No source alpha interpolation; full-opacity endpoints preserve original per-pixel RGBA alpha."
+        }
+      ],
+      "source": "Item.nx/Etc/0400.img/04005001/info/icon",
+      "source_item_id": 4005001,
+      "source_name": "智慧水晶",
+      "source_name_source": "String.nx/Etc.img/Etc/4005001/name",
+      "visual_cue": "crystal",
+      "loop": false,
+      "total_duration_ms": 100
+    },
+    "relic.icon.11": {
+      "frames": [
+        {
+          "file": "sprites/equipment_icons/relic/icon/11/0.png",
+          "duration_ms": 100,
+          "origin": [
+            16.0,
+            16.0
+          ],
+          "source_origin": [
+            0,
+            32
+          ],
+          "size": [
+            32,
+            32
+          ],
+          "source": "Item.nx/Cash/0550.img/05500001/info/icon",
+          "alpha_start": 255,
+          "alpha_end": 255,
+          "rgba_sha256": "83554e8676e49c589d5f8493949fb26646fdeddf42581762ebcb4d564eb356c9",
+          "duration_note": "Static source icon has no delay; 100 ms is the existing renderer fallback.",
+          "alpha_note": "No source alpha interpolation; full-opacity endpoints preserve original per-pixel RGBA alpha."
+        }
+      ],
+      "source": "Item.nx/Cash/0550.img/05500001/info/icon",
+      "source_item_id": 5500001,
+      "source_name": "魔法沙漏（7天）",
+      "source_name_source": "String.nx/Cash.img/5500001/name",
+      "visual_cue": "hourglass",
+      "loop": false,
+      "total_duration_ms": 100
+    },
+    "equipment.icon.0": {
+      "frames": [
+        {
+          "file": "sprites/equipment_icons/equipment/icon/0/0.png",
+          "duration_ms": 100,
+          "origin": [
+            15.5,
+            15.0
+          ],
+          "source_origin": [
+            0,
+            30
+          ],
+          "size": [
+            31,
+            30
+          ],
+          "source": "Character.nx/Weapon/01302000.img/info/icon",
+          "alpha_start": 255,
+          "alpha_end": 255,
+          "rgba_sha256": "d4565137522cd19ccaeb162e843314fbd793dd0ebff34b21da934be42d03df0a",
+          "duration_note": "Static source icon has no delay; 100 ms is the existing renderer fallback.",
+          "alpha_note": "No source alpha interpolation; full-opacity endpoints preserve original per-pixel RGBA alpha."
+        }
+      ],
+      "source": "Character.nx/Weapon/01302000.img/info/icon",
+      "source_item_id": 1302000,
+      "source_name": "剑",
+      "source_name_source": "String.nx/Eqp.img/Eqp/Weapon/1302000/name",
+      "visual_cue": "sword",
+      "loop": false,
+      "total_duration_ms": 100
+    },
+    "equipment.icon.1": {
+      "frames": [
+        {
+          "file": "sprites/equipment_icons/equipment/icon/1/0.png",
+          "duration_ms": 100,
+          "origin": [
+            15.5,
+            15.5
+          ],
+          "source_origin": [
+            0,
+            31
+          ],
+          "size": [
+            31,
+            31
+          ],
+          "source": "Character.nx/Weapon/01452000.img/info/icon",
+          "alpha_start": 255,
+          "alpha_end": 255,
+          "rgba_sha256": "ee7117091c76f236f81de58563cdc64eccd67dc4e0e9def885ce888f73adda92",
+          "duration_note": "Static source icon has no delay; 100 ms is the existing renderer fallback.",
+          "alpha_note": "No source alpha interpolation; full-opacity endpoints preserve original per-pixel RGBA alpha."
+        }
+      ],
+      "source": "Character.nx/Weapon/01452000.img/info/icon",
+      "source_item_id": 1452000,
+      "source_name": "战斗弓",
+      "source_name_source": "String.nx/Eqp.img/Eqp/Weapon/1452000/name",
+      "visual_cue": "bow",
+      "loop": false,
+      "total_duration_ms": 100
+    },
+    "equipment.icon.2": {
+      "frames": [
+        {
+          "file": "sprites/equipment_icons/equipment/icon/2/0.png",
+          "duration_ms": 100,
+          "origin": [
+            15.5,
+            14.0
+          ],
+          "source_origin": [
+            -1,
+            28
+          ],
+          "size": [
+            31,
+            28
+          ],
+          "source": "Character.nx/Weapon/01382000.img/info/icon",
+          "alpha_start": 255,
+          "alpha_end": 255,
+          "rgba_sha256": "4dc536d554f51d95e1cbeabcc72dd14e5de18e0eadd9a867001626cf7e55dbd3",
+          "duration_note": "Static source icon has no delay; 100 ms is the existing renderer fallback.",
+          "alpha_note": "No source alpha interpolation; full-opacity endpoints preserve original per-pixel RGBA alpha."
+        }
+      ],
+      "source": "Character.nx/Weapon/01382000.img/info/icon",
+      "source_item_id": 1382000,
+      "source_name": "木制长杖",
+      "source_name_source": "String.nx/Eqp.img/Eqp/Weapon/1382000/name",
+      "visual_cue": "staff",
+      "loop": false,
+      "total_duration_ms": 100
+    },
+    "equipment.icon.3": {
+      "frames": [
+        {
+          "file": "sprites/equipment_icons/equipment/icon/3/0.png",
+          "duration_ms": 100,
+          "origin": [
+            16.0,
+            16.0
+          ],
+          "source_origin": [
+            0,
+            32
+          ],
+          "size": [
+            32,
+            32
+          ],
+          "source": "Character.nx/Cap/01002000.img/info/icon",
+          "alpha_start": 255,
+          "alpha_end": 255,
+          "rgba_sha256": "abbda4808c67d824ab76fb087c8c602741d679f23f0347169560a7aa625ce88d",
+          "duration_note": "Static source icon has no delay; 100 ms is the existing renderer fallback.",
+          "alpha_note": "No source alpha interpolation; full-opacity endpoints preserve original per-pixel RGBA alpha."
+        }
+      ],
+      "source": "Character.nx/Cap/01002000.img/info/icon",
+      "source_item_id": 1002000,
+      "source_name": "褐色航空帽",
+      "source_name_source": "String.nx/Eqp.img/Eqp/Cap/1002000/name",
+      "visual_cue": "cap",
+      "loop": false,
+      "total_duration_ms": 100
+    },
+    "equipment.icon.4": {
+      "frames": [
+        {
+          "file": "sprites/equipment_icons/relic/icon/4/0.png",
+          "duration_ms": 100,
+          "origin": [
+            13.0,
+            15.0
+          ],
+          "source_origin": [
+            -3,
+            30
+          ],
+          "size": [
+            26,
+            30
+          ],
+          "source": "Character.nx/Shield/01092000.img/info/icon",
+          "alpha_start": 255,
+          "alpha_end": 255,
+          "rgba_sha256": "59e735e85beea30efdc87bb51b57a5daf0f8d6b05f260a3b452b133156a39768",
+          "duration_note": "Static source icon has no delay; 100 ms is the existing renderer fallback.",
+          "alpha_note": "No source alpha interpolation; full-opacity endpoints preserve original per-pixel RGBA alpha."
+        }
+      ],
+      "source": "Character.nx/Shield/01092000.img/info/icon",
+      "source_item_id": 1092000,
+      "source_name": "钢盾",
+      "source_name_source": "String.nx/Eqp.img/Eqp/Shield/1092000/name",
+      "visual_cue": "shield",
+      "loop": false,
+      "total_duration_ms": 100,
+      "alias_of": "relic.icon.4"
+    },
+    "equipment.icon.5": {
+      "frames": [
+        {
+          "file": "sprites/equipment_icons/equipment/icon/5/0.png",
+          "duration_ms": 100,
+          "origin": [
+            14.0,
+            14.0
+          ],
+          "source_origin": [
+            -2,
+            28
+          ],
+          "size": [
+            28,
+            28
+          ],
+          "source": "Character.nx/Glove/01082002.img/info/icon",
+          "alpha_start": 255,
+          "alpha_end": 255,
+          "rgba_sha256": "b5c135249716227639bc10b9d6bd6c198e1c9557f9ebd005275bd80858945ebb",
+          "duration_note": "Static source icon has no delay; 100 ms is the existing renderer fallback.",
+          "alpha_note": "No source alpha interpolation; full-opacity endpoints preserve original per-pixel RGBA alpha."
+        }
+      ],
+      "source": "Character.nx/Glove/01082002.img/info/icon",
+      "source_item_id": 1082002,
+      "source_name": "工地手套",
+      "source_name_source": "String.nx/Eqp.img/Eqp/Glove/1082002/name",
+      "visual_cue": "gloves",
+      "loop": false,
+      "total_duration_ms": 100
+    },
+    "equipment.icon.6": {
+      "frames": [
+        {
+          "file": "sprites/equipment_icons/relic/icon/5/0.png",
+          "duration_ms": 100,
+          "origin": [
+            13.0,
+            15.0
+          ],
+          "source_origin": [
+            -2,
+            30
+          ],
+          "size": [
+            26,
+            30
+          ],
+          "source": "Character.nx/Shoes/01072001.img/info/icon",
+          "alpha_start": 255,
+          "alpha_end": 255,
+          "rgba_sha256": "e8c85965572451e5addeed5aa76fc2c3a14d88d1eb65866e75f0139aba236d1a",
+          "duration_note": "Static source icon has no delay; 100 ms is the existing renderer fallback.",
+          "alpha_note": "No source alpha interpolation; full-opacity endpoints preserve original per-pixel RGBA alpha."
+        }
+      ],
+      "source": "Character.nx/Shoes/01072001.img/info/icon",
+      "source_item_id": 1072001,
+      "source_name": "红橡胶长靴",
+      "source_name_source": "String.nx/Eqp.img/Eqp/Shoes/1072001/name",
+      "visual_cue": "boots",
+      "loop": false,
+      "total_duration_ms": 100,
+      "alias_of": "relic.icon.5"
+    },
+    "equipment.icon.7": {
+      "frames": [
+        {
+          "file": "sprites/equipment_icons/equipment/icon/7/0.png",
+          "duration_ms": 100,
+          "origin": [
+            13.0,
+            13.5
+          ],
+          "source_origin": [
+            -4,
+            27
+          ],
+          "size": [
+            26,
+            27
+          ],
+          "source": "Character.nx/Ring/01112000.img/info/icon",
+          "alpha_start": 255,
+          "alpha_end": 255,
+          "rgba_sha256": "885be4972fba60aca639a497cd7e74ac59bc4c8715d8ff88cbb1fcbc9da1202c",
+          "duration_note": "Static source icon has no delay; 100 ms is the existing renderer fallback.",
+          "alpha_note": "No source alpha interpolation; full-opacity endpoints preserve original per-pixel RGBA alpha."
+        }
+      ],
+      "source": "Character.nx/Ring/01112000.img/info/icon",
+      "source_item_id": 1112000,
+      "source_name": "闪光戒指",
+      "source_name_source": "String.nx/Eqp.img/Eqp/Ring/1112000/name",
+      "visual_cue": "ring",
+      "loop": false,
+      "total_duration_ms": 100
+    },
+    "equipment.icon.8": {
+      "frames": [
+        {
+          "file": "sprites/equipment_icons/equipment/icon/8/0.png",
+          "duration_ms": 100,
+          "origin": [
+            13.5,
+            15.0
+          ],
+          "source_origin": [
+            -3,
+            30
+          ],
+          "size": [
+            27,
+            30
+          ],
+          "source": "Character.nx/Accessory/01032000.img/info/icon",
+          "alpha_start": 255,
+          "alpha_end": 255,
+          "rgba_sha256": "9ac8459a9a92f96a9880e76a0662898404c03acef9732cb7b8a73f28674217ae",
+          "duration_note": "Static source icon has no delay; 100 ms is the existing renderer fallback.",
+          "alpha_note": "No source alpha interpolation; full-opacity endpoints preserve original per-pixel RGBA alpha."
+        }
+      ],
+      "source": "Character.nx/Accessory/01032000.img/info/icon",
+      "source_item_id": 1032000,
+      "source_name": "锤耳环",
+      "source_name_source": "String.nx/Eqp.img/Eqp/Accessory/1032000/name",
+      "visual_cue": "earrings",
+      "loop": false,
+      "total_duration_ms": 100
+    }
+  },
+  "source_archives": {
+    "Item.nx": {
+      "size_bytes": 209527421,
+      "mtime_ns": 1791431796109458900
+    },
+    "Character.nx": {
+      "size_bytes": 2250879079,
+      "mtime_ns": 1791432965827394900
+    },
+    "String.nx": {
+      "size_bytes": 370411333,
+      "mtime_ns": 1791433086967351100
+    }
+  },
+  "notes": [
+    "Original MapleStory inventory icons selectively read from user-provided NX archives using the existing read-only NX exporter.",
+    "Original artwork belongs to its rights holders. This unofficial personal prototype does not imply a redistribution license.",
+    "Original RGBA pixels, source origins, frame delay and alpha interpolation are preserved; static missing delays use the established 100 ms fallback.",
+    "Display origins are centered for inventory cards and free-standing pickups. Original source origins remain in source_origin.",
+    "source_name is verbatim String.nx attribution only. Gameplay names, stats, rarity and effects are authored by the game, not claims about the original MapleStory items.",
+    "Shield and boots are intentionally shared between relic and equipment presentation keys; the duplicate keys refer to the same PNG."
+  ],
+  "validation": {
+    "original_archives_unchanged": true,
+    "all_pngs_reopened_and_pixel_equal": true,
+    "unique_pngs": 19,
+    "sprite_keys": 21
+  }
+}

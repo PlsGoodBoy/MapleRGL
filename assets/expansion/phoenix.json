@@ -1,0 +1,364 @@
+{
+  "schema_version": 1,
+  "resource_status": "exported_only",
+  "sprites": {
+    "skill.phoenix.attack": {
+      "source": "Skill.nx/312.img/skill/3121006/summon/attack1",
+      "frames": [
+        {
+          "file": "expansion/sequences/skill/phoenix/attack/0.png",
+          "duration_ms": 120,
+          "origin": [
+            46,
+            126
+          ],
+          "size": [
+            89,
+            120
+          ],
+          "source": "Skill.nx/312.img/skill/3121006/summon/attack1/0",
+          "source_properties": {
+            "delay": 120,
+            "origin": [
+              46,
+              126
+            ]
+          },
+          "alpha_start": 255,
+          "alpha_end": 255,
+          "alpha_nonzero_bounds": [
+            0,
+            0,
+            89,
+            120
+          ],
+          "rgba_sha256": "0ee5c0c8d243f5d2a9dfd9cae7517b7b0ea00f351a04633058dcaf939f4f12c9"
+        },
+        {
+          "file": "expansion/sequences/skill/phoenix/attack/1.png",
+          "duration_ms": 120,
+          "origin": [
+            25,
+            149
+          ],
+          "size": [
+            45,
+            162
+          ],
+          "source": "Skill.nx/312.img/skill/3121006/summon/attack1/1",
+          "source_properties": {
+            "delay": 120,
+            "origin": [
+              25,
+              149
+            ]
+          },
+          "alpha_start": 255,
+          "alpha_end": 255,
+          "alpha_nonzero_bounds": [
+            0,
+            0,
+            45,
+            162
+          ],
+          "rgba_sha256": "cf6e5ae7684271dec7ec60b797f5b51ed62c7d8ce825ac74cd971269aca75b17"
+        },
+        {
+          "file": "expansion/sequences/skill/phoenix/attack/2.png",
+          "duration_ms": 120,
+          "origin": [
+            11,
+            157
+          ],
+          "size": [
+            19,
+            167
+          ],
+          "source": "Skill.nx/312.img/skill/3121006/summon/attack1/2",
+          "source_properties": {
+            "delay": 120,
+            "origin": [
+              11,
+              157
+            ]
+          },
+          "alpha_start": 255,
+          "alpha_end": 255,
+          "alpha_nonzero_bounds": [
+            0,
+            0,
+            19,
+            167
+          ],
+          "rgba_sha256": "07df04e7fdef06d72907f1fed9560952c8aa959a79c764ed260ce0e2571933a0"
+        },
+        {
+          "file": "expansion/sequences/skill/phoenix/attack/3.png",
+          "duration_ms": 120,
+          "origin": [
+            2,
+            189
+          ],
+          "size": [
+            5,
+            196
+          ],
+          "source": "Skill.nx/312.img/skill/3121006/summon/attack1/3",
+          "source_properties": {
+            "delay": 120,
+            "origin": [
+              2,
+              189
+            ]
+          },
+          "alpha_start": 255,
+          "alpha_end": 255,
+          "alpha_nonzero_bounds": [
+            0,
+            0,
+            5,
+            196
+          ],
+          "rgba_sha256": "4180d19c83a8c4560d319ae6a55bc69fccf95d486b9e991da53c5d9937f6e2ee"
+        },
+        {
+          "file": "expansion/sequences/skill/phoenix/attack/4.png",
+          "duration_ms": 120,
+          "origin": [
+            1,
+            141
+          ],
+          "size": [
+            2,
+            138
+          ],
+          "source": "Skill.nx/312.img/skill/3121006/summon/attack1/4",
+          "source_properties": {
+            "delay": 120,
+            "origin": [
+              1,
+              141
+            ]
+          },
+          "alpha_start": 255,
+          "alpha_end": 255,
+          "alpha_nonzero_bounds": [
+            0,
+            0,
+            2,
+            138
+          ],
+          "rgba_sha256": "4568e22d6c887c6cb14dddd131ecfba8433883302e0eabd2852333235aedfe2b"
+        },
+        {
+          "file": "expansion/sequences/skill/phoenix/attack/5.png",
+          "duration_ms": 930,
+          "origin": [
+            0,
+            0
+          ],
+          "size": [
+            1,
+            1
+          ],
+          "source": "Skill.nx/312.img/skill/3121006/summon/attack1/5",
+          "source_properties": {
+            "delay": 930,
+            "origin": [
+              0,
+              0
+            ]
+          },
+          "alpha_start": 255,
+          "alpha_end": 255,
+          "alpha_nonzero_bounds": [
+            0,
+            0,
+            1,
+            1
+          ],
+          "rgba_sha256": "8e00d1c0c8ffe94540e534e256d4589be3e3865dc0559a732697aef38a364e83"
+        },
+        {
+          "file": "expansion/sequences/skill/phoenix/attack/6.png",
+          "duration_ms": 120,
+          "origin": [
+            1,
+            141
+          ],
+          "size": [
+            2,
+            138
+          ],
+          "source": "Skill.nx/312.img/skill/3121006/summon/attack1/6",
+          "source_properties": {
+            "delay": 120,
+            "origin": [
+              1,
+              141
+            ]
+          },
+          "alpha_start": 255,
+          "alpha_end": 255,
+          "alpha_nonzero_bounds": [
+            0,
+            0,
+            2,
+            138
+          ],
+          "rgba_sha256": "4568e22d6c887c6cb14dddd131ecfba8433883302e0eabd2852333235aedfe2b"
+        },
+        {
+          "file": "expansion/sequences/skill/phoenix/attack/7.png",
+          "duration_ms": 120,
+          "origin": [
+            2,
+            189
+          ],
+          "size": [
+            5,
+            196
+          ],
+          "source": "Skill.nx/312.img/skill/3121006/summon/attack1/7",
+          "source_properties": {
+            "delay": 120,
+            "origin": [
+              2,
+              189
+            ]
+          },
+          "alpha_start": 255,
+          "alpha_end": 255,
+          "alpha_nonzero_bounds": [
+            0,
+            0,
+            5,
+            196
+          ],
+          "rgba_sha256": "4180d19c83a8c4560d319ae6a55bc69fccf95d486b9e991da53c5d9937f6e2ee"
+        },
+        {
+          "file": "expansion/sequences/skill/phoenix/attack/8.png",
+          "duration_ms": 120,
+          "origin": [
+            11,
+            157
+          ],
+          "size": [
+            19,
+            167
+          ],
+          "source": "Skill.nx/312.img/skill/3121006/summon/attack1/8",
+          "source_properties": {
+            "delay": 120,
+            "origin": [
+              11,
+              157
+            ]
+          },
+          "alpha_start": 255,
+          "alpha_end": 255,
+          "alpha_nonzero_bounds": [
+            0,
+            0,
+            19,
+            167
+          ],
+          "rgba_sha256": "07df04e7fdef06d72907f1fed9560952c8aa959a79c764ed260ce0e2571933a0"
+        },
+        {
+          "file": "expansion/sequences/skill/phoenix/attack/9.png",
+          "duration_ms": 120,
+          "origin": [
+            25,
+            149
+          ],
+          "size": [
+            45,
+            162
+          ],
+          "source": "Skill.nx/312.img/skill/3121006/summon/attack1/9",
+          "source_properties": {
+            "delay": 120,
+            "origin": [
+              25,
+              149
+            ]
+          },
+          "alpha_start": 255,
+          "alpha_end": 255,
+          "alpha_nonzero_bounds": [
+            0,
+            0,
+            45,
+            162
+          ],
+          "rgba_sha256": "cf6e5ae7684271dec7ec60b797f5b51ed62c7d8ce825ac74cd971269aca75b17"
+        },
+        {
+          "file": "expansion/sequences/skill/phoenix/attack/10.png",
+          "duration_ms": 120,
+          "origin": [
+            46,
+            126
+          ],
+          "size": [
+            89,
+            120
+          ],
+          "source": "Skill.nx/312.img/skill/3121006/summon/attack1/10",
+          "source_properties": {
+            "delay": 120,
+            "origin": [
+              46,
+              126
+            ]
+          },
+          "alpha_start": 255,
+          "alpha_end": 255,
+          "alpha_nonzero_bounds": [
+            0,
+            0,
+            89,
+            120
+          ],
+          "rgba_sha256": "0ee5c0c8d243f5d2a9dfd9cae7517b7b0ea00f351a04633058dcaf939f4f12c9"
+        }
+      ],
+      "loop": false,
+      "total_duration_ms": 2130,
+      "source_sequence_properties": {}
+    }
+  },
+  "visuals": [
+    {
+      "key": "skill.phoenix.attack",
+      "name": "凤凰原生攻击",
+      "resource_status": "exported_only",
+      "render_note": "Play only after the combat core launches the phoenix projectile; return to the existing skill.summon fly sequence afterward."
+    }
+  ],
+  "source_archives": {
+    "Skill.nx": {
+      "size_bytes": 203563946,
+      "mtime_ns": 1791432019851882000
+    }
+  },
+  "validation": {
+    "sprite_keys": 1,
+    "pngs": 11,
+    "png_bytes": 15158,
+    "rgba_bytes": 179196,
+    "all_pngs_pixel_equal": true,
+    "original_archives_size_mtime_unchanged": true,
+    "skill_icons": 0,
+    "effect_sequences": 1
+  },
+  "notes": [
+    "Original NX archives were opened read-only; original PNG pixels, sizes, origins, delays and alpha endpoints are retained.",
+    "Only the named candidates are inspected and exported. No full archive bitmap scan.",
+    "Contact sheets are inspection artifacts, not runtime UI assets.",
+    "MapleStory source artwork belongs to its rights holders; this personal prototype does not establish redistribution rights.",
+    "Resource export is not a claim that combat behavior, official pools or visual gameplay acceptance are complete."
+  ]
+}

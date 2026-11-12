@@ -1,0 +1,61 @@
+{
+  "version": 1,
+  "source_archives": {
+    "Skill.nx": {
+      "size_bytes": 203563946,
+      "mtime_ns": 1791432019851882000
+    },
+    "String.nx": {
+      "size_bytes": 370411333,
+      "mtime_ns": 1791433086967351100
+    }
+  },
+  "validation": {
+    "original_archives_unchanged": true,
+    "all_pngs_pixel_equal": true,
+    "unique_pngs": 3,
+    "sprite_keys": 3
+  },
+  "notes": [
+    "Genuine skill/inventory icon canvases; no effect-frame thumbnails or cropped character artwork.",
+    "RGBA and original dimensions retained. HUD display origin is centered; original origin is in source_origin.",
+    "Source names identify original art only; MapleRGL names and mechanics are custom.",
+    "Fusion-result icons use their own original skill icon; no material icon is overwritten or reused.",
+    "Contact sheet is an inspection artifact only and is not loaded by the game."
+  ],
+  "icons": [
+    {
+      "key": "skill.icon.star_return",
+      "game_name": "回旋贯星",
+      "source": "Skill.nx/322.img/skill/3221006/icon",
+      "file": "sprites/skill_icons/skill/icon/star_return/0.png",
+      "size": [
+        32,
+        32
+      ],
+      "rgba_sha256": "8f8f59f085b8fb901c10c70427bf8f3c7589829e14e287a005b85961ed18cf99"
+    },
+    {
+      "key": "skill.icon.frost_storm",
+      "game_name": "霜雷领域",
+      "source": "Skill.nx/222.img/skill/2221007/icon",
+      "file": "sprites/skill_icons/skill/icon/frost_storm/0.png",
+      "size": [
+        32,
+        32
+      ],
+      "rgba_sha256": "613271f98652fc1940ae98ba467b4a6b22b33013dc4afd504509fdc20b2514e4"
+    },
+    {
+      "key": "skill.icon.dragon_armor",
+      "game_name": "龙魂战甲",
+      "source": "Skill.nx/132.img/skill/1320006/icon",
+      "file": "sprites/skill_icons/skill/icon/dragon_armor/0.png",
+      "size": [
+        32,
+        32
+      ],
+      "rgba_sha256": "afe6547cecb706b4c79aa8a95a7629cb8f01d63d555949835c2d5bff598f64dd"
+    }
+  ]
+}

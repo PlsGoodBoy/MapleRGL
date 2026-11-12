@@ -1,0 +1,1452 @@
+{
+  "schema_version": 1,
+  "visuals": {
+    "boss": {
+      "name": "蘑菇王",
+      "source_mob_id": 6130101,
+      "source_name": "蘑菇王",
+      "source": "Mob.nx/6130101.img",
+      "source_name_source": "String.nx/Mob.img/6130101/name",
+      "source_tagged_boss": true,
+      "suggested_render_scale": 1.5,
+      "source_origin_to_ground_px": [
+        0,
+        0
+      ],
+      "suggested_footprint_radius": 50,
+      "suggested_region": "village",
+      "prototype_behavior_cue": "landing_pressure",
+      "actions": {
+        "idle": "stand",
+        "move": "move",
+        "hit": "hit1",
+        "die": "die1",
+        "attack1": "attack1"
+      },
+      "idle_source_origin": [
+        59,
+        110
+      ],
+      "idle_source_size": [
+        119,
+        110
+      ],
+      "ground_note": "Original frame origin is a stable ground anchor across animation. Preserve it and mirror for facing; do not center individual frames or derive collision from image bounds.",
+      "mechanics_note": "Prototype behavior, circular footprint, phase rules, rewards and encounter pool are custom; original source collision and AI are not imported."
+    },
+    "boss_stumpy": {
+      "name": "森林守卫",
+      "source_mob_id": 3220000,
+      "source_name": "树妖王",
+      "source": "Mob.nx/3220000.img",
+      "source_name_source": "String.nx/Mob.img/3220000/name",
+      "source_tagged_boss": true,
+      "suggested_render_scale": 1.0,
+      "source_origin_to_ground_px": [
+        0,
+        0
+      ],
+      "suggested_footprint_radius": 46,
+      "suggested_region": "forest",
+      "prototype_behavior_cue": "roots_and_lines",
+      "actions": {
+        "idle": "stand",
+        "move": "move",
+        "hit": "hit1",
+        "die": "die1",
+        "attack1": "attack1",
+        "attack2": "attack2"
+      },
+      "idle_source_origin": [
+        91,
+        172
+      ],
+      "idle_source_size": [
+        181,
+        172
+      ],
+      "ground_note": "Original frame origin is a stable ground anchor across animation. Preserve it and mirror for facing; do not center individual frames or derive collision from image bounds.",
+      "mechanics_note": "Prototype behavior, circular footprint, phase rules, rewards and encounter pool are custom; original source collision and AI are not imported."
+    },
+    "boss_king_slime": {
+      "name": "超级绿水灵",
+      "source_mob_id": 9300003,
+      "source_name": "绿水灵王",
+      "source": "Mob.nx/9300003.img",
+      "source_name_source": "String.nx/Mob.img/9300003/name",
+      "source_tagged_boss": true,
+      "suggested_render_scale": 1.05,
+      "source_origin_to_ground_px": [
+        0,
+        0
+      ],
+      "suggested_footprint_radius": 48,
+      "suggested_region": "village",
+      "prototype_behavior_cue": "leap_and_split",
+      "actions": {
+        "idle": "stand",
+        "move": "move",
+        "hit": "hit1",
+        "die": "die1",
+        "attack1": "attack1",
+        "attack2": "skill1"
+      },
+      "idle_source_origin": [
+        73,
+        142
+      ],
+      "idle_source_size": [
+        206,
+        142
+      ],
+      "ground_note": "Original frame origin is a stable ground anchor across animation. Preserve it and mirror for facing; do not center individual frames or derive collision from image bounds.",
+      "mechanics_note": "Prototype behavior, circular footprint, phase rules, rewards and encounter pool are custom; original source collision and AI are not imported."
+    },
+    "boss_snail_king": {
+      "name": "蜗牛王",
+      "source_mob_id": 2220000,
+      "source_name": "红蜗牛王",
+      "source": "Mob.nx/2220000.img",
+      "source_name_source": "String.nx/Mob.img/2220000/name",
+      "source_tagged_boss": true,
+      "suggested_render_scale": 1.5,
+      "source_origin_to_ground_px": [
+        0,
+        0
+      ],
+      "suggested_footprint_radius": 40,
+      "suggested_region": "village",
+      "prototype_behavior_cue": "slow_bullet_patterns",
+      "actions": {
+        "idle": "stand",
+        "move": "move",
+        "hit": "hit1",
+        "die": "die1",
+        "attack1": "skill1"
+      },
+      "idle_source_origin": [
+        51,
+        96
+      ],
+      "idle_source_size": [
+        104,
+        96
+      ],
+      "ground_note": "Original frame origin is a stable ground anchor across animation. Preserve it and mirror for facing; do not center individual frames or derive collision from image bounds.",
+      "mechanics_note": "Prototype behavior, circular footprint, phase rules, rewards and encounter pool are custom; original source collision and AI are not imported."
+    },
+    "boss_golem": {
+      "name": "石巨人统领",
+      "source_mob_id": 8210005,
+      "source_name": "城堡石头人",
+      "source": "Mob.nx/8210005.img",
+      "source_name_source": "String.nx/Mob.img/8210005/name",
+      "source_tagged_boss": false,
+      "suggested_render_scale": 1.15,
+      "source_origin_to_ground_px": [
+        0,
+        0
+      ],
+      "suggested_footprint_radius": 48,
+      "suggested_region": "wasteland",
+      "prototype_behavior_cue": "heavy_slam_and_opening",
+      "actions": {
+        "idle": "stand",
+        "move": "move",
+        "hit": "hit1",
+        "die": "die1",
+        "attack1": "attack1"
+      },
+      "idle_source_origin": [
+        87,
+        145
+      ],
+      "idle_source_size": [
+        153,
+        145
+      ],
+      "ground_note": "Original frame origin is a stable ground anchor across animation. Preserve it and mirror for facing; do not center individual frames or derive collision from image bounds.",
+      "mechanics_note": "Prototype behavior, circular footprint, phase rules, rewards and encounter pool are custom; original source collision and AI are not imported. The source Castle Golem is an ordinary mob promoted to an explicitly custom commander encounter."
+    },
+    "boss_balrog": {
+      "name": "蝙蝠魔",
+      "source_mob_id": 8150000,
+      "source_name": "蝙蝠魔",
+      "source": "Mob.nx/8150000.img",
+      "source_name_source": "String.nx/Mob.img/8150000/name",
+      "source_tagged_boss": true,
+      "suggested_render_scale": 0.6,
+      "source_origin_to_ground_px": [
+        0,
+        0
+      ],
+      "suggested_footprint_radius": 32,
+      "suggested_region": "wasteland",
+      "prototype_behavior_cue": "dive_and_crossfire",
+      "actions": {
+        "idle": "stand",
+        "move": "fly",
+        "hit": "hit1",
+        "die": "die1",
+        "attack1": "attack1",
+        "attack2": "attack2"
+      },
+      "idle_source_origin": [
+        87,
+        311
+      ],
+      "idle_source_size": [
+        161,
+        311
+      ],
+      "ground_note": "Original frame origin is a stable ground anchor across animation. Preserve it and mirror for facing; do not center individual frames or derive collision from image bounds. Large wings extend above the body; the suggested footprint belongs to the body at the ground anchor, not the full wing canvas.",
+      "mechanics_note": "Prototype behavior, circular footprint, phase rules, rewards and encounter pool are custom; original source collision and AI are not imported."
+    },
+    "enemy.slime": {
+      "name": "绿水灵",
+      "source_mob_id": 210100,
+      "source_name": "绿水灵",
+      "source": "Mob.nx/0210100.img",
+      "source_name_source": "String.nx/Mob.img/210100/name",
+      "source_tagged_boss": false,
+      "suggested_render_scale": 0.85,
+      "source_origin_to_ground_px": [
+        0,
+        0
+      ],
+      "suggested_footprint_radius": 16,
+      "suggested_region": "village",
+      "prototype_behavior_cue": "pursuit",
+      "actions": {
+        "idle": "stand",
+        "move": "move",
+        "hit": "hit1",
+        "die": "die1"
+      },
+      "idle_source_origin": [
+        27,
+        49
+      ],
+      "idle_source_size": [
+        64,
+        49
+      ],
+      "ground_note": "Original frame origin is a stable ground anchor across animation. Preserve it and mirror for facing; do not center individual frames or derive collision from image bounds.",
+      "mechanics_note": "Prototype behavior, circular footprint, phase rules, rewards and encounter pool are custom; original source collision and AI are not imported."
+    },
+    "enemy.mushroom": {
+      "name": "蘑菇仔",
+      "source_mob_id": 120100,
+      "source_name": "蘑菇仔",
+      "source": "Mob.nx/0120100.img",
+      "source_name_source": "String.nx/Mob.img/120100/name",
+      "source_tagged_boss": false,
+      "suggested_render_scale": 1.2,
+      "source_origin_to_ground_px": [
+        0,
+        0
+      ],
+      "suggested_footprint_radius": 18,
+      "suggested_region": "village",
+      "prototype_behavior_cue": "pursuit",
+      "actions": {
+        "idle": "stand",
+        "move": "move",
+        "hit": "hit1",
+        "die": "die1"
+      },
+      "idle_source_origin": [
+        18,
+        36
+      ],
+      "idle_source_size": [
+        36,
+        36
+      ],
+      "ground_note": "Original frame origin is a stable ground anchor across animation. Preserve it and mirror for facing; do not center individual frames or derive collision from image bounds.",
+      "mechanics_note": "Prototype behavior, circular footprint, phase rules, rewards and encounter pool are custom; original source collision and AI are not imported."
+    },
+    "enemy.blue_mushroom": {
+      "name": "蓝蘑菇",
+      "source_mob_id": 2220100,
+      "source_name": "蓝蘑菇",
+      "source": "Mob.nx/2220100.img",
+      "source_name_source": "String.nx/Mob.img/2220100/name",
+      "source_tagged_boss": false,
+      "suggested_render_scale": 0.85,
+      "source_origin_to_ground_px": [
+        0,
+        0
+      ],
+      "suggested_footprint_radius": 22,
+      "suggested_region": "village",
+      "prototype_behavior_cue": "armored",
+      "actions": {
+        "idle": "stand",
+        "move": "move",
+        "hit": "hit1",
+        "die": "die1"
+      },
+      "idle_source_origin": [
+        27,
+        58
+      ],
+      "idle_source_size": [
+        63,
+        58
+      ],
+      "ground_note": "Original frame origin is a stable ground anchor across animation. Preserve it and mirror for facing; do not center individual frames or derive collision from image bounds.",
+      "mechanics_note": "Prototype behavior, circular footprint, phase rules, rewards and encounter pool are custom; original source collision and AI are not imported."
+    },
+    "enemy.pig": {
+      "name": "猪猪",
+      "source_mob_id": 1210100,
+      "source_name": "猪猪",
+      "source": "Mob.nx/1210100.img",
+      "source_name_source": "String.nx/Mob.img/1210100/name",
+      "source_tagged_boss": false,
+      "suggested_render_scale": 0.9,
+      "source_origin_to_ground_px": [
+        0,
+        0
+      ],
+      "suggested_footprint_radius": 16,
+      "suggested_region": "village",
+      "prototype_behavior_cue": "rush",
+      "actions": {
+        "idle": "stand",
+        "move": "move",
+        "hit": "hit1",
+        "die": "die1"
+      },
+      "idle_source_origin": [
+        34,
+        40
+      ],
+      "idle_source_size": [
+        68,
+        40
+      ],
+      "ground_note": "Original frame origin is a stable ground anchor across animation. Preserve it and mirror for facing; do not center individual frames or derive collision from image bounds.",
+      "mechanics_note": "Prototype behavior, circular footprint, phase rules, rewards and encounter pool are custom; original source collision and AI are not imported."
+    },
+    "enemy.wild_boar": {
+      "name": "野猪",
+      "source_mob_id": 2230102,
+      "source_name": "野猪",
+      "source": "Mob.nx/2230102.img",
+      "source_name_source": "String.nx/Mob.img/2230102/name",
+      "source_tagged_boss": false,
+      "suggested_render_scale": 1.05,
+      "source_origin_to_ground_px": [
+        0,
+        0
+      ],
+      "suggested_footprint_radius": 25,
+      "suggested_region": "village/wasteland",
+      "prototype_behavior_cue": "rush_elite",
+      "actions": {
+        "idle": "stand",
+        "move": "move",
+        "hit": "hit1",
+        "die": "die1"
+      },
+      "idle_source_origin": [
+        35,
+        47
+      ],
+      "idle_source_size": [
+        71,
+        47
+      ],
+      "ground_note": "Original frame origin is a stable ground anchor across animation. Preserve it and mirror for facing; do not center individual frames or derive collision from image bounds.",
+      "mechanics_note": "Prototype behavior, circular footprint, phase rules, rewards and encounter pool are custom; original source collision and AI are not imported."
+    },
+    "enemy.snail": {
+      "name": "蜗牛",
+      "source_mob_id": 100100,
+      "source_name": "蜗牛",
+      "source": "Mob.nx/0100100.img",
+      "source_name_source": "String.nx/Mob.img/100100/name",
+      "source_tagged_boss": false,
+      "suggested_render_scale": 1.25,
+      "source_origin_to_ground_px": [
+        0,
+        0
+      ],
+      "suggested_footprint_radius": 14,
+      "suggested_region": "village",
+      "prototype_behavior_cue": "pursuit",
+      "actions": {
+        "idle": "stand",
+        "move": "move",
+        "hit": "hit1",
+        "die": "die1"
+      },
+      "idle_source_origin": [
+        18,
+        26
+      ],
+      "idle_source_size": [
+        37,
+        26
+      ],
+      "ground_note": "Original frame origin is a stable ground anchor across animation. Preserve it and mirror for facing; do not center individual frames or derive collision from image bounds.",
+      "mechanics_note": "Prototype behavior, circular footprint, phase rules, rewards and encounter pool are custom; original source collision and AI are not imported."
+    },
+    "enemy.stump": {
+      "name": "木妖",
+      "source_mob_id": 130100,
+      "source_name": "木妖",
+      "source": "Mob.nx/0130100.img",
+      "source_name_source": "String.nx/Mob.img/130100/name",
+      "source_tagged_boss": false,
+      "suggested_render_scale": 0.95,
+      "source_origin_to_ground_px": [
+        0,
+        0
+      ],
+      "suggested_footprint_radius": 20,
+      "suggested_region": "forest",
+      "prototype_behavior_cue": "pursuit",
+      "actions": {
+        "idle": "stand",
+        "move": "move",
+        "hit": "hit1",
+        "die": "die1"
+      },
+      "idle_source_origin": [
+        31,
+        51
+      ],
+      "idle_source_size": [
+        62,
+        51
+      ],
+      "ground_note": "Original frame origin is a stable ground anchor across animation. Preserve it and mirror for facing; do not center individual frames or derive collision from image bounds.",
+      "mechanics_note": "Prototype behavior, circular footprint, phase rules, rewards and encounter pool are custom; original source collision and AI are not imported."
+    },
+    "enemy.octopus": {
+      "name": "三眼章鱼",
+      "source_mob_id": 1120100,
+      "source_name": "三眼章鱼",
+      "source": "Mob.nx/1120100.img",
+      "source_name_source": "String.nx/Mob.img/1120100/name",
+      "source_tagged_boss": false,
+      "suggested_render_scale": 0.9,
+      "source_origin_to_ground_px": [
+        0,
+        0
+      ],
+      "suggested_footprint_radius": 21,
+      "suggested_region": "forest",
+      "prototype_behavior_cue": "splitter",
+      "actions": {
+        "idle": "stand",
+        "move": "move",
+        "hit": "hit1",
+        "die": "die1"
+      },
+      "idle_source_origin": [
+        31,
+        69
+      ],
+      "idle_source_size": [
+        62,
+        69
+      ],
+      "ground_note": "Original frame origin is a stable ground anchor across animation. Preserve it and mirror for facing; do not center individual frames or derive collision from image bounds.",
+      "mechanics_note": "Prototype behavior, circular footprint, phase rules, rewards and encounter pool are custom; original source collision and AI are not imported."
+    },
+    "enemy.snake": {
+      "name": "青蛇",
+      "source_mob_id": 2130103,
+      "source_name": "青蛇",
+      "source": "Mob.nx/2130103.img",
+      "source_name_source": "String.nx/Mob.img/2130103/name",
+      "source_tagged_boss": false,
+      "suggested_render_scale": 1.35,
+      "source_origin_to_ground_px": [
+        0,
+        0
+      ],
+      "suggested_footprint_radius": 13,
+      "suggested_region": "forest",
+      "prototype_behavior_cue": "rush",
+      "actions": {
+        "idle": "stand",
+        "move": "move",
+        "hit": "hit1",
+        "die": "die1"
+      },
+      "idle_source_origin": [
+        14,
+        28
+      ],
+      "idle_source_size": [
+        28,
+        28
+      ],
+      "ground_note": "Original frame origin is a stable ground anchor across animation. Preserve it and mirror for facing; do not center individual frames or derive collision from image bounds.",
+      "mechanics_note": "Prototype behavior, circular footprint, phase rules, rewards and encounter pool are custom; original source collision and AI are not imported."
+    },
+    "enemy.lupin": {
+      "name": "猴子",
+      "source_mob_id": 3210800,
+      "source_name": "猴子",
+      "source": "Mob.nx/3210800.img",
+      "source_name_source": "String.nx/Mob.img/3210800/name",
+      "source_tagged_boss": false,
+      "suggested_render_scale": 1.0,
+      "source_origin_to_ground_px": [
+        0,
+        0
+      ],
+      "suggested_footprint_radius": 18,
+      "suggested_region": "forest",
+      "prototype_behavior_cue": "ranged",
+      "actions": {
+        "idle": "stand",
+        "move": "move",
+        "hit": "hit1",
+        "die": "die1",
+        "attack1": "attack1"
+      },
+      "idle_source_origin": [
+        25,
+        54
+      ],
+      "idle_source_size": [
+        49,
+        54
+      ],
+      "ground_note": "Original frame origin is a stable ground anchor across animation. Preserve it and mirror for facing; do not center individual frames or derive collision from image bounds.",
+      "mechanics_note": "Prototype behavior, circular footprint, phase rules, rewards and encounter pool are custom; original source collision and AI are not imported."
+    },
+    "enemy.wood_mask": {
+      "name": "木面怪人",
+      "source_mob_id": 2230110,
+      "source_name": "木面怪人",
+      "source": "Mob.nx/2230110.img",
+      "source_name_source": "String.nx/Mob.img/2230110/name",
+      "source_tagged_boss": false,
+      "suggested_render_scale": 0.8,
+      "source_origin_to_ground_px": [
+        0,
+        0
+      ],
+      "suggested_footprint_radius": 22,
+      "suggested_region": "forest",
+      "prototype_behavior_cue": "support",
+      "actions": {
+        "idle": "stand",
+        "move": "move",
+        "hit": "hit1",
+        "die": "die1"
+      },
+      "idle_source_origin": [
+        46,
+        86
+      ],
+      "idle_source_size": [
+        84,
+        85
+      ],
+      "ground_note": "Original frame origin is a stable ground anchor across animation. Preserve it and mirror for facing; do not center individual frames or derive collision from image bounds.",
+      "mechanics_note": "Prototype behavior, circular footprint, phase rules, rewards and encounter pool are custom; original source collision and AI are not imported."
+    },
+    "enemy.stone_mask": {
+      "name": "石面怪人",
+      "source_mob_id": 2230111,
+      "source_name": "石面怪人",
+      "source": "Mob.nx/2230111.img",
+      "source_name_source": "String.nx/Mob.img/2230111/name",
+      "source_tagged_boss": false,
+      "suggested_render_scale": 0.9,
+      "source_origin_to_ground_px": [
+        0,
+        0
+      ],
+      "suggested_footprint_radius": 23,
+      "suggested_region": "wasteland",
+      "prototype_behavior_cue": "armored",
+      "actions": {
+        "idle": "stand",
+        "move": "move",
+        "hit": "hit1",
+        "die": "die1"
+      },
+      "idle_source_origin": [
+        37,
+        75
+      ],
+      "idle_source_size": [
+        75,
+        75
+      ],
+      "ground_note": "Original frame origin is a stable ground anchor across animation. Preserve it and mirror for facing; do not center individual frames or derive collision from image bounds.",
+      "mechanics_note": "Prototype behavior, circular footprint, phase rules, rewards and encounter pool are custom; original source collision and AI are not imported."
+    },
+    "enemy.skeleton": {
+      "name": "骷髅士兵",
+      "source_mob_id": 5150001,
+      "source_name": "骷髅士兵",
+      "source": "Mob.nx/5150001.img",
+      "source_name_source": "String.nx/Mob.img/5150001/name",
+      "source_tagged_boss": false,
+      "suggested_render_scale": 0.85,
+      "source_origin_to_ground_px": [
+        0,
+        0
+      ],
+      "suggested_footprint_radius": 21,
+      "suggested_region": "wasteland",
+      "prototype_behavior_cue": "armored_ranged",
+      "actions": {
+        "idle": "stand",
+        "move": "move",
+        "hit": "hit1",
+        "die": "die1",
+        "attack1": "attack1"
+      },
+      "idle_source_origin": [
+        61,
+        86
+      ],
+      "idle_source_size": [
+        82,
+        86
+      ],
+      "ground_note": "Original frame origin is a stable ground anchor across animation. Preserve it and mirror for facing; do not center individual frames or derive collision from image bounds.",
+      "mechanics_note": "Prototype behavior, circular footprint, phase rules, rewards and encounter pool are custom; original source collision and AI are not imported."
+    },
+    "enemy.scorpion": {
+      "name": "沙漠毒蝎",
+      "source_mob_id": 2110301,
+      "source_name": "沙漠毒蝎",
+      "source": "Mob.nx/2110301.img",
+      "source_name_source": "String.nx/Mob.img/2110301/name",
+      "source_tagged_boss": false,
+      "suggested_render_scale": 0.95,
+      "source_origin_to_ground_px": [
+        0,
+        0
+      ],
+      "suggested_footprint_radius": 21,
+      "suggested_region": "wasteland",
+      "prototype_behavior_cue": "rush",
+      "actions": {
+        "idle": "stand",
+        "move": "move",
+        "hit": "hit1",
+        "die": "die1"
+      },
+      "idle_source_origin": [
+        37,
+        58
+      ],
+      "idle_source_size": [
+        73,
+        58
+      ],
+      "ground_note": "Original frame origin is a stable ground anchor across animation. Preserve it and mirror for facing; do not center individual frames or derive collision from image bounds.",
+      "mechanics_note": "Prototype behavior, circular footprint, phase rules, rewards and encounter pool are custom; original source collision and AI are not imported."
+    },
+    "enemy.ghost": {
+      "name": "小幽灵",
+      "source_mob_id": 3230101,
+      "source_name": "小幽灵",
+      "source": "Mob.nx/3230101.img",
+      "source_name_source": "String.nx/Mob.img/3230101/name",
+      "source_tagged_boss": false,
+      "suggested_render_scale": 1.1,
+      "source_origin_to_ground_px": [
+        0,
+        0
+      ],
+      "suggested_footprint_radius": 15,
+      "suggested_region": "forest",
+      "prototype_behavior_cue": "splitter",
+      "actions": {
+        "idle": "stand",
+        "move": "move",
+        "hit": "hit1",
+        "die": "die1"
+      },
+      "idle_source_origin": [
+        20,
+        47
+      ],
+      "idle_source_size": [
+        41,
+        36
+      ],
+      "ground_note": "Original frame origin is a stable ground anchor across animation. Preserve it and mirror for facing; do not center individual frames or derive collision from image bounds. Source art floats above its native ground anchor; retain this gap (11 px ghost / 21 px fairy in first stand frame).",
+      "mechanics_note": "Prototype behavior, circular footprint, phase rules, rewards and encounter pool are custom; original source collision and AI are not imported."
+    },
+    "enemy.fairy": {
+      "name": "蝴蝶精",
+      "source_mob_id": 3000001,
+      "source_name": "蝴蝶精1",
+      "source": "Mob.nx/3000001.img",
+      "source_name_source": "String.nx/Mob.img/3000001/name",
+      "source_tagged_boss": false,
+      "suggested_render_scale": 1.0,
+      "source_origin_to_ground_px": [
+        0,
+        0
+      ],
+      "suggested_footprint_radius": 15,
+      "suggested_region": "forest",
+      "prototype_behavior_cue": "support",
+      "actions": {
+        "idle": "stand",
+        "move": "move",
+        "hit": "hit1",
+        "die": "die1",
+        "attack1": "skill1"
+      },
+      "idle_source_origin": [
+        30,
+        81
+      ],
+      "idle_source_size": [
+        49,
+        60
+      ],
+      "ground_note": "Original frame origin is a stable ground anchor across animation. Preserve it and mirror for facing; do not center individual frames or derive collision from image bounds. Source art floats above its native ground anchor; retain this gap (11 px ghost / 21 px fairy in first stand frame).",
+      "mechanics_note": "Prototype behavior, circular footprint, phase rules, rewards and encounter pool are custom; original source collision and AI are not imported."
+    }
+  },
+  "source_archives": {
+    "Mob.nx": {
+      "size_bytes": 2443369060,
+      "mtime_ns": 1791431989205805900
+    },
+    "String.nx": {
+      "size_bytes": 370411333,
+      "mtime_ns": 1791433086967351100
+    }
+  },
+  "validation": {
+    "boss_appearances": 6,
+    "enemy_appearances": 16,
+    "sprite_keys": 100,
+    "new_pngs": 404,
+    "reused_pngs": 97,
+    "new_png_bytes": 2449481,
+    "new_rgba_bytes": 29201536,
+    "original_archives_unchanged": true,
+    "all_pngs_pixel_equal": true
+  },
+  "notes": [
+    "Original MapleStory art belongs to its rights holders; this unofficial prototype does not establish redistribution rights.",
+    "No original archive was edited. Runtime PNG pixels, source dimensions and frame origins are unchanged.",
+    "Source delays are parsed according to their NX scalar type, including decimal strings. Alpha interpolation endpoints are retained.",
+    "The existing seven appearance packs reuse their existing PNGs; source metadata is read again to retain exact timing and alpha.",
+    "Footprint sizes are authored circular ground footprints, not source canvas dimensions or copied source collision rectangles.",
+    "Boss and enemy contact sheets are inspection records, never runtime UI art."
+  ],
+  "sequences": [
+    {
+      "key": "boss.idle",
+      "source": "Mob.nx/6130101.img/stand",
+      "frames": 1,
+      "duration_ms": 100,
+      "reused_pngs": true
+    },
+    {
+      "key": "boss.move",
+      "source": "Mob.nx/6130101.img/move",
+      "frames": 6,
+      "duration_ms": 1200,
+      "reused_pngs": true
+    },
+    {
+      "key": "boss.hit",
+      "source": "Mob.nx/6130101.img/hit1",
+      "frames": 1,
+      "duration_ms": 600,
+      "reused_pngs": true
+    },
+    {
+      "key": "boss.die",
+      "source": "Mob.nx/6130101.img/die1",
+      "frames": 6,
+      "duration_ms": 1100,
+      "reused_pngs": true
+    },
+    {
+      "key": "boss.attack1",
+      "source": "Mob.nx/6130101.img/attack1",
+      "frames": 5,
+      "duration_ms": 1850,
+      "reused_pngs": false
+    },
+    {
+      "key": "boss_stumpy.idle",
+      "source": "Mob.nx/3220000.img/stand",
+      "frames": 6,
+      "duration_ms": 720,
+      "reused_pngs": true
+    },
+    {
+      "key": "boss_stumpy.move",
+      "source": "Mob.nx/3220000.img/move",
+      "frames": 6,
+      "duration_ms": 720,
+      "reused_pngs": true
+    },
+    {
+      "key": "boss_stumpy.hit",
+      "source": "Mob.nx/3220000.img/hit1",
+      "frames": 1,
+      "duration_ms": 600,
+      "reused_pngs": true
+    },
+    {
+      "key": "boss_stumpy.die",
+      "source": "Mob.nx/3220000.img/die1",
+      "frames": 12,
+      "duration_ms": 1800,
+      "reused_pngs": true
+    },
+    {
+      "key": "boss_stumpy.attack1",
+      "source": "Mob.nx/3220000.img/attack1",
+      "frames": 24,
+      "duration_ms": 3420,
+      "reused_pngs": false
+    },
+    {
+      "key": "boss_stumpy.attack2",
+      "source": "Mob.nx/3220000.img/attack2",
+      "frames": 24,
+      "duration_ms": 3420,
+      "reused_pngs": false
+    },
+    {
+      "key": "boss_king_slime.idle",
+      "source": "Mob.nx/9300003.img/stand",
+      "frames": 2,
+      "duration_ms": 550,
+      "reused_pngs": false
+    },
+    {
+      "key": "boss_king_slime.move",
+      "source": "Mob.nx/9300003.img/move",
+      "frames": 7,
+      "duration_ms": 1050,
+      "reused_pngs": false
+    },
+    {
+      "key": "boss_king_slime.hit",
+      "source": "Mob.nx/9300003.img/hit1",
+      "frames": 1,
+      "duration_ms": 600,
+      "reused_pngs": false
+    },
+    {
+      "key": "boss_king_slime.die",
+      "source": "Mob.nx/9300003.img/die1",
+      "frames": 8,
+      "duration_ms": 920,
+      "reused_pngs": false
+    },
+    {
+      "key": "boss_king_slime.attack1",
+      "source": "Mob.nx/9300003.img/attack1",
+      "frames": 8,
+      "duration_ms": 1500,
+      "reused_pngs": false
+    },
+    {
+      "key": "boss_king_slime.attack2",
+      "source": "Mob.nx/9300003.img/skill1",
+      "frames": 11,
+      "duration_ms": 1320,
+      "reused_pngs": false
+    },
+    {
+      "key": "boss_snail_king.idle",
+      "source": "Mob.nx/2220000.img/stand",
+      "frames": 9,
+      "duration_ms": 1350,
+      "reused_pngs": false
+    },
+    {
+      "key": "boss_snail_king.move",
+      "source": "Mob.nx/2220000.img/move",
+      "frames": 6,
+      "duration_ms": 900,
+      "reused_pngs": false
+    },
+    {
+      "key": "boss_snail_king.hit",
+      "source": "Mob.nx/2220000.img/hit1",
+      "frames": 1,
+      "duration_ms": 600,
+      "reused_pngs": false
+    },
+    {
+      "key": "boss_snail_king.die",
+      "source": "Mob.nx/2220000.img/die1",
+      "frames": 9,
+      "duration_ms": 1650,
+      "reused_pngs": false
+    },
+    {
+      "key": "boss_snail_king.attack1",
+      "source": "Mob.nx/2220000.img/skill1",
+      "frames": 10,
+      "duration_ms": 1500,
+      "reused_pngs": false
+    },
+    {
+      "key": "boss_golem.idle",
+      "source": "Mob.nx/8210005.img/stand",
+      "frames": 6,
+      "duration_ms": 900,
+      "reused_pngs": false
+    },
+    {
+      "key": "boss_golem.move",
+      "source": "Mob.nx/8210005.img/move",
+      "frames": 12,
+      "duration_ms": 2520,
+      "reused_pngs": false
+    },
+    {
+      "key": "boss_golem.hit",
+      "source": "Mob.nx/8210005.img/hit1",
+      "frames": 1,
+      "duration_ms": 600,
+      "reused_pngs": false
+    },
+    {
+      "key": "boss_golem.die",
+      "source": "Mob.nx/8210005.img/die1",
+      "frames": 7,
+      "duration_ms": 1260,
+      "reused_pngs": false
+    },
+    {
+      "key": "boss_golem.attack1",
+      "source": "Mob.nx/8210005.img/attack1",
+      "frames": 22,
+      "duration_ms": 3420,
+      "reused_pngs": false
+    },
+    {
+      "key": "boss_balrog.idle",
+      "source": "Mob.nx/8150000.img/stand",
+      "frames": 4,
+      "duration_ms": 420,
+      "reused_pngs": false
+    },
+    {
+      "key": "boss_balrog.move",
+      "source": "Mob.nx/8150000.img/fly",
+      "frames": 4,
+      "duration_ms": 420,
+      "reused_pngs": false
+    },
+    {
+      "key": "boss_balrog.hit",
+      "source": "Mob.nx/8150000.img/hit1",
+      "frames": 1,
+      "duration_ms": 600,
+      "reused_pngs": false
+    },
+    {
+      "key": "boss_balrog.die",
+      "source": "Mob.nx/8150000.img/die1",
+      "frames": 10,
+      "duration_ms": 1440,
+      "reused_pngs": false
+    },
+    {
+      "key": "boss_balrog.attack1",
+      "source": "Mob.nx/8150000.img/attack1",
+      "frames": 8,
+      "duration_ms": 800,
+      "reused_pngs": false
+    },
+    {
+      "key": "boss_balrog.attack2",
+      "source": "Mob.nx/8150000.img/attack2",
+      "frames": 5,
+      "duration_ms": 1275,
+      "reused_pngs": false
+    },
+    {
+      "key": "enemy.slime.idle",
+      "source": "Mob.nx/0210100.img/stand",
+      "frames": 3,
+      "duration_ms": 750,
+      "reused_pngs": true
+    },
+    {
+      "key": "enemy.slime.move",
+      "source": "Mob.nx/0210100.img/move",
+      "frames": 7,
+      "duration_ms": 1050,
+      "reused_pngs": true
+    },
+    {
+      "key": "enemy.slime.hit",
+      "source": "Mob.nx/0210100.img/hit1",
+      "frames": 1,
+      "duration_ms": 600,
+      "reused_pngs": true
+    },
+    {
+      "key": "enemy.slime.die",
+      "source": "Mob.nx/0210100.img/die1",
+      "frames": 4,
+      "duration_ms": 840,
+      "reused_pngs": true
+    },
+    {
+      "key": "enemy.mushroom.idle",
+      "source": "Mob.nx/0120100.img/stand",
+      "frames": 3,
+      "duration_ms": 460,
+      "reused_pngs": true
+    },
+    {
+      "key": "enemy.mushroom.move",
+      "source": "Mob.nx/0120100.img/move",
+      "frames": 4,
+      "duration_ms": 720,
+      "reused_pngs": true
+    },
+    {
+      "key": "enemy.mushroom.hit",
+      "source": "Mob.nx/0120100.img/hit1",
+      "frames": 1,
+      "duration_ms": 600,
+      "reused_pngs": true
+    },
+    {
+      "key": "enemy.mushroom.die",
+      "source": "Mob.nx/0120100.img/die1",
+      "frames": 4,
+      "duration_ms": 660,
+      "reused_pngs": true
+    },
+    {
+      "key": "enemy.blue_mushroom.idle",
+      "source": "Mob.nx/2220100.img/stand",
+      "frames": 2,
+      "duration_ms": 360,
+      "reused_pngs": true
+    },
+    {
+      "key": "enemy.blue_mushroom.move",
+      "source": "Mob.nx/2220100.img/move",
+      "frames": 3,
+      "duration_ms": 480,
+      "reused_pngs": true
+    },
+    {
+      "key": "enemy.blue_mushroom.hit",
+      "source": "Mob.nx/2220100.img/hit1",
+      "frames": 1,
+      "duration_ms": 600,
+      "reused_pngs": true
+    },
+    {
+      "key": "enemy.blue_mushroom.die",
+      "source": "Mob.nx/2220100.img/die1",
+      "frames": 3,
+      "duration_ms": 660,
+      "reused_pngs": true
+    },
+    {
+      "key": "enemy.pig.idle",
+      "source": "Mob.nx/1210100.img/stand",
+      "frames": 3,
+      "duration_ms": 510,
+      "reused_pngs": true
+    },
+    {
+      "key": "enemy.pig.move",
+      "source": "Mob.nx/1210100.img/move",
+      "frames": 3,
+      "duration_ms": 500,
+      "reused_pngs": true
+    },
+    {
+      "key": "enemy.pig.hit",
+      "source": "Mob.nx/1210100.img/hit1",
+      "frames": 1,
+      "duration_ms": 600,
+      "reused_pngs": true
+    },
+    {
+      "key": "enemy.pig.die",
+      "source": "Mob.nx/1210100.img/die1",
+      "frames": 3,
+      "duration_ms": 660,
+      "reused_pngs": true
+    },
+    {
+      "key": "enemy.wild_boar.idle",
+      "source": "Mob.nx/2230102.img/stand",
+      "frames": 6,
+      "duration_ms": 700,
+      "reused_pngs": true
+    },
+    {
+      "key": "enemy.wild_boar.move",
+      "source": "Mob.nx/2230102.img/move",
+      "frames": 3,
+      "duration_ms": 400,
+      "reused_pngs": true
+    },
+    {
+      "key": "enemy.wild_boar.hit",
+      "source": "Mob.nx/2230102.img/hit1",
+      "frames": 1,
+      "duration_ms": 600,
+      "reused_pngs": true
+    },
+    {
+      "key": "enemy.wild_boar.die",
+      "source": "Mob.nx/2230102.img/die1",
+      "frames": 2,
+      "duration_ms": 480,
+      "reused_pngs": true
+    },
+    {
+      "key": "enemy.snail.idle",
+      "source": "Mob.nx/0100100.img/stand",
+      "frames": 1,
+      "duration_ms": 100,
+      "reused_pngs": false
+    },
+    {
+      "key": "enemy.snail.move",
+      "source": "Mob.nx/0100100.img/move",
+      "frames": 5,
+      "duration_ms": 900,
+      "reused_pngs": false
+    },
+    {
+      "key": "enemy.snail.hit",
+      "source": "Mob.nx/0100100.img/hit1",
+      "frames": 1,
+      "duration_ms": 600,
+      "reused_pngs": false
+    },
+    {
+      "key": "enemy.snail.die",
+      "source": "Mob.nx/0100100.img/die1",
+      "frames": 9,
+      "duration_ms": 1260,
+      "reused_pngs": false
+    },
+    {
+      "key": "enemy.stump.idle",
+      "source": "Mob.nx/0130100.img/stand",
+      "frames": 1,
+      "duration_ms": 100,
+      "reused_pngs": false
+    },
+    {
+      "key": "enemy.stump.move",
+      "source": "Mob.nx/0130100.img/move",
+      "frames": 4,
+      "duration_ms": 720,
+      "reused_pngs": false
+    },
+    {
+      "key": "enemy.stump.hit",
+      "source": "Mob.nx/0130100.img/hit1",
+      "frames": 1,
+      "duration_ms": 600,
+      "reused_pngs": false
+    },
+    {
+      "key": "enemy.stump.die",
+      "source": "Mob.nx/0130100.img/die1",
+      "frames": 3,
+      "duration_ms": 660,
+      "reused_pngs": false
+    },
+    {
+      "key": "enemy.octopus.idle",
+      "source": "Mob.nx/1120100.img/stand",
+      "frames": 5,
+      "duration_ms": 600,
+      "reused_pngs": false
+    },
+    {
+      "key": "enemy.octopus.move",
+      "source": "Mob.nx/1120100.img/move",
+      "frames": 5,
+      "duration_ms": 600,
+      "reused_pngs": false
+    },
+    {
+      "key": "enemy.octopus.hit",
+      "source": "Mob.nx/1120100.img/hit1",
+      "frames": 1,
+      "duration_ms": 600,
+      "reused_pngs": false
+    },
+    {
+      "key": "enemy.octopus.die",
+      "source": "Mob.nx/1120100.img/die1",
+      "frames": 4,
+      "duration_ms": 840,
+      "reused_pngs": false
+    },
+    {
+      "key": "enemy.snake.idle",
+      "source": "Mob.nx/2130103.img/stand",
+      "frames": 3,
+      "duration_ms": 730,
+      "reused_pngs": false
+    },
+    {
+      "key": "enemy.snake.move",
+      "source": "Mob.nx/2130103.img/move",
+      "frames": 3,
+      "duration_ms": 300,
+      "reused_pngs": false
+    },
+    {
+      "key": "enemy.snake.hit",
+      "source": "Mob.nx/2130103.img/hit1",
+      "frames": 1,
+      "duration_ms": 600,
+      "reused_pngs": false
+    },
+    {
+      "key": "enemy.snake.die",
+      "source": "Mob.nx/2130103.img/die1",
+      "frames": 3,
+      "duration_ms": 950,
+      "reused_pngs": false
+    },
+    {
+      "key": "enemy.lupin.idle",
+      "source": "Mob.nx/3210800.img/stand",
+      "frames": 1,
+      "duration_ms": 100,
+      "reused_pngs": false
+    },
+    {
+      "key": "enemy.lupin.move",
+      "source": "Mob.nx/3210800.img/move",
+      "frames": 4,
+      "duration_ms": 670,
+      "reused_pngs": false
+    },
+    {
+      "key": "enemy.lupin.hit",
+      "source": "Mob.nx/3210800.img/hit1",
+      "frames": 1,
+      "duration_ms": 600,
+      "reused_pngs": false
+    },
+    {
+      "key": "enemy.lupin.die",
+      "source": "Mob.nx/3210800.img/die1",
+      "frames": 3,
+      "duration_ms": 630,
+      "reused_pngs": false
+    },
+    {
+      "key": "enemy.lupin.attack1",
+      "source": "Mob.nx/3210800.img/attack1",
+      "frames": 11,
+      "duration_ms": 2250,
+      "reused_pngs": false
+    },
+    {
+      "key": "enemy.wood_mask.idle",
+      "source": "Mob.nx/2230110.img/stand",
+      "frames": 6,
+      "duration_ms": 600,
+      "reused_pngs": false
+    },
+    {
+      "key": "enemy.wood_mask.move",
+      "source": "Mob.nx/2230110.img/move",
+      "frames": 6,
+      "duration_ms": 720,
+      "reused_pngs": false
+    },
+    {
+      "key": "enemy.wood_mask.hit",
+      "source": "Mob.nx/2230110.img/hit1",
+      "frames": 1,
+      "duration_ms": 600,
+      "reused_pngs": false
+    },
+    {
+      "key": "enemy.wood_mask.die",
+      "source": "Mob.nx/2230110.img/die1",
+      "frames": 8,
+      "duration_ms": 1070,
+      "reused_pngs": false
+    },
+    {
+      "key": "enemy.stone_mask.idle",
+      "source": "Mob.nx/2230111.img/stand",
+      "frames": 6,
+      "duration_ms": 660,
+      "reused_pngs": false
+    },
+    {
+      "key": "enemy.stone_mask.move",
+      "source": "Mob.nx/2230111.img/move",
+      "frames": 6,
+      "duration_ms": 720,
+      "reused_pngs": false
+    },
+    {
+      "key": "enemy.stone_mask.hit",
+      "source": "Mob.nx/2230111.img/hit1",
+      "frames": 1,
+      "duration_ms": 600,
+      "reused_pngs": false
+    },
+    {
+      "key": "enemy.stone_mask.die",
+      "source": "Mob.nx/2230111.img/die1",
+      "frames": 8,
+      "duration_ms": 1070,
+      "reused_pngs": false
+    },
+    {
+      "key": "enemy.skeleton.idle",
+      "source": "Mob.nx/5150001.img/stand",
+      "frames": 4,
+      "duration_ms": 1120,
+      "reused_pngs": false
+    },
+    {
+      "key": "enemy.skeleton.move",
+      "source": "Mob.nx/5150001.img/move",
+      "frames": 4,
+      "duration_ms": 1120,
+      "reused_pngs": false
+    },
+    {
+      "key": "enemy.skeleton.hit",
+      "source": "Mob.nx/5150001.img/hit1",
+      "frames": 1,
+      "duration_ms": 600,
+      "reused_pngs": false
+    },
+    {
+      "key": "enemy.skeleton.die",
+      "source": "Mob.nx/5150001.img/die1",
+      "frames": 6,
+      "duration_ms": 1050,
+      "reused_pngs": false
+    },
+    {
+      "key": "enemy.skeleton.attack1",
+      "source": "Mob.nx/5150001.img/attack1",
+      "frames": 8,
+      "duration_ms": 1720,
+      "reused_pngs": false
+    },
+    {
+      "key": "enemy.scorpion.idle",
+      "source": "Mob.nx/2110301.img/stand",
+      "frames": 6,
+      "duration_ms": 1260,
+      "reused_pngs": false
+    },
+    {
+      "key": "enemy.scorpion.move",
+      "source": "Mob.nx/2110301.img/move",
+      "frames": 12,
+      "duration_ms": 2520,
+      "reused_pngs": false
+    },
+    {
+      "key": "enemy.scorpion.hit",
+      "source": "Mob.nx/2110301.img/hit1",
+      "frames": 1,
+      "duration_ms": 600,
+      "reused_pngs": false
+    },
+    {
+      "key": "enemy.scorpion.die",
+      "source": "Mob.nx/2110301.img/die1",
+      "frames": 7,
+      "duration_ms": 1350,
+      "reused_pngs": false
+    },
+    {
+      "key": "enemy.ghost.idle",
+      "source": "Mob.nx/3230101.img/stand",
+      "frames": 1,
+      "duration_ms": 100,
+      "reused_pngs": false
+    },
+    {
+      "key": "enemy.ghost.move",
+      "source": "Mob.nx/3230101.img/move",
+      "frames": 5,
+      "duration_ms": 750,
+      "reused_pngs": false
+    },
+    {
+      "key": "enemy.ghost.hit",
+      "source": "Mob.nx/3230101.img/hit1",
+      "frames": 1,
+      "duration_ms": 600,
+      "reused_pngs": false
+    },
+    {
+      "key": "enemy.ghost.die",
+      "source": "Mob.nx/3230101.img/die1",
+      "frames": 6,
+      "duration_ms": 950,
+      "reused_pngs": false
+    },
+    {
+      "key": "enemy.fairy.idle",
+      "source": "Mob.nx/3000001.img/stand",
+      "frames": 4,
+      "duration_ms": 400,
+      "reused_pngs": false
+    },
+    {
+      "key": "enemy.fairy.move",
+      "source": "Mob.nx/3000001.img/move",
+      "frames": 4,
+      "duration_ms": 400,
+      "reused_pngs": false
+    },
+    {
+      "key": "enemy.fairy.hit",
+      "source": "Mob.nx/3000001.img/hit1",
+      "frames": 1,
+      "duration_ms": 600,
+      "reused_pngs": false
+    },
+    {
+      "key": "enemy.fairy.die",
+      "source": "Mob.nx/3000001.img/die1",
+      "frames": 7,
+      "duration_ms": 1020,
+      "reused_pngs": false
+    },
+    {
+      "key": "enemy.fairy.attack1",
+      "source": "Mob.nx/3000001.img/skill1",
+      "frames": 9,
+      "duration_ms": 900,
+      "reused_pngs": false
+    }
+  ]
+}

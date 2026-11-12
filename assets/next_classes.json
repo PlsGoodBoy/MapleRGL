@@ -1,0 +1,476 @@
+{
+  "sprites": {
+    "player_archer.idle": {
+      "frames": [
+        {
+          "file": "sprites/player_archer/idle/0.png",
+          "duration_ms": 500,
+          "origin": [
+            24,
+            67
+          ],
+          "source_pose": "stand1/0",
+          "unresolved_layers": 0,
+          "layer_count": 12
+        },
+        {
+          "file": "sprites/player_archer/idle/1.png",
+          "duration_ms": 500,
+          "origin": [
+            23,
+            67
+          ],
+          "source_pose": "stand1/1",
+          "unresolved_layers": 0,
+          "layer_count": 12
+        },
+        {
+          "file": "sprites/player_archer/idle/2.png",
+          "duration_ms": 500,
+          "origin": [
+            23,
+            67
+          ],
+          "source_pose": "stand1/2",
+          "unresolved_layers": 0,
+          "layer_count": 12
+        }
+      ]
+    },
+    "player_archer.move": {
+      "frames": [
+        {
+          "file": "sprites/player_archer/move/0.png",
+          "duration_ms": 180,
+          "origin": [
+            23,
+            67
+          ],
+          "source_pose": "walk1/0",
+          "unresolved_layers": 0,
+          "layer_count": 12
+        },
+        {
+          "file": "sprites/player_archer/move/1.png",
+          "duration_ms": 180,
+          "origin": [
+            28,
+            66
+          ],
+          "source_pose": "walk1/1",
+          "unresolved_layers": 0,
+          "layer_count": 12
+        },
+        {
+          "file": "sprites/player_archer/move/2.png",
+          "duration_ms": 180,
+          "origin": [
+            23,
+            67
+          ],
+          "source_pose": "walk1/2",
+          "unresolved_layers": 0,
+          "layer_count": 12
+        },
+        {
+          "file": "sprites/player_archer/move/3.png",
+          "duration_ms": 180,
+          "origin": [
+            23,
+            66
+          ],
+          "source_pose": "walk1/3",
+          "unresolved_layers": 0,
+          "layer_count": 12
+        }
+      ]
+    },
+    "player_archer.hit": {
+      "frames": [
+        {
+          "file": "sprites/player_archer/hit/0.png",
+          "duration_ms": 500,
+          "origin": [
+            23,
+            64
+          ],
+          "source_pose": "alert/0",
+          "unresolved_layers": 0,
+          "layer_count": 14
+        },
+        {
+          "file": "sprites/player_archer/hit/1.png",
+          "duration_ms": 500,
+          "origin": [
+            23,
+            65
+          ],
+          "source_pose": "alert/1",
+          "unresolved_layers": 0,
+          "layer_count": 14
+        },
+        {
+          "file": "sprites/player_archer/hit/2.png",
+          "duration_ms": 500,
+          "origin": [
+            23,
+            66
+          ],
+          "source_pose": "alert/2",
+          "unresolved_layers": 0,
+          "layer_count": 14
+        }
+      ]
+    },
+    "player_archer.die": {
+      "frames": [
+        {
+          "file": "sprites/player_archer/die/0.png",
+          "duration_ms": 150,
+          "origin": [
+            18,
+            63
+          ],
+          "source_pose": "dead/0",
+          "unresolved_layers": 0,
+          "layer_count": 6
+        }
+      ]
+    },
+    "player_mage.idle": {
+      "frames": [
+        {
+          "file": "sprites/player_mage/idle/0.png",
+          "duration_ms": 500,
+          "origin": [
+            35,
+            77
+          ],
+          "source_pose": "stand1/0",
+          "unresolved_layers": 0,
+          "layer_count": 12
+        },
+        {
+          "file": "sprites/player_mage/idle/1.png",
+          "duration_ms": 500,
+          "origin": [
+            35,
+            77
+          ],
+          "source_pose": "stand1/1",
+          "unresolved_layers": 0,
+          "layer_count": 12
+        },
+        {
+          "file": "sprites/player_mage/idle/2.png",
+          "duration_ms": 500,
+          "origin": [
+            35,
+            77
+          ],
+          "source_pose": "stand1/2",
+          "unresolved_layers": 0,
+          "layer_count": 12
+        }
+      ]
+    },
+    "player_mage.move": {
+      "frames": [
+        {
+          "file": "sprites/player_mage/move/0.png",
+          "duration_ms": 180,
+          "origin": [
+            35,
+            77
+          ],
+          "source_pose": "walk1/0",
+          "unresolved_layers": 0,
+          "layer_count": 12
+        },
+        {
+          "file": "sprites/player_mage/move/1.png",
+          "duration_ms": 180,
+          "origin": [
+            35,
+            76
+          ],
+          "source_pose": "walk1/1",
+          "unresolved_layers": 0,
+          "layer_count": 12
+        },
+        {
+          "file": "sprites/player_mage/move/2.png",
+          "duration_ms": 180,
+          "origin": [
+            35,
+            77
+          ],
+          "source_pose": "walk1/2",
+          "unresolved_layers": 0,
+          "layer_count": 12
+        },
+        {
+          "file": "sprites/player_mage/move/3.png",
+          "duration_ms": 180,
+          "origin": [
+            35,
+            76
+          ],
+          "source_pose": "walk1/3",
+          "unresolved_layers": 0,
+          "layer_count": 12
+        }
+      ]
+    },
+    "player_mage.hit": {
+      "frames": [
+        {
+          "file": "sprites/player_mage/hit/0.png",
+          "duration_ms": 500,
+          "origin": [
+            35,
+            74
+          ],
+          "source_pose": "alert/0",
+          "unresolved_layers": 0,
+          "layer_count": 14
+        },
+        {
+          "file": "sprites/player_mage/hit/1.png",
+          "duration_ms": 500,
+          "origin": [
+            35,
+            75
+          ],
+          "source_pose": "alert/1",
+          "unresolved_layers": 0,
+          "layer_count": 14
+        },
+        {
+          "file": "sprites/player_mage/hit/2.png",
+          "duration_ms": 500,
+          "origin": [
+            35,
+            76
+          ],
+          "source_pose": "alert/2",
+          "unresolved_layers": 0,
+          "layer_count": 14
+        }
+      ]
+    },
+    "player_mage.die": {
+      "frames": [
+        {
+          "file": "sprites/player_mage/die/0.png",
+          "duration_ms": 150,
+          "origin": [
+            30,
+            73
+          ],
+          "source_pose": "dead/0",
+          "unresolved_layers": 0,
+          "layer_count": 7
+        }
+      ]
+    },
+    "player_warrior.idle": {
+      "frames": [
+        {
+          "file": "sprites/player_warrior/idle/0.png",
+          "duration_ms": 500,
+          "origin": [
+            27,
+            64
+          ],
+          "source_pose": "stand1/0",
+          "unresolved_layers": 0,
+          "layer_count": 10
+        },
+        {
+          "file": "sprites/player_warrior/idle/1.png",
+          "duration_ms": 500,
+          "origin": [
+            26,
+            64
+          ],
+          "source_pose": "stand1/1",
+          "unresolved_layers": 0,
+          "layer_count": 10
+        },
+        {
+          "file": "sprites/player_warrior/idle/2.png",
+          "duration_ms": 500,
+          "origin": [
+            25,
+            64
+          ],
+          "source_pose": "stand1/2",
+          "unresolved_layers": 0,
+          "layer_count": 10
+        }
+      ]
+    },
+    "player_warrior.move": {
+      "frames": [
+        {
+          "file": "sprites/player_warrior/move/0.png",
+          "duration_ms": 180,
+          "origin": [
+            26,
+            64
+          ],
+          "source_pose": "walk1/0",
+          "unresolved_layers": 0,
+          "layer_count": 10
+        },
+        {
+          "file": "sprites/player_warrior/move/1.png",
+          "duration_ms": 180,
+          "origin": [
+            33,
+            63
+          ],
+          "source_pose": "walk1/1",
+          "unresolved_layers": 0,
+          "layer_count": 10
+        },
+        {
+          "file": "sprites/player_warrior/move/2.png",
+          "duration_ms": 180,
+          "origin": [
+            26,
+            64
+          ],
+          "source_pose": "walk1/2",
+          "unresolved_layers": 0,
+          "layer_count": 10
+        },
+        {
+          "file": "sprites/player_warrior/move/3.png",
+          "duration_ms": 180,
+          "origin": [
+            23,
+            63
+          ],
+          "source_pose": "walk1/3",
+          "unresolved_layers": 0,
+          "layer_count": 10
+        }
+      ]
+    },
+    "player_warrior.hit": {
+      "frames": [
+        {
+          "file": "sprites/player_warrior/hit/0.png",
+          "duration_ms": 500,
+          "origin": [
+            31,
+            61
+          ],
+          "source_pose": "alert/0",
+          "unresolved_layers": 0,
+          "layer_count": 12
+        },
+        {
+          "file": "sprites/player_warrior/hit/1.png",
+          "duration_ms": 500,
+          "origin": [
+            31,
+            62
+          ],
+          "source_pose": "alert/1",
+          "unresolved_layers": 0,
+          "layer_count": 12
+        },
+        {
+          "file": "sprites/player_warrior/hit/2.png",
+          "duration_ms": 500,
+          "origin": [
+            31,
+            63
+          ],
+          "source_pose": "alert/2",
+          "unresolved_layers": 0,
+          "layer_count": 12
+        }
+      ]
+    },
+    "player_warrior.die": {
+      "frames": [
+        {
+          "file": "sprites/player_warrior/die/0.png",
+          "duration_ms": 150,
+          "origin": [
+            18,
+            60
+          ],
+          "source_pose": "dead/0",
+          "unresolved_layers": 0,
+          "layer_count": 5
+        }
+      ]
+    },
+    "skill.arrow": {
+      "frames": [
+        {
+          "file": "sprites/skill/arrow/0.png",
+          "duration_ms": 80,
+          "origin": [
+            29,
+            19
+          ],
+          "source": "Skill.nx/300.img/skill/3001004/ball/0"
+        },
+        {
+          "file": "sprites/skill/arrow/1.png",
+          "duration_ms": 80,
+          "origin": [
+            30,
+            19
+          ],
+          "source": "Skill.nx/300.img/skill/3001004/ball/1"
+        },
+        {
+          "file": "sprites/skill/arrow/2.png",
+          "duration_ms": 80,
+          "origin": [
+            30,
+            19
+          ],
+          "source": "Skill.nx/300.img/skill/3001004/ball/2"
+        }
+      ],
+      "forward_angle_degrees": 180
+    }
+  },
+  "class_equipment": {
+    "archer": [
+      "Hair/00030000.img",
+      "Cap/01002008.img",
+      "Coat/01040002.img",
+      "Pants/01060002.img",
+      "Shoes/01072001.img",
+      "Weapon/01452000.img"
+    ],
+    "mage": [
+      "Hair/00030020.img",
+      "Cap/01002016.img",
+      "Longcoat/01050001.img",
+      "Shoes/01072001.img",
+      "Weapon/01372005.img"
+    ],
+    "warrior": [
+      "Hair/00030030.img",
+      "Cap/01002002.img",
+      "Longcoat/01050000.img",
+      "Shoes/01072001.img",
+      "Weapon/01302000.img"
+    ]
+  },
+  "notes": [
+    "Read-only local Character.nx + Base.nx zmap. No recoloring.",
+    "Death uses original dead body and front head with class hair/cap. Original dead has no navel/hand anchors, so armor and weapon are intentionally absent in death.",
+    "Hit uses original alert pose as reaction substitute."
+  ]
+}

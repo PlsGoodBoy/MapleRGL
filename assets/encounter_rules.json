@@ -1,0 +1,81 @@
+{
+  "schema": 1,
+  "first_encounter": 12,
+  "encounter_gap_min": 8,
+  "encounter_gap_max": 14,
+  "min_safe_distance": 320,
+  "escape_half_angle": 0.52,
+  "low_health": 0.32,
+  "high_pressure": 0.78,
+  "breather_duration": 12,
+  "boss_telegraph": 4,
+  "max_spawns_per_update": 16,
+  "rules": [
+    {
+      "kind": "swarm",
+      "weight": 3,
+      "unlock_progress": 0,
+      "telegraph": 2.5,
+      "duration": 16,
+      "cooldown": 8,
+      "spawn_interval": 1.8,
+      "base_budget": 24,
+      "batch_size": 4
+    },
+    {
+      "kind": "encirclement",
+      "weight": 2.4,
+      "unlock_progress": 0.1,
+      "telegraph": 3.5,
+      "duration": 18,
+      "cooldown": 11,
+      "spawn_interval": 2.5,
+      "base_budget": 24,
+      "batch_size": 6
+    },
+    {
+      "kind": "rush",
+      "weight": 2.1,
+      "unlock_progress": 0.16,
+      "telegraph": 3,
+      "duration": 12,
+      "cooldown": 10,
+      "spawn_interval": 2,
+      "base_budget": 15,
+      "batch_size": 3
+    },
+    {
+      "kind": "elite_hunt",
+      "weight": 1.7,
+      "unlock_progress": 0.27,
+      "telegraph": 4,
+      "duration": 24,
+      "cooldown": 12,
+      "spawn_interval": 4,
+      "base_budget": 9,
+      "batch_size": 2
+    },
+    {
+      "kind": "crisis",
+      "weight": 1.5,
+      "unlock_progress": 0.38,
+      "telegraph": 4,
+      "duration": 18,
+      "cooldown": 14,
+      "spawn_interval": 2.5,
+      "base_budget": 20,
+      "batch_size": 4
+    },
+    {
+      "kind": "breather",
+      "weight": 0,
+      "unlock_progress": 0,
+      "telegraph": 0.6,
+      "duration": 12,
+      "cooldown": 9,
+      "spawn_interval": 1,
+      "base_budget": 0,
+      "batch_size": 0
+    }
+  ]
+}

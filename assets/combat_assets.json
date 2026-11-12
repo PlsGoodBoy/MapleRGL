@@ -1,0 +1,1476 @@
+{
+  "sprites": {
+    "skill.rain": {
+      "frames": [
+        {
+          "file": "sprites/combat/rain/0.png",
+          "duration_ms": 100,
+          "origin": [
+            21,
+            48
+          ],
+          "size": [
+            42,
+            96
+          ],
+          "source": "Skill.nx/311.img/skill/3111004/special/0/0",
+          "duration_note": "No source delay; 100 ms fallback, matching existing extractor."
+        }
+      ],
+      "source_skill_id": 3111004,
+      "source": "Skill.nx/311.img/skill/3111004/special/0",
+      "name": "Arrow Rain",
+      "loop": false,
+      "total_duration_ms": 100,
+      "forward_angle_degrees": 112,
+      "placement": "falling_arrow",
+      "direction_note": "Original cyan arrow points down-left, approximately 112 degrees (0 right, 90 down)."
+    },
+    "skill.rain_hit": {
+      "frames": [
+        {
+          "file": "sprites/combat/rain_hit/0.png",
+          "duration_ms": 120,
+          "origin": [
+            35,
+            110
+          ],
+          "size": [
+            96,
+            133
+          ],
+          "source": "Skill.nx/311.img/skill/3111004/hit/0/0"
+        },
+        {
+          "file": "sprites/combat/rain_hit/1.png",
+          "duration_ms": 120,
+          "origin": [
+            40,
+            72
+          ],
+          "size": [
+            100,
+            94
+          ],
+          "source": "Skill.nx/311.img/skill/3111004/hit/0/1"
+        },
+        {
+          "file": "sprites/combat/rain_hit/2.png",
+          "duration_ms": 120,
+          "origin": [
+            38,
+            35
+          ],
+          "size": [
+            71,
+            54
+          ],
+          "source": "Skill.nx/311.img/skill/3111004/hit/0/2"
+        }
+      ],
+      "source_skill_id": 3111004,
+      "source": "Skill.nx/311.img/skill/3111004/hit/0",
+      "name": "Arrow Rain impact",
+      "loop": false,
+      "total_duration_ms": 360
+    },
+    "skill.frost": {
+      "frames": [
+        {
+          "file": "sprites/combat/frost/0.png",
+          "duration_ms": 95,
+          "origin": [
+            61,
+            136
+          ],
+          "size": [
+            110,
+            140
+          ],
+          "source": "Skill.nx/221.img/skill/2211002/effect/0"
+        },
+        {
+          "file": "sprites/combat/frost/1.png",
+          "duration_ms": 95,
+          "origin": [
+            69,
+            136
+          ],
+          "size": [
+            124,
+            144
+          ],
+          "source": "Skill.nx/221.img/skill/2211002/effect/1"
+        },
+        {
+          "file": "sprites/combat/frost/2.png",
+          "duration_ms": 95,
+          "origin": [
+            72,
+            138
+          ],
+          "size": [
+            132,
+            146
+          ],
+          "source": "Skill.nx/221.img/skill/2211002/effect/2"
+        },
+        {
+          "file": "sprites/combat/frost/3.png",
+          "duration_ms": 95,
+          "origin": [
+            72,
+            138
+          ],
+          "size": [
+            132,
+            142
+          ],
+          "source": "Skill.nx/221.img/skill/2211002/effect/3"
+        },
+        {
+          "file": "sprites/combat/frost/4.png",
+          "duration_ms": 95,
+          "origin": [
+            72,
+            138
+          ],
+          "size": [
+            132,
+            142
+          ],
+          "source": "Skill.nx/221.img/skill/2211002/effect/4"
+        },
+        {
+          "file": "sprites/combat/frost/5.png",
+          "duration_ms": 95,
+          "origin": [
+            72,
+            138
+          ],
+          "size": [
+            132,
+            142
+          ],
+          "source": "Skill.nx/221.img/skill/2211002/effect/5"
+        },
+        {
+          "file": "sprites/combat/frost/6.png",
+          "duration_ms": 95,
+          "origin": [
+            73,
+            139
+          ],
+          "size": [
+            134,
+            143
+          ],
+          "source": "Skill.nx/221.img/skill/2211002/effect/6"
+        },
+        {
+          "file": "sprites/combat/frost/7.png",
+          "duration_ms": 95,
+          "origin": [
+            72,
+            138
+          ],
+          "size": [
+            132,
+            142
+          ],
+          "source": "Skill.nx/221.img/skill/2211002/effect/7"
+        },
+        {
+          "file": "sprites/combat/frost/8.png",
+          "duration_ms": 95,
+          "origin": [
+            60,
+            127
+          ],
+          "size": [
+            114,
+            125
+          ],
+          "source": "Skill.nx/221.img/skill/2211002/effect/8"
+        },
+        {
+          "file": "sprites/combat/frost/9.png",
+          "duration_ms": 95,
+          "origin": [
+            17,
+            118
+          ],
+          "size": [
+            21,
+            113
+          ],
+          "source": "Skill.nx/221.img/skill/2211002/effect/9"
+        },
+        {
+          "file": "sprites/combat/frost/10.png",
+          "duration_ms": 95,
+          "origin": [
+            8,
+            99
+          ],
+          "size": [
+            3,
+            53
+          ],
+          "source": "Skill.nx/221.img/skill/2211002/effect/10"
+        }
+      ],
+      "source_skill_id": 2211002,
+      "source": "Skill.nx/221.img/skill/2211002/effect",
+      "name": "Ice Strike",
+      "loop": false,
+      "total_duration_ms": 1045
+    },
+    "skill.frost_hit": {
+      "frames": [
+        {
+          "file": "sprites/combat/frost_hit/0.png",
+          "duration_ms": 120,
+          "origin": [
+            10,
+            209
+          ],
+          "size": [
+            48,
+            81
+          ],
+          "source": "Skill.nx/221.img/skill/2211002/hit/0/0"
+        },
+        {
+          "file": "sprites/combat/frost_hit/1.png",
+          "duration_ms": 80,
+          "origin": [
+            8,
+            89
+          ],
+          "size": [
+            54,
+            57
+          ],
+          "source": "Skill.nx/221.img/skill/2211002/hit/0/1"
+        },
+        {
+          "file": "sprites/combat/frost_hit/2.png",
+          "duration_ms": 80,
+          "origin": [
+            26,
+            70
+          ],
+          "size": [
+            73,
+            72
+          ],
+          "source": "Skill.nx/221.img/skill/2211002/hit/0/2"
+        },
+        {
+          "file": "sprites/combat/frost_hit/3.png",
+          "duration_ms": 80,
+          "origin": [
+            30,
+            58
+          ],
+          "size": [
+            79,
+            78
+          ],
+          "source": "Skill.nx/221.img/skill/2211002/hit/0/3"
+        },
+        {
+          "file": "sprites/combat/frost_hit/4.png",
+          "duration_ms": 80,
+          "origin": [
+            38,
+            46
+          ],
+          "size": [
+            80,
+            79
+          ],
+          "source": "Skill.nx/221.img/skill/2211002/hit/0/4"
+        },
+        {
+          "file": "sprites/combat/frost_hit/5.png",
+          "duration_ms": 80,
+          "origin": [
+            38,
+            37
+          ],
+          "size": [
+            76,
+            75
+          ],
+          "source": "Skill.nx/221.img/skill/2211002/hit/0/5"
+        }
+      ],
+      "source_skill_id": 2211002,
+      "source": "Skill.nx/221.img/skill/2211002/hit/0",
+      "name": "Ice Strike shatter",
+      "loop": false,
+      "total_duration_ms": 520
+    },
+    "skill.meteor_full": {
+      "frames": [
+        {
+          "file": "sprites/combat/meteor/0.png",
+          "duration_ms": 120,
+          "origin": [
+            -76,
+            203
+          ],
+          "size": [
+            44,
+            10
+          ],
+          "source": "Skill.nx/212.img/skill/2121007/hit/0/0"
+        },
+        {
+          "file": "sprites/combat/meteor/1.png",
+          "duration_ms": 120,
+          "origin": [
+            -67,
+            204
+          ],
+          "size": [
+            62,
+            16
+          ],
+          "source": "Skill.nx/212.img/skill/2121007/hit/0/1"
+        },
+        {
+          "file": "sprites/combat/meteor/2.png",
+          "duration_ms": 120,
+          "origin": [
+            -59,
+            204
+          ],
+          "size": [
+            79,
+            24
+          ],
+          "source": "Skill.nx/212.img/skill/2121007/hit/0/2"
+        },
+        {
+          "file": "sprites/combat/meteor/3.png",
+          "duration_ms": 120,
+          "origin": [
+            -57,
+            204
+          ],
+          "size": [
+            83,
+            26
+          ],
+          "source": "Skill.nx/212.img/skill/2121007/hit/0/3"
+        },
+        {
+          "file": "sprites/combat/meteor/4.png",
+          "duration_ms": 120,
+          "origin": [
+            -43,
+            220
+          ],
+          "size": [
+            110,
+            43
+          ],
+          "source": "Skill.nx/212.img/skill/2121007/hit/0/4"
+        },
+        {
+          "file": "sprites/combat/meteor/5.png",
+          "duration_ms": 120,
+          "origin": [
+            -38,
+            223
+          ],
+          "size": [
+            121,
+            48
+          ],
+          "source": "Skill.nx/212.img/skill/2121007/hit/0/5"
+        },
+        {
+          "file": "sprites/combat/meteor/6.png",
+          "duration_ms": 120,
+          "origin": [
+            -34,
+            226
+          ],
+          "size": [
+            130,
+            53
+          ],
+          "source": "Skill.nx/212.img/skill/2121007/hit/0/6"
+        },
+        {
+          "file": "sprites/combat/meteor/7.png",
+          "duration_ms": 120,
+          "origin": [
+            -28,
+            227
+          ],
+          "size": [
+            142,
+            58
+          ],
+          "source": "Skill.nx/212.img/skill/2121007/hit/0/7"
+        },
+        {
+          "file": "sprites/combat/meteor/8.png",
+          "duration_ms": 120,
+          "origin": [
+            -28,
+            228
+          ],
+          "size": [
+            141,
+            60
+          ],
+          "source": "Skill.nx/212.img/skill/2121007/hit/0/8"
+        },
+        {
+          "file": "sprites/combat/meteor/9.png",
+          "duration_ms": 120,
+          "origin": [
+            -30,
+            228
+          ],
+          "size": [
+            138,
+            60
+          ],
+          "source": "Skill.nx/212.img/skill/2121007/hit/0/9"
+        },
+        {
+          "file": "sprites/combat/meteor/10.png",
+          "duration_ms": 120,
+          "origin": [
+            -29,
+            227
+          ],
+          "size": [
+            139,
+            57
+          ],
+          "source": "Skill.nx/212.img/skill/2121007/hit/0/10"
+        },
+        {
+          "file": "sprites/combat/meteor/11.png",
+          "duration_ms": 120,
+          "origin": [
+            -29,
+            227
+          ],
+          "size": [
+            138,
+            67
+          ],
+          "source": "Skill.nx/212.img/skill/2121007/hit/0/11"
+        },
+        {
+          "file": "sprites/combat/meteor/12.png",
+          "duration_ms": 120,
+          "origin": [
+            -30,
+            227
+          ],
+          "size": [
+            138,
+            109
+          ],
+          "source": "Skill.nx/212.img/skill/2121007/hit/0/12"
+        },
+        {
+          "file": "sprites/combat/meteor/13.png",
+          "duration_ms": 120,
+          "origin": [
+            -21,
+            228
+          ],
+          "size": [
+            148,
+            166
+          ],
+          "source": "Skill.nx/212.img/skill/2121007/hit/0/13"
+        },
+        {
+          "file": "sprites/combat/meteor/14.png",
+          "duration_ms": 120,
+          "origin": [
+            75,
+            228
+          ],
+          "size": [
+            245,
+            230
+          ],
+          "source": "Skill.nx/212.img/skill/2121007/hit/0/14"
+        },
+        {
+          "file": "sprites/combat/meteor/15.png",
+          "duration_ms": 120,
+          "origin": [
+            88,
+            228
+          ],
+          "size": [
+            257,
+            230
+          ],
+          "source": "Skill.nx/212.img/skill/2121007/hit/0/15"
+        },
+        {
+          "file": "sprites/combat/meteor/16.png",
+          "duration_ms": 120,
+          "origin": [
+            90,
+            227
+          ],
+          "size": [
+            258,
+            229
+          ],
+          "source": "Skill.nx/212.img/skill/2121007/hit/0/16"
+        },
+        {
+          "file": "sprites/combat/meteor/17.png",
+          "duration_ms": 120,
+          "origin": [
+            93,
+            226
+          ],
+          "size": [
+            260,
+            228
+          ],
+          "source": "Skill.nx/212.img/skill/2121007/hit/0/17"
+        },
+        {
+          "file": "sprites/combat/meteor/18.png",
+          "duration_ms": 120,
+          "origin": [
+            95,
+            224
+          ],
+          "size": [
+            259,
+            225
+          ],
+          "source": "Skill.nx/212.img/skill/2121007/hit/0/18"
+        },
+        {
+          "file": "sprites/combat/meteor/19.png",
+          "duration_ms": 120,
+          "origin": [
+            97,
+            221
+          ],
+          "size": [
+            261,
+            222
+          ],
+          "source": "Skill.nx/212.img/skill/2121007/hit/0/19"
+        },
+        {
+          "file": "sprites/combat/meteor/20.png",
+          "duration_ms": 120,
+          "origin": [
+            100,
+            142
+          ],
+          "size": [
+            214,
+            142
+          ],
+          "source": "Skill.nx/212.img/skill/2121007/hit/0/20"
+        },
+        {
+          "file": "sprites/combat/meteor/21.png",
+          "duration_ms": 120,
+          "origin": [
+            104,
+            33
+          ],
+          "size": [
+            221,
+            22
+          ],
+          "source": "Skill.nx/212.img/skill/2121007/hit/0/21"
+        },
+        {
+          "file": "sprites/combat/meteor/22.png",
+          "duration_ms": 120,
+          "origin": [
+            107,
+            23
+          ],
+          "size": [
+            227,
+            17
+          ],
+          "source": "Skill.nx/212.img/skill/2121007/hit/0/22"
+        }
+      ],
+      "source_skill_id": 2121007,
+      "source": "Skill.nx/212.img/skill/2121007/hit/0",
+      "name": "Meteor full descent",
+      "loop": false,
+      "total_duration_ms": 2760,
+      "impact_start_ms": 1680,
+      "placement": "fixed_impact_point",
+      "render_note": "Full original descent, impact and fade. Gameplay may use skill.meteor after its own warning delay."
+    },
+    "skill.rune": {
+      "frames": [
+        {
+          "file": "sprites/combat/rune/0.png",
+          "duration_ms": 60,
+          "origin": [
+            105,
+            127
+          ],
+          "size": [
+            201,
+            203
+          ],
+          "source": "Skill.nx/232.img/skill/2321001/effect/0"
+        },
+        {
+          "file": "sprites/combat/rune/1.png",
+          "duration_ms": 60,
+          "origin": [
+            105,
+            129
+          ],
+          "size": [
+            202,
+            205
+          ],
+          "source": "Skill.nx/232.img/skill/2321001/effect/1"
+        },
+        {
+          "file": "sprites/combat/rune/2.png",
+          "duration_ms": 60,
+          "origin": [
+            103,
+            125
+          ],
+          "size": [
+            197,
+            197
+          ],
+          "source": "Skill.nx/232.img/skill/2321001/effect/2"
+        },
+        {
+          "file": "sprites/combat/rune/3.png",
+          "duration_ms": 60,
+          "origin": [
+            111,
+            128
+          ],
+          "size": [
+            208,
+            205
+          ],
+          "source": "Skill.nx/232.img/skill/2321001/effect/3"
+        },
+        {
+          "file": "sprites/combat/rune/4.png",
+          "duration_ms": 60,
+          "origin": [
+            115,
+            133
+          ],
+          "size": [
+            217,
+            214
+          ],
+          "source": "Skill.nx/232.img/skill/2321001/effect/4"
+        },
+        {
+          "file": "sprites/combat/rune/5.png",
+          "duration_ms": 60,
+          "origin": [
+            116,
+            135
+          ],
+          "size": [
+            223,
+            215
+          ],
+          "source": "Skill.nx/232.img/skill/2321001/effect/5"
+        },
+        {
+          "file": "sprites/combat/rune/6.png",
+          "duration_ms": 60,
+          "origin": [
+            122,
+            138
+          ],
+          "size": [
+            233,
+            221
+          ],
+          "source": "Skill.nx/232.img/skill/2321001/effect/6"
+        },
+        {
+          "file": "sprites/combat/rune/7.png",
+          "duration_ms": 60,
+          "origin": [
+            119,
+            130
+          ],
+          "size": [
+            228,
+            208
+          ],
+          "source": "Skill.nx/232.img/skill/2321001/effect/7"
+        },
+        {
+          "file": "sprites/combat/rune/8.png",
+          "duration_ms": 60,
+          "origin": [
+            109,
+            131
+          ],
+          "size": [
+            212,
+            211
+          ],
+          "source": "Skill.nx/232.img/skill/2321001/effect/8"
+        },
+        {
+          "file": "sprites/combat/rune/9.png",
+          "duration_ms": 60,
+          "origin": [
+            109,
+            131
+          ],
+          "size": [
+            212,
+            211
+          ],
+          "source": "Skill.nx/232.img/skill/2321001/effect/9"
+        }
+      ],
+      "source_skill_id": 2321001,
+      "source": "Skill.nx/232.img/skill/2321001/effect",
+      "name": "Big Bang magic circle",
+      "loop": false,
+      "total_duration_ms": 600,
+      "placement": "fixed_world",
+      "render_note": "One 600 ms pulse, not an infinitely looping field."
+    },
+    "skill.charge": {
+      "frames": [
+        {
+          "file": "sprites/combat/charge/0.png",
+          "duration_ms": 100,
+          "origin": [
+            0,
+            0
+          ],
+          "size": [
+            1,
+            1
+          ],
+          "source": "Skill.nx/112.img/skill/1121006/effect/0"
+        },
+        {
+          "file": "sprites/combat/charge/1.png",
+          "duration_ms": 120,
+          "origin": [
+            86,
+            98
+          ],
+          "size": [
+            260,
+            136
+          ],
+          "source": "Skill.nx/112.img/skill/1121006/effect/1"
+        },
+        {
+          "file": "sprites/combat/charge/2.png",
+          "duration_ms": 120,
+          "origin": [
+            86,
+            95
+          ],
+          "size": [
+            286,
+            123
+          ],
+          "source": "Skill.nx/112.img/skill/1121006/effect/2"
+        },
+        {
+          "file": "sprites/combat/charge/3.png",
+          "duration_ms": 120,
+          "origin": [
+            88,
+            110
+          ],
+          "size": [
+            239,
+            163
+          ],
+          "source": "Skill.nx/112.img/skill/1121006/effect/3"
+        },
+        {
+          "file": "sprites/combat/charge/4.png",
+          "duration_ms": 120,
+          "origin": [
+            86,
+            124
+          ],
+          "size": [
+            240,
+            162
+          ],
+          "source": "Skill.nx/112.img/skill/1121006/effect/4"
+        },
+        {
+          "file": "sprites/combat/charge/5.png",
+          "duration_ms": 120,
+          "origin": [
+            85,
+            129
+          ],
+          "size": [
+            236,
+            140
+          ],
+          "source": "Skill.nx/112.img/skill/1121006/effect/5"
+        },
+        {
+          "file": "sprites/combat/charge/6.png",
+          "duration_ms": 120,
+          "origin": [
+            80,
+            129
+          ],
+          "size": [
+            230,
+            109
+          ],
+          "source": "Skill.nx/112.img/skill/1121006/effect/6"
+        }
+      ],
+      "source_skill_id": 1121006,
+      "source": "Skill.nx/112.img/skill/1121006/effect",
+      "name": "Rush",
+      "loop": false,
+      "total_duration_ms": 820,
+      "forward_angle_degrees": 180,
+      "default_facing": "left",
+      "placement": "follow_charging_player",
+      "direction_note": "Bright leading tip points left; long golden trail extends right."
+    },
+    "skill.blade_wave": {
+      "frames": [
+        {
+          "file": "sprites/combat/blade_wave/0.png",
+          "duration_ms": 60,
+          "origin": [
+            71,
+            70
+          ],
+          "size": [
+            138,
+            137
+          ],
+          "source": "Skill.nx/1110.img/skill/11101004/ball/0"
+        },
+        {
+          "file": "sprites/combat/blade_wave/1.png",
+          "duration_ms": 60,
+          "origin": [
+            74,
+            61
+          ],
+          "size": [
+            137,
+            134
+          ],
+          "source": "Skill.nx/1110.img/skill/11101004/ball/1"
+        },
+        {
+          "file": "sprites/combat/blade_wave/2.png",
+          "duration_ms": 60,
+          "origin": [
+            56,
+            64
+          ],
+          "size": [
+            133,
+            137
+          ],
+          "source": "Skill.nx/1110.img/skill/11101004/ball/2"
+        },
+        {
+          "file": "sprites/combat/blade_wave/3.png",
+          "duration_ms": 60,
+          "origin": [
+            64,
+            71
+          ],
+          "size": [
+            137,
+            132
+          ],
+          "source": "Skill.nx/1110.img/skill/11101004/ball/3"
+        }
+      ],
+      "source_skill_id": 11101004,
+      "source": "Skill.nx/1110.img/skill/11101004/ball",
+      "name": "Soul Blade projectile",
+      "loop": true,
+      "total_duration_ms": 240,
+      "forward_angle_degrees": 180,
+      "default_facing": "left",
+      "placement": "projectile",
+      "render_note": "Original four-frame spinning crescent; loop only during finite projectile lifetime."
+    },
+    "skill.blade_wave_hit": {
+      "frames": [
+        {
+          "file": "sprites/combat/blade_wave_hit/0.png",
+          "duration_ms": 90,
+          "origin": [
+            27,
+            71
+          ],
+          "size": [
+            58,
+            143
+          ],
+          "source": "Skill.nx/1110.img/skill/11101004/hit/0/0"
+        },
+        {
+          "file": "sprites/combat/blade_wave_hit/1.png",
+          "duration_ms": 90,
+          "origin": [
+            41,
+            77
+          ],
+          "size": [
+            86,
+            156
+          ],
+          "source": "Skill.nx/1110.img/skill/11101004/hit/0/1"
+        },
+        {
+          "file": "sprites/combat/blade_wave_hit/2.png",
+          "duration_ms": 90,
+          "origin": [
+            47,
+            85
+          ],
+          "size": [
+            97,
+            161
+          ],
+          "source": "Skill.nx/1110.img/skill/11101004/hit/0/2"
+        },
+        {
+          "file": "sprites/combat/blade_wave_hit/3.png",
+          "duration_ms": 100,
+          "origin": [
+            31,
+            58
+          ],
+          "size": [
+            67,
+            101
+          ],
+          "source": "Skill.nx/1110.img/skill/11101004/hit/0/3",
+          "duration_note": "No source delay; 100 ms fallback, matching existing extractor."
+        }
+      ],
+      "source_skill_id": 11101004,
+      "source": "Skill.nx/1110.img/skill/11101004/hit/0",
+      "name": "Soul Blade impact",
+      "loop": false,
+      "total_duration_ms": 370
+    },
+    "skill.retaliate": {
+      "frames": [
+        {
+          "file": "sprites/combat/retaliate/0.png",
+          "duration_ms": 100,
+          "origin": [
+            52,
+            77
+          ],
+          "size": [
+            55,
+            77
+          ],
+          "source": "Skill.nx/110.img/skill/1101007/effect/0"
+        },
+        {
+          "file": "sprites/combat/retaliate/1.png",
+          "duration_ms": 100,
+          "origin": [
+            52,
+            77
+          ],
+          "size": [
+            55,
+            77
+          ],
+          "source": "Skill.nx/110.img/skill/1101007/effect/1"
+        },
+        {
+          "file": "sprites/combat/retaliate/2.png",
+          "duration_ms": 100,
+          "origin": [
+            52,
+            77
+          ],
+          "size": [
+            55,
+            77
+          ],
+          "source": "Skill.nx/110.img/skill/1101007/effect/2"
+        },
+        {
+          "file": "sprites/combat/retaliate/3.png",
+          "duration_ms": 100,
+          "origin": [
+            52,
+            77
+          ],
+          "size": [
+            55,
+            77
+          ],
+          "source": "Skill.nx/110.img/skill/1101007/effect/3"
+        },
+        {
+          "file": "sprites/combat/retaliate/4.png",
+          "duration_ms": 100,
+          "origin": [
+            32,
+            85
+          ],
+          "size": [
+            65,
+            85
+          ],
+          "source": "Skill.nx/110.img/skill/1101007/effect/4"
+        },
+        {
+          "file": "sprites/combat/retaliate/5.png",
+          "duration_ms": 100,
+          "origin": [
+            32,
+            85
+          ],
+          "size": [
+            65,
+            85
+          ],
+          "source": "Skill.nx/110.img/skill/1101007/effect/5"
+        },
+        {
+          "file": "sprites/combat/retaliate/6.png",
+          "duration_ms": 100,
+          "origin": [
+            32,
+            87
+          ],
+          "size": [
+            67,
+            87
+          ],
+          "source": "Skill.nx/110.img/skill/1101007/effect/6"
+        },
+        {
+          "file": "sprites/combat/retaliate/7.png",
+          "duration_ms": 100,
+          "origin": [
+            35,
+            82
+          ],
+          "size": [
+            67,
+            85
+          ],
+          "source": "Skill.nx/110.img/skill/1101007/effect/7"
+        },
+        {
+          "file": "sprites/combat/retaliate/8.png",
+          "duration_ms": 100,
+          "origin": [
+            33,
+            82
+          ],
+          "size": [
+            65,
+            85
+          ],
+          "source": "Skill.nx/110.img/skill/1101007/effect/8"
+        },
+        {
+          "file": "sprites/combat/retaliate/9.png",
+          "duration_ms": 100,
+          "origin": [
+            33,
+            82
+          ],
+          "size": [
+            65,
+            85
+          ],
+          "source": "Skill.nx/110.img/skill/1101007/effect/9"
+        },
+        {
+          "file": "sprites/combat/retaliate/10.png",
+          "duration_ms": 100,
+          "origin": [
+            33,
+            82
+          ],
+          "size": [
+            65,
+            85
+          ],
+          "source": "Skill.nx/110.img/skill/1101007/effect/10"
+        },
+        {
+          "file": "sprites/combat/retaliate/11.png",
+          "duration_ms": 100,
+          "origin": [
+            33,
+            82
+          ],
+          "size": [
+            65,
+            85
+          ],
+          "source": "Skill.nx/110.img/skill/1101007/effect/11"
+        }
+      ],
+      "source_skill_id": 1101007,
+      "source": "Skill.nx/110.img/skill/1101007/effect",
+      "name": "Power Guard counter shield",
+      "loop": false,
+      "total_duration_ms": 1200,
+      "placement": "player_on_counter",
+      "render_note": "A bounded original shield pulse for damage-triggered retaliation, not a persistent shield."
+    },
+    "skill.meteor": {
+      "frames": [
+        {
+          "file": "sprites/combat/meteor/14.png",
+          "duration_ms": 120,
+          "origin": [
+            75,
+            228
+          ],
+          "size": [
+            245,
+            230
+          ],
+          "source": "Skill.nx/212.img/skill/2121007/hit/0/14"
+        },
+        {
+          "file": "sprites/combat/meteor/15.png",
+          "duration_ms": 120,
+          "origin": [
+            88,
+            228
+          ],
+          "size": [
+            257,
+            230
+          ],
+          "source": "Skill.nx/212.img/skill/2121007/hit/0/15"
+        },
+        {
+          "file": "sprites/combat/meteor/16.png",
+          "duration_ms": 120,
+          "origin": [
+            90,
+            227
+          ],
+          "size": [
+            258,
+            229
+          ],
+          "source": "Skill.nx/212.img/skill/2121007/hit/0/16"
+        },
+        {
+          "file": "sprites/combat/meteor/17.png",
+          "duration_ms": 120,
+          "origin": [
+            93,
+            226
+          ],
+          "size": [
+            260,
+            228
+          ],
+          "source": "Skill.nx/212.img/skill/2121007/hit/0/17"
+        },
+        {
+          "file": "sprites/combat/meteor/18.png",
+          "duration_ms": 120,
+          "origin": [
+            95,
+            224
+          ],
+          "size": [
+            259,
+            225
+          ],
+          "source": "Skill.nx/212.img/skill/2121007/hit/0/18"
+        },
+        {
+          "file": "sprites/combat/meteor/19.png",
+          "duration_ms": 120,
+          "origin": [
+            97,
+            221
+          ],
+          "size": [
+            261,
+            222
+          ],
+          "source": "Skill.nx/212.img/skill/2121007/hit/0/19"
+        },
+        {
+          "file": "sprites/combat/meteor/20.png",
+          "duration_ms": 120,
+          "origin": [
+            100,
+            142
+          ],
+          "size": [
+            214,
+            142
+          ],
+          "source": "Skill.nx/212.img/skill/2121007/hit/0/20"
+        },
+        {
+          "file": "sprites/combat/meteor/21.png",
+          "duration_ms": 120,
+          "origin": [
+            104,
+            33
+          ],
+          "size": [
+            221,
+            22
+          ],
+          "source": "Skill.nx/212.img/skill/2121007/hit/0/21"
+        },
+        {
+          "file": "sprites/combat/meteor/22.png",
+          "duration_ms": 120,
+          "origin": [
+            107,
+            23
+          ],
+          "size": [
+            227,
+            17
+          ],
+          "source": "Skill.nx/212.img/skill/2121007/hit/0/22"
+        }
+      ],
+      "source_skill_id": 2121007,
+      "source": "Skill.nx/212.img/skill/2121007/hit/0",
+      "name": "Meteor impact only",
+      "loop": false,
+      "source_frame_range": [
+        14,
+        22
+      ],
+      "source_start_ms": 1680,
+      "total_duration_ms": 1080,
+      "placement": "fixed_impact_point",
+      "render_note": "Play once after the gameplay warning delay. Frames retain original 120 ms timing and origins."
+    },
+    "item.shield": {
+      "frames": [
+        {
+          "file": "sprites/combat/items/shield/0.png",
+          "duration_ms": 100,
+          "origin": [
+            14.0,
+            15.0
+          ],
+          "source_origin": [
+            -2,
+            30
+          ],
+          "size": [
+            28,
+            30
+          ],
+          "source": "Item.nx/Consume/0202.img/02022269/info/icon"
+        }
+      ],
+      "source": "Item.nx/Consume/0202.img/02022269/info/icon",
+      "source_item_id": 2022269,
+      "source_name": "Defensive Film",
+      "name": "Temporary invulnerability shield",
+      "loop": false,
+      "total_duration_ms": 100,
+      "render_note": "Unmodified original icon, centered for a free-standing pickup. Source item purpose may differ from this game."
+    },
+    "item.bomb": {
+      "frames": [
+        {
+          "file": "sprites/combat/items/bomb/0.png",
+          "duration_ms": 100,
+          "origin": [
+            14.5,
+            14.5
+          ],
+          "source_origin": [
+            -3,
+            29
+          ],
+          "size": [
+            29,
+            29
+          ],
+          "source": "Item.nx/Etc/0403.img/04032929/info/icon"
+        }
+      ],
+      "source": "Item.nx/Etc/0403.img/04032929/info/icon",
+      "source_item_id": 4032929,
+      "source_name": "Bomb",
+      "name": "Instant area clear",
+      "loop": false,
+      "total_duration_ms": 100,
+      "render_note": "Unmodified original icon, centered for a free-standing pickup. Source item purpose may differ from this game."
+    },
+    "item.double_xp": {
+      "frames": [
+        {
+          "file": "sprites/combat/items/double_xp/0.png",
+          "duration_ms": 100,
+          "origin": [
+            16.0,
+            16.0
+          ],
+          "source_origin": [
+            0,
+            32
+          ],
+          "size": [
+            32,
+            32
+          ],
+          "source": "Item.nx/Cash/0521.img/05211000/info/icon"
+        }
+      ],
+      "source": "Item.nx/Cash/0521.img/05211000/info/icon",
+      "source_item_id": 5211000,
+      "source_name": "Double EXP coupon",
+      "name": "Temporary double experience",
+      "loop": false,
+      "total_duration_ms": 100,
+      "render_note": "Unmodified original icon, centered for a free-standing pickup. Source item purpose may differ from this game."
+    },
+    "item.power": {
+      "frames": [
+        {
+          "file": "sprites/combat/items/power/0.png",
+          "duration_ms": 100,
+          "origin": [
+            16.0,
+            17.5
+          ],
+          "source_origin": [
+            0,
+            32
+          ],
+          "size": [
+            32,
+            35
+          ],
+          "source": "Item.nx/Consume/0202.img/02022259/info/icon"
+        }
+      ],
+      "source": "Item.nx/Consume/0202.img/02022259/info/icon",
+      "source_item_id": 2022259,
+      "source_name": "Attack Crystal",
+      "name": "Temporary attack boost",
+      "loop": false,
+      "total_duration_ms": 100,
+      "render_note": "Unmodified original icon, centered for a free-standing pickup. Source item purpose may differ from this game."
+    },
+    "item.reset": {
+      "frames": [
+        {
+          "file": "sprites/combat/items/reset/0.png",
+          "duration_ms": 100,
+          "origin": [
+            16.0,
+            16.0
+          ],
+          "source_origin": [
+            0,
+            32
+          ],
+          "size": [
+            32,
+            32
+          ],
+          "source": "Item.nx/Cash/0550.img/05500001/info/icon"
+        }
+      ],
+      "source": "Item.nx/Cash/0550.img/05500001/info/icon",
+      "source_item_id": 5500001,
+      "source_name": "Magic Hourglass",
+      "name": "Reset active skill cooldowns",
+      "loop": false,
+      "total_duration_ms": 100,
+      "render_note": "Unmodified original icon, centered for a free-standing pickup. Source item purpose may differ from this game."
+    },
+    "item.chest": {
+      "frames": [
+        {
+          "file": "sprites/combat/items/chest/0.png",
+          "duration_ms": 100,
+          "origin": [
+            16.5,
+            14.5
+          ],
+          "source_origin": [
+            0,
+            28
+          ],
+          "size": [
+            33,
+            29
+          ],
+          "source": "Item.nx/Etc/0428.img/04280000/info/icon"
+        }
+      ],
+      "source": "Item.nx/Etc/0428.img/04280000/info/icon",
+      "source_item_id": 4280000,
+      "source_name": "Golden Chest",
+      "name": "Random reward chest",
+      "loop": false,
+      "total_duration_ms": 100,
+      "render_note": "Unmodified original icon, centered for a free-standing pickup. Source item purpose may differ from this game."
+    }
+  },
+  "notes": [
+    "Original MapleStory pixels selectively exported from the user-provided Skill.nx, opened read-only.",
+    "Original artwork belongs to its rights holders. This is an unofficial personal prototype; no distribution license is implied.",
+    "Original origins, delays and RGBA pixels are preserved. Missing source delays use the existing 100 ms fallback.",
+    "Play area/counter/cast effects once per trigger. Projectile animation may loop only until the projectile expires.",
+    "Meteor impact reuses full-sequence PNGs; no duplicate files or texture atlas is generated.",
+    "Six pickup icons retain original RGBA pixels and source_origin; display origins are centered, matching existing pickup conventions."
+  ]
+}

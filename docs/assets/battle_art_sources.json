@@ -1,0 +1,2225 @@
+{
+  "sequences": [
+    {
+      "key": "battle.octopus.idle",
+      "source": "Skill.nx/521.img/skill/5211001/summon/stand",
+      "usage": "OctopusTurret / DeepFleet original gunslinger summon body",
+      "correspondence": "exact",
+      "frames": 8,
+      "duration_ms": 960,
+      "default_facing": "left",
+      "anchors_and_timing": "assets/manifest.json sprites/battle.octopus.idle",
+      "runtime_review": "--battle-scene 0: native body, direction and projectile sequence sampled; not exhaustive frame-by-frame review",
+      "source_skill_id": 5211001,
+      "ground_anchor": [
+        0,
+        0
+      ],
+      "render_scale": 0.9,
+      "muzzle_native": [
+        -23,
+        -18
+      ],
+      "attack_release_ms": 480
+    },
+    {
+      "key": "battle.octopus.attack",
+      "source": "Skill.nx/521.img/skill/5211001/summon/attack1",
+      "usage": "OctopusTurret / DeepFleet original gunslinger summon body",
+      "correspondence": "exact",
+      "frames": 8,
+      "duration_ms": 960,
+      "default_facing": "left",
+      "anchors_and_timing": "assets/manifest.json sprites/battle.octopus.attack",
+      "runtime_review": "--battle-scene 0: native body, direction and projectile sequence sampled; not exhaustive frame-by-frame review",
+      "source_skill_id": 5211001,
+      "ground_anchor": [
+        0,
+        0
+      ],
+      "render_scale": 0.9,
+      "muzzle_native": [
+        -23,
+        -18
+      ],
+      "attack_release_ms": 480
+    },
+    {
+      "key": "battle.octopus.spawn",
+      "source": "Skill.nx/521.img/skill/5211001/summon/summoned",
+      "usage": "OctopusTurret / DeepFleet original gunslinger summon body",
+      "correspondence": "exact",
+      "frames": 12,
+      "duration_ms": 1950,
+      "default_facing": "left",
+      "anchors_and_timing": "assets/manifest.json sprites/battle.octopus.spawn",
+      "runtime_review": "--battle-scene 0: native body, direction and projectile sequence sampled; not exhaustive frame-by-frame review",
+      "source_skill_id": 5211001,
+      "ground_anchor": [
+        0,
+        0
+      ],
+      "render_scale": 0.9,
+      "muzzle_native": [
+        -23,
+        -18
+      ],
+      "attack_release_ms": 480
+    },
+    {
+      "key": "battle.octopus.end",
+      "source": "Skill.nx/521.img/skill/5211001/summon/die",
+      "usage": "OctopusTurret / DeepFleet original gunslinger summon body",
+      "correspondence": "exact",
+      "frames": 12,
+      "duration_ms": 1440,
+      "default_facing": "left",
+      "anchors_and_timing": "assets/manifest.json sprites/battle.octopus.end",
+      "runtime_review": "--battle-scene 0: native body, direction and projectile sequence sampled; not exhaustive frame-by-frame review",
+      "source_skill_id": 5211001,
+      "ground_anchor": [
+        0,
+        0
+      ],
+      "render_scale": 0.9,
+      "muzzle_native": [
+        -23,
+        -18
+      ],
+      "attack_release_ms": 480
+    },
+    {
+      "key": "battle.octopus.ball",
+      "source": "Skill.nx/521.img/skill/5211001/summon/attack1/info/ball",
+      "usage": "OctopusTurret / DeepFleet flying ink projectile",
+      "correspondence": "exact",
+      "frames": 2,
+      "duration_ms": 200,
+      "default_facing": "left",
+      "anchors_and_timing": "assets/manifest.json sprites/battle.octopus.ball",
+      "runtime_review": "--battle-scene 0: native body, direction and projectile sequence sampled; not exhaustive frame-by-frame review"
+    },
+    {
+      "key": "battle.octopus.hit",
+      "source": "Skill.nx/521.img/skill/5211001/hit/0",
+      "usage": "OctopusTurret / DeepFleet impact",
+      "correspondence": "exact",
+      "frames": 5,
+      "duration_ms": 500,
+      "default_facing": "left",
+      "anchors_and_timing": "assets/manifest.json sprites/battle.octopus.hit",
+      "runtime_review": "--battle-scene 0: native body, direction and projectile sequence sampled; not exhaustive frame-by-frame review"
+    },
+    {
+      "key": "battle.phoenix.idle",
+      "source": "Skill.nx/312.img/skill/3121006/summon/stand",
+      "usage": "Phoenix actor idle",
+      "correspondence": "exact",
+      "frames": 10,
+      "duration_ms": 1000,
+      "default_facing": "left",
+      "anchors_and_timing": "assets/manifest.json sprites/battle.phoenix.idle",
+      "runtime_review": "--battle-scene 1: native companion/projectile sequence sampled; not exhaustive frame-by-frame review"
+    },
+    {
+      "key": "battle.phoenix.attack",
+      "source": "Skill.nx/312.img/skill/3121006/summon/attack1",
+      "usage": "Phoenix actor attack",
+      "correspondence": "exact",
+      "frames": 11,
+      "duration_ms": 2130,
+      "default_facing": "left",
+      "anchors_and_timing": "assets/manifest.json sprites/battle.phoenix.attack",
+      "runtime_review": "--battle-scene 1: native companion/projectile sequence sampled; not exhaustive frame-by-frame review"
+    },
+    {
+      "key": "battle.phoenix.move",
+      "source": "Skill.nx/312.img/skill/3121006/summon/fly",
+      "usage": "Phoenix actor move",
+      "correspondence": "exact",
+      "frames": 5,
+      "duration_ms": 500,
+      "default_facing": "left",
+      "anchors_and_timing": "assets/manifest.json sprites/battle.phoenix.move",
+      "runtime_review": "--battle-scene 1: native companion/projectile sequence sampled; not exhaustive frame-by-frame review"
+    },
+    {
+      "key": "battle.phoenix.spawn",
+      "source": "Skill.nx/312.img/skill/3121006/summon/summoned",
+      "usage": "Phoenix actor spawn",
+      "correspondence": "exact",
+      "frames": 5,
+      "duration_ms": 500,
+      "default_facing": "left",
+      "anchors_and_timing": "assets/manifest.json sprites/battle.phoenix.spawn",
+      "runtime_review": "--battle-scene 1: native companion/projectile sequence sampled; not exhaustive frame-by-frame review"
+    },
+    {
+      "key": "battle.phoenix.end",
+      "source": "Skill.nx/312.img/skill/3121006/summon/die",
+      "usage": "Phoenix actor end",
+      "correspondence": "exact",
+      "frames": 5,
+      "duration_ms": 600,
+      "default_facing": "left",
+      "anchors_and_timing": "assets/manifest.json sprites/battle.phoenix.end",
+      "runtime_review": "--battle-scene 1: native companion/projectile sequence sampled; not exhaustive frame-by-frame review"
+    },
+    {
+      "key": "skill.fire_beast.idle",
+      "source": "Skill.nx/212.img/skill/2121005/summon/stand",
+      "usage": "FireBeast original Ifrit body",
+      "correspondence": "exact",
+      "frames": 6,
+      "duration_ms": 1080,
+      "default_facing": "left",
+      "anchors_and_timing": "assets/manifest.json sprites/skill.fire_beast.idle",
+      "runtime_review": "--battle-scene 1: native companion/projectile sequence sampled; not exhaustive frame-by-frame review",
+      "source_skill_id": 2121005
+    },
+    {
+      "key": "skill.fire_beast.move",
+      "source": "Skill.nx/212.img/skill/2121005/summon/move",
+      "usage": "FireBeast original Ifrit body",
+      "correspondence": "exact",
+      "frames": 6,
+      "duration_ms": 1080,
+      "default_facing": "left",
+      "anchors_and_timing": "assets/manifest.json sprites/skill.fire_beast.move",
+      "runtime_review": "--battle-scene 1: native companion/projectile sequence sampled; not exhaustive frame-by-frame review",
+      "source_skill_id": 2121005
+    },
+    {
+      "key": "skill.fire_beast.attack",
+      "source": "Skill.nx/212.img/skill/2121005/summon/attack1",
+      "usage": "FireBeast original Ifrit body",
+      "correspondence": "exact",
+      "frames": 19,
+      "duration_ms": 2250,
+      "default_facing": "left",
+      "anchors_and_timing": "assets/manifest.json sprites/skill.fire_beast.attack",
+      "runtime_review": "--battle-scene 1: native companion/projectile sequence sampled; not exhaustive frame-by-frame review",
+      "source_skill_id": 2121005
+    },
+    {
+      "key": "skill.fire_beast.die",
+      "source": "Skill.nx/212.img/skill/2121005/summon/die",
+      "usage": "FireBeast original Ifrit body",
+      "correspondence": "exact",
+      "frames": 12,
+      "duration_ms": 1440,
+      "default_facing": "left",
+      "anchors_and_timing": "assets/manifest.json sprites/skill.fire_beast.die",
+      "runtime_review": "--battle-scene 1: native companion/projectile sequence sampled; not exhaustive frame-by-frame review",
+      "source_skill_id": 2121005
+    },
+    {
+      "key": "skill.fire_beast.spawn",
+      "source": "Skill.nx/212.img/skill/2121005/summon/summoned",
+      "usage": "FireBeast original Ifrit body",
+      "correspondence": "exact",
+      "frames": 15,
+      "duration_ms": 1800,
+      "default_facing": "left",
+      "anchors_and_timing": "assets/manifest.json sprites/skill.fire_beast.spawn",
+      "runtime_review": "--battle-scene 1: native companion/projectile sequence sampled; not exhaustive frame-by-frame review",
+      "source_skill_id": 2121005
+    },
+    {
+      "key": "skill.fire_beast.hit",
+      "source": "Skill.nx/212.img/skill/2121005/hit/0",
+      "usage": "FireBeast Ifrit impact",
+      "correspondence": "exact",
+      "frames": 8,
+      "duration_ms": 1200,
+      "default_facing": "left",
+      "anchors_and_timing": "assets/manifest.json sprites/skill.fire_beast.hit",
+      "runtime_review": "--battle-scene 1: native companion/projectile sequence sampled; not exhaustive frame-by-frame review"
+    },
+    {
+      "key": "battle.engineer.idle",
+      "source": "Mob.nx/5110302.img/stand",
+      "usage": "Engineer / mechanical fusion ally body",
+      "correspondence": "thematic substitute: Neo Huroid; Mechanic skill absent from this Skill.nx",
+      "frames": 10,
+      "duration_ms": 1500,
+      "default_facing": "left",
+      "anchors_and_timing": "assets/manifest.json sprites/battle.engineer.idle",
+      "runtime_review": "--battle-scene 0: native body, direction and projectile sequence sampled; not exhaustive frame-by-frame review"
+    },
+    {
+      "key": "battle.engineer.move",
+      "source": "Mob.nx/5110302.img/move",
+      "usage": "Engineer / mechanical fusion ally body",
+      "correspondence": "thematic substitute: Neo Huroid; Mechanic skill absent from this Skill.nx",
+      "frames": 6,
+      "duration_ms": 900,
+      "default_facing": "left",
+      "anchors_and_timing": "assets/manifest.json sprites/battle.engineer.move",
+      "runtime_review": "--battle-scene 0: native body, direction and projectile sequence sampled; not exhaustive frame-by-frame review"
+    },
+    {
+      "key": "battle.engineer.attack",
+      "source": "Mob.nx/5110302.img/attack1",
+      "usage": "Engineer / mechanical fusion ally body",
+      "correspondence": "thematic substitute: Neo Huroid; Mechanic skill absent from this Skill.nx",
+      "frames": 22,
+      "duration_ms": 3300,
+      "default_facing": "left",
+      "anchors_and_timing": "assets/manifest.json sprites/battle.engineer.attack",
+      "runtime_review": "--battle-scene 0: native body, direction and projectile sequence sampled; not exhaustive frame-by-frame review"
+    },
+    {
+      "key": "battle.engineer.end",
+      "source": "Mob.nx/5110302.img/die1",
+      "usage": "Engineer / mechanical fusion ally body",
+      "correspondence": "thematic substitute: Neo Huroid; Mechanic skill absent from this Skill.nx",
+      "frames": 10,
+      "duration_ms": 1800,
+      "default_facing": "left",
+      "anchors_and_timing": "assets/manifest.json sprites/battle.engineer.end",
+      "runtime_review": "--battle-scene 0: native body, direction and projectile sequence sampled; not exhaustive frame-by-frame review"
+    },
+    {
+      "key": "battle.launcher.idle",
+      "source": "Mob.nx/9300004.img/stand",
+      "usage": "Missile launcher / mechanical fusion ally body",
+      "correspondence": "thematic substitute: original mechanical monster, not Mechanic summon",
+      "frames": 11,
+      "duration_ms": 2900,
+      "default_facing": "left",
+      "anchors_and_timing": "assets/manifest.json sprites/battle.launcher.idle",
+      "runtime_review": "--battle-scene 0: native body, direction and projectile sequence sampled; not exhaustive frame-by-frame review"
+    },
+    {
+      "key": "battle.launcher.move",
+      "source": "Mob.nx/9300004.img/move",
+      "usage": "Missile launcher / mechanical fusion ally body",
+      "correspondence": "thematic substitute: original mechanical monster, not Mechanic summon",
+      "frames": 4,
+      "duration_ms": 400,
+      "default_facing": "left",
+      "anchors_and_timing": "assets/manifest.json sprites/battle.launcher.move",
+      "runtime_review": "--battle-scene 0: native body, direction and projectile sequence sampled; not exhaustive frame-by-frame review"
+    },
+    {
+      "key": "battle.launcher.attack",
+      "source": "Mob.nx/9300004.img/attack1",
+      "usage": "Missile launcher / mechanical fusion ally body",
+      "correspondence": "thematic substitute: original mechanical monster, not Mechanic summon",
+      "frames": 7,
+      "duration_ms": 1150,
+      "default_facing": "left",
+      "anchors_and_timing": "assets/manifest.json sprites/battle.launcher.attack",
+      "runtime_review": "--battle-scene 0: native body, direction and projectile sequence sampled; not exhaustive frame-by-frame review"
+    },
+    {
+      "key": "battle.launcher.end",
+      "source": "Mob.nx/9300004.img/die1",
+      "usage": "Missile launcher / mechanical fusion ally body",
+      "correspondence": "thematic substitute: original mechanical monster, not Mechanic summon",
+      "frames": 7,
+      "duration_ms": 1140,
+      "default_facing": "left",
+      "anchors_and_timing": "assets/manifest.json sprites/battle.launcher.end",
+      "runtime_review": "--battle-scene 0: native body, direction and projectile sequence sampled; not exhaustive frame-by-frame review"
+    },
+    {
+      "key": "battle.bat.fly",
+      "source": "Mob.nx/2300100.img/fly",
+      "usage": "ShadowBats / GhostWings flying body",
+      "correspondence": "thematic substitute: original Stirge, not a skill icon",
+      "frames": 2,
+      "duration_ms": 300,
+      "default_facing": "left",
+      "anchors_and_timing": "assets/manifest.json sprites/battle.bat.fly",
+      "runtime_review": "--battle-scene 1: native companion/projectile sequence sampled; not exhaustive frame-by-frame review"
+    },
+    {
+      "key": "battle.shot.rocket",
+      "source": "Mob.nx/5110302.img/attack1/info/ball",
+      "usage": "Missiles / Engineer / mechanical fusion projectile",
+      "correspondence": "exact",
+      "frames": 6,
+      "duration_ms": 600,
+      "default_facing": "left",
+      "anchors_and_timing": "assets/manifest.json sprites/battle.shot.rocket",
+      "runtime_review": "--battle-scene 0: native body, direction and projectile sequence sampled; not exhaustive frame-by-frame review"
+    },
+    {
+      "key": "battle.shot.rocket.hit",
+      "source": "Mob.nx/5110302.img/attack1/info/hit",
+      "usage": "Missiles / Engineer / mechanical fusion projectile impact",
+      "correspondence": "exact",
+      "frames": 9,
+      "duration_ms": 870,
+      "default_facing": "left",
+      "anchors_and_timing": "assets/manifest.json sprites/battle.shot.rocket.hit",
+      "runtime_review": "--battle-scene 0: native body, direction and projectile sequence sampled; not exhaustive frame-by-frame review"
+    },
+    {
+      "key": "battle.shot.snow",
+      "source": "Mob.nx/8220001.img/attack1/info/ball",
+      "usage": "Snowman snowball",
+      "correspondence": "exact",
+      "frames": 3,
+      "duration_ms": 270,
+      "default_facing": "left",
+      "anchors_and_timing": "assets/manifest.json sprites/battle.shot.snow",
+      "runtime_review": "--preview-boss 6: native straight projectile and telegraph sequence sampled; not exhaustive frame-by-frame review"
+    },
+    {
+      "key": "battle.shot.snow.hit",
+      "source": "Mob.nx/8220001.img/attack1/info/hit",
+      "usage": "Snowman snowball impact",
+      "correspondence": "exact",
+      "frames": 5,
+      "duration_ms": 450,
+      "default_facing": "left",
+      "anchors_and_timing": "assets/manifest.json sprites/battle.shot.snow.hit",
+      "runtime_review": "--preview-boss 6: native straight projectile and telegraph sequence sampled; not exhaustive frame-by-frame review"
+    },
+    {
+      "key": "battle.shot.curse",
+      "source": "Mob.nx/5220002.img/attack1/info/ball",
+      "usage": "Faust original banana projectile",
+      "correspondence": "exact",
+      "frames": 4,
+      "duration_ms": 240,
+      "default_facing": "left",
+      "anchors_and_timing": "assets/manifest.json sprites/battle.shot.curse",
+      "runtime_review": "--preview-boss 11: native tracking projectile, 12-second attack cycle sampled; not exhaustive frame-by-frame review"
+    },
+    {
+      "key": "battle.shot.curse.hit",
+      "source": "Mob.nx/5220002.img/attack1/info/hit",
+      "usage": "Faust original banana projectile impact",
+      "correspondence": "exact",
+      "frames": 3,
+      "duration_ms": 270,
+      "default_facing": "left",
+      "anchors_and_timing": "assets/manifest.json sprites/battle.shot.curse.hit",
+      "runtime_review": "--preview-boss 11: native tracking projectile, 12-second attack cycle sampled; not exhaustive frame-by-frame review"
+    },
+    {
+      "key": "battle.shot.fire",
+      "source": "Mob.nx/8140500.img/attack1/info/ball",
+      "usage": "Hellhound fire projectile",
+      "correspondence": "exact",
+      "frames": 2,
+      "duration_ms": 300,
+      "default_facing": "left",
+      "anchors_and_timing": "assets/manifest.json sprites/battle.shot.fire",
+      "runtime_review": "source/export verified; runtime mapping integrated, not individually visually reviewed"
+    },
+    {
+      "key": "battle.shot.fire.hit",
+      "source": "Mob.nx/8140500.img/attack1/info/hit",
+      "usage": "Hellhound fire projectile impact",
+      "correspondence": "exact",
+      "frames": 3,
+      "duration_ms": 500,
+      "default_facing": "left",
+      "anchors_and_timing": "assets/manifest.json sprites/battle.shot.fire.hit",
+      "runtime_review": "source/export verified; runtime mapping integrated, not individually visually reviewed"
+    },
+    {
+      "key": "battle.shot.seed",
+      "source": "Mob.nx/3220000.img/attack2/info/ball",
+      "usage": "Forest / spore thematic projectile",
+      "correspondence": "exact",
+      "frames": 4,
+      "duration_ms": 360,
+      "default_facing": "left",
+      "anchors_and_timing": "assets/manifest.json sprites/battle.shot.seed",
+      "runtime_review": "source/export verified; runtime mapping integrated, not individually visually reviewed"
+    },
+    {
+      "key": "battle.shot.seed.hit",
+      "source": "Mob.nx/3220000.img/attack2/info/hit",
+      "usage": "Forest / spore thematic projectile impact",
+      "correspondence": "exact",
+      "frames": 5,
+      "duration_ms": 300,
+      "default_facing": "left",
+      "anchors_and_timing": "assets/manifest.json sprites/battle.shot.seed.hit",
+      "runtime_review": "source/export verified; runtime mapping integrated, not individually visually reviewed"
+    },
+    {
+      "key": "battle.shot.bubble",
+      "source": "Mob.nx/3230103.img/attack1/info/ball",
+      "usage": "Water bubble projectile",
+      "correspondence": "exact",
+      "frames": 3,
+      "duration_ms": 300,
+      "default_facing": "left",
+      "anchors_and_timing": "assets/manifest.json sprites/battle.shot.bubble",
+      "runtime_review": "source/export verified; runtime mapping integrated, not individually visually reviewed"
+    },
+    {
+      "key": "battle.shot.bubble.hit",
+      "source": "Mob.nx/3230103.img/attack1/info/hit",
+      "usage": "Water bubble projectile impact",
+      "correspondence": "exact",
+      "frames": 2,
+      "duration_ms": 330,
+      "default_facing": "left",
+      "anchors_and_timing": "assets/manifest.json sprites/battle.shot.bubble.hit",
+      "runtime_review": "source/export verified; runtime mapping integrated, not individually visually reviewed"
+    },
+    {
+      "key": "battle.shot.arcane",
+      "source": "Mob.nx/4230106.img/attack1/info/ball",
+      "usage": "Moon Pixie magic projectile",
+      "correspondence": "exact",
+      "frames": 3,
+      "duration_ms": 300,
+      "default_facing": "left",
+      "anchors_and_timing": "assets/manifest.json sprites/battle.shot.arcane",
+      "runtime_review": "source/export verified; runtime mapping integrated, not individually visually reviewed"
+    },
+    {
+      "key": "battle.shot.arcane.hit",
+      "source": "Mob.nx/4230106.img/attack1/info/hit",
+      "usage": "Moon Pixie magic projectile impact",
+      "correspondence": "exact",
+      "frames": 4,
+      "duration_ms": 440,
+      "default_facing": "left",
+      "anchors_and_timing": "assets/manifest.json sprites/battle.shot.arcane.hit",
+      "runtime_review": "source/export verified; runtime mapping integrated, not individually visually reviewed"
+    },
+    {
+      "key": "battle.shot.cannon",
+      "source": "Skill.nx/522.img/skill/5221007/ball",
+      "usage": "Gun / cannon ammunition",
+      "correspondence": "exact",
+      "frames": 1,
+      "duration_ms": 100,
+      "default_facing": "left",
+      "anchors_and_timing": "assets/manifest.json sprites/battle.shot.cannon",
+      "runtime_review": "--battle-scene 1: native companion/projectile sequence sampled; not exhaustive frame-by-frame review"
+    },
+    {
+      "key": "battle.shot.gunhit",
+      "source": "Skill.nx/522.img/skill/5221007/hit/0",
+      "usage": "Gun / cannon impact",
+      "correspondence": "exact",
+      "frames": 4,
+      "duration_ms": 480,
+      "default_facing": "left",
+      "anchors_and_timing": "assets/manifest.json sprites/battle.shot.gunhit",
+      "runtime_review": "--battle-scene 1: native companion/projectile sequence sampled; not exhaustive frame-by-frame review"
+    },
+    {
+      "key": "battle.field.smoke0",
+      "source": "Skill.nx/422.img/skill/4221006/tile/0",
+      "usage": "Smoke field: original Smokescreen cloud, gray-blue runtime tint",
+      "correspondence": "exact",
+      "frames": 2,
+      "duration_ms": 1800,
+      "default_facing": "left",
+      "anchors_and_timing": "assets/manifest.json sprites/battle.field.smoke0",
+      "runtime_review": "--battle-scene 2: native formation, suppression, movement, pause/resume, expiration; 1x/2x and low effects sampled; not exhaustive frame-by-frame review"
+    },
+    {
+      "key": "battle.field.smoke1",
+      "source": "Skill.nx/422.img/skill/4221006/tile/1",
+      "usage": "Smoke field: original Smokescreen cloud, gray-blue runtime tint",
+      "correspondence": "exact",
+      "frames": 2,
+      "duration_ms": 1400,
+      "default_facing": "left",
+      "anchors_and_timing": "assets/manifest.json sprites/battle.field.smoke1",
+      "runtime_review": "--battle-scene 2: native formation, suppression, movement, pause/resume, expiration; 1x/2x and low effects sampled; not exhaustive frame-by-frame review"
+    },
+    {
+      "key": "battle.field.smoke2",
+      "source": "Skill.nx/422.img/skill/4221006/tile/2",
+      "usage": "Smoke field: original Smokescreen cloud, gray-blue runtime tint",
+      "correspondence": "exact",
+      "frames": 2,
+      "duration_ms": 1500,
+      "default_facing": "left",
+      "anchors_and_timing": "assets/manifest.json sprites/battle.field.smoke2",
+      "runtime_review": "--battle-scene 2: native formation, suppression, movement, pause/resume, expiration; 1x/2x and low effects sampled; not exhaustive frame-by-frame review"
+    },
+    {
+      "key": "battle.field.clock",
+      "source": "Skill.nx/512.img/skill/5121010/effect",
+      "usage": "Distortion clock texture: Time Leap original art",
+      "correspondence": "thematic texture: custom field uses a held source clock frame plus transparent hands",
+      "frames": 16,
+      "duration_ms": 1440,
+      "default_facing": "left",
+      "anchors_and_timing": "assets/manifest.json sprites/battle.field.clock",
+      "runtime_review": "--battle-scene 2: native formation, suppression, movement, pause/resume, expiration; 1x/2x and low effects sampled; not exhaustive frame-by-frame review"
+    },
+    {
+      "key": "battle.field.seal",
+      "source": "Skill.nx/221.img/skill/2211004/effect",
+      "usage": "Regression inward seal glyph",
+      "correspondence": "thematic substitute: Seal cast glyph",
+      "frames": 11,
+      "duration_ms": 902,
+      "default_facing": "left",
+      "anchors_and_timing": "assets/manifest.json sprites/battle.field.seal",
+      "runtime_review": "--preview-domain 4/5 and --battle-scene 3: native distinct field identity and suppression UI sampled; not exhaustive frame-by-frame review"
+    },
+    {
+      "key": "battle.field.nature",
+      "source": "Skill.nx/231.img/skill/2311003/effect",
+      "usage": "Natural Order equipment suppression ground sigil",
+      "correspondence": "thematic substitute: Holy Symbol sigil with foliage, no poison damage",
+      "frames": 18,
+      "duration_ms": 1530,
+      "default_facing": "left",
+      "anchors_and_timing": "assets/manifest.json sprites/battle.field.nature",
+      "runtime_review": "--preview-domain 4/5 and --battle-scene 3: native distinct field identity and suppression UI sampled; not exhaustive frame-by-frame review"
+    },
+    {
+      "key": "battle.field.fire",
+      "source": "Skill.nx/312.img/skill/3121006/tile/0",
+      "usage": "Ground flames",
+      "correspondence": "exact",
+      "frames": 4,
+      "duration_ms": 480,
+      "default_facing": "left",
+      "anchors_and_timing": "assets/manifest.json sprites/battle.field.fire",
+      "runtime_review": "--preview-domain 4: native player ground flames sampled; not exhaustive frame-by-frame review"
+    },
+    {
+      "key": "battle.shot.card",
+      "source": "UI.nx/UIWindow.img/Minigame/MemoryGame/card/back0",
+      "usage": "Phantom card projectile",
+      "correspondence": "thematic substitute: original Memory Game card back; not Phantom skill artwork or a skill icon",
+      "frames": 1,
+      "duration_ms": 100,
+      "default_facing": "left",
+      "anchors_and_timing": "assets/manifest.json sprites/battle.shot.card",
+      "runtime_review": "--vfx-scene 12: native fusion scene sampled; substitute card source also inspected; not exhaustive frame-by-frame review"
+    },
+    {
+      "key": "battle.hostile.boss.hit",
+      "source": "Mob.nx/6130101.img/attack1/info/hit",
+      "usage": "boss impact",
+      "correspondence": "exact",
+      "frames": 1,
+      "duration_ms": 50,
+      "default_facing": "left",
+      "anchors_and_timing": "assets/manifest.json sprites/battle.hostile.boss.hit",
+      "runtime_review": "source/export verified; runtime mapping integrated, not individually visually reviewed"
+    },
+    {
+      "key": "battle.hostile.boss_stumpy.ball",
+      "source": "Mob.nx/3220000.img/attack2/info/ball",
+      "usage": "boss_stumpy flying projectile",
+      "correspondence": "exact",
+      "frames": 4,
+      "duration_ms": 360,
+      "default_facing": "left",
+      "anchors_and_timing": "assets/manifest.json sprites/battle.hostile.boss_stumpy.ball",
+      "runtime_review": "source/export verified; runtime mapping integrated, not individually visually reviewed"
+    },
+    {
+      "key": "battle.hostile.boss_stumpy.hit",
+      "source": "Mob.nx/3220000.img/attack2/info/hit",
+      "usage": "boss_stumpy impact",
+      "correspondence": "exact",
+      "frames": 5,
+      "duration_ms": 300,
+      "default_facing": "left",
+      "anchors_and_timing": "assets/manifest.json sprites/battle.hostile.boss_stumpy.hit",
+      "runtime_review": "source/export verified; runtime mapping integrated, not individually visually reviewed"
+    },
+    {
+      "key": "battle.hostile.boss_king_slime.hit",
+      "source": "Mob.nx/9300003.img/attack1/info/hit",
+      "usage": "boss_king_slime impact",
+      "correspondence": "exact",
+      "frames": 1,
+      "duration_ms": 50,
+      "default_facing": "left",
+      "anchors_and_timing": "assets/manifest.json sprites/battle.hostile.boss_king_slime.hit",
+      "runtime_review": "source/export verified; runtime mapping integrated, not individually visually reviewed"
+    },
+    {
+      "key": "battle.hostile.boss_golem.hit",
+      "source": "Mob.nx/8210005.img/attack1/info/hit",
+      "usage": "boss_golem impact",
+      "correspondence": "exact",
+      "frames": 5,
+      "duration_ms": 500,
+      "default_facing": "left",
+      "anchors_and_timing": "assets/manifest.json sprites/battle.hostile.boss_golem.hit",
+      "runtime_review": "source/export verified; runtime mapping integrated, not individually visually reviewed"
+    },
+    {
+      "key": "battle.hostile.boss_balrog.ball",
+      "source": "Mob.nx/8150000.img/attack1/info/ball",
+      "usage": "boss_balrog flying projectile",
+      "correspondence": "exact",
+      "frames": 3,
+      "duration_ms": 300,
+      "default_facing": "left",
+      "anchors_and_timing": "assets/manifest.json sprites/battle.hostile.boss_balrog.ball",
+      "runtime_review": "source/export verified; runtime mapping integrated, not individually visually reviewed"
+    },
+    {
+      "key": "battle.hostile.boss_balrog.hit",
+      "source": "Mob.nx/8150000.img/attack1/info/hit",
+      "usage": "boss_balrog impact",
+      "correspondence": "exact",
+      "frames": 3,
+      "duration_ms": 300,
+      "default_facing": "left",
+      "anchors_and_timing": "assets/manifest.json sprites/battle.hostile.boss_balrog.hit",
+      "runtime_review": "source/export verified; runtime mapping integrated, not individually visually reviewed"
+    },
+    {
+      "key": "battle.hostile.enemy.lupin.hit",
+      "source": "Mob.nx/3210800.img/attack1/info/hit",
+      "usage": "enemy.lupin impact",
+      "correspondence": "exact",
+      "frames": 6,
+      "duration_ms": 460,
+      "default_facing": "left",
+      "anchors_and_timing": "assets/manifest.json sprites/battle.hostile.enemy.lupin.hit",
+      "runtime_review": "source/export verified; runtime mapping integrated, not individually visually reviewed"
+    },
+    {
+      "key": "battle.hostile.enemy.skeleton.hit",
+      "source": "Mob.nx/5150001.img/attack1/info/hit",
+      "usage": "enemy.skeleton impact",
+      "correspondence": "exact",
+      "frames": 2,
+      "duration_ms": 200,
+      "default_facing": "left",
+      "anchors_and_timing": "assets/manifest.json sprites/battle.hostile.enemy.skeleton.hit",
+      "runtime_review": "source/export verified; runtime mapping integrated, not individually visually reviewed"
+    },
+    {
+      "key": "battle.hostile.boss_snowman.ball",
+      "source": "Mob.nx/8220001.img/attack1/info/ball",
+      "usage": "boss_snowman flying projectile",
+      "correspondence": "exact",
+      "frames": 3,
+      "duration_ms": 270,
+      "default_facing": "left",
+      "anchors_and_timing": "assets/manifest.json sprites/battle.hostile.boss_snowman.ball",
+      "runtime_review": "--preview-boss 6: native straight projectile and telegraph sequence sampled; not exhaustive frame-by-frame review"
+    },
+    {
+      "key": "battle.hostile.boss_snowman.hit",
+      "source": "Mob.nx/8220001.img/attack1/info/hit",
+      "usage": "boss_snowman impact",
+      "correspondence": "exact",
+      "frames": 5,
+      "duration_ms": 450,
+      "default_facing": "left",
+      "anchors_and_timing": "assets/manifest.json sprites/battle.hostile.boss_snowman.hit",
+      "runtime_review": "--preview-boss 6: native straight projectile and telegraph sequence sampled; not exhaustive frame-by-frame review"
+    },
+    {
+      "key": "battle.hostile.boss_pirate.hit",
+      "source": "Mob.nx/9300119.img/attack1/info/hit",
+      "usage": "boss_pirate impact",
+      "correspondence": "exact",
+      "frames": 3,
+      "duration_ms": 360,
+      "default_facing": "left",
+      "anchors_and_timing": "assets/manifest.json sprites/battle.hostile.boss_pirate.hit",
+      "runtime_review": "source/export verified; runtime mapping integrated, not individually visually reviewed"
+    },
+    {
+      "key": "battle.hostile.boss_clockwork.hit",
+      "source": "Mob.nx/8500001.img/attack1/info/hit",
+      "usage": "boss_clockwork impact",
+      "correspondence": "exact",
+      "frames": 7,
+      "duration_ms": 720,
+      "default_facing": "left",
+      "anchors_and_timing": "assets/manifest.json sprites/battle.hostile.boss_clockwork.hit",
+      "runtime_review": "source/export verified; runtime mapping integrated, not individually visually reviewed"
+    },
+    {
+      "key": "battle.hostile.boss_leviathan.hit",
+      "source": "Mob.nx/8220003.img/attack1/info/hit",
+      "usage": "boss_leviathan impact",
+      "correspondence": "exact",
+      "frames": 8,
+      "duration_ms": 960,
+      "default_facing": "left",
+      "anchors_and_timing": "assets/manifest.json sprites/battle.hostile.boss_leviathan.hit",
+      "runtime_review": "source/export verified; runtime mapping integrated, not individually visually reviewed"
+    },
+    {
+      "key": "battle.hostile.boss_cactus.hit",
+      "source": "Mob.nx/3220001.img/attack1/info/hit",
+      "usage": "boss_cactus impact",
+      "correspondence": "exact",
+      "frames": 11,
+      "duration_ms": 990,
+      "default_facing": "left",
+      "anchors_and_timing": "assets/manifest.json sprites/battle.hostile.boss_cactus.hit",
+      "runtime_review": "source/export verified; runtime mapping integrated, not individually visually reviewed"
+    },
+    {
+      "key": "battle.hostile.boss_faust.ball",
+      "source": "Mob.nx/5220002.img/attack1/info/ball",
+      "usage": "boss_faust flying projectile",
+      "correspondence": "exact",
+      "frames": 4,
+      "duration_ms": 240,
+      "default_facing": "left",
+      "anchors_and_timing": "assets/manifest.json sprites/battle.hostile.boss_faust.ball",
+      "runtime_review": "--preview-boss 11: native tracking projectile, 12-second attack cycle sampled; not exhaustive frame-by-frame review"
+    },
+    {
+      "key": "battle.hostile.boss_faust.hit",
+      "source": "Mob.nx/5220002.img/attack1/info/hit",
+      "usage": "boss_faust impact",
+      "correspondence": "exact",
+      "frames": 3,
+      "duration_ms": 270,
+      "default_facing": "left",
+      "anchors_and_timing": "assets/manifest.json sprites/battle.hostile.boss_faust.hit",
+      "runtime_review": "--preview-boss 11: native tracking projectile, 12-second attack cycle sampled; not exhaustive frame-by-frame review"
+    },
+    {
+      "key": "battle.hostile.enemy.moon_pixie.ball",
+      "source": "Mob.nx/4230106.img/attack1/info/ball",
+      "usage": "enemy.moon_pixie flying projectile",
+      "correspondence": "exact",
+      "frames": 3,
+      "duration_ms": 300,
+      "default_facing": "left",
+      "anchors_and_timing": "assets/manifest.json sprites/battle.hostile.enemy.moon_pixie.ball",
+      "runtime_review": "source/export verified; runtime mapping integrated, not individually visually reviewed"
+    },
+    {
+      "key": "battle.hostile.enemy.moon_pixie.hit",
+      "source": "Mob.nx/4230106.img/attack1/info/hit",
+      "usage": "enemy.moon_pixie impact",
+      "correspondence": "exact",
+      "frames": 4,
+      "duration_ms": 440,
+      "default_facing": "left",
+      "anchors_and_timing": "assets/manifest.json sprites/battle.hostile.enemy.moon_pixie.hit",
+      "runtime_review": "source/export verified; runtime mapping integrated, not individually visually reviewed"
+    },
+    {
+      "key": "battle.hostile.enemy.zombie.hit",
+      "source": "Mob.nx/5130107.img/attack1/info/hit",
+      "usage": "enemy.zombie impact",
+      "correspondence": "exact",
+      "frames": 5,
+      "duration_ms": 570,
+      "default_facing": "left",
+      "anchors_and_timing": "assets/manifest.json sprites/battle.hostile.enemy.zombie.hit",
+      "runtime_review": "source/export verified; runtime mapping integrated, not individually visually reviewed"
+    },
+    {
+      "key": "battle.hostile.enemy.panda.hit",
+      "source": "Mob.nx/6130203.img/attack1/info/hit",
+      "usage": "enemy.panda impact",
+      "correspondence": "exact",
+      "frames": 4,
+      "duration_ms": 480,
+      "default_facing": "left",
+      "anchors_and_timing": "assets/manifest.json sprites/battle.hostile.enemy.panda.hit",
+      "runtime_review": "source/export verified; runtime mapping integrated, not individually visually reviewed"
+    },
+    {
+      "key": "battle.hostile.enemy.pirate_crew.hit",
+      "source": "Mob.nx/9300121.img/attack1/info/hit",
+      "usage": "enemy.pirate_crew impact",
+      "correspondence": "exact",
+      "frames": 4,
+      "duration_ms": 360,
+      "default_facing": "left",
+      "anchors_and_timing": "assets/manifest.json sprites/battle.hostile.enemy.pirate_crew.hit",
+      "runtime_review": "source/export verified; runtime mapping integrated, not individually visually reviewed"
+    },
+    {
+      "key": "battle.hostile.enemy.zombie_lupin.hit",
+      "source": "Mob.nx/4230101.img/attack1/info/hit",
+      "usage": "enemy.zombie_lupin impact",
+      "correspondence": "exact",
+      "frames": 6,
+      "duration_ms": 460,
+      "default_facing": "left",
+      "anchors_and_timing": "assets/manifest.json sprites/battle.hostile.enemy.zombie_lupin.hit",
+      "runtime_review": "source/export verified; runtime mapping integrated, not individually visually reviewed"
+    },
+    {
+      "key": "battle.hostile.enemy.clown.hit",
+      "source": "Mob.nx/6230300.img/attack1/info/hit",
+      "usage": "enemy.clown impact",
+      "correspondence": "exact",
+      "frames": 1,
+      "duration_ms": 300,
+      "default_facing": "left",
+      "anchors_and_timing": "assets/manifest.json sprites/battle.hostile.enemy.clown.hit",
+      "runtime_review": "source/export verified; runtime mapping integrated, not individually visually reviewed"
+    },
+    {
+      "key": "battle.hostile.enemy.possessed_doll.hit",
+      "source": "Mob.nx/6230400.img/attack1/info/hit",
+      "usage": "enemy.possessed_doll impact",
+      "correspondence": "exact",
+      "frames": 2,
+      "duration_ms": 370,
+      "default_facing": "left",
+      "anchors_and_timing": "assets/manifest.json sprites/battle.hostile.enemy.possessed_doll.hit",
+      "runtime_review": "source/export verified; runtime mapping integrated, not individually visually reviewed"
+    },
+    {
+      "key": "battle.hostile.enemy.adult_yeti.hit",
+      "source": "Mob.nx/6300000.img/attack1/info/hit",
+      "usage": "enemy.adult_yeti impact",
+      "correspondence": "exact",
+      "frames": 4,
+      "duration_ms": 400,
+      "default_facing": "left",
+      "anchors_and_timing": "assets/manifest.json sprites/battle.hostile.enemy.adult_yeti.hit",
+      "runtime_review": "source/export verified; runtime mapping integrated, not individually visually reviewed"
+    },
+    {
+      "key": "battle.hostile.enemy.gryphon.hit",
+      "source": "Mob.nx/7130000.img/attack1/info/hit",
+      "usage": "enemy.gryphon impact",
+      "correspondence": "exact",
+      "frames": 1,
+      "duration_ms": 300,
+      "default_facing": "left",
+      "anchors_and_timing": "assets/manifest.json sprites/battle.hostile.enemy.gryphon.hit",
+      "runtime_review": "source/export verified; runtime mapping integrated, not individually visually reviewed"
+    },
+    {
+      "key": "battle.hostile.enemy.minotaur.hit",
+      "source": "Mob.nx/7130100.img/attack1/info/hit",
+      "usage": "enemy.minotaur impact",
+      "correspondence": "exact",
+      "frames": 3,
+      "duration_ms": 300,
+      "default_facing": "left",
+      "anchors_and_timing": "assets/manifest.json sprites/battle.hostile.enemy.minotaur.hit",
+      "runtime_review": "source/export verified; runtime mapping integrated, not individually visually reviewed"
+    },
+    {
+      "key": "battle.hostile.enemy.grandfather_clock.hit",
+      "source": "Mob.nx/8140200.img/attack1/info/hit",
+      "usage": "enemy.grandfather_clock impact",
+      "correspondence": "exact",
+      "frames": 1,
+      "duration_ms": 300,
+      "default_facing": "left",
+      "anchors_and_timing": "assets/manifest.json sprites/battle.hostile.enemy.grandfather_clock.hit",
+      "runtime_review": "source/export verified; runtime mapping integrated, not individually visually reviewed"
+    },
+    {
+      "key": "battle.hostile.enemy.hellhound.ball",
+      "source": "Mob.nx/8140500.img/attack1/info/ball",
+      "usage": "enemy.hellhound flying projectile",
+      "correspondence": "exact",
+      "frames": 2,
+      "duration_ms": 300,
+      "default_facing": "left",
+      "anchors_and_timing": "assets/manifest.json sprites/battle.hostile.enemy.hellhound.ball",
+      "runtime_review": "source/export verified; runtime mapping integrated, not individually visually reviewed"
+    },
+    {
+      "key": "battle.hostile.enemy.hellhound.hit",
+      "source": "Mob.nx/8140500.img/attack1/info/hit",
+      "usage": "enemy.hellhound impact",
+      "correspondence": "exact",
+      "frames": 3,
+      "duration_ms": 500,
+      "default_facing": "left",
+      "anchors_and_timing": "assets/manifest.json sprites/battle.hostile.enemy.hellhound.hit",
+      "runtime_review": "source/export verified; runtime mapping integrated, not individually visually reviewed"
+    },
+    {
+      "key": "battle.hostile.enemy.bonefish.hit",
+      "source": "Mob.nx/8140600.img/attack1/info/hit",
+      "usage": "enemy.bonefish impact",
+      "correspondence": "exact",
+      "frames": 2,
+      "duration_ms": 200,
+      "default_facing": "left",
+      "anchors_and_timing": "assets/manifest.json sprites/battle.hostile.enemy.bonefish.hit",
+      "runtime_review": "source/export verified; runtime mapping integrated, not individually visually reviewed"
+    },
+    {
+      "key": "battle.hostile.enemy.shark.ball",
+      "source": "Mob.nx/8150100.img/attack1/info/ball",
+      "usage": "enemy.shark flying projectile",
+      "correspondence": "exact",
+      "frames": 3,
+      "duration_ms": 300,
+      "default_facing": "left",
+      "anchors_and_timing": "assets/manifest.json sprites/battle.hostile.enemy.shark.ball",
+      "runtime_review": "source/export verified; runtime mapping integrated, not individually visually reviewed"
+    },
+    {
+      "key": "battle.hostile.enemy.shark.hit",
+      "source": "Mob.nx/8150100.img/attack1/info/hit",
+      "usage": "enemy.shark impact",
+      "correspondence": "exact",
+      "frames": 2,
+      "duration_ms": 380,
+      "default_facing": "left",
+      "anchors_and_timing": "assets/manifest.json sprites/battle.hostile.enemy.shark.hit",
+      "runtime_review": "source/export verified; runtime mapping integrated, not individually visually reviewed"
+    },
+    {
+      "key": "battle.hostile.enemy.lizardman.hit",
+      "source": "Mob.nx/8150200.img/attack1/info/hit",
+      "usage": "enemy.lizardman impact",
+      "correspondence": "exact",
+      "frames": 3,
+      "duration_ms": 600,
+      "default_facing": "left",
+      "anchors_and_timing": "assets/manifest.json sprites/battle.hostile.enemy.lizardman.hit",
+      "runtime_review": "source/export verified; runtime mapping integrated, not individually visually reviewed"
+    },
+    {
+      "key": "battle.hostile.enemy.gatekeeper.hit",
+      "source": "Mob.nx/8160000.img/attack1/info/hit",
+      "usage": "enemy.gatekeeper impact",
+      "correspondence": "exact",
+      "frames": 1,
+      "duration_ms": 300,
+      "default_facing": "left",
+      "anchors_and_timing": "assets/manifest.json sprites/battle.hostile.enemy.gatekeeper.hit",
+      "runtime_review": "source/export verified; runtime mapping integrated, not individually visually reviewed"
+    },
+    {
+      "key": "battle.hostile.enemy.armored_wraith.hit",
+      "source": "Mob.nx/8170000.img/attack1/info/hit",
+      "usage": "enemy.armored_wraith impact",
+      "correspondence": "exact",
+      "frames": 1,
+      "duration_ms": 300,
+      "default_facing": "left",
+      "anchors_and_timing": "assets/manifest.json sprites/battle.hostile.enemy.armored_wraith.hit",
+      "runtime_review": "source/export verified; runtime mapping integrated, not individually visually reviewed"
+    },
+    {
+      "key": "battle.hostile.enemy.time_eye.hit",
+      "source": "Mob.nx/8200000.img/attack1/info/hit",
+      "usage": "enemy.time_eye impact",
+      "correspondence": "exact",
+      "frames": 5,
+      "duration_ms": 450,
+      "default_facing": "left",
+      "anchors_and_timing": "assets/manifest.json sprites/battle.hostile.enemy.time_eye.hit",
+      "runtime_review": "source/export verified; runtime mapping integrated, not individually visually reviewed"
+    },
+    {
+      "key": "battle.hostile.enemy.time_priest.hit",
+      "source": "Mob.nx/8200001.img/attack1/info/hit",
+      "usage": "enemy.time_priest impact",
+      "correspondence": "exact",
+      "frames": 4,
+      "duration_ms": 360,
+      "default_facing": "left",
+      "anchors_and_timing": "assets/manifest.json sprites/battle.hostile.enemy.time_priest.hit",
+      "runtime_review": "source/export verified; runtime mapping integrated, not individually visually reviewed"
+    },
+    {
+      "key": "battle.hostile.enemy.time_sentinel.hit",
+      "source": "Mob.nx/8200003.img/attack1/info/hit",
+      "usage": "enemy.time_sentinel impact",
+      "correspondence": "exact",
+      "frames": 5,
+      "duration_ms": 450,
+      "default_facing": "left",
+      "anchors_and_timing": "assets/manifest.json sprites/battle.hostile.enemy.time_sentinel.hit",
+      "runtime_review": "source/export verified; runtime mapping integrated, not individually visually reviewed"
+    },
+    {
+      "key": "battle.hostile.enemy.bubble_king.ball",
+      "source": "Mob.nx/3230103.img/attack1/info/ball",
+      "usage": "enemy.bubble_king flying projectile",
+      "correspondence": "exact",
+      "frames": 3,
+      "duration_ms": 300,
+      "default_facing": "left",
+      "anchors_and_timing": "assets/manifest.json sprites/battle.hostile.enemy.bubble_king.ball",
+      "runtime_review": "source/export verified; runtime mapping integrated, not individually visually reviewed"
+    },
+    {
+      "key": "battle.hostile.enemy.bubble_king.hit",
+      "source": "Mob.nx/3230103.img/attack1/info/hit",
+      "usage": "enemy.bubble_king impact",
+      "correspondence": "exact",
+      "frames": 2,
+      "duration_ms": 330,
+      "default_facing": "left",
+      "anchors_and_timing": "assets/manifest.json sprites/battle.hostile.enemy.bubble_king.hit",
+      "runtime_review": "source/export verified; runtime mapping integrated, not individually visually reviewed"
+    },
+    {
+      "key": "battle.hostile.enemy.carnivorous_plant.hit",
+      "source": "Mob.nx/4230105.img/attack1/info/hit",
+      "usage": "enemy.carnivorous_plant impact",
+      "correspondence": "exact",
+      "frames": 6,
+      "duration_ms": 600,
+      "default_facing": "left",
+      "anchors_and_timing": "assets/manifest.json sprites/battle.hostile.enemy.carnivorous_plant.hit",
+      "runtime_review": "source/export verified; runtime mapping integrated, not individually visually reviewed"
+    },
+    {
+      "key": "battle.hostile.enemy.alien.hit",
+      "source": "Mob.nx/4230116.img/attack1/info/hit",
+      "usage": "enemy.alien impact",
+      "correspondence": "exact",
+      "frames": 3,
+      "duration_ms": 360,
+      "default_facing": "left",
+      "anchors_and_timing": "assets/manifest.json sprites/battle.hostile.enemy.alien.hit",
+      "runtime_review": "source/export verified; runtime mapping integrated, not individually visually reviewed"
+    },
+    {
+      "key": "battle.hostile.boss_giant_crab.hit",
+      "source": "Mob.nx/5220000.img/attack1/info/hit",
+      "usage": "boss_giant_crab impact",
+      "correspondence": "exact",
+      "frames": 3,
+      "duration_ms": 360,
+      "default_facing": "left",
+      "anchors_and_timing": "assets/manifest.json sprites/battle.hostile.boss_giant_crab.hit",
+      "runtime_review": "source/export verified; runtime mapping integrated, not individually visually reviewed"
+    },
+    {
+      "key": "battle.hostile.boss_zeno.hit",
+      "source": "Mob.nx/6220001.img/attack1/info/hit",
+      "usage": "boss_zeno impact",
+      "correspondence": "exact",
+      "frames": 5,
+      "duration_ms": 600,
+      "default_facing": "left",
+      "anchors_and_timing": "assets/manifest.json sprites/battle.hostile.boss_zeno.hit",
+      "runtime_review": "source/export verified; runtime mapping integrated, not individually visually reviewed"
+    },
+    {
+      "key": "battle.hostile.boss_tae_roon.ball",
+      "source": "Mob.nx/7220000.img/attack2/info/ball",
+      "usage": "boss_tae_roon flying projectile",
+      "correspondence": "exact",
+      "frames": 6,
+      "duration_ms": 540,
+      "default_facing": "left",
+      "anchors_and_timing": "assets/manifest.json sprites/battle.hostile.boss_tae_roon.ball",
+      "runtime_review": "source/export verified; runtime mapping integrated, not individually visually reviewed"
+    },
+    {
+      "key": "battle.hostile.boss_tae_roon.hit",
+      "source": "Mob.nx/7220000.img/attack2/info/hit",
+      "usage": "boss_tae_roon impact",
+      "correspondence": "exact",
+      "frames": 8,
+      "duration_ms": 720,
+      "default_facing": "left",
+      "anchors_and_timing": "assets/manifest.json sprites/battle.hostile.boss_tae_roon.hit",
+      "runtime_review": "source/export verified; runtime mapping integrated, not individually visually reviewed"
+    },
+    {
+      "key": "battle.hostile.boss_nine_tail.hit",
+      "source": "Mob.nx/7220001.img/attack1/info/hit",
+      "usage": "boss_nine_tail impact",
+      "correspondence": "exact",
+      "frames": 4,
+      "duration_ms": 480,
+      "default_facing": "left",
+      "anchors_and_timing": "assets/manifest.json sprites/battle.hostile.boss_nine_tail.hit",
+      "runtime_review": "source/export verified; runtime mapping integrated, not individually visually reviewed"
+    },
+    {
+      "key": "battle.hostile.boss_eliza.hit",
+      "source": "Mob.nx/8220000.img/attack1/info/hit",
+      "usage": "boss_eliza impact",
+      "correspondence": "exact",
+      "frames": 4,
+      "duration_ms": 480,
+      "default_facing": "left",
+      "anchors_and_timing": "assets/manifest.json sprites/battle.hostile.boss_eliza.hit",
+      "runtime_review": "source/export verified; runtime mapping integrated, not individually visually reviewed"
+    },
+    {
+      "key": "battle.hostile.boss_chimera.ball",
+      "source": "Mob.nx/8220002.img/attack1/info/ball",
+      "usage": "boss_chimera flying projectile",
+      "correspondence": "exact",
+      "frames": 5,
+      "duration_ms": 500,
+      "default_facing": "left",
+      "anchors_and_timing": "assets/manifest.json sprites/battle.hostile.boss_chimera.ball",
+      "runtime_review": "source/export verified; runtime mapping integrated, not individually visually reviewed"
+    },
+    {
+      "key": "battle.hostile.boss_chimera.hit",
+      "source": "Mob.nx/8220002.img/attack1/info/hit",
+      "usage": "boss_chimera impact",
+      "correspondence": "exact",
+      "frames": 6,
+      "duration_ms": 720,
+      "default_facing": "left",
+      "anchors_and_timing": "assets/manifest.json sprites/battle.hostile.boss_chimera.hit",
+      "runtime_review": "source/export verified; runtime mapping integrated, not individually visually reviewed"
+    },
+    {
+      "key": "battle.hostile.boss_dodo.ball",
+      "source": "Mob.nx/8220004.img/attack1/info/ball",
+      "usage": "boss_dodo flying projectile",
+      "correspondence": "exact",
+      "frames": 4,
+      "duration_ms": 480,
+      "default_facing": "left",
+      "anchors_and_timing": "assets/manifest.json sprites/battle.hostile.boss_dodo.ball",
+      "runtime_review": "source/export verified; runtime mapping integrated, not individually visually reviewed"
+    },
+    {
+      "key": "battle.hostile.boss_dodo.hit",
+      "source": "Mob.nx/8220004.img/attack1/info/hit",
+      "usage": "boss_dodo impact",
+      "correspondence": "exact",
+      "frames": 5,
+      "duration_ms": 300,
+      "default_facing": "left",
+      "anchors_and_timing": "assets/manifest.json sprites/battle.hostile.boss_dodo.hit",
+      "runtime_review": "source/export verified; runtime mapping integrated, not individually visually reviewed"
+    },
+    {
+      "key": "battle.hostile.boss_lilynouch.hit",
+      "source": "Mob.nx/8220005.img/attack1/info/hit",
+      "usage": "boss_lilynouch impact",
+      "correspondence": "exact",
+      "frames": 14,
+      "duration_ms": 1260,
+      "default_facing": "left",
+      "anchors_and_timing": "assets/manifest.json sprites/battle.hostile.boss_lilynouch.hit",
+      "runtime_review": "source/export verified; runtime mapping integrated, not individually visually reviewed"
+    },
+    {
+      "key": "battle.hostile.boss_lyka.hit",
+      "source": "Mob.nx/8220006.img/attack1/info/hit",
+      "usage": "boss_lyka impact",
+      "correspondence": "exact",
+      "frames": 2,
+      "duration_ms": 480,
+      "default_facing": "left",
+      "anchors_and_timing": "assets/manifest.json sprites/battle.hostile.boss_lyka.hit",
+      "runtime_review": "source/export verified; runtime mapping integrated, not individually visually reviewed"
+    },
+    {
+      "key": "battle.hostile.boss_manon.hit",
+      "source": "Mob.nx/8180000.img/attack1/info/hit",
+      "usage": "boss_manon impact",
+      "correspondence": "exact",
+      "frames": 7,
+      "duration_ms": 910,
+      "default_facing": "left",
+      "anchors_and_timing": "assets/manifest.json sprites/battle.hostile.boss_manon.hit",
+      "runtime_review": "source/export verified; runtime mapping integrated, not individually visually reviewed"
+    },
+    {
+      "key": "battle.hostile.boss_griffey.hit",
+      "source": "Mob.nx/8180001.img/attack1/info/hit",
+      "usage": "boss_griffey impact",
+      "correspondence": "exact",
+      "frames": 8,
+      "duration_ms": 800,
+      "default_facing": "left",
+      "anchors_and_timing": "assets/manifest.json sprites/battle.hostile.boss_griffey.hit",
+      "runtime_review": "source/export verified; runtime mapping integrated, not individually visually reviewed"
+    }
+  ],
+  "enemy_attacks": {
+    "boss": {
+      "body_action": "attack1",
+      "projectile": "battle.shot.arcane",
+      "impact": "battle.hostile.boss.hit",
+      "correspondence": "thematic substitute",
+      "searched": [
+        "6130101.img/attack1/info"
+      ],
+      "source_mob": "6130101.img",
+      "note": "No ball node in source attacks; keeps existing game attack behavior with a named original same-theme projectile.",
+      "runtime_review": "source mapping verified; individual native attack sequence not reviewed"
+    },
+    "boss_stumpy": {
+      "body_action": "attack2",
+      "projectile": "battle.hostile.boss_stumpy.ball",
+      "impact": "battle.hostile.boss_stumpy.hit",
+      "correspondence": "exact",
+      "searched": [
+        "3220000.img/attack1/info",
+        "3220000.img/attack2/info"
+      ],
+      "source_mob": "3220000.img",
+      "note": "",
+      "runtime_review": "source mapping verified; individual native attack sequence not reviewed"
+    },
+    "boss_king_slime": {
+      "body_action": "attack1",
+      "projectile": "battle.shot.bubble",
+      "impact": "battle.hostile.boss_king_slime.hit",
+      "correspondence": "thematic substitute",
+      "searched": [
+        "9300003.img/attack1/info"
+      ],
+      "source_mob": "9300003.img",
+      "note": "No ball node in source attacks; keeps existing game attack behavior with a named original same-theme projectile.",
+      "runtime_review": "source mapping verified; individual native attack sequence not reviewed"
+    },
+    "boss_snail_king": {
+      "body_action": "attack1",
+      "projectile": "battle.shot.seed",
+      "impact": "battle.shot.seed.hit",
+      "correspondence": "thematic substitute",
+      "searched": [],
+      "source_mob": "2220000.img",
+      "note": "No ball node in source attacks; keeps existing game attack behavior with a named original same-theme projectile.",
+      "runtime_review": "source mapping verified; individual native attack sequence not reviewed"
+    },
+    "boss_golem": {
+      "body_action": "attack1",
+      "projectile": "battle.shot.arcane",
+      "impact": "battle.hostile.boss_golem.hit",
+      "correspondence": "thematic substitute",
+      "searched": [
+        "8210005.img/attack1/info"
+      ],
+      "source_mob": "8210005.img",
+      "note": "No ball node in source attacks; keeps existing game attack behavior with a named original same-theme projectile.",
+      "runtime_review": "source mapping verified; individual native attack sequence not reviewed"
+    },
+    "boss_balrog": {
+      "body_action": "attack1",
+      "projectile": "battle.hostile.boss_balrog.ball",
+      "impact": "battle.hostile.boss_balrog.hit",
+      "correspondence": "exact",
+      "searched": [
+        "8150000.img/attack1/info",
+        "8150000.img/attack2/info"
+      ],
+      "source_mob": "8150000.img",
+      "note": "",
+      "runtime_review": "source mapping verified; individual native attack sequence not reviewed"
+    },
+    "enemy.slime": {
+      "body_action": "attack1",
+      "projectile": "battle.shot.bubble",
+      "impact": "battle.shot.bubble.hit",
+      "correspondence": "thematic substitute",
+      "searched": [],
+      "source_mob": "0210100.img",
+      "note": "No ball node in source attacks; keeps existing game attack behavior with a named original same-theme projectile.",
+      "runtime_review": "source mapping verified; individual native attack sequence not reviewed"
+    },
+    "enemy.mushroom": {
+      "body_action": "attack1",
+      "projectile": "battle.shot.seed",
+      "impact": "battle.shot.seed.hit",
+      "correspondence": "thematic substitute",
+      "searched": [],
+      "source_mob": "0120100.img",
+      "note": "No ball node in source attacks; keeps existing game attack behavior with a named original same-theme projectile.",
+      "runtime_review": "source mapping verified; individual native attack sequence not reviewed"
+    },
+    "enemy.blue_mushroom": {
+      "body_action": "attack1",
+      "projectile": "battle.shot.seed",
+      "impact": "battle.shot.seed.hit",
+      "correspondence": "thematic substitute",
+      "searched": [],
+      "source_mob": "2220100.img",
+      "note": "No ball node in source attacks; keeps existing game attack behavior with a named original same-theme projectile.",
+      "runtime_review": "source mapping verified; individual native attack sequence not reviewed"
+    },
+    "enemy.pig": {
+      "body_action": "attack1",
+      "projectile": "battle.shot.arcane",
+      "impact": "battle.shot.arcane.hit",
+      "correspondence": "thematic substitute",
+      "searched": [],
+      "source_mob": "1210100.img",
+      "note": "No ball node in source attacks; keeps existing game attack behavior with a named original same-theme projectile.",
+      "runtime_review": "source mapping verified; individual native attack sequence not reviewed"
+    },
+    "enemy.wild_boar": {
+      "body_action": "attack1",
+      "projectile": "battle.shot.arcane",
+      "impact": "battle.shot.arcane.hit",
+      "correspondence": "thematic substitute",
+      "searched": [],
+      "source_mob": "2230102.img",
+      "note": "No ball node in source attacks; keeps existing game attack behavior with a named original same-theme projectile.",
+      "runtime_review": "source mapping verified; individual native attack sequence not reviewed"
+    },
+    "enemy.snail": {
+      "body_action": "attack1",
+      "projectile": "battle.shot.seed",
+      "impact": "battle.shot.seed.hit",
+      "correspondence": "thematic substitute",
+      "searched": [],
+      "source_mob": "0100100.img",
+      "note": "No ball node in source attacks; keeps existing game attack behavior with a named original same-theme projectile.",
+      "runtime_review": "source mapping verified; individual native attack sequence not reviewed"
+    },
+    "enemy.stump": {
+      "body_action": "attack1",
+      "projectile": "battle.shot.seed",
+      "impact": "battle.shot.seed.hit",
+      "correspondence": "thematic substitute",
+      "searched": [],
+      "source_mob": "0130100.img",
+      "note": "No ball node in source attacks; keeps existing game attack behavior with a named original same-theme projectile.",
+      "runtime_review": "source mapping verified; individual native attack sequence not reviewed"
+    },
+    "enemy.octopus": {
+      "body_action": "attack1",
+      "projectile": "battle.shot.arcane",
+      "impact": "battle.shot.arcane.hit",
+      "correspondence": "thematic substitute",
+      "searched": [],
+      "source_mob": "1120100.img",
+      "note": "No ball node in source attacks; keeps existing game attack behavior with a named original same-theme projectile.",
+      "runtime_review": "source mapping verified; individual native attack sequence not reviewed"
+    },
+    "enemy.snake": {
+      "body_action": "attack1",
+      "projectile": "battle.shot.arcane",
+      "impact": "battle.shot.arcane.hit",
+      "correspondence": "thematic substitute",
+      "searched": [],
+      "source_mob": "2130103.img",
+      "note": "No ball node in source attacks; keeps existing game attack behavior with a named original same-theme projectile.",
+      "runtime_review": "source mapping verified; individual native attack sequence not reviewed"
+    },
+    "enemy.lupin": {
+      "body_action": "attack1",
+      "projectile": "battle.shot.curse",
+      "impact": "battle.hostile.enemy.lupin.hit",
+      "correspondence": "thematic substitute",
+      "searched": [
+        "3210800.img/attack1/info"
+      ],
+      "source_mob": "3210800.img",
+      "note": "No ball node in source attacks; keeps existing game attack behavior with a named original same-theme projectile.",
+      "runtime_review": "source mapping verified; individual native attack sequence not reviewed"
+    },
+    "enemy.wood_mask": {
+      "body_action": "attack1",
+      "projectile": "battle.shot.arcane",
+      "impact": "battle.shot.arcane.hit",
+      "correspondence": "thematic substitute",
+      "searched": [],
+      "source_mob": "2230110.img",
+      "note": "No ball node in source attacks; keeps existing game attack behavior with a named original same-theme projectile.",
+      "runtime_review": "source mapping verified; individual native attack sequence not reviewed"
+    },
+    "enemy.stone_mask": {
+      "body_action": "attack1",
+      "projectile": "battle.shot.arcane",
+      "impact": "battle.shot.arcane.hit",
+      "correspondence": "thematic substitute",
+      "searched": [],
+      "source_mob": "2230111.img",
+      "note": "No ball node in source attacks; keeps existing game attack behavior with a named original same-theme projectile.",
+      "runtime_review": "source mapping verified; individual native attack sequence not reviewed"
+    },
+    "enemy.skeleton": {
+      "body_action": "attack1",
+      "projectile": "battle.shot.arcane",
+      "impact": "battle.hostile.enemy.skeleton.hit",
+      "correspondence": "thematic substitute",
+      "searched": [
+        "5150001.img/attack1/info"
+      ],
+      "source_mob": "5150001.img",
+      "note": "No ball node in source attacks; keeps existing game attack behavior with a named original same-theme projectile.",
+      "runtime_review": "source mapping verified; individual native attack sequence not reviewed"
+    },
+    "enemy.scorpion": {
+      "body_action": "attack1",
+      "projectile": "battle.shot.arcane",
+      "impact": "battle.shot.arcane.hit",
+      "correspondence": "thematic substitute",
+      "searched": [],
+      "source_mob": "2110301.img",
+      "note": "No ball node in source attacks; keeps existing game attack behavior with a named original same-theme projectile.",
+      "runtime_review": "source mapping verified; individual native attack sequence not reviewed"
+    },
+    "enemy.ghost": {
+      "body_action": "attack1",
+      "projectile": "battle.shot.arcane",
+      "impact": "battle.shot.arcane.hit",
+      "correspondence": "thematic substitute",
+      "searched": [],
+      "source_mob": "3230101.img",
+      "note": "No ball node in source attacks; keeps existing game attack behavior with a named original same-theme projectile.",
+      "runtime_review": "source mapping verified; individual native attack sequence not reviewed"
+    },
+    "enemy.fairy": {
+      "body_action": "attack1",
+      "projectile": "battle.shot.arcane",
+      "impact": "battle.shot.arcane.hit",
+      "correspondence": "thematic substitute",
+      "searched": [],
+      "source_mob": "3000001.img",
+      "note": "No ball node in source attacks; keeps existing game attack behavior with a named original same-theme projectile.",
+      "runtime_review": "source mapping verified; individual native attack sequence not reviewed"
+    },
+    "boss_snowman": {
+      "body_action": "attack1",
+      "projectile": "battle.hostile.boss_snowman.ball",
+      "impact": "battle.hostile.boss_snowman.hit",
+      "correspondence": "exact",
+      "searched": [
+        "8220001.img/attack1/info"
+      ],
+      "source_mob": "8220001.img",
+      "note": "",
+      "runtime_review": "native representative projectile sequence sampled"
+    },
+    "boss_pirate": {
+      "body_action": "attack1",
+      "projectile": "battle.shot.rocket",
+      "impact": "battle.hostile.boss_pirate.hit",
+      "correspondence": "thematic substitute",
+      "searched": [
+        "9300119.img/attack1/info"
+      ],
+      "source_mob": "9300119.img",
+      "note": "No ball node in source attacks; keeps existing game attack behavior with a named original same-theme projectile.",
+      "runtime_review": "source mapping verified; individual native attack sequence not reviewed"
+    },
+    "boss_clockwork": {
+      "body_action": "attack1",
+      "projectile": "battle.shot.rocket",
+      "impact": "battle.hostile.boss_clockwork.hit",
+      "correspondence": "thematic substitute",
+      "searched": [
+        "8500001.img/attack1/info",
+        "8500001.img/attack2/info",
+        "8500001.img/attack3/info",
+        "8500001.img/attack4/info"
+      ],
+      "source_mob": "8500001.img",
+      "note": "No ball node in source attacks; keeps existing game attack behavior with a named original same-theme projectile.",
+      "runtime_review": "source mapping verified; individual native attack sequence not reviewed"
+    },
+    "boss_leviathan": {
+      "body_action": "attack1",
+      "projectile": "battle.shot.arcane",
+      "impact": "battle.hostile.boss_leviathan.hit",
+      "correspondence": "thematic substitute",
+      "searched": [
+        "8220003.img/attack1/info",
+        "8220003.img/attack2/info"
+      ],
+      "source_mob": "8220003.img",
+      "note": "No ball node in source attacks; keeps existing game attack behavior with a named original same-theme projectile.",
+      "runtime_review": "source mapping verified; individual native attack sequence not reviewed"
+    },
+    "boss_cactus": {
+      "body_action": "attack1",
+      "projectile": "battle.shot.seed",
+      "impact": "battle.hostile.boss_cactus.hit",
+      "correspondence": "thematic substitute",
+      "searched": [
+        "3220001.img/attack1/info"
+      ],
+      "source_mob": "3220001.img",
+      "note": "No ball node in source attacks; keeps existing game attack behavior with a named original same-theme projectile.",
+      "runtime_review": "source mapping verified; individual native attack sequence not reviewed"
+    },
+    "boss_faust": {
+      "body_action": "attack1",
+      "projectile": "battle.hostile.boss_faust.ball",
+      "impact": "battle.hostile.boss_faust.hit",
+      "correspondence": "exact",
+      "searched": [
+        "5220002.img/attack1/info"
+      ],
+      "source_mob": "5220002.img",
+      "note": "",
+      "runtime_review": "native representative projectile sequence sampled"
+    },
+    "enemy.crocodile": {
+      "body_action": "attack1",
+      "projectile": "battle.shot.arcane",
+      "impact": "battle.shot.arcane.hit",
+      "correspondence": "thematic substitute",
+      "searched": [],
+      "source_mob": "3110100.img",
+      "note": "No ball node in source attacks; keeps existing game attack behavior with a named original same-theme projectile.",
+      "runtime_review": "source mapping verified; individual native attack sequence not reviewed"
+    },
+    "enemy.toy_mouse": {
+      "body_action": "attack1",
+      "projectile": "battle.shot.arcane",
+      "impact": "battle.shot.arcane.hit",
+      "correspondence": "thematic substitute",
+      "searched": [],
+      "source_mob": "3210205.img",
+      "note": "No ball node in source attacks; keeps existing game attack behavior with a named original same-theme projectile.",
+      "runtime_review": "source mapping verified; individual native attack sequence not reviewed"
+    },
+    "enemy.robot": {
+      "body_action": "attack1",
+      "projectile": "battle.shot.rocket",
+      "impact": "battle.shot.rocket.hit",
+      "correspondence": "thematic substitute",
+      "searched": [],
+      "source_mob": "5110301.img",
+      "note": "No ball node in source attacks; keeps existing game attack behavior with a named original same-theme projectile.",
+      "runtime_review": "source mapping verified; individual native attack sequence not reviewed"
+    },
+    "enemy.yeti": {
+      "body_action": "attack1",
+      "projectile": "battle.shot.snow",
+      "impact": "battle.shot.snow.hit",
+      "correspondence": "thematic substitute",
+      "searched": [],
+      "source_mob": "5100000.img",
+      "note": "No ball node in source attacks; keeps existing game attack behavior with a named original same-theme projectile.",
+      "runtime_review": "source mapping verified; individual native attack sequence not reviewed"
+    },
+    "enemy.moon_pixie": {
+      "body_action": "attack1",
+      "projectile": "battle.hostile.enemy.moon_pixie.ball",
+      "impact": "battle.hostile.enemy.moon_pixie.hit",
+      "correspondence": "exact",
+      "searched": [
+        "4230106.img/attack1/info"
+      ],
+      "source_mob": "4230106.img",
+      "note": "",
+      "runtime_review": "native representative projectile sequence sampled"
+    },
+    "enemy.drake": {
+      "body_action": "attack1",
+      "projectile": "battle.shot.arcane",
+      "impact": "battle.shot.arcane.hit",
+      "correspondence": "thematic substitute",
+      "searched": [],
+      "source_mob": "5130100.img",
+      "note": "No ball node in source attacks; keeps existing game attack behavior with a named original same-theme projectile.",
+      "runtime_review": "source mapping verified; individual native attack sequence not reviewed"
+    },
+    "enemy.zombie": {
+      "body_action": "attack1",
+      "projectile": "battle.shot.arcane",
+      "impact": "battle.hostile.enemy.zombie.hit",
+      "correspondence": "thematic substitute",
+      "searched": [
+        "5130107.img/attack1/info",
+        "5130107.img/attack2/info"
+      ],
+      "source_mob": "5130107.img",
+      "note": "No ball node in source attacks; keeps existing game attack behavior with a named original same-theme projectile.",
+      "runtime_review": "source mapping verified; individual native attack sequence not reviewed"
+    },
+    "enemy.panda": {
+      "body_action": "attack1",
+      "projectile": "battle.shot.arcane",
+      "impact": "battle.hostile.enemy.panda.hit",
+      "correspondence": "thematic substitute",
+      "searched": [
+        "6130203.img/attack1/info"
+      ],
+      "source_mob": "6130203.img",
+      "note": "No ball node in source attacks; keeps existing game attack behavior with a named original same-theme projectile.",
+      "runtime_review": "source mapping verified; individual native attack sequence not reviewed"
+    },
+    "enemy.sand_giant": {
+      "body_action": "attack1",
+      "projectile": "battle.shot.arcane",
+      "impact": "battle.shot.arcane.hit",
+      "correspondence": "thematic substitute",
+      "searched": [],
+      "source_mob": "4230600.img",
+      "note": "No ball node in source attacks; keeps existing game attack behavior with a named original same-theme projectile.",
+      "runtime_review": "source mapping verified; individual native attack sequence not reviewed"
+    },
+    "enemy.stone_bug": {
+      "body_action": "attack1",
+      "projectile": "battle.shot.arcane",
+      "impact": "battle.shot.arcane.hit",
+      "correspondence": "thematic substitute",
+      "searched": [],
+      "source_mob": "5250001.img",
+      "note": "No ball node in source attacks; keeps existing game attack behavior with a named original same-theme projectile.",
+      "runtime_review": "source mapping verified; individual native attack sequence not reviewed"
+    },
+    "enemy.skeleton_dog": {
+      "body_action": "attack1",
+      "projectile": "battle.shot.arcane",
+      "impact": "battle.shot.arcane.hit",
+      "correspondence": "thematic substitute",
+      "searched": [],
+      "source_mob": "4230125.img",
+      "note": "No ball node in source attacks; keeps existing game attack behavior with a named original same-theme projectile.",
+      "runtime_review": "source mapping verified; individual native attack sequence not reviewed"
+    },
+    "enemy.hedgehog": {
+      "body_action": "attack1",
+      "projectile": "battle.shot.arcane",
+      "impact": "battle.shot.arcane.hit",
+      "correspondence": "thematic substitute",
+      "searched": [],
+      "source_mob": "4230501.img",
+      "note": "No ball node in source attacks; keeps existing game attack behavior with a named original same-theme projectile.",
+      "runtime_review": "source mapping verified; individual native attack sequence not reviewed"
+    },
+    "enemy.bubble_fish": {
+      "body_action": "attack1",
+      "projectile": "battle.shot.bubble",
+      "impact": "battle.shot.bubble.hit",
+      "correspondence": "thematic substitute",
+      "searched": [],
+      "source_mob": "3230302.img",
+      "note": "No ball node in source attacks; keeps existing game attack behavior with a named original same-theme projectile.",
+      "runtime_review": "source mapping verified; individual native attack sequence not reviewed"
+    },
+    "enemy.pirate_crew": {
+      "body_action": "attack1",
+      "projectile": "battle.shot.rocket",
+      "impact": "battle.hostile.enemy.pirate_crew.hit",
+      "correspondence": "thematic substitute",
+      "searched": [
+        "9300121.img/attack1/info"
+      ],
+      "source_mob": "9300121.img",
+      "note": "No ball node in source attacks; keeps existing game attack behavior with a named original same-theme projectile.",
+      "runtime_review": "source mapping verified; individual native attack sequence not reviewed"
+    },
+    "enemy.evil_eye": {
+      "body_action": "attack1",
+      "projectile": "battle.shot.arcane",
+      "impact": "battle.shot.arcane.hit",
+      "correspondence": "thematic substitute",
+      "searched": [],
+      "source_mob": "2230100.img",
+      "note": "No ball node in source attacks; keeps existing game attack behavior with a named original same-theme projectile.",
+      "runtime_review": "source mapping verified; individual native attack sequence not reviewed"
+    },
+    "enemy.zombie_mushroom": {
+      "body_action": "attack1",
+      "projectile": "battle.shot.seed",
+      "impact": "battle.shot.seed.hit",
+      "correspondence": "thematic substitute",
+      "searched": [],
+      "source_mob": "2230101.img",
+      "note": "No ball node in source attacks; keeps existing game attack behavior with a named original same-theme projectile.",
+      "runtime_review": "source mapping verified; individual native attack sequence not reviewed"
+    },
+    "enemy.toy_imp": {
+      "body_action": "attack1",
+      "projectile": "battle.shot.arcane",
+      "impact": "battle.shot.arcane.hit",
+      "correspondence": "thematic substitute",
+      "searched": [],
+      "source_mob": "3230300.img",
+      "note": "No ball node in source attacks; keeps existing game attack behavior with a named original same-theme projectile.",
+      "runtime_review": "source mapping verified; individual native attack sequence not reviewed"
+    },
+    "enemy.fire_lion": {
+      "body_action": "attack1",
+      "projectile": "battle.shot.fire",
+      "impact": "battle.shot.fire.hit",
+      "correspondence": "thematic substitute",
+      "searched": [],
+      "source_mob": "3210200.img",
+      "note": "No ball node in source attacks; keeps existing game attack behavior with a named original same-theme projectile.",
+      "runtime_review": "source mapping verified; individual native attack sequence not reviewed"
+    },
+    "enemy.zombie_lupin": {
+      "body_action": "attack1",
+      "projectile": "battle.shot.curse",
+      "impact": "battle.hostile.enemy.zombie_lupin.hit",
+      "correspondence": "thematic substitute",
+      "searched": [
+        "4230101.img/attack1/info"
+      ],
+      "source_mob": "4230101.img",
+      "note": "No ball node in source attacks; keeps existing game attack behavior with a named original same-theme projectile.",
+      "runtime_review": "source mapping verified; individual native attack sequence not reviewed"
+    },
+    "enemy.wild_kargo": {
+      "body_action": "attack1",
+      "projectile": "battle.shot.arcane",
+      "impact": "battle.shot.arcane.hit",
+      "correspondence": "thematic substitute",
+      "searched": [],
+      "source_mob": "6230100.img",
+      "note": "No ball node in source attacks; keeps existing game attack behavior with a named original same-theme projectile.",
+      "runtime_review": "source mapping verified; individual native attack sequence not reviewed"
+    },
+    "enemy.dark_pepe": {
+      "body_action": "attack1",
+      "projectile": "battle.shot.snow",
+      "impact": "battle.shot.snow.hit",
+      "correspondence": "thematic substitute",
+      "searched": [],
+      "source_mob": "6230200.img",
+      "note": "No ball node in source attacks; keeps existing game attack behavior with a named original same-theme projectile.",
+      "runtime_review": "source mapping verified; individual native attack sequence not reviewed"
+    },
+    "enemy.clown": {
+      "body_action": "attack1",
+      "projectile": "battle.shot.arcane",
+      "impact": "battle.hostile.enemy.clown.hit",
+      "correspondence": "thematic substitute",
+      "searched": [
+        "6230300.img/attack1/info"
+      ],
+      "source_mob": "6230300.img",
+      "note": "No ball node in source attacks; keeps existing game attack behavior with a named original same-theme projectile.",
+      "runtime_review": "source mapping verified; individual native attack sequence not reviewed"
+    },
+    "enemy.possessed_doll": {
+      "body_action": "attack1",
+      "projectile": "battle.shot.arcane",
+      "impact": "battle.hostile.enemy.possessed_doll.hit",
+      "correspondence": "thematic substitute",
+      "searched": [
+        "6230400.img/attack1/info"
+      ],
+      "source_mob": "6230400.img",
+      "note": "No ball node in source attacks; keeps existing game attack behavior with a named original same-theme projectile.",
+      "runtime_review": "source mapping verified; individual native attack sequence not reviewed"
+    },
+    "enemy.adult_yeti": {
+      "body_action": "attack1",
+      "projectile": "battle.shot.snow",
+      "impact": "battle.hostile.enemy.adult_yeti.hit",
+      "correspondence": "thematic substitute",
+      "searched": [
+        "6300000.img/attack1/info"
+      ],
+      "source_mob": "6300000.img",
+      "note": "No ball node in source attacks; keeps existing game attack behavior with a named original same-theme projectile.",
+      "runtime_review": "source mapping verified; individual native attack sequence not reviewed"
+    },
+    "enemy.gryphon": {
+      "body_action": "attack1",
+      "projectile": "battle.shot.arcane",
+      "impact": "battle.hostile.enemy.gryphon.hit",
+      "correspondence": "thematic substitute",
+      "searched": [
+        "7130000.img/attack1/info"
+      ],
+      "source_mob": "7130000.img",
+      "note": "No ball node in source attacks; keeps existing game attack behavior with a named original same-theme projectile.",
+      "runtime_review": "source mapping verified; individual native attack sequence not reviewed"
+    },
+    "enemy.minotaur": {
+      "body_action": "attack1",
+      "projectile": "battle.shot.arcane",
+      "impact": "battle.hostile.enemy.minotaur.hit",
+      "correspondence": "thematic substitute",
+      "searched": [
+        "7130100.img/attack1/info"
+      ],
+      "source_mob": "7130100.img",
+      "note": "No ball node in source attacks; keeps existing game attack behavior with a named original same-theme projectile.",
+      "runtime_review": "source mapping verified; individual native attack sequence not reviewed"
+    },
+    "enemy.skeleton_commander": {
+      "body_action": "attack1",
+      "projectile": "battle.shot.arcane",
+      "impact": "battle.shot.arcane.hit",
+      "correspondence": "thematic substitute",
+      "searched": [],
+      "source_mob": "7130103.img",
+      "note": "No ball node in source attacks; keeps existing game attack behavior with a named original same-theme projectile.",
+      "runtime_review": "source mapping verified; individual native attack sequence not reviewed"
+    },
+    "enemy.grandfather_clock": {
+      "body_action": "attack1",
+      "projectile": "battle.shot.rocket",
+      "impact": "battle.hostile.enemy.grandfather_clock.hit",
+      "correspondence": "thematic substitute",
+      "searched": [
+        "8140200.img/attack1/info"
+      ],
+      "source_mob": "8140200.img",
+      "note": "No ball node in source attacks; keeps existing game attack behavior with a named original same-theme projectile.",
+      "runtime_review": "source mapping verified; individual native attack sequence not reviewed"
+    },
+    "enemy.hellhound": {
+      "body_action": "attack1",
+      "projectile": "battle.hostile.enemy.hellhound.ball",
+      "impact": "battle.hostile.enemy.hellhound.hit",
+      "correspondence": "exact",
+      "searched": [
+        "8140500.img/attack1/info"
+      ],
+      "source_mob": "8140500.img",
+      "note": "",
+      "runtime_review": "source mapping verified; individual native attack sequence not reviewed"
+    },
+    "enemy.bonefish": {
+      "body_action": "attack1",
+      "projectile": "battle.shot.bubble",
+      "impact": "battle.hostile.enemy.bonefish.hit",
+      "correspondence": "thematic substitute",
+      "searched": [
+        "8140600.img/attack1/info"
+      ],
+      "source_mob": "8140600.img",
+      "note": "No ball node in source attacks; keeps existing game attack behavior with a named original same-theme projectile.",
+      "runtime_review": "source mapping verified; individual native attack sequence not reviewed"
+    },
+    "enemy.shark": {
+      "body_action": "attack1",
+      "projectile": "battle.hostile.enemy.shark.ball",
+      "impact": "battle.hostile.enemy.shark.hit",
+      "correspondence": "exact",
+      "searched": [
+        "8150100.img/attack1/info"
+      ],
+      "source_mob": "8150100.img",
+      "note": "",
+      "runtime_review": "source mapping verified; individual native attack sequence not reviewed"
+    },
+    "enemy.lizardman": {
+      "body_action": "attack1",
+      "projectile": "battle.shot.arcane",
+      "impact": "battle.hostile.enemy.lizardman.hit",
+      "correspondence": "thematic substitute",
+      "searched": [
+        "8150200.img/attack1/info",
+        "8150200.img/attack2/info"
+      ],
+      "source_mob": "8150200.img",
+      "note": "No ball node in source attacks; keeps existing game attack behavior with a named original same-theme projectile.",
+      "runtime_review": "source mapping verified; individual native attack sequence not reviewed"
+    },
+    "enemy.gatekeeper": {
+      "body_action": "attack1",
+      "projectile": "battle.shot.arcane",
+      "impact": "battle.hostile.enemy.gatekeeper.hit",
+      "correspondence": "thematic substitute",
+      "searched": [
+        "8160000.img/attack1/info",
+        "8160000.img/attack2/info"
+      ],
+      "source_mob": "8160000.img",
+      "note": "No ball node in source attacks; keeps existing game attack behavior with a named original same-theme projectile.",
+      "runtime_review": "source mapping verified; individual native attack sequence not reviewed"
+    },
+    "enemy.armored_wraith": {
+      "body_action": "attack1",
+      "projectile": "battle.shot.arcane",
+      "impact": "battle.hostile.enemy.armored_wraith.hit",
+      "correspondence": "thematic substitute",
+      "searched": [
+        "8170000.img/attack1/info"
+      ],
+      "source_mob": "8170000.img",
+      "note": "No ball node in source attacks; keeps existing game attack behavior with a named original same-theme projectile.",
+      "runtime_review": "source mapping verified; individual native attack sequence not reviewed"
+    },
+    "enemy.time_eye": {
+      "body_action": "attack1",
+      "projectile": "battle.shot.arcane",
+      "impact": "battle.hostile.enemy.time_eye.hit",
+      "correspondence": "thematic substitute",
+      "searched": [
+        "8200000.img/attack1/info",
+        "8200000.img/attack2/info"
+      ],
+      "source_mob": "8200000.img",
+      "note": "No ball node in source attacks; keeps existing game attack behavior with a named original same-theme projectile.",
+      "runtime_review": "source mapping verified; individual native attack sequence not reviewed"
+    },
+    "enemy.time_priest": {
+      "body_action": "attack1",
+      "projectile": "battle.shot.arcane",
+      "impact": "battle.hostile.enemy.time_priest.hit",
+      "correspondence": "thematic substitute",
+      "searched": [
+        "8200001.img/attack1/info"
+      ],
+      "source_mob": "8200001.img",
+      "note": "No ball node in source attacks; keeps existing game attack behavior with a named original same-theme projectile.",
+      "runtime_review": "source mapping verified; individual native attack sequence not reviewed"
+    },
+    "enemy.time_sentinel": {
+      "body_action": "attack1",
+      "projectile": "battle.shot.arcane",
+      "impact": "battle.hostile.enemy.time_sentinel.hit",
+      "correspondence": "thematic substitute",
+      "searched": [
+        "8200003.img/attack1/info",
+        "8200003.img/attack2/info"
+      ],
+      "source_mob": "8200003.img",
+      "note": "No ball node in source attacks; keeps existing game attack behavior with a named original same-theme projectile.",
+      "runtime_review": "source mapping verified; individual native attack sequence not reviewed"
+    },
+    "enemy.bubble_king": {
+      "body_action": "attack1",
+      "projectile": "battle.hostile.enemy.bubble_king.ball",
+      "impact": "battle.hostile.enemy.bubble_king.hit",
+      "correspondence": "exact",
+      "searched": [
+        "3230103.img/attack1/info"
+      ],
+      "source_mob": "3230103.img",
+      "note": "",
+      "runtime_review": "source mapping verified; individual native attack sequence not reviewed"
+    },
+    "enemy.pufferfish": {
+      "body_action": "attack1",
+      "projectile": "battle.shot.bubble",
+      "impact": "battle.shot.bubble.hit",
+      "correspondence": "thematic substitute",
+      "searched": [],
+      "source_mob": "3230104.img",
+      "note": "No ball node in source attacks; keeps existing game attack behavior with a named original same-theme projectile.",
+      "runtime_review": "source mapping verified; individual native attack sequence not reviewed"
+    },
+    "enemy.drum_rabbit": {
+      "body_action": "attack1",
+      "projectile": "battle.shot.arcane",
+      "impact": "battle.shot.arcane.hit",
+      "correspondence": "thematic substitute",
+      "searched": [],
+      "source_mob": "3230400.img",
+      "note": "No ball node in source attacks; keeps existing game attack behavior with a named original same-theme projectile.",
+      "runtime_review": "source mapping verified; individual native attack sequence not reviewed"
+    },
+    "enemy.baby_seal": {
+      "body_action": "attack1",
+      "projectile": "battle.shot.arcane",
+      "impact": "battle.shot.arcane.hit",
+      "correspondence": "thematic substitute",
+      "searched": [],
+      "source_mob": "3230405.img",
+      "note": "No ball node in source attacks; keeps existing game attack behavior with a named original same-theme projectile.",
+      "runtime_review": "source mapping verified; individual native attack sequence not reviewed"
+    },
+    "enemy.crab": {
+      "body_action": "attack1",
+      "projectile": "battle.shot.bubble",
+      "impact": "battle.shot.bubble.hit",
+      "correspondence": "thematic substitute",
+      "searched": [],
+      "source_mob": "4230104.img",
+      "note": "No ball node in source attacks; keeps existing game attack behavior with a named original same-theme projectile.",
+      "runtime_review": "source mapping verified; individual native attack sequence not reviewed"
+    },
+    "enemy.carnivorous_plant": {
+      "body_action": "attack1",
+      "projectile": "battle.shot.seed",
+      "impact": "battle.hostile.enemy.carnivorous_plant.hit",
+      "correspondence": "thematic substitute",
+      "searched": [
+        "4230105.img/attack1/info"
+      ],
+      "source_mob": "4230105.img",
+      "note": "No ball node in source attacks; keeps existing game attack behavior with a named original same-theme projectile.",
+      "runtime_review": "source mapping verified; individual native attack sequence not reviewed"
+    },
+    "enemy.alien": {
+      "body_action": "attack1",
+      "projectile": "battle.shot.rocket",
+      "impact": "battle.hostile.enemy.alien.hit",
+      "correspondence": "thematic substitute",
+      "searched": [
+        "4230116.img/attack1/info"
+      ],
+      "source_mob": "4230116.img",
+      "note": "No ball node in source attacks; keeps existing game attack behavior with a named original same-theme projectile.",
+      "runtime_review": "source mapping verified; individual native attack sequence not reviewed"
+    },
+    "boss_giant_crab": {
+      "body_action": "attack1",
+      "projectile": "battle.shot.bubble",
+      "impact": "battle.hostile.boss_giant_crab.hit",
+      "correspondence": "thematic substitute",
+      "searched": [
+        "5220000.img/attack1/info"
+      ],
+      "source_mob": "5220000.img",
+      "note": "No ball node in source attacks; keeps existing game attack behavior with a named original same-theme projectile.",
+      "runtime_review": "source mapping verified; individual native attack sequence not reviewed"
+    },
+    "boss_doll_robot": {
+      "body_action": "attack1",
+      "projectile": "battle.shot.rocket",
+      "impact": "battle.shot.rocket.hit",
+      "correspondence": "thematic substitute",
+      "searched": [],
+      "source_mob": "6220000.img",
+      "note": "No ball node in source attacks; keeps existing game attack behavior with a named original same-theme projectile.",
+      "runtime_review": "source mapping verified; individual native attack sequence not reviewed"
+    },
+    "boss_zeno": {
+      "body_action": "attack1",
+      "projectile": "battle.shot.rocket",
+      "impact": "battle.hostile.boss_zeno.hit",
+      "correspondence": "thematic substitute",
+      "searched": [
+        "6220001.img/attack1/info"
+      ],
+      "source_mob": "6220001.img",
+      "note": "No ball node in source attacks; keeps existing game attack behavior with a named original same-theme projectile.",
+      "runtime_review": "source mapping verified; individual native attack sequence not reviewed"
+    },
+    "boss_tae_roon": {
+      "body_action": "attack2",
+      "projectile": "battle.hostile.boss_tae_roon.ball",
+      "impact": "battle.hostile.boss_tae_roon.hit",
+      "correspondence": "exact",
+      "searched": [
+        "7220000.img/attack1/info",
+        "7220000.img/attack2/info"
+      ],
+      "source_mob": "7220000.img",
+      "note": "",
+      "runtime_review": "source mapping verified; individual native attack sequence not reviewed"
+    },
+    "boss_nine_tail": {
+      "body_action": "attack1",
+      "projectile": "battle.shot.arcane",
+      "impact": "battle.hostile.boss_nine_tail.hit",
+      "correspondence": "thematic substitute",
+      "searched": [
+        "7220001.img/attack1/info"
+      ],
+      "source_mob": "7220001.img",
+      "note": "No ball node in source attacks; keeps existing game attack behavior with a named original same-theme projectile.",
+      "runtime_review": "source mapping verified; individual native attack sequence not reviewed"
+    },
+    "boss_eliza": {
+      "body_action": "attack1",
+      "projectile": "battle.shot.seed",
+      "impact": "battle.hostile.boss_eliza.hit",
+      "correspondence": "thematic substitute",
+      "searched": [
+        "8220000.img/attack1/info"
+      ],
+      "source_mob": "8220000.img",
+      "note": "No ball node in source attacks; keeps existing game attack behavior with a named original same-theme projectile.",
+      "runtime_review": "source mapping verified; individual native attack sequence not reviewed"
+    },
+    "boss_chimera": {
+      "body_action": "attack1",
+      "projectile": "battle.hostile.boss_chimera.ball",
+      "impact": "battle.hostile.boss_chimera.hit",
+      "correspondence": "exact",
+      "searched": [
+        "8220002.img/attack1/info"
+      ],
+      "source_mob": "8220002.img",
+      "note": "",
+      "runtime_review": "source mapping verified; individual native attack sequence not reviewed"
+    },
+    "boss_dodo": {
+      "body_action": "attack1",
+      "projectile": "battle.hostile.boss_dodo.ball",
+      "impact": "battle.hostile.boss_dodo.hit",
+      "correspondence": "exact",
+      "searched": [
+        "8220004.img/attack1/info",
+        "8220004.img/attack2/info"
+      ],
+      "source_mob": "8220004.img",
+      "note": "",
+      "runtime_review": "source mapping verified; individual native attack sequence not reviewed"
+    },
+    "boss_lilynouch": {
+      "body_action": "attack1",
+      "projectile": "battle.shot.snow",
+      "impact": "battle.hostile.boss_lilynouch.hit",
+      "correspondence": "thematic substitute",
+      "searched": [
+        "8220005.img/attack1/info",
+        "8220005.img/attack2/info"
+      ],
+      "source_mob": "8220005.img",
+      "note": "No ball node in source attacks; keeps existing game attack behavior with a named original same-theme projectile.",
+      "runtime_review": "source mapping verified; individual native attack sequence not reviewed"
+    },
+    "boss_lyka": {
+      "body_action": "attack1",
+      "projectile": "battle.shot.arcane",
+      "impact": "battle.hostile.boss_lyka.hit",
+      "correspondence": "thematic substitute",
+      "searched": [
+        "8220006.img/attack1/info",
+        "8220006.img/attack2/info"
+      ],
+      "source_mob": "8220006.img",
+      "note": "No ball node in source attacks; keeps existing game attack behavior with a named original same-theme projectile.",
+      "runtime_review": "source mapping verified; individual native attack sequence not reviewed"
+    },
+    "boss_manon": {
+      "body_action": "attack1",
+      "projectile": "battle.shot.fire",
+      "impact": "battle.hostile.boss_manon.hit",
+      "correspondence": "thematic substitute",
+      "searched": [
+        "8180000.img/attack1/info",
+        "8180000.img/attack2/info",
+        "8180000.img/attack3/info"
+      ],
+      "source_mob": "8180000.img",
+      "note": "No ball node in source attacks; keeps existing game attack behavior with a named original same-theme projectile.",
+      "runtime_review": "source mapping verified; individual native attack sequence not reviewed"
+    },
+    "boss_griffey": {
+      "body_action": "attack1",
+      "projectile": "battle.shot.arcane",
+      "impact": "battle.hostile.boss_griffey.hit",
+      "correspondence": "thematic substitute",
+      "searched": [
+        "8180001.img/attack1/info",
+        "8180001.img/attack2/info",
+        "8180001.img/attack3/info"
+      ],
+      "source_mob": "8180001.img",
+      "note": "No ball node in source attacks; keeps existing game attack behavior with a named original same-theme projectile.",
+      "runtime_review": "source mapping verified; individual native attack sequence not reviewed"
+    }
+  },
+  "notes": [
+    "No original NX/WZ archives are modified or copied into this repository.",
+    "Modern Mechanic/Phantom skill IDs are absent in the local Skill.nx; local server XML has no corresponding canvas. Installed split WZ client has no reusable stand-alone selective decoder in this workspace.",
+    "Original animation source origins, alpha bounds and frame durations remain in each sprite. Visual centers are for projectile collision-body alignment only.",
+    "Transient visuals follow combat time, not encounter progress. Low effects keeps bodies and fields."
+  ],
+  "runtime_scenes": [
+    {
+      "version": "0.1.1",
+      "date": "2026-11-12",
+      "backend": "Win32 / Direct3D 11 / AMD Radeon(TM) Graphics",
+      "resolution": [
+        1920,
+        1080
+      ],
+      "save_scope": "isolated artifact folders; no formal save writes",
+      "scenes": [
+        "battle-scene 0: ground summons",
+        "battle-scene 1: flying companions",
+        "battle-scene 2: smoke/distortion, pause and 1x/2x",
+        "battle-scene 3: nature/regression",
+        "vfx-scene 3,8,12: comparable summons/fusion/dense",
+        "preview-boss 6,11: straight and tracking projectiles",
+        "preview-domain 2,3,4,5: field identity"
+      ],
+      "evidence": "Local artifacts/battle-art/REVIEW.md, PNG/BMP and sampled GIF sequences; not bundled in release or Git",
+      "limitations": "Representative native review only; not all 84 enemy appearances, all fusion routes, all frames or long-duration gameplay."
+    }
+  ]
+}

@@ -1,0 +1,1459 @@
+{
+  "schema_version": 1,
+  "sprites": {
+    "skill.icon.flame_dance": {
+      "source": "Skill.nx/121.img/skill/1211003/icon",
+      "frames": [
+        {
+          "file": "expansion/icons/flame_dance/0.png",
+          "duration_ms": 100,
+          "origin": [
+            16.0,
+            16.0
+          ],
+          "source_origin": [
+            0,
+            32
+          ],
+          "size": [
+            32,
+            32
+          ],
+          "source": "Skill.nx/121.img/skill/1211003/icon",
+          "alpha_start": 255,
+          "alpha_end": 255,
+          "rgba_sha256": "7a56964b9003abaca0c108ee8d1f5716bb427d689f41902afde009b1068223f5",
+          "duration_note": "Static source icon has no delay; 100 ms is the existing renderer fallback.",
+          "alpha_note": "No source alpha interpolation; full-opacity endpoints preserve original per-pixel RGBA alpha."
+        }
+      ],
+      "name": "烈焰剑舞",
+      "source_skill_id": 1211003,
+      "source_name": "烈焰之击：剑",
+      "source_name_source": "String.nx/Skill.img/1211003/name",
+      "icon_kind": "original_skill_icon",
+      "loop": false,
+      "total_duration_ms": 100
+    },
+    "skill.icon.feather_storm": {
+      "source": "Skill.nx/411.img/skill/4111005/icon",
+      "frames": [
+        {
+          "file": "expansion/icons/feather_storm/0.png",
+          "duration_ms": 100,
+          "origin": [
+            16.0,
+            16.0
+          ],
+          "source_origin": [
+            0,
+            32
+          ],
+          "size": [
+            32,
+            32
+          ],
+          "source": "Skill.nx/411.img/skill/4111005/icon",
+          "alpha_start": 255,
+          "alpha_end": 255,
+          "rgba_sha256": "b549401492444d41da82821e93a330ea1e45b6c5a9b075ef828e6215898678fc",
+          "duration_note": "Static source icon has no delay; 100 ms is the existing renderer fallback.",
+          "alpha_note": "No source alpha interpolation; full-opacity endpoints preserve original per-pixel RGBA alpha."
+        }
+      ],
+      "name": "剑羽风暴",
+      "source_skill_id": 4111005,
+      "source_name": "多重飞镖",
+      "source_name_source": "String.nx/Skill.img/4111005/name",
+      "icon_kind": "original_skill_icon",
+      "loop": false,
+      "total_duration_ms": 100
+    },
+    "skill.icon.star_bow": {
+      "source": "Skill.nx/1311.img/skill/13111006/icon",
+      "frames": [
+        {
+          "file": "expansion/icons/star_bow/0.png",
+          "duration_ms": 100,
+          "origin": [
+            16.0,
+            16.0
+          ],
+          "source_origin": [
+            0,
+            32
+          ],
+          "size": [
+            32,
+            32
+          ],
+          "source": "Skill.nx/1311.img/skill/13111006/icon",
+          "alpha_start": 255,
+          "alpha_end": 255,
+          "rgba_sha256": "d035069f202d15c5ad88adefd689034b6d72dee615b9d26df9d85bd356e9fa20",
+          "duration_note": "Static source icon has no delay; 100 ms is the existing renderer fallback.",
+          "alpha_note": "No source alpha interpolation; full-opacity endpoints preserve original per-pixel RGBA alpha."
+        }
+      ],
+      "name": "星轨魔弓",
+      "source_skill_id": 13111006,
+      "source_name": "风灵穿越",
+      "source_name_source": "String.nx/Skill.img/13111006/name",
+      "icon_kind": "original_skill_icon",
+      "loop": false,
+      "total_duration_ms": 100
+    },
+    "skill.flame_dance.cast": {
+      "source": "Skill.nx/121.img/skill/1211003/effect",
+      "frames": [
+        {
+          "file": "expansion/sequences/skill/flame_dance/cast/0.png",
+          "duration_ms": 60,
+          "origin": [
+            10,
+            5
+          ],
+          "size": [
+            10,
+            7
+          ],
+          "source": "Skill.nx/121.img/skill/1211003/effect/0",
+          "source_properties": {
+            "delay": 60,
+            "origin": [
+              10,
+              5
+            ]
+          },
+          "alpha_start": 255,
+          "alpha_end": 255,
+          "alpha_nonzero_bounds": [
+            0,
+            0,
+            10,
+            7
+          ],
+          "rgba_sha256": "5e823de341fa1ccfc9c4fa25cfbcd4c6221807cbf1693c482657ad65f1050c19"
+        },
+        {
+          "file": "expansion/sequences/skill/flame_dance/cast/1.png",
+          "duration_ms": 60,
+          "origin": [
+            23,
+            5
+          ],
+          "size": [
+            33,
+            7
+          ],
+          "source": "Skill.nx/121.img/skill/1211003/effect/1",
+          "source_properties": {
+            "delay": 60,
+            "origin": [
+              23,
+              5
+            ]
+          },
+          "alpha_start": 255,
+          "alpha_end": 255,
+          "alpha_nonzero_bounds": [
+            0,
+            0,
+            33,
+            7
+          ],
+          "rgba_sha256": "c6caba611331fef285a057650c4801b54938d3bd2366295cae8de4e55999ea9b"
+        },
+        {
+          "file": "expansion/sequences/skill/flame_dance/cast/2.png",
+          "duration_ms": 60,
+          "origin": [
+            33,
+            5
+          ],
+          "size": [
+            54,
+            7
+          ],
+          "source": "Skill.nx/121.img/skill/1211003/effect/2",
+          "source_properties": {
+            "delay": 60,
+            "origin": [
+              33,
+              5
+            ]
+          },
+          "alpha_start": 255,
+          "alpha_end": 255,
+          "alpha_nonzero_bounds": [
+            0,
+            0,
+            54,
+            7
+          ],
+          "rgba_sha256": "571143e7323646646bdff8464742f7ab8d8c3feb4c4d60dc04c4331a40037544"
+        },
+        {
+          "file": "expansion/sequences/skill/flame_dance/cast/3.png",
+          "duration_ms": 60,
+          "origin": [
+            47,
+            5
+          ],
+          "size": [
+            83,
+            7
+          ],
+          "source": "Skill.nx/121.img/skill/1211003/effect/3",
+          "source_properties": {
+            "delay": 60,
+            "origin": [
+              47,
+              5
+            ]
+          },
+          "alpha_start": 255,
+          "alpha_end": 255,
+          "alpha_nonzero_bounds": [
+            0,
+            0,
+            83,
+            7
+          ],
+          "rgba_sha256": "7f7d9b1cd3b6298aa09467c8e52e78662d5e9a0bf6bf7573488e62cdd2872400"
+        },
+        {
+          "file": "expansion/sequences/skill/flame_dance/cast/4.png",
+          "duration_ms": 60,
+          "origin": [
+            50,
+            8
+          ],
+          "size": [
+            90,
+            10
+          ],
+          "source": "Skill.nx/121.img/skill/1211003/effect/4",
+          "source_properties": {
+            "delay": 60,
+            "origin": [
+              50,
+              8
+            ]
+          },
+          "alpha_start": 255,
+          "alpha_end": 255,
+          "alpha_nonzero_bounds": [
+            0,
+            0,
+            90,
+            10
+          ],
+          "rgba_sha256": "e092f302dbc2176cf79c9c17d3c91c7a4763adbbf0a85bda96b704d97bcb4b8b"
+        },
+        {
+          "file": "expansion/sequences/skill/flame_dance/cast/5.png",
+          "duration_ms": 60,
+          "origin": [
+            56,
+            103
+          ],
+          "size": [
+            102,
+            110
+          ],
+          "source": "Skill.nx/121.img/skill/1211003/effect/5",
+          "source_properties": {
+            "delay": 60,
+            "origin": [
+              56,
+              103
+            ]
+          },
+          "alpha_start": 255,
+          "alpha_end": 255,
+          "alpha_nonzero_bounds": [
+            0,
+            0,
+            102,
+            110
+          ],
+          "rgba_sha256": "32984d87277690398f823312d88d065f2aaee5a3d20e0216db4947f4a8598b49"
+        },
+        {
+          "file": "expansion/sequences/skill/flame_dance/cast/6.png",
+          "duration_ms": 60,
+          "origin": [
+            55,
+            120
+          ],
+          "size": [
+            97,
+            127
+          ],
+          "source": "Skill.nx/121.img/skill/1211003/effect/6",
+          "source_properties": {
+            "delay": 60,
+            "origin": [
+              55,
+              120
+            ]
+          },
+          "alpha_start": 255,
+          "alpha_end": 255,
+          "alpha_nonzero_bounds": [
+            0,
+            0,
+            97,
+            127
+          ],
+          "rgba_sha256": "7fab076dc573fe56236675750f6a31053ce3e65d777353e9d08a7bc4f6eb3257"
+        },
+        {
+          "file": "expansion/sequences/skill/flame_dance/cast/7.png",
+          "duration_ms": 60,
+          "origin": [
+            58,
+            125
+          ],
+          "size": [
+            101,
+            132
+          ],
+          "source": "Skill.nx/121.img/skill/1211003/effect/7",
+          "source_properties": {
+            "delay": 60,
+            "origin": [
+              58,
+              125
+            ]
+          },
+          "alpha_start": 255,
+          "alpha_end": 255,
+          "alpha_nonzero_bounds": [
+            0,
+            0,
+            101,
+            132
+          ],
+          "rgba_sha256": "2fca95c80be2cfb7df6cd6bd9a3cbe7b991de127db23c684bb2282bb6aad0b40"
+        },
+        {
+          "file": "expansion/sequences/skill/flame_dance/cast/8.png",
+          "duration_ms": 60,
+          "origin": [
+            52,
+            125
+          ],
+          "size": [
+            99,
+            132
+          ],
+          "source": "Skill.nx/121.img/skill/1211003/effect/8",
+          "source_properties": {
+            "delay": 60,
+            "origin": [
+              52,
+              125
+            ]
+          },
+          "alpha_start": 255,
+          "alpha_end": 255,
+          "alpha_nonzero_bounds": [
+            0,
+            0,
+            99,
+            132
+          ],
+          "rgba_sha256": "8f2eeba488d0b34014da6c3c5f459d2e0224834175907aac5a37816cdcee56c6"
+        },
+        {
+          "file": "expansion/sequences/skill/flame_dance/cast/9.png",
+          "duration_ms": 60,
+          "origin": [
+            55,
+            130
+          ],
+          "size": [
+            100,
+            135
+          ],
+          "source": "Skill.nx/121.img/skill/1211003/effect/9",
+          "source_properties": {
+            "delay": 60,
+            "origin": [
+              55,
+              130
+            ]
+          },
+          "alpha_start": 255,
+          "alpha_end": 255,
+          "alpha_nonzero_bounds": [
+            0,
+            0,
+            100,
+            135
+          ],
+          "rgba_sha256": "6b699c1bcb6dc7eee9b3a81a4701cb6c161530e4c4ef84318538ec2131464f6b"
+        },
+        {
+          "file": "expansion/sequences/skill/flame_dance/cast/10.png",
+          "duration_ms": 60,
+          "origin": [
+            58,
+            126
+          ],
+          "size": [
+            108,
+            128
+          ],
+          "source": "Skill.nx/121.img/skill/1211003/effect/10",
+          "source_properties": {
+            "delay": 60,
+            "origin": [
+              58,
+              126
+            ]
+          },
+          "alpha_start": 255,
+          "alpha_end": 255,
+          "alpha_nonzero_bounds": [
+            0,
+            0,
+            108,
+            128
+          ],
+          "rgba_sha256": "68b99d58e84361fb8544681479af197bb725d92073ded9ee2baba3d3c9460403"
+        },
+        {
+          "file": "expansion/sequences/skill/flame_dance/cast/11.png",
+          "duration_ms": 60,
+          "origin": [
+            51,
+            128
+          ],
+          "size": [
+            96,
+            130
+          ],
+          "source": "Skill.nx/121.img/skill/1211003/effect/11",
+          "source_properties": {
+            "delay": 60,
+            "origin": [
+              51,
+              128
+            ]
+          },
+          "alpha_start": 255,
+          "alpha_end": 255,
+          "alpha_nonzero_bounds": [
+            0,
+            0,
+            96,
+            130
+          ],
+          "rgba_sha256": "711e1047d79601ee0ac49ba27e5c757e44c523672e41cbe5df80d9234f09dc3e"
+        },
+        {
+          "file": "expansion/sequences/skill/flame_dance/cast/12.png",
+          "duration_ms": 60,
+          "origin": [
+            51,
+            139
+          ],
+          "size": [
+            95,
+            141
+          ],
+          "source": "Skill.nx/121.img/skill/1211003/effect/12",
+          "source_properties": {
+            "delay": 60,
+            "origin": [
+              51,
+              139
+            ]
+          },
+          "alpha_start": 255,
+          "alpha_end": 255,
+          "alpha_nonzero_bounds": [
+            0,
+            0,
+            95,
+            141
+          ],
+          "rgba_sha256": "444a442b3489a3248bedd2eab61670f9020ca08682d70574580ac881dfe42787"
+        },
+        {
+          "file": "expansion/sequences/skill/flame_dance/cast/13.png",
+          "duration_ms": 60,
+          "origin": [
+            32,
+            144
+          ],
+          "size": [
+            68,
+            145
+          ],
+          "source": "Skill.nx/121.img/skill/1211003/effect/13",
+          "source_properties": {
+            "delay": 60,
+            "origin": [
+              32,
+              144
+            ]
+          },
+          "alpha_start": 255,
+          "alpha_end": 255,
+          "alpha_nonzero_bounds": [
+            0,
+            0,
+            68,
+            145
+          ],
+          "rgba_sha256": "0600efa563700c516f6ef44953ec911f5f5dc66fe6bccce845a34d48e84f6741"
+        },
+        {
+          "file": "expansion/sequences/skill/flame_dance/cast/14.png",
+          "duration_ms": 60,
+          "origin": [
+            26,
+            65
+          ],
+          "size": [
+            39,
+            39
+          ],
+          "source": "Skill.nx/121.img/skill/1211003/effect/14",
+          "source_properties": {
+            "delay": 60,
+            "origin": [
+              26,
+              65
+            ]
+          },
+          "alpha_start": 255,
+          "alpha_end": 255,
+          "alpha_nonzero_bounds": [
+            0,
+            0,
+            39,
+            39
+          ],
+          "rgba_sha256": "8d6295d5c9aeecab3cbf8ce622ed47c3d46835db2122f77aeffe3eb8f12a880d"
+        }
+      ],
+      "loop": false,
+      "total_duration_ms": 900,
+      "source_sequence_properties": {},
+      "source_skill_id": 1211003
+    },
+    "skill.feather_storm.cast": {
+      "source": "Skill.nx/411.img/skill/4111005/effect",
+      "frames": [
+        {
+          "file": "expansion/sequences/skill/feather_storm/cast/0.png",
+          "duration_ms": 60,
+          "origin": [
+            -5,
+            64
+          ],
+          "size": [
+            18,
+            64
+          ],
+          "source": "Skill.nx/411.img/skill/4111005/effect/0",
+          "source_properties": {
+            "delay": 60,
+            "origin": [
+              -5,
+              64
+            ]
+          },
+          "alpha_start": 255,
+          "alpha_end": 255,
+          "alpha_nonzero_bounds": [
+            0,
+            0,
+            18,
+            64
+          ],
+          "rgba_sha256": "06518916242168f6e50ceac14351a03b43ce8675ccc0aa17bec00e81c3c09794"
+        },
+        {
+          "file": "expansion/sequences/skill/feather_storm/cast/1.png",
+          "duration_ms": 60,
+          "origin": [
+            -5,
+            64
+          ],
+          "size": [
+            18,
+            64
+          ],
+          "source": "Skill.nx/411.img/skill/4111005/effect/1",
+          "source_properties": {
+            "delay": 60,
+            "origin": [
+              -5,
+              64
+            ]
+          },
+          "alpha_start": 255,
+          "alpha_end": 255,
+          "alpha_nonzero_bounds": [
+            0,
+            0,
+            18,
+            64
+          ],
+          "rgba_sha256": "d381f1f638aedb3f5d67f48eae5a3ec812b698fa28e13198ca221aafb383798c"
+        },
+        {
+          "file": "expansion/sequences/skill/feather_storm/cast/2.png",
+          "duration_ms": 60,
+          "origin": [
+            -5,
+            64
+          ],
+          "size": [
+            18,
+            64
+          ],
+          "source": "Skill.nx/411.img/skill/4111005/effect/2",
+          "source_properties": {
+            "delay": 60,
+            "origin": [
+              -5,
+              64
+            ]
+          },
+          "alpha_start": 255,
+          "alpha_end": 255,
+          "alpha_nonzero_bounds": [
+            0,
+            0,
+            18,
+            64
+          ],
+          "rgba_sha256": "39e4309d0577f19ae3921758ad48f52a86e0ef04886b45bde12e6e512d8435d1"
+        },
+        {
+          "file": "expansion/sequences/skill/feather_storm/cast/3.png",
+          "duration_ms": 60,
+          "origin": [
+            16,
+            64
+          ],
+          "size": [
+            60,
+            64
+          ],
+          "source": "Skill.nx/411.img/skill/4111005/effect/3",
+          "source_properties": {
+            "delay": 60,
+            "origin": [
+              16,
+              64
+            ]
+          },
+          "alpha_start": 255,
+          "alpha_end": 255,
+          "alpha_nonzero_bounds": [
+            0,
+            0,
+            60,
+            64
+          ],
+          "rgba_sha256": "bf6411799ea33d6efcd7394f491208021e450a09d5998fd8371c3f24c02bc941"
+        },
+        {
+          "file": "expansion/sequences/skill/feather_storm/cast/4.png",
+          "duration_ms": 60,
+          "origin": [
+            18,
+            64
+          ],
+          "size": [
+            64,
+            64
+          ],
+          "source": "Skill.nx/411.img/skill/4111005/effect/4",
+          "source_properties": {
+            "delay": 60,
+            "origin": [
+              18,
+              64
+            ]
+          },
+          "alpha_start": 255,
+          "alpha_end": 255,
+          "alpha_nonzero_bounds": [
+            0,
+            0,
+            64,
+            64
+          ],
+          "rgba_sha256": "a72ecae9963d601588efa4c7809f31741fbd9a3fe403491d27ae5431bc22466a"
+        },
+        {
+          "file": "expansion/sequences/skill/feather_storm/cast/5.png",
+          "duration_ms": 60,
+          "origin": [
+            18,
+            64
+          ],
+          "size": [
+            64,
+            64
+          ],
+          "source": "Skill.nx/411.img/skill/4111005/effect/5",
+          "source_properties": {
+            "delay": 60,
+            "origin": [
+              18,
+              64
+            ]
+          },
+          "alpha_start": 255,
+          "alpha_end": 255,
+          "alpha_nonzero_bounds": [
+            0,
+            0,
+            64,
+            64
+          ],
+          "rgba_sha256": "122be79d5bd11696f62339b7de6c9336e828004a6868ef72723b7ceda9f5a0bb"
+        },
+        {
+          "file": "expansion/sequences/skill/feather_storm/cast/6.png",
+          "duration_ms": 60,
+          "origin": [
+            18,
+            64
+          ],
+          "size": [
+            64,
+            64
+          ],
+          "source": "Skill.nx/411.img/skill/4111005/effect/6",
+          "source_properties": {
+            "delay": 60,
+            "origin": [
+              18,
+              64
+            ]
+          },
+          "alpha_start": 255,
+          "alpha_end": 255,
+          "alpha_nonzero_bounds": [
+            0,
+            0,
+            64,
+            64
+          ],
+          "rgba_sha256": "0c13757f3649f009f49354ddfd27aa9dfa469be1e0d9f960ac61439b807cdfaa"
+        },
+        {
+          "file": "expansion/sequences/skill/feather_storm/cast/7.png",
+          "duration_ms": 60,
+          "origin": [
+            18,
+            64
+          ],
+          "size": [
+            64,
+            64
+          ],
+          "source": "Skill.nx/411.img/skill/4111005/effect/7",
+          "source_properties": {
+            "delay": 60,
+            "origin": [
+              18,
+              64
+            ]
+          },
+          "alpha_start": 255,
+          "alpha_end": 255,
+          "alpha_nonzero_bounds": [
+            0,
+            0,
+            64,
+            64
+          ],
+          "rgba_sha256": "b353abd2e06ff47bd9e30f62fe9261894f0a8055ef3d6554318466ec4fc684e8"
+        },
+        {
+          "file": "expansion/sequences/skill/feather_storm/cast/8.png",
+          "duration_ms": 60,
+          "origin": [
+            18,
+            64
+          ],
+          "size": [
+            64,
+            64
+          ],
+          "source": "Skill.nx/411.img/skill/4111005/effect/8",
+          "source_properties": {
+            "delay": 60,
+            "origin": [
+              18,
+              64
+            ]
+          },
+          "alpha_start": 255,
+          "alpha_end": 255,
+          "alpha_nonzero_bounds": [
+            0,
+            0,
+            64,
+            64
+          ],
+          "rgba_sha256": "53b81a8fea26c381c0e207b30692ed1ad6c4bc2ba011762414a13073d4d0dbb7"
+        },
+        {
+          "file": "expansion/sequences/skill/feather_storm/cast/9.png",
+          "duration_ms": 60,
+          "origin": [
+            18,
+            64
+          ],
+          "size": [
+            64,
+            64
+          ],
+          "source": "Skill.nx/411.img/skill/4111005/effect/9",
+          "source_properties": {
+            "delay": 60,
+            "origin": [
+              18,
+              64
+            ]
+          },
+          "alpha_start": 255,
+          "alpha_end": 255,
+          "alpha_nonzero_bounds": [
+            0,
+            0,
+            64,
+            64
+          ],
+          "rgba_sha256": "5dbc6a594077fe912ef752a143adc58144aa35ca1dd6f95721986cb13f8fce5a"
+        },
+        {
+          "file": "expansion/sequences/skill/feather_storm/cast/10.png",
+          "duration_ms": 60,
+          "origin": [
+            21,
+            67
+          ],
+          "size": [
+            70,
+            70
+          ],
+          "source": "Skill.nx/411.img/skill/4111005/effect/10",
+          "source_properties": {
+            "delay": 60,
+            "origin": [
+              21,
+              67
+            ]
+          },
+          "alpha_start": 255,
+          "alpha_end": 255,
+          "alpha_nonzero_bounds": [
+            0,
+            0,
+            70,
+            70
+          ],
+          "rgba_sha256": "6907fe9a5fa80d07c29f171ad6a57a92b75f20981029e0c97cce73fad3d8205c"
+        },
+        {
+          "file": "expansion/sequences/skill/feather_storm/cast/11.png",
+          "duration_ms": 60,
+          "origin": [
+            22,
+            68
+          ],
+          "size": [
+            72,
+            72
+          ],
+          "source": "Skill.nx/411.img/skill/4111005/effect/11",
+          "source_properties": {
+            "delay": 60,
+            "origin": [
+              22,
+              68
+            ]
+          },
+          "alpha_start": 255,
+          "alpha_end": 255,
+          "alpha_nonzero_bounds": [
+            0,
+            0,
+            72,
+            72
+          ],
+          "rgba_sha256": "909b6e6353f5e33139ebc08615808d914b3054a895425482629c302ac6393125"
+        },
+        {
+          "file": "expansion/sequences/skill/feather_storm/cast/12.png",
+          "duration_ms": 60,
+          "origin": [
+            68,
+            65
+          ],
+          "size": [
+            120,
+            67
+          ],
+          "source": "Skill.nx/411.img/skill/4111005/effect/12",
+          "source_properties": {
+            "delay": 60,
+            "origin": [
+              68,
+              65
+            ]
+          },
+          "alpha_start": 255,
+          "alpha_end": 255,
+          "alpha_nonzero_bounds": [
+            0,
+            0,
+            120,
+            67
+          ],
+          "rgba_sha256": "7f39a31ac770669fd55a91beb8eab01683f7f1b98a4a2325f6fc5fda76170d33"
+        },
+        {
+          "file": "expansion/sequences/skill/feather_storm/cast/13.png",
+          "duration_ms": 60,
+          "origin": [
+            69,
+            31
+          ],
+          "size": [
+            58,
+            34
+          ],
+          "source": "Skill.nx/411.img/skill/4111005/effect/13",
+          "source_properties": {
+            "delay": 60,
+            "origin": [
+              69,
+              31
+            ]
+          },
+          "alpha_start": 255,
+          "alpha_end": 255,
+          "alpha_nonzero_bounds": [
+            0,
+            0,
+            58,
+            34
+          ],
+          "rgba_sha256": "032f1892e362a20bc53b8b2aa9f471a94f92cb83894ed4fdf95ebb82910c3620"
+        }
+      ],
+      "loop": false,
+      "total_duration_ms": 840,
+      "source_sequence_properties": {},
+      "source_skill_id": 4111005
+    },
+    "skill.feather_storm.projectile": {
+      "source": "Skill.nx/411.img/skill/4111005/ball",
+      "frames": [
+        {
+          "file": "expansion/sequences/skill/feather_storm/projectile/0.png",
+          "duration_ms": 100,
+          "origin": [
+            36,
+            36
+          ],
+          "size": [
+            72,
+            72
+          ],
+          "source": "Skill.nx/411.img/skill/4111005/ball/0",
+          "source_properties": {
+            "origin": [
+              36,
+              36
+            ]
+          },
+          "alpha_start": 255,
+          "alpha_end": 255,
+          "alpha_nonzero_bounds": [
+            0,
+            0,
+            72,
+            72
+          ],
+          "rgba_sha256": "909b6e6353f5e33139ebc08615808d914b3054a895425482629c302ac6393125",
+          "duration_note": "Static source frame has no delay; 100 ms is the existing renderer fallback."
+        }
+      ],
+      "loop": false,
+      "total_duration_ms": 100,
+      "source_sequence_properties": {
+        "rotatePeriod": 400
+      },
+      "source_skill_id": 4111005
+    },
+    "skill.star_bow.projectile": {
+      "source": "Skill.nx/1311.img/skill/13111006/ball",
+      "frames": [
+        {
+          "file": "expansion/sequences/skill/star_bow/projectile/0.png",
+          "duration_ms": 60,
+          "origin": [
+            73,
+            37
+          ],
+          "size": [
+            186,
+            73
+          ],
+          "source": "Skill.nx/1311.img/skill/13111006/ball/0",
+          "source_properties": {
+            "delay": 60,
+            "origin": [
+              73,
+              37
+            ]
+          },
+          "alpha_start": 255,
+          "alpha_end": 255,
+          "alpha_nonzero_bounds": [
+            0,
+            0,
+            186,
+            73
+          ],
+          "rgba_sha256": "06b2efab280e944371905c2d2a47889c447165091dd8e45f2aa1f0e55038ed34"
+        },
+        {
+          "file": "expansion/sequences/skill/star_bow/projectile/1.png",
+          "duration_ms": 60,
+          "origin": [
+            73,
+            37
+          ],
+          "size": [
+            186,
+            73
+          ],
+          "source": "Skill.nx/1311.img/skill/13111006/ball/1",
+          "source_properties": {
+            "delay": 60,
+            "origin": [
+              73,
+              37
+            ]
+          },
+          "alpha_start": 255,
+          "alpha_end": 255,
+          "alpha_nonzero_bounds": [
+            0,
+            0,
+            186,
+            73
+          ],
+          "rgba_sha256": "1e6609c9906c9577f909fbe921038bca24f4cdd1ce7c7f2f63004bbd03c128e8"
+        },
+        {
+          "file": "expansion/sequences/skill/star_bow/projectile/2.png",
+          "duration_ms": 60,
+          "origin": [
+            74,
+            39
+          ],
+          "size": [
+            188,
+            77
+          ],
+          "source": "Skill.nx/1311.img/skill/13111006/ball/2",
+          "source_properties": {
+            "delay": 60,
+            "origin": [
+              74,
+              39
+            ]
+          },
+          "alpha_start": 255,
+          "alpha_end": 255,
+          "alpha_nonzero_bounds": [
+            0,
+            0,
+            188,
+            77
+          ],
+          "rgba_sha256": "19e80d1a4d3fa7624f90479cf265a61772103b145dd11a74886d854d871ff00d"
+        },
+        {
+          "file": "expansion/sequences/skill/star_bow/projectile/3.png",
+          "duration_ms": 60,
+          "origin": [
+            76,
+            39
+          ],
+          "size": [
+            190,
+            77
+          ],
+          "source": "Skill.nx/1311.img/skill/13111006/ball/3",
+          "source_properties": {
+            "delay": 60,
+            "origin": [
+              76,
+              39
+            ]
+          },
+          "alpha_start": 255,
+          "alpha_end": 255,
+          "alpha_nonzero_bounds": [
+            0,
+            0,
+            190,
+            77
+          ],
+          "rgba_sha256": "a45292a3dbc7afe78bbd68d7b79869934b4fde6713a56db7c71d98a82b50d23e"
+        },
+        {
+          "file": "expansion/sequences/skill/star_bow/projectile/4.png",
+          "duration_ms": 60,
+          "origin": [
+            73,
+            37
+          ],
+          "size": [
+            186,
+            73
+          ],
+          "source": "Skill.nx/1311.img/skill/13111006/ball/4",
+          "source_properties": {
+            "delay": 60,
+            "origin": [
+              73,
+              37
+            ]
+          },
+          "alpha_start": 255,
+          "alpha_end": 255,
+          "alpha_nonzero_bounds": [
+            0,
+            0,
+            186,
+            73
+          ],
+          "rgba_sha256": "7d2bf70c37b60dc24ef0c027e0ac6008489ede0a8e035fb55bf34793f8938658"
+        },
+        {
+          "file": "expansion/sequences/skill/star_bow/projectile/5.png",
+          "duration_ms": 60,
+          "origin": [
+            73,
+            37
+          ],
+          "size": [
+            186,
+            73
+          ],
+          "source": "Skill.nx/1311.img/skill/13111006/ball/5",
+          "source_properties": {
+            "delay": 60,
+            "origin": [
+              73,
+              37
+            ]
+          },
+          "alpha_start": 255,
+          "alpha_end": 255,
+          "alpha_nonzero_bounds": [
+            0,
+            0,
+            186,
+            73
+          ],
+          "rgba_sha256": "9a6ad8eb75b2d5b1fd92bc858ec40628b8e2cbd60efbec3d8e73745e6c2f474d"
+        },
+        {
+          "file": "expansion/sequences/skill/star_bow/projectile/6.png",
+          "duration_ms": 60,
+          "origin": [
+            74,
+            39
+          ],
+          "size": [
+            188,
+            77
+          ],
+          "source": "Skill.nx/1311.img/skill/13111006/ball/6",
+          "source_properties": {
+            "delay": 60,
+            "origin": [
+              74,
+              39
+            ]
+          },
+          "alpha_start": 255,
+          "alpha_end": 255,
+          "alpha_nonzero_bounds": [
+            0,
+            0,
+            188,
+            77
+          ],
+          "rgba_sha256": "4755af0c886f3da7162e1636db122ec100564cc5372d9eebee12336e0d00cdbe"
+        },
+        {
+          "file": "expansion/sequences/skill/star_bow/projectile/7.png",
+          "duration_ms": 60,
+          "origin": [
+            76,
+            39
+          ],
+          "size": [
+            190,
+            77
+          ],
+          "source": "Skill.nx/1311.img/skill/13111006/ball/7",
+          "source_properties": {
+            "delay": 60,
+            "origin": [
+              76,
+              39
+            ]
+          },
+          "alpha_start": 255,
+          "alpha_end": 255,
+          "alpha_nonzero_bounds": [
+            0,
+            0,
+            190,
+            77
+          ],
+          "rgba_sha256": "8209befb4363293ec949f6a3702450b3050ee0426aef21595cd2e09e8c1891a3"
+        }
+      ],
+      "loop": true,
+      "total_duration_ms": 480,
+      "source_sequence_properties": {},
+      "source_skill_id": 13111006
+    },
+    "skill.star_bow.hit": {
+      "source": "Skill.nx/1311.img/skill/13111006/hit/0",
+      "frames": [
+        {
+          "file": "expansion/sequences/skill/star_bow/hit/0.png",
+          "duration_ms": 60,
+          "origin": [
+            44,
+            73
+          ],
+          "size": [
+            143,
+            134
+          ],
+          "source": "Skill.nx/1311.img/skill/13111006/hit/0/0",
+          "source_properties": {
+            "delay": 60,
+            "origin": [
+              44,
+              73
+            ]
+          },
+          "alpha_start": 255,
+          "alpha_end": 255,
+          "alpha_nonzero_bounds": [
+            0,
+            0,
+            143,
+            134
+          ],
+          "rgba_sha256": "e50228e3bad686a1d874e4e374780ca014b8e8ae49e490a7f84bc59ad7abcaa2"
+        },
+        {
+          "file": "expansion/sequences/skill/star_bow/hit/1.png",
+          "duration_ms": 60,
+          "origin": [
+            53,
+            76
+          ],
+          "size": [
+            145,
+            140
+          ],
+          "source": "Skill.nx/1311.img/skill/13111006/hit/0/1",
+          "source_properties": {
+            "delay": 60,
+            "origin": [
+              53,
+              76
+            ]
+          },
+          "alpha_start": 255,
+          "alpha_end": 255,
+          "alpha_nonzero_bounds": [
+            0,
+            0,
+            145,
+            140
+          ],
+          "rgba_sha256": "f9d56d5aafe50b3f6b1242253a5730b552a39b395f488f0f51e9a804417310c3"
+        },
+        {
+          "file": "expansion/sequences/skill/star_bow/hit/2.png",
+          "duration_ms": 60,
+          "origin": [
+            61,
+            71
+          ],
+          "size": [
+            156,
+            133
+          ],
+          "source": "Skill.nx/1311.img/skill/13111006/hit/0/2",
+          "source_properties": {
+            "delay": 60,
+            "origin": [
+              61,
+              71
+            ]
+          },
+          "alpha_start": 255,
+          "alpha_end": 255,
+          "alpha_nonzero_bounds": [
+            0,
+            0,
+            156,
+            133
+          ],
+          "rgba_sha256": "f7004d63bbf7f1049e29f8b77a69266ee563986410d72487c34a74600aad841a"
+        },
+        {
+          "file": "expansion/sequences/skill/star_bow/hit/3.png",
+          "duration_ms": 60,
+          "origin": [
+            57,
+            64
+          ],
+          "size": [
+            143,
+            119
+          ],
+          "source": "Skill.nx/1311.img/skill/13111006/hit/0/3",
+          "source_properties": {
+            "delay": 60,
+            "origin": [
+              57,
+              64
+            ]
+          },
+          "alpha_start": 255,
+          "alpha_end": 255,
+          "alpha_nonzero_bounds": [
+            0,
+            0,
+            143,
+            119
+          ],
+          "rgba_sha256": "d30069c0dd9a6cfe20c785d9984bd44c87149f426d1d479ff0d88224b5b74e45"
+        },
+        {
+          "file": "expansion/sequences/skill/star_bow/hit/4.png",
+          "duration_ms": 60,
+          "origin": [
+            33,
+            61
+          ],
+          "size": [
+            64,
+            106
+          ],
+          "source": "Skill.nx/1311.img/skill/13111006/hit/0/4",
+          "source_properties": {
+            "delay": 60,
+            "origin": [
+              33,
+              61
+            ]
+          },
+          "alpha_start": 255,
+          "alpha_end": 255,
+          "alpha_nonzero_bounds": [
+            0,
+            0,
+            64,
+            106
+          ],
+          "rgba_sha256": "5cf577243824f7476b510a69caefbf6ae68e9c9cb0995c9670a91f5d365025c8"
+        },
+        {
+          "file": "expansion/sequences/skill/star_bow/hit/5.png",
+          "duration_ms": 60,
+          "origin": [
+            32,
+            58
+          ],
+          "size": [
+            62,
+            102
+          ],
+          "source": "Skill.nx/1311.img/skill/13111006/hit/0/5",
+          "source_properties": {
+            "delay": 60,
+            "origin": [
+              32,
+              58
+            ]
+          },
+          "alpha_start": 255,
+          "alpha_end": 255,
+          "alpha_nonzero_bounds": [
+            0,
+            0,
+            62,
+            102
+          ],
+          "rgba_sha256": "f8291158714cc2f3fc68a44bc1a8e26d4ef8e57d4311e1a8227d8eb3a36150f5"
+        }
+      ],
+      "loop": false,
+      "total_duration_ms": 360,
+      "source_sequence_properties": {},
+      "source_skill_id": 13111006
+    }
+  },
+  "visuals": {},
+  "source_archives": {
+    "Skill.nx": {
+      "size_bytes": 203563946,
+      "mtime_ns": 1791432019851882000
+    },
+    "String.nx": {
+      "size_bytes": 370411333,
+      "mtime_ns": 1791433086967351100
+    }
+  },
+  "validation": {
+    "sprite_keys": 8,
+    "pngs": 47,
+    "png_bytes": 216469,
+    "rgba_bytes": 1519048,
+    "all_pngs_pixel_equal": true,
+    "original_archives_size_mtime_unchanged": true,
+    "skill_icons": 3,
+    "distinct_new_skill_icons": 3,
+    "effect_sequences": 5
+  },
+  "notes": [
+    "Original NX archives were opened read-only; original PNG pixels, sizes, origins, delays and alpha endpoints are retained.",
+    "Only the named candidates are inspected and exported. No full archive bitmap scan.",
+    "Contact sheets are inspection artifacts, not runtime UI assets.",
+    "MapleStory source artwork belongs to its rights holders; this personal prototype does not establish redistribution rights.",
+    "Resource export is not a claim that combat behavior, official pools or visual gameplay acceptance are complete."
+  ]
+}

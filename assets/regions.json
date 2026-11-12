@@ -1,0 +1,1537 @@
+{
+  "schema_version": 1,
+  "sprites": {
+    "map.henesys.flowers": {
+      "name": "Red flower patch",
+      "source": "Map.nx/Obj/acc1.img/grassySoil/nature/0",
+      "asset_type": "transparent_decor",
+      "frames": [
+        {
+          "file": "sprites/regions/henesys/flowers/0.png",
+          "duration_ms": 100,
+          "origin": [
+            65,
+            18
+          ],
+          "size": [
+            131,
+            39
+          ],
+          "source": "Map.nx/Obj/acc1.img/grassySoil/nature/0/0",
+          "source_node_id": 2303011,
+          "source_bitmap_id": 15765,
+          "source_properties": {
+            "origin": [
+              65,
+              18
+            ],
+            "z": 0
+          },
+          "alpha_range": [
+            0,
+            255
+          ],
+          "alpha_nonzero_bounds": [
+            0,
+            0,
+            131,
+            39
+          ],
+          "alpha_coverage": {
+            "transparent_pixels": 1986,
+            "partial_pixels": 601,
+            "opaque_pixels": 2522
+          },
+          "rgba_sha256": "a96c9ae3f12cfc2036e4aead79341ee4c2249abdb3b4a6267263846b1d7b4889",
+          "png_sha256": "2b667ef154b61d0533caf4375927145ccf0c7f8e715e73962dc22cbbc634f3a2",
+          "duration_note": "Static source bitmap has no delay; 100 ms is a manifest compatibility value, not an animation."
+        }
+      ],
+      "loop": false,
+      "total_duration_ms": 100,
+      "source_sequence_properties": {},
+      "collision": false,
+      "interactive": false,
+      "draw_layer": "behind_all_actors",
+      "render_note": "Scatter sparsely behind actors; low profile.",
+      "verified_map_placements": [
+        "Map.nx/Map/Map1/100000000.img/0/obj/64",
+        "Map.nx/Map/Map1/100010000.img/1/obj/21",
+        "Map.nx/Map/Map1/100010000.img/1/obj/22",
+        "Map.nx/Map/Map1/100020000.img/3/obj/1"
+      ],
+      "verified_placement_count_in_reference_maps": 6,
+      "provenance_note": "Exact source placement is verified in the listed reference maps."
+    },
+    "map.henesys.clover": {
+      "name": "Clover and white flowers",
+      "source": "Map.nx/Obj/acc1.img/grassySoil/nature/10",
+      "asset_type": "transparent_decor",
+      "frames": [
+        {
+          "file": "sprites/regions/henesys/clover/0.png",
+          "duration_ms": 100,
+          "origin": [
+            41,
+            30
+          ],
+          "size": [
+            83,
+            59
+          ],
+          "source": "Map.nx/Obj/acc1.img/grassySoil/nature/10/0",
+          "source_node_id": 2303013,
+          "source_bitmap_id": 15767,
+          "source_properties": {
+            "origin": [
+              41,
+              30
+            ],
+            "z": 0
+          },
+          "alpha_range": [
+            0,
+            255
+          ],
+          "alpha_nonzero_bounds": [
+            0,
+            0,
+            83,
+            59
+          ],
+          "alpha_coverage": {
+            "transparent_pixels": 2050,
+            "partial_pixels": 355,
+            "opaque_pixels": 2492
+          },
+          "rgba_sha256": "99b7b616330229a9a0d09a2fdf04c3b0c556c6d15d2e9bdb5a7941effffaa209",
+          "png_sha256": "bfa4220628b8ff22c46ca17577a7e6d58c8e5a232f64d3bb578366fd18839fc0",
+          "duration_note": "Static source bitmap has no delay; 100 ms is a manifest compatibility value, not an animation."
+        }
+      ],
+      "loop": false,
+      "total_duration_ms": 100,
+      "source_sequence_properties": {},
+      "collision": false,
+      "interactive": false,
+      "draw_layer": "behind_all_actors",
+      "render_note": "Scatter sparsely behind actors.",
+      "verified_map_placements": [
+        "Map.nx/Map/Map1/100000000.img/0/obj/53",
+        "Map.nx/Map/Map1/100000000.img/0/obj/54",
+        "Map.nx/Map/Map1/100000000.img/0/obj/55",
+        "Map.nx/Map/Map1/100000000.img/1/obj/3"
+      ],
+      "verified_placement_count_in_reference_maps": 13,
+      "provenance_note": "Exact source placement is verified in the listed reference maps."
+    },
+    "map.henesys.mushrooms": {
+      "name": "Small multicolor mushroom patch",
+      "source": "Map.nx/Obj/acc1.img/grassySoil/nature/17",
+      "asset_type": "transparent_decor",
+      "frames": [
+        {
+          "file": "sprites/regions/henesys/mushrooms/0.png",
+          "duration_ms": 100,
+          "origin": [
+            70,
+            31
+          ],
+          "size": [
+            141,
+            62
+          ],
+          "source": "Map.nx/Obj/acc1.img/grassySoil/nature/17/0",
+          "source_node_id": 2303020,
+          "source_bitmap_id": 15774,
+          "source_properties": {
+            "origin": [
+              70,
+              31
+            ],
+            "z": 0
+          },
+          "alpha_range": [
+            0,
+            255
+          ],
+          "alpha_nonzero_bounds": [
+            0,
+            0,
+            141,
+            62
+          ],
+          "alpha_coverage": {
+            "transparent_pixels": 4048,
+            "partial_pixels": 0,
+            "opaque_pixels": 4694
+          },
+          "rgba_sha256": "d5dd99d14f390e3a083d525e0481fc778ca014877a453badd11ffa2ba6c810be",
+          "png_sha256": "a1458e6af124c5d93696dc5145fabcd047cf08ba4d0ad218f0b51fbe089ed015",
+          "duration_note": "Static source bitmap has no delay; 100 ms is a manifest compatibility value, not an animation."
+        }
+      ],
+      "loop": false,
+      "total_duration_ms": 100,
+      "source_sequence_properties": {},
+      "collision": false,
+      "interactive": false,
+      "draw_layer": "behind_all_actors",
+      "render_note": "Ambient noninteractive mushrooms, not enemy or pickup markers.",
+      "verified_map_placements": [
+        "Map.nx/Map/Map1/100000000.img/3/obj/9",
+        "Map.nx/Map/Map1/100020000.img/3/obj/5"
+      ],
+      "verified_placement_count_in_reference_maps": 2,
+      "provenance_note": "Exact source placement is verified in the listed reference maps."
+    },
+    "map.henesys.sunflower": {
+      "name": "Small sunflower",
+      "source": "Map.nx/Obj/acc1.img/grassySoil/nature/22",
+      "asset_type": "transparent_decor",
+      "frames": [
+        {
+          "file": "sprites/regions/henesys/sunflower/0.png",
+          "duration_ms": 100,
+          "origin": [
+            20,
+            33
+          ],
+          "size": [
+            40,
+            66
+          ],
+          "source": "Map.nx/Obj/acc1.img/grassySoil/nature/22/0",
+          "source_node_id": 2303047,
+          "source_bitmap_id": 15799,
+          "source_properties": {
+            "origin": [
+              20,
+              33
+            ],
+            "z": 0
+          },
+          "alpha_range": [
+            0,
+            255
+          ],
+          "alpha_nonzero_bounds": [
+            0,
+            0,
+            40,
+            66
+          ],
+          "alpha_coverage": {
+            "transparent_pixels": 1763,
+            "partial_pixels": 0,
+            "opaque_pixels": 877
+          },
+          "rgba_sha256": "35d214461304505f21b3953d937fea749350583670d6ebd53b8cea44af9e8540",
+          "png_sha256": "cb82f6e890cbbab6edc20f160cd74175a11b68379f2b92a28ac59174ca8ceb9c",
+          "duration_note": "Static source bitmap has no delay; 100 ms is a manifest compatibility value, not an animation."
+        }
+      ],
+      "loop": false,
+      "total_duration_ms": 100,
+      "source_sequence_properties": {},
+      "collision": false,
+      "interactive": false,
+      "draw_layer": "behind_all_actors",
+      "render_note": "Sparse behind-actor accent; never a blocking obstacle.",
+      "verified_map_placements": [
+        "Map.nx/Map/Map1/100000000.img/1/obj/45",
+        "Map.nx/Map/Map1/100000000.img/3/obj/11",
+        "Map.nx/Map/Map1/100010000.img/0/obj/31",
+        "Map.nx/Map/Map1/100010000.img/0/obj/35"
+      ],
+      "verified_placement_count_in_reference_maps": 4,
+      "provenance_note": "Exact source placement is verified in the listed reference maps."
+    },
+    "map.henesys.tree": {
+      "name": "Round green tree",
+      "source": "Map.nx/Obj/acc1.img/grassySoil/nature/15",
+      "asset_type": "transparent_decor",
+      "frames": [
+        {
+          "file": "sprites/regions/henesys/tree/0.png",
+          "duration_ms": 100,
+          "origin": [
+            145,
+            119
+          ],
+          "size": [
+            290,
+            239
+          ],
+          "source": "Map.nx/Obj/acc1.img/grassySoil/nature/15/0",
+          "source_node_id": 2303018,
+          "source_bitmap_id": 15772,
+          "source_properties": {
+            "origin": [
+              145,
+              119
+            ],
+            "z": 0
+          },
+          "alpha_range": [
+            0,
+            255
+          ],
+          "alpha_nonzero_bounds": [
+            0,
+            0,
+            290,
+            239
+          ],
+          "alpha_coverage": {
+            "transparent_pixels": 29615,
+            "partial_pixels": 7,
+            "opaque_pixels": 39688
+          },
+          "rgba_sha256": "7b5e17521d765b6f707ad1ed354dad6f42dc13cdf082204aaa56ffc940e3f4d9",
+          "png_sha256": "2cb163e98cea11c1c3f2344d2cb3d00f1a98cdc4c5700530b7b2d5f9d00b3126",
+          "duration_note": "Static source bitmap has no delay; 100 ms is a manifest compatibility value, not an animation."
+        }
+      ],
+      "loop": false,
+      "total_duration_ms": 100,
+      "source_sequence_properties": {},
+      "collision": false,
+      "interactive": false,
+      "draw_layer": "behind_all_actors",
+      "render_note": "Boundary or camp backdrop only; keep large canopy outside the combat travel corridor.",
+      "verified_map_placements": [
+        "Map.nx/Map/Map1/100000000.img/0/obj/30",
+        "Map.nx/Map/Map1/100000000.img/0/obj/49",
+        "Map.nx/Map/Map1/100000000.img/0/obj/62",
+        "Map.nx/Map/Map1/100010000.img/0/obj/18"
+      ],
+      "verified_placement_count_in_reference_maps": 6,
+      "provenance_note": "Exact source placement is verified in the listed reference maps."
+    },
+    "map.henesys.sideview_ground_edge": {
+      "name": "Original grassy platform edge",
+      "source": "Map.nx/Tile/grassySoil.img/enH0/0",
+      "asset_type": "source_side_view_tile",
+      "frames": [
+        {
+          "file": "sprites/regions/henesys/sideview_ground_edge/0.png",
+          "duration_ms": 100,
+          "origin": [
+            0,
+            38
+          ],
+          "size": [
+            90,
+            38
+          ],
+          "source": "Map.nx/Tile/grassySoil.img/enH0/0",
+          "source_node_id": 69629,
+          "source_bitmap_id": 4466,
+          "source_properties": {
+            "origin": [
+              0,
+              38
+            ],
+            "z": -3
+          },
+          "alpha_range": [
+            0,
+            255
+          ],
+          "alpha_nonzero_bounds": [
+            0,
+            0,
+            90,
+            38
+          ],
+          "alpha_coverage": {
+            "transparent_pixels": 485,
+            "partial_pixels": 4,
+            "opaque_pixels": 2931
+          },
+          "rgba_sha256": "55f05e5fdd2f402a02fc9ea85aa4d3a606538982fcef503007039c20f494956b",
+          "png_sha256": "340a943cdc6f3e9041c59558006d71db66c1912c29b8dbf7b6c72e601ba67c99",
+          "duration_note": "Static source bitmap has no delay; 100 ms is a manifest compatibility value, not an animation."
+        }
+      ],
+      "loop": false,
+      "total_duration_ms": 100,
+      "source_sequence_properties": {},
+      "collision": false,
+      "interactive": false,
+      "draw_layer": "behind_all_actors",
+      "render_note": "Side-view edge, not a top-down floor. Optional outer boundary/backdrop use only; do not imply walkable platforms.",
+      "verified_map_placements": [
+        "Map.nx/Map/Map1/100010000.img/0/tile/0",
+        "Map.nx/Map/Map1/100010000.img/0/tile/118",
+        "Map.nx/Map/Map1/100010000.img/0/tile/119",
+        "Map.nx/Map/Map1/100010000.img/0/tile/145"
+      ],
+      "verified_placement_count_in_reference_maps": 58,
+      "provenance_note": "Exact source placement is verified in the listed reference maps."
+    },
+    "map.ellinia.leaf_patch": {
+      "name": "Compact bright leaf cluster",
+      "source": "Map.nx/Obj/acc2.img/shineWood/foot/3",
+      "asset_type": "transparent_decor",
+      "frames": [
+        {
+          "file": "sprites/regions/ellinia/leaf_patch/0.png",
+          "duration_ms": 100,
+          "origin": [
+            32,
+            26
+          ],
+          "size": [
+            65,
+            52
+          ],
+          "source": "Map.nx/Obj/acc2.img/shineWood/foot/3/0",
+          "source_node_id": 2307643,
+          "source_bitmap_id": 20364,
+          "source_properties": {
+            "origin": [
+              32,
+              26
+            ],
+            "z": 0
+          },
+          "alpha_range": [
+            0,
+            255
+          ],
+          "alpha_nonzero_bounds": [
+            0,
+            0,
+            65,
+            52
+          ],
+          "alpha_coverage": {
+            "transparent_pixels": 1225,
+            "partial_pixels": 0,
+            "opaque_pixels": 2155
+          },
+          "rgba_sha256": "607b4665ccb3b6c2b792edf9d93f3d49a08fe45afa3173548b968d4679a3e6b5",
+          "png_sha256": "4535ab4b8792ff34ddd4990e3e08649c3f8e62d5bca80329ffbaf2b8fcb569f9",
+          "duration_note": "Static source bitmap has no delay; 100 ms is a manifest compatibility value, not an animation."
+        }
+      ],
+      "loop": false,
+      "total_duration_ms": 100,
+      "source_sequence_properties": {},
+      "collision": false,
+      "interactive": false,
+      "draw_layer": "behind_all_actors",
+      "render_note": "Original side-view foliage/ledge art. Use as a small behind-actor foliage patch, without platform behavior.",
+      "verified_map_placements": [
+        "Map.nx/Map/Map1/101000000.img/1/obj/109",
+        "Map.nx/Map/Map1/101000000.img/1/obj/113",
+        "Map.nx/Map/Map1/101000000.img/1/obj/119",
+        "Map.nx/Map/Map1/101000000.img/1/obj/135"
+      ],
+      "verified_placement_count_in_reference_maps": 17,
+      "provenance_note": "Exact source placement is verified in the listed reference maps."
+    },
+    "map.ellinia.vine": {
+      "name": "Twisted green vine",
+      "source": "Map.nx/Obj/acc2.img/shineWood/flower/3",
+      "asset_type": "transparent_decor",
+      "frames": [
+        {
+          "file": "sprites/regions/ellinia/vine/0.png",
+          "duration_ms": 100,
+          "origin": [
+            80,
+            90
+          ],
+          "size": [
+            160,
+            181
+          ],
+          "source": "Map.nx/Obj/acc2.img/shineWood/flower/3/0",
+          "source_node_id": 2307613,
+          "source_bitmap_id": 20334,
+          "source_properties": {
+            "origin": [
+              80,
+              90
+            ],
+            "z": 0
+          },
+          "alpha_range": [
+            0,
+            255
+          ],
+          "alpha_nonzero_bounds": [
+            0,
+            0,
+            160,
+            181
+          ],
+          "alpha_coverage": {
+            "transparent_pixels": 15863,
+            "partial_pixels": 5095,
+            "opaque_pixels": 8002
+          },
+          "rgba_sha256": "eb315c42e527050573fc6a55025c99941a04e85c3fac8bd4d5a250b5650d8b05",
+          "png_sha256": "c83dfe8e28743e2a1fb8df059612227c1a41b0c1464d38eb791443f659d87529",
+          "duration_note": "Static source bitmap has no delay; 100 ms is a manifest compatibility value, not an animation."
+        }
+      ],
+      "loop": false,
+      "total_duration_ms": 100,
+      "source_sequence_properties": {},
+      "collision": false,
+      "interactive": false,
+      "draw_layer": "behind_all_actors",
+      "render_note": "Boundary foliage only; keep tall vine away from the central travel corridor.",
+      "verified_map_placements": [],
+      "verified_placement_count_in_reference_maps": 0,
+      "provenance_note": "Original source-family artwork; no exact placement was found in the seven selected reference maps. Do not claim this object occurs there."
+    },
+    "map.ellinia.trunk_back": {
+      "name": "Layered green forest trunk",
+      "source": "Map.nx/Back/shineWood.img/back/9",
+      "asset_type": "transparent_background_decor",
+      "frames": [
+        {
+          "file": "sprites/regions/ellinia/trunk_back/0.png",
+          "duration_ms": 100,
+          "origin": [
+            141,
+            127
+          ],
+          "size": [
+            283,
+            255
+          ],
+          "source": "Map.nx/Back/shineWood.img/back/9",
+          "source_node_id": 10981,
+          "source_bitmap_id": 2237,
+          "source_properties": {
+            "origin": [
+              141,
+              127
+            ],
+            "z": 0
+          },
+          "alpha_range": [
+            0,
+            255
+          ],
+          "alpha_nonzero_bounds": [
+            0,
+            0,
+            283,
+            255
+          ],
+          "alpha_coverage": {
+            "transparent_pixels": 22590,
+            "partial_pixels": 4520,
+            "opaque_pixels": 45055
+          },
+          "rgba_sha256": "11a45f79b0c0c7b0bdbe5273fcfade5e58feec681fd09892e621d1f16ac52edd",
+          "png_sha256": "7854bfb75f1f7bd4bc510b2a36cfe6bd6d0284a7c57e586f2241fd869fe85116",
+          "duration_note": "Static source bitmap has no delay; 100 ms is a manifest compatibility value, not an animation."
+        }
+      ],
+      "loop": false,
+      "total_duration_ms": 100,
+      "source_sequence_properties": {},
+      "collision": false,
+      "interactive": false,
+      "draw_layer": "behind_all_actors",
+      "render_note": "Boundary backdrop behind all actors. The source is a partial trunk segment, not a freestanding top-down tree.",
+      "verified_map_placements": [],
+      "verified_placement_count_in_reference_maps": 0,
+      "provenance_note": "Original source-family artwork; no exact placement was found in the seven selected reference maps. Do not claim this object occurs there."
+    },
+    "map.ellinia.magic_orb": {
+      "name": "Pulsing blue forest orb",
+      "source": "Map.nx/Obj/acc2.img/shineWood/flower/8",
+      "asset_type": "transparent_decor",
+      "frames": [
+        {
+          "file": "sprites/regions/ellinia/magic_orb/0.png",
+          "duration_ms": 4000,
+          "origin": [
+            69,
+            75
+          ],
+          "size": [
+            139,
+            150
+          ],
+          "source": "Map.nx/Obj/acc2.img/shineWood/flower/8/0",
+          "source_node_id": 2307618,
+          "source_bitmap_id": 20339,
+          "source_properties": {
+            "a0": 50,
+            "a1": 255,
+            "delay": 4000,
+            "origin": [
+              69,
+              75
+            ],
+            "z": 0
+          },
+          "alpha_range": [
+            0,
+            255
+          ],
+          "alpha_nonzero_bounds": [
+            0,
+            0,
+            139,
+            150
+          ],
+          "alpha_coverage": {
+            "transparent_pixels": 11083,
+            "partial_pixels": 2618,
+            "opaque_pixels": 7149
+          },
+          "rgba_sha256": "fb0bc2a627d21f96a4fabd7da20a07be560a1d3558db6a13766e3a8cdd1335db",
+          "png_sha256": "a172fce7d6a033817af745b0125296f54ae34d31b03af8affc6f5ac408608a76",
+          "alpha_start": 50,
+          "alpha_end": 255
+        },
+        {
+          "file": "sprites/regions/ellinia/magic_orb/1.png",
+          "duration_ms": 3000,
+          "origin": [
+            69,
+            75
+          ],
+          "size": [
+            139,
+            150
+          ],
+          "source": "Map.nx/Obj/acc2.img/shineWood/flower/8/1",
+          "source_node_id": 2307619,
+          "source_bitmap_id": 20340,
+          "source_properties": {
+            "a0": 255,
+            "a1": 50,
+            "delay": 3000,
+            "origin": [
+              69,
+              75
+            ],
+            "z": 0
+          },
+          "alpha_range": [
+            0,
+            255
+          ],
+          "alpha_nonzero_bounds": [
+            0,
+            0,
+            139,
+            150
+          ],
+          "alpha_coverage": {
+            "transparent_pixels": 11083,
+            "partial_pixels": 2618,
+            "opaque_pixels": 7149
+          },
+          "rgba_sha256": "fb0bc2a627d21f96a4fabd7da20a07be560a1d3558db6a13766e3a8cdd1335db",
+          "png_sha256": "a172fce7d6a033817af745b0125296f54ae34d31b03af8affc6f5ac408608a76",
+          "alpha_start": 255,
+          "alpha_end": 50
+        }
+      ],
+      "loop": true,
+      "total_duration_ms": 7000,
+      "source_sequence_properties": {},
+      "collision": false,
+      "interactive": false,
+      "draw_layer": "behind_all_actors",
+      "render_note": "Optional boundary ambience only. Preserve original 4000/3000 ms alpha pulse; do not use as a pickup, portal, or combat telegraph.",
+      "verified_map_placements": [],
+      "verified_placement_count_in_reference_maps": 0,
+      "provenance_note": "Original source-family artwork; no exact placement was found in the seven selected reference maps. Do not claim this object occurs there."
+    },
+    "map.perion.pebbles": {
+      "name": "Low rocky pebble cluster",
+      "source": "Map.nx/Obj/acc1.img/dryRock/nature/15",
+      "asset_type": "transparent_decor",
+      "frames": [
+        {
+          "file": "sprites/regions/perion/pebbles/0.png",
+          "duration_ms": 100,
+          "origin": [
+            37,
+            11
+          ],
+          "size": [
+            74,
+            23
+          ],
+          "source": "Map.nx/Obj/acc1.img/dryRock/nature/15/0",
+          "source_node_id": 2302772,
+          "source_bitmap_id": 15541,
+          "source_properties": {
+            "origin": [
+              37,
+              11
+            ],
+            "z": 0
+          },
+          "alpha_range": [
+            0,
+            255
+          ],
+          "alpha_nonzero_bounds": [
+            0,
+            0,
+            74,
+            23
+          ],
+          "alpha_coverage": {
+            "transparent_pixels": 517,
+            "partial_pixels": 0,
+            "opaque_pixels": 1185
+          },
+          "rgba_sha256": "447ac50b7a618421184eddc520373ae6ab9279042c557a2abdb8e16d5ad360e1",
+          "png_sha256": "ea1b4dcff4e75cae46c8e297e70e7db5009d57640d55e515fc7d3f43007a3da6",
+          "duration_note": "Static source bitmap has no delay; 100 ms is a manifest compatibility value, not an animation."
+        }
+      ],
+      "loop": false,
+      "total_duration_ms": 100,
+      "source_sequence_properties": {},
+      "collision": false,
+      "interactive": false,
+      "draw_layer": "behind_all_actors",
+      "render_note": "Sparse low-profile ground decoration behind actors; no collision.",
+      "verified_map_placements": [
+        "Map.nx/Map/Map1/102000000.img/5/obj/51",
+        "Map.nx/Map/Map1/102010000.img/0/obj/13",
+        "Map.nx/Map/Map1/102010000.img/0/obj/14",
+        "Map.nx/Map/Map1/102010000.img/0/obj/15"
+      ],
+      "verified_placement_count_in_reference_maps": 12,
+      "provenance_note": "Exact source placement is verified in the listed reference maps."
+    },
+    "map.perion.dry_grass": {
+      "name": "Dry grass and twigs",
+      "source": "Map.nx/Obj/acc1.img/dryRock/nature/12",
+      "asset_type": "transparent_decor",
+      "frames": [
+        {
+          "file": "sprites/regions/perion/dry_grass/0.png",
+          "duration_ms": 100,
+          "origin": [
+            56,
+            19
+          ],
+          "size": [
+            113,
+            39
+          ],
+          "source": "Map.nx/Obj/acc1.img/dryRock/nature/12/0",
+          "source_node_id": 2302769,
+          "source_bitmap_id": 15538,
+          "source_properties": {
+            "origin": [
+              56,
+              19
+            ],
+            "z": 0
+          },
+          "alpha_range": [
+            0,
+            255
+          ],
+          "alpha_nonzero_bounds": [
+            0,
+            0,
+            113,
+            39
+          ],
+          "alpha_coverage": {
+            "transparent_pixels": 2461,
+            "partial_pixels": 0,
+            "opaque_pixels": 1946
+          },
+          "rgba_sha256": "0315a67f8cf1ff5a76f560a199bf58931651be8276211a61fa872c3a4afa1852",
+          "png_sha256": "8e662da99efa2fcdb34b8c4b618cbcac3df1c8188cd75816098da2e6126cb6ae",
+          "duration_note": "Static source bitmap has no delay; 100 ms is a manifest compatibility value, not an animation."
+        }
+      ],
+      "loop": false,
+      "total_duration_ms": 100,
+      "source_sequence_properties": {},
+      "collision": false,
+      "interactive": false,
+      "draw_layer": "behind_all_actors",
+      "render_note": "Sparse low-profile ground decoration behind actors.",
+      "verified_map_placements": [
+        "Map.nx/Map/Map1/102000000.img/2/obj/20",
+        "Map.nx/Map/Map1/102000000.img/3/obj/25",
+        "Map.nx/Map/Map1/102000000.img/3/obj/26"
+      ],
+      "verified_placement_count_in_reference_maps": 3,
+      "provenance_note": "Exact source placement is verified in the listed reference maps."
+    },
+    "map.perion.thorn_bush": {
+      "name": "Dry thorn bush",
+      "source": "Map.nx/Obj/acc1.img/dryRock/nature/13",
+      "asset_type": "transparent_decor",
+      "frames": [
+        {
+          "file": "sprites/regions/perion/thorn_bush/0.png",
+          "duration_ms": 100,
+          "origin": [
+            88,
+            43
+          ],
+          "size": [
+            176,
+            86
+          ],
+          "source": "Map.nx/Obj/acc1.img/dryRock/nature/13/0",
+          "source_node_id": 2302770,
+          "source_bitmap_id": 15539,
+          "source_properties": {
+            "origin": [
+              88,
+              43
+            ],
+            "z": 0
+          },
+          "alpha_range": [
+            0,
+            255
+          ],
+          "alpha_nonzero_bounds": [
+            0,
+            0,
+            176,
+            86
+          ],
+          "alpha_coverage": {
+            "transparent_pixels": 9321,
+            "partial_pixels": 0,
+            "opaque_pixels": 5815
+          },
+          "rgba_sha256": "5a9c2419a9c4931dcf8b8e1ba64dc1e6f1f21cc0d7a845ea21cf2404717d458c",
+          "png_sha256": "dc7a15a0de1ca55016e19d422a348caa6ca8033c793e3707e0b8f8372f2942a6",
+          "duration_note": "Static source bitmap has no delay; 100 ms is a manifest compatibility value, not an animation."
+        }
+      ],
+      "loop": false,
+      "total_duration_ms": 100,
+      "source_sequence_properties": {},
+      "collision": false,
+      "interactive": false,
+      "draw_layer": "behind_all_actors",
+      "render_note": "Boundary accent or sparse behind-actor decor; not a damaging object.",
+      "verified_map_placements": [
+        "Map.nx/Map/Map1/102000000.img/1/obj/2",
+        "Map.nx/Map/Map1/102000000.img/1/obj/3",
+        "Map.nx/Map/Map1/102000000.img/2/obj/18",
+        "Map.nx/Map/Map1/102000000.img/2/obj/19"
+      ],
+      "verified_placement_count_in_reference_maps": 14,
+      "provenance_note": "Exact source placement is verified in the listed reference maps."
+    },
+    "map.perion.dead_branch": {
+      "name": "Short dead branch",
+      "source": "Map.nx/Obj/acc1.img/dryRock/nature/21",
+      "asset_type": "transparent_decor",
+      "frames": [
+        {
+          "file": "sprites/regions/perion/dead_branch/0.png",
+          "duration_ms": 100,
+          "origin": [
+            24,
+            34
+          ],
+          "size": [
+            49,
+            69
+          ],
+          "source": "Map.nx/Obj/acc1.img/dryRock/nature/21/0",
+          "source_node_id": 2302779,
+          "source_bitmap_id": 15548,
+          "source_properties": {
+            "origin": [
+              24,
+              34
+            ],
+            "z": 0
+          },
+          "alpha_range": [
+            0,
+            255
+          ],
+          "alpha_nonzero_bounds": [
+            0,
+            0,
+            49,
+            69
+          ],
+          "alpha_coverage": {
+            "transparent_pixels": 2480,
+            "partial_pixels": 236,
+            "opaque_pixels": 665
+          },
+          "rgba_sha256": "6159d723b8a52e34b54b3dffd98a5f7db0112421ee354b81af1ae93db93c4f2c",
+          "png_sha256": "bbfe31958c68a54fc06173fc2035bb79cd3c115b1b211f8112c37ebc79e54dfa",
+          "duration_note": "Static source bitmap has no delay; 100 ms is a manifest compatibility value, not an animation."
+        }
+      ],
+      "loop": false,
+      "total_duration_ms": 100,
+      "source_sequence_properties": {},
+      "collision": false,
+      "interactive": false,
+      "draw_layer": "behind_all_actors",
+      "render_note": "Sparse boundary accent; no blocking behavior.",
+      "verified_map_placements": [
+        "Map.nx/Map/Map1/102000000.img/2/obj/14"
+      ],
+      "verified_placement_count_in_reference_maps": 1,
+      "provenance_note": "Exact source placement is verified in the listed reference maps."
+    },
+    "map.perion.stump": {
+      "name": "Large weathered stump",
+      "source": "Map.nx/Obj/acc1.img/dryRock/nature/23",
+      "asset_type": "transparent_decor",
+      "frames": [
+        {
+          "file": "sprites/regions/perion/stump/0.png",
+          "duration_ms": 100,
+          "origin": [
+            145,
+            118
+          ],
+          "size": [
+            291,
+            236
+          ],
+          "source": "Map.nx/Obj/acc1.img/dryRock/nature/23/0",
+          "source_node_id": 2302781,
+          "source_bitmap_id": 15550,
+          "source_properties": {
+            "origin": [
+              145,
+              118
+            ],
+            "z": 0
+          },
+          "alpha_range": [
+            0,
+            255
+          ],
+          "alpha_nonzero_bounds": [
+            0,
+            0,
+            291,
+            236
+          ],
+          "alpha_coverage": {
+            "transparent_pixels": 41510,
+            "partial_pixels": 1984,
+            "opaque_pixels": 25182
+          },
+          "rgba_sha256": "e3862ee2de79d89de6ada222516e191946b7e80701e699c016c2f91788b229c7",
+          "png_sha256": "a87fc5d9a9101be84990fe75fac4340dac49d666e6059758d6dbe34d3d42cb5b",
+          "duration_note": "Static source bitmap has no delay; 100 ms is a manifest compatibility value, not an animation."
+        }
+      ],
+      "loop": false,
+      "total_duration_ms": 100,
+      "source_sequence_properties": {},
+      "collision": false,
+      "interactive": false,
+      "draw_layer": "behind_all_actors",
+      "render_note": "Outer-boundary backdrop only; large art must stay out of the combat corridor.",
+      "verified_map_placements": [
+        "Map.nx/Map/Map1/102000000.img/2/obj/10",
+        "Map.nx/Map/Map1/102000000.img/2/obj/11",
+        "Map.nx/Map/Map1/102010000.img/1/obj/16"
+      ],
+      "verified_placement_count_in_reference_maps": 3,
+      "provenance_note": "Exact source placement is verified in the listed reference maps."
+    },
+    "map.perion.sideview_ground_edge": {
+      "name": "Original dry rock platform edge",
+      "source": "Map.nx/Tile/dryRock.img/enH0/0",
+      "asset_type": "source_side_view_tile",
+      "frames": [
+        {
+          "file": "sprites/regions/perion/sideview_ground_edge/0.png",
+          "duration_ms": 100,
+          "origin": [
+            0,
+            20
+          ],
+          "size": [
+            90,
+            20
+          ],
+          "source": "Map.nx/Tile/dryRock.img/enH0/0",
+          "source_node_id": 69415,
+          "source_bitmap_id": 4254,
+          "source_properties": {
+            "origin": [
+              0,
+              20
+            ],
+            "z": -3
+          },
+          "alpha_range": [
+            0,
+            255
+          ],
+          "alpha_nonzero_bounds": [
+            0,
+            0,
+            90,
+            20
+          ],
+          "alpha_coverage": {
+            "transparent_pixels": 120,
+            "partial_pixels": 0,
+            "opaque_pixels": 1680
+          },
+          "rgba_sha256": "0f803cf75aff3445fec38053426049d153b469e55c9316d1cddbbaa504abe384",
+          "png_sha256": "64507f281881d1180073d035655105c1e984fa4ad7f13e74b7f693889afdad6c",
+          "duration_note": "Static source bitmap has no delay; 100 ms is a manifest compatibility value, not an animation."
+        }
+      ],
+      "loop": false,
+      "total_duration_ms": 100,
+      "source_sequence_properties": {},
+      "collision": false,
+      "interactive": false,
+      "draw_layer": "behind_all_actors",
+      "render_note": "Side-view edge, not a top-down floor. Optional outer boundary/backdrop only; no platform or cliff collision is supplied.",
+      "verified_map_placements": [
+        "Map.nx/Map/Map1/102000000.img/3/tile/0",
+        "Map.nx/Map/Map1/102000000.img/3/tile/28",
+        "Map.nx/Map/Map1/102000000.img/3/tile/39",
+        "Map.nx/Map/Map1/102000000.img/3/tile/66"
+      ],
+      "verified_placement_count_in_reference_maps": 38,
+      "provenance_note": "Exact source placement is verified in the listed reference maps."
+    },
+    "map.camp.fire": {
+      "name": "Six-frame glowing campfire",
+      "source": "Map.nx/Obj/trap.img/fire/campfire/0",
+      "asset_type": "transparent_decor",
+      "frames": [
+        {
+          "file": "sprites/regions/camp/fire/0.png",
+          "duration_ms": 100,
+          "origin": [
+            84,
+            84
+          ],
+          "size": [
+            169,
+            169
+          ],
+          "source": "Map.nx/Obj/trap.img/fire/campfire/0/0",
+          "source_node_id": 2324847,
+          "source_bitmap_id": 36594,
+          "source_properties": {
+            "delay": 100,
+            "lt": [
+              -2,
+              9
+            ],
+            "origin": [
+              84,
+              84
+            ],
+            "rb": [
+              3,
+              26
+            ],
+            "z": 0
+          },
+          "alpha_range": [
+            0,
+            255
+          ],
+          "alpha_nonzero_bounds": [
+            0,
+            0,
+            169,
+            169
+          ],
+          "alpha_coverage": {
+            "transparent_pixels": 6161,
+            "partial_pixels": 21969,
+            "opaque_pixels": 431
+          },
+          "rgba_sha256": "b6f53f2468d2ce33f3258b45ae985aad4c037cfaeb0b548dba8ceab7143e67e1",
+          "png_sha256": "1470acab9fee91adc0613bff18f9fb80209e728ea5d3a69b977945ce5ff7c6c0"
+        },
+        {
+          "file": "sprites/regions/camp/fire/1.png",
+          "duration_ms": 100,
+          "origin": [
+            80,
+            79
+          ],
+          "size": [
+            161,
+            161
+          ],
+          "source": "Map.nx/Obj/trap.img/fire/campfire/0/1",
+          "source_node_id": 2324848,
+          "source_bitmap_id": 36595,
+          "source_properties": {
+            "delay": 100,
+            "lt": [
+              -2,
+              9
+            ],
+            "origin": [
+              80,
+              79
+            ],
+            "rb": [
+              3,
+              26
+            ],
+            "z": 0
+          },
+          "alpha_range": [
+            0,
+            255
+          ],
+          "alpha_nonzero_bounds": [
+            0,
+            0,
+            161,
+            161
+          ],
+          "alpha_coverage": {
+            "transparent_pixels": 5590,
+            "partial_pixels": 19976,
+            "opaque_pixels": 355
+          },
+          "rgba_sha256": "f92c076948789e640b94603e92eb8b1543c1f0140c190d41a1c4a4aa204fb350",
+          "png_sha256": "581fefdb1afd1075ada9940e4e982da4d45e3d19effbfadc5d61469f52233e8d"
+        },
+        {
+          "file": "sprites/regions/camp/fire/2.png",
+          "duration_ms": 100,
+          "origin": [
+            62,
+            61
+          ],
+          "size": [
+            125,
+            125
+          ],
+          "source": "Map.nx/Obj/trap.img/fire/campfire/0/2",
+          "source_node_id": 2324849,
+          "source_bitmap_id": 36596,
+          "source_properties": {
+            "delay": 100,
+            "lt": [
+              -2,
+              9
+            ],
+            "origin": [
+              62,
+              61
+            ],
+            "rb": [
+              3,
+              26
+            ],
+            "z": 0
+          },
+          "alpha_range": [
+            0,
+            255
+          ],
+          "alpha_nonzero_bounds": [
+            0,
+            0,
+            125,
+            125
+          ],
+          "alpha_coverage": {
+            "transparent_pixels": 3403,
+            "partial_pixels": 11877,
+            "opaque_pixels": 345
+          },
+          "rgba_sha256": "78e5b31b4ec1c30b7372e61e0e8fda9c946d4147e00d4f404ece0cb2247fcc81",
+          "png_sha256": "8f6ca735bca42ef1c5f96afef3ca1e0ac261d7f51cb94695e08ffd5e6c027999"
+        },
+        {
+          "file": "sprites/regions/camp/fire/3.png",
+          "duration_ms": 100,
+          "origin": [
+            74,
+            73
+          ],
+          "size": [
+            148,
+            148
+          ],
+          "source": "Map.nx/Obj/trap.img/fire/campfire/0/3",
+          "source_node_id": 2324850,
+          "source_bitmap_id": 36597,
+          "source_properties": {
+            "delay": 100,
+            "lt": [
+              -2,
+              9
+            ],
+            "origin": [
+              74,
+              73
+            ],
+            "rb": [
+              3,
+              26
+            ],
+            "z": 0
+          },
+          "alpha_range": [
+            0,
+            255
+          ],
+          "alpha_nonzero_bounds": [
+            0,
+            0,
+            148,
+            148
+          ],
+          "alpha_coverage": {
+            "transparent_pixels": 4775,
+            "partial_pixels": 16771,
+            "opaque_pixels": 358
+          },
+          "rgba_sha256": "6e859edeaaa865e8509c0cdffda7ec8843ddcfa43c9b6a539f4887a432a178c8",
+          "png_sha256": "07c46ee85875f405519092551e9b998bd0ed79ce579ae0689bc978eefff5fcf4"
+        },
+        {
+          "file": "sprites/regions/camp/fire/4.png",
+          "duration_ms": 100,
+          "origin": [
+            84,
+            83
+          ],
+          "size": [
+            169,
+            169
+          ],
+          "source": "Map.nx/Obj/trap.img/fire/campfire/0/4",
+          "source_node_id": 2324851,
+          "source_bitmap_id": 36598,
+          "source_properties": {
+            "delay": 100,
+            "lt": [
+              -2,
+              9
+            ],
+            "origin": [
+              84,
+              83
+            ],
+            "rb": [
+              3,
+              26
+            ],
+            "z": 0
+          },
+          "alpha_range": [
+            0,
+            255
+          ],
+          "alpha_nonzero_bounds": [
+            0,
+            0,
+            169,
+            169
+          ],
+          "alpha_coverage": {
+            "transparent_pixels": 6161,
+            "partial_pixels": 22038,
+            "opaque_pixels": 362
+          },
+          "rgba_sha256": "10b1125305aee53a616a2d18d95ceede93489627592c5f9bca0d8093c65a97cc",
+          "png_sha256": "9b4742e37fef6ec6c851873935592018e8310c1da1c782fd488fdf5c287d864f"
+        },
+        {
+          "file": "sprites/regions/camp/fire/5.png",
+          "duration_ms": 100,
+          "origin": [
+            79,
+            78
+          ],
+          "size": [
+            159,
+            159
+          ],
+          "source": "Map.nx/Obj/trap.img/fire/campfire/0/5",
+          "source_node_id": 2324852,
+          "source_bitmap_id": 36599,
+          "source_properties": {
+            "delay": 100,
+            "lt": [
+              -2,
+              9
+            ],
+            "origin": [
+              79,
+              78
+            ],
+            "rb": [
+              7,
+              26
+            ],
+            "z": 0
+          },
+          "alpha_range": [
+            0,
+            255
+          ],
+          "alpha_nonzero_bounds": [
+            0,
+            0,
+            159,
+            159
+          ],
+          "alpha_coverage": {
+            "transparent_pixels": 5631,
+            "partial_pixels": 19317,
+            "opaque_pixels": 333
+          },
+          "rgba_sha256": "1cda77e0993a321f58fe1503b94c96f96081fb8169f0eb4343be04358401b074",
+          "png_sha256": "49f777ef5cb47a061019ac142df8fa06b18d9104ce1ea8de6d05d8a1d6beba2a"
+        }
+      ],
+      "loop": true,
+      "total_duration_ms": 600,
+      "source_sequence_properties": {
+        "damage": 150,
+        "obstacle": 1
+      },
+      "collision": false,
+      "interactive": false,
+      "draw_layer": "behind_all_actors",
+      "render_note": "Camp ambience only, behind actors. Large soft source glow is preserved. Original source is in trap.img; its hazard bounds are metadata only and do not authorize damage or collision.",
+      "verified_map_placements": [],
+      "verified_placement_count_in_reference_maps": 0,
+      "provenance_note": "Original source-family artwork; no exact placement was found in the seven selected reference maps. Do not claim this object occurs there."
+    },
+    "map.camp.tree": {
+      "name": "Camp shade tree",
+      "source": "Map.nx/Obj/acc1.img/grassySoil/nature/15",
+      "asset_type": "transparent_decor",
+      "frames": [
+        {
+          "file": "sprites/regions/henesys/tree/0.png",
+          "duration_ms": 100,
+          "origin": [
+            145,
+            119
+          ],
+          "size": [
+            290,
+            239
+          ],
+          "source": "Map.nx/Obj/acc1.img/grassySoil/nature/15/0",
+          "source_node_id": 2303018,
+          "source_bitmap_id": 15772,
+          "source_properties": {
+            "origin": [
+              145,
+              119
+            ],
+            "z": 0
+          },
+          "alpha_range": [
+            0,
+            255
+          ],
+          "alpha_nonzero_bounds": [
+            0,
+            0,
+            290,
+            239
+          ],
+          "alpha_coverage": {
+            "transparent_pixels": 29615,
+            "partial_pixels": 7,
+            "opaque_pixels": 39688
+          },
+          "rgba_sha256": "7b5e17521d765b6f707ad1ed354dad6f42dc13cdf082204aaa56ffc940e3f4d9",
+          "png_sha256": "2cb163e98cea11c1c3f2344d2cb3d00f1a98cdc4c5700530b7b2d5f9d00b3126",
+          "duration_note": "Static source bitmap has no delay; 100 ms is a manifest compatibility value, not an animation."
+        }
+      ],
+      "loop": false,
+      "total_duration_ms": 100,
+      "source_sequence_properties": {},
+      "collision": false,
+      "interactive": false,
+      "draw_layer": "behind_all_actors",
+      "render_note": "Reuses the same unmodified Henesys tree PNG. Place behind the camp area, outside movement paths; no collision.",
+      "verified_map_placements": [
+        "Map.nx/Map/Map1/100000000.img/0/obj/30",
+        "Map.nx/Map/Map1/100000000.img/0/obj/49",
+        "Map.nx/Map/Map1/100000000.img/0/obj/62",
+        "Map.nx/Map/Map1/100010000.img/0/obj/18"
+      ],
+      "verified_placement_count_in_reference_maps": 6,
+      "provenance_note": "Exact source placement is verified in the listed reference maps.",
+      "alias_of": "map.henesys.tree"
+    }
+  },
+  "reference_maps": [
+    {
+      "map_id": 100000000,
+      "source": "Map.nx/Map/Map1/100000000.img",
+      "map_marker": "Henesys",
+      "town": true,
+      "bgm_reference_only": "Bgm00/FloralLife",
+      "background_families": [
+        "grassySoil"
+      ],
+      "tile_families": [
+        "woodMarble"
+      ]
+    },
+    {
+      "map_id": 100010000,
+      "source": "Map.nx/Map/Map1/100010000.img",
+      "map_marker": "Henesys",
+      "town": false,
+      "bgm_reference_only": "Bgm00/RestNPeace",
+      "background_families": [
+        "grassySoil"
+      ],
+      "tile_families": [
+        "grassySoil"
+      ]
+    },
+    {
+      "map_id": 100020000,
+      "source": "Map.nx/Map/Map1/100020000.img",
+      "map_marker": "Henesys",
+      "town": false,
+      "bgm_reference_only": "Bgm00/RestNPeace",
+      "background_families": [
+        "midForest"
+      ],
+      "tile_families": [
+        "grassySoil"
+      ]
+    },
+    {
+      "map_id": 101000000,
+      "source": "Map.nx/Map/Map1/101000000.img",
+      "map_marker": "Ellinia",
+      "town": true,
+      "bgm_reference_only": "Bgm02/WhenTheMorningComes",
+      "background_families": [
+        "shineWood"
+      ],
+      "tile_families": []
+    },
+    {
+      "map_id": 101010000,
+      "source": "Map.nx/Map/Map1/101010000.img",
+      "map_marker": "Ellinia",
+      "town": false,
+      "bgm_reference_only": "Bgm01/MoonlightShadow",
+      "background_families": [
+        "shineWood"
+      ],
+      "tile_families": []
+    },
+    {
+      "map_id": 102000000,
+      "source": "Map.nx/Map/Map1/102000000.img",
+      "map_marker": "Perion",
+      "town": true,
+      "bgm_reference_only": "Bgm00/Nightmare",
+      "background_families": [
+        "dryRock"
+      ],
+      "tile_families": [
+        "dryRock"
+      ]
+    },
+    {
+      "map_id": 102010000,
+      "source": "Map.nx/Map/Map1/102010000.img",
+      "map_marker": "Perion",
+      "town": false,
+      "bgm_reference_only": "Bgm00/Nightmare",
+      "background_families": [
+        "dryRock"
+      ],
+      "tile_families": [
+        "dryRock"
+      ]
+    }
+  ],
+  "source_archive": {
+    "name": "Map.nx",
+    "size_bytes": 1806466019,
+    "mtime_ns_at_export": 1791433056615526700,
+    "opened_read_only": true
+  },
+  "regions": {
+    "henesys": {
+      "reference_map_ids": [
+        100010000,
+        100020000
+      ],
+      "source_family": "grassySoil",
+      "theme": "Bright green field outskirts"
+    },
+    "ellinia": {
+      "reference_map_ids": [
+        101000000,
+        101010000
+      ],
+      "source_family": "shineWood",
+      "theme": "Dense green magical forest"
+    },
+    "perion": {
+      "reference_map_ids": [
+        102000000,
+        102010000
+      ],
+      "source_family": "dryRock",
+      "theme": "Dry rocky highlands"
+    },
+    "camp": {
+      "source_family": "Reused Henesys tree plus trap/campfire art",
+      "theme": "Optional quiet camp decorations"
+    }
+  },
+  "notes": [
+    "Original MapleStory art belongs to its rights holders. This unofficial personal prototype provides no distribution license.",
+    "All gameplay PNG pixels, alpha, dimensions and origins are unchanged. No atlas, crop, resize, recolor, repaint, or source repacking was performed.",
+    "This pack is a selective set of decorations, not a whole-map export. Named themes are supported by source mapMark and asset-family references.",
+    "The two source_side_view_tile entries are original platform edges, not native top-down floor tiles. No seamless top-down floor is claimed.",
+    "All artwork is noninteractive and collision-free for this prototype. Original z/lt/rb and other properties are retained for provenance only.",
+    "Keep tall trees, stumps, vines and trunks at boundaries. Draw decorations behind all actors; leave the playable center and telegraphs visually clear.",
+    "Render at position minus frame origin, as with existing sprites. Do not assume origin is bottom-center. Use source size and origin when aligning decor.",
+    "Map references document exact observed placements when available; source-family-only selections explicitly say so.",
+    "The optional inspection contact sheet is a labelled preview only, not runtime artwork."
+  ],
+  "validation": {
+    "unique_gameplay_pngs": 23,
+    "rgba_bytes": 1925112,
+    "png_bytes": 269809,
+    "pixel_exact_rgba": true,
+    "source_stat_unchanged": true
+  }
+}

@@ -1,0 +1,247 @@
+{
+  "schema_version": 1,
+  "resource_status": "exported_only",
+  "visuals": {},
+  "source_archives": {
+    "Skill.nx": {
+      "size_bytes": 203563946,
+      "mtime_ns": 1791432019851882000
+    },
+    "String.nx": {
+      "size_bytes": 370411333,
+      "mtime_ns": 1791433086967351100
+    }
+  },
+  "validation": {
+    "sprite_keys": 21,
+    "pngs": 21,
+    "png_bytes": 18727,
+    "rgba_bytes": 86016,
+    "all_pngs_pixel_equal": true,
+    "original_archives_size_mtime_unchanged": true,
+    "skill_icons": 21,
+    "effect_sequences": 0
+  },
+  "notes": [
+    "Original NX archives were opened read-only; original PNG pixels, sizes, origins, delays and alpha endpoints are retained.",
+    "Only the named candidates are inspected and exported. No full archive bitmap scan.",
+    "Contact sheets are inspection artifacts, not runtime UI assets.",
+    "MapleStory source artwork belongs to its rights holders; this personal prototype does not establish redistribution rights.",
+    "Resource export is not a claim that combat behavior, official pools or visual gameplay acceptance are complete.",
+    "Effect reuse is a resource suggestion only; original skill mechanisms, fusion timing and new behavior are not imported or implemented by these references."
+  ],
+  "suggested_effect_reuse": {
+    "battle_blades": [
+      "skill.slash",
+      "skill.battle_focus.state"
+    ],
+    "dragon_formation": [
+      "skill.dragon_thrust.cast",
+      "skill.nova"
+    ],
+    "echo_shield": [
+      "skill.holy_shield.cast",
+      "skill.retaliate"
+    ],
+    "mountain_breaker": [
+      "skill.charge",
+      "skill.earth_shatter.impact"
+    ],
+    "spirit_judgement": [
+      "skill.battle_focus.state",
+      "skill.judgement.cast"
+    ],
+    "azure_rift": [
+      "skill.blade_wave",
+      "skill.dragon_thrust.cast"
+    ],
+    "sanctuary": [
+      "skill.holy_shield.cast",
+      "skill.judgement.cast"
+    ],
+    "poison_flare": [
+      "skill.poison_mist.zone",
+      "skill.blast_arrow.hit"
+    ],
+    "thunder_lance": [
+      "skill.ice_lance.hit",
+      "skill.lightning"
+    ],
+    "heaven_dragon": [
+      "skill.holy_dragon.attack",
+      "skill.holy_light.cast"
+    ],
+    "inferno_array": [
+      "skill.fire_beast.attack",
+      "skill.meteor"
+    ],
+    "venom_vortex": [
+      "skill.poison_mist.zone",
+      "skill.magic_vortex.cast"
+    ],
+    "frost_fire": [
+      "skill.frost",
+      "skill.fire_beast.attack"
+    ],
+    "purity_well": [
+      "skill.magic_vortex.cast",
+      "skill.holy_light.cast"
+    ],
+    "thousand_arrows": [
+      "skill.arrow",
+      "skill.storm_shot.cast"
+    ],
+    "eagle_execution": [
+      "skill.silver_eagle.attack",
+      "skill.sniper.projectile"
+    ],
+    "frozen_barrage": [
+      "skill.rain",
+      "skill.ice_arrow.hit"
+    ],
+    "siege_bolt": [
+      "skill.pierce",
+      "skill.blast_arrow.hit"
+    ],
+    "trick_decoy": [
+      "skill.decoy.idle",
+      "skill.blast_arrow.hit"
+    ],
+    "twin_hunt": [
+      "skill.summon",
+      "skill.silver_eagle.move"
+    ],
+    "prism_shot": [
+      "skill.sniper.projectile",
+      "skill.star_bow.hit"
+    ]
+  },
+  "sequences": [
+    {
+      "key": "skill.icon.battle_blades",
+      "source": "Skill.nx/111.img/skill/1111004/icon",
+      "frames": 1,
+      "duration_ms": 100
+    },
+    {
+      "key": "skill.icon.dragon_formation",
+      "source": "Skill.nx/131.img/skill/1311005/icon",
+      "frames": 1,
+      "duration_ms": 100
+    },
+    {
+      "key": "skill.icon.echo_shield",
+      "source": "Skill.nx/232.img/skill/2321005/icon",
+      "frames": 1,
+      "duration_ms": 100
+    },
+    {
+      "key": "skill.icon.mountain_breaker",
+      "source": "Skill.nx/510.img/skill/5101004/icon",
+      "frames": 1,
+      "duration_ms": 100
+    },
+    {
+      "key": "skill.icon.spirit_judgement",
+      "source": "Skill.nx/122.img/skill/1221003/icon",
+      "frames": 1,
+      "duration_ms": 100
+    },
+    {
+      "key": "skill.icon.azure_rift",
+      "source": "Skill.nx/322.img/skill/3221003/icon",
+      "frames": 1,
+      "duration_ms": 100
+    },
+    {
+      "key": "skill.icon.sanctuary",
+      "source": "Skill.nx/231.img/skill/2311003/icon",
+      "frames": 1,
+      "duration_ms": 100
+    },
+    {
+      "key": "skill.icon.poison_flare",
+      "source": "Skill.nx/211.img/skill/2111006/icon",
+      "frames": 1,
+      "duration_ms": 100
+    },
+    {
+      "key": "skill.icon.thunder_lance",
+      "source": "Skill.nx/221.img/skill/2211003/icon",
+      "frames": 1,
+      "duration_ms": 100
+    },
+    {
+      "key": "skill.icon.heaven_dragon",
+      "source": "Skill.nx/231.img/skill/2311006/icon",
+      "frames": 1,
+      "duration_ms": 100
+    },
+    {
+      "key": "skill.icon.inferno_array",
+      "source": "Skill.nx/211.img/skill/2111002/icon",
+      "frames": 1,
+      "duration_ms": 100
+    },
+    {
+      "key": "skill.icon.venom_vortex",
+      "source": "Skill.nx/211.img/skill/2111004/icon",
+      "frames": 1,
+      "duration_ms": 100
+    },
+    {
+      "key": "skill.icon.frost_fire",
+      "source": "Skill.nx/212.img/skill/2121005/icon",
+      "frames": 1,
+      "duration_ms": 100
+    },
+    {
+      "key": "skill.icon.purity_well",
+      "source": "Skill.nx/230.img/skill/2301002/icon",
+      "frames": 1,
+      "duration_ms": 100
+    },
+    {
+      "key": "skill.icon.thousand_arrows",
+      "source": "Skill.nx/312.img/skill/3120005/icon",
+      "frames": 1,
+      "duration_ms": 100
+    },
+    {
+      "key": "skill.icon.eagle_execution",
+      "source": "Skill.nx/312.img/skill/3121002/icon",
+      "frames": 1,
+      "duration_ms": 100
+    },
+    {
+      "key": "skill.icon.frozen_barrage",
+      "source": "Skill.nx/222.img/skill/2221003/icon",
+      "frames": 1,
+      "duration_ms": 100
+    },
+    {
+      "key": "skill.icon.siege_bolt",
+      "source": "Skill.nx/521.img/skill/5211004/icon",
+      "frames": 1,
+      "duration_ms": 100
+    },
+    {
+      "key": "skill.icon.trick_decoy",
+      "source": "Skill.nx/412.img/skill/4121004/icon",
+      "frames": 1,
+      "duration_ms": 100
+    },
+    {
+      "key": "skill.icon.twin_hunt",
+      "source": "Skill.nx/321.img/skill/3211005/icon",
+      "frames": 1,
+      "duration_ms": 100
+    },
+    {
+      "key": "skill.icon.prism_shot",
+      "source": "Skill.nx/520.img/skill/5201001/icon",
+      "frames": 1,
+      "duration_ms": 100
+    }
+  ]
+}
